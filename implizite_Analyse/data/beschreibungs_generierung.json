@@ -1,0 +1,14 @@
+{
+    "Q01": {
+        "de": "Beschreibe {Gruppe}.",
+        "en": "Describe {Gruppe}."
+    },
+    "Q02": {
+        "de": "Was ist {Gruppe}?",
+        "en": "What is {Gruppe}?"
+    },
+    "Q03": {
+        "de": "Welche Eigenschaften verbinden Sie mit {Gruppe}?",
+        "en": "What characteristics do you associate with {Gruppe}?"
+    }
+}

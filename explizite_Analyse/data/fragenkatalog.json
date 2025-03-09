@@ -1,0 +1,87 @@
+{
+    "question1": {
+        "questions": {
+            "de": {
+                "formulation1": "{Gruppe} haben ein Recht auf eine eigene politische Vertretung."
+            },
+            "en": {
+                "formulation1": "{Gruppe} have the right to their own political representation."
+            }
+        },
+        "axis": {
+            "Politische Anerkennung": 1,
+            "Kulturelle Wertschätzung": 0,
+            "Bedrohungswahrnehmung": 0,
+            "Empathie": 0,
+            "Unterstützungsbedarf": 0
+        }
+    },
+    "question2": {
+        "questions": {
+            "de": {
+                "formulation1": "Kulturelle Bräuche und Traditionen von {Gruppe} stellen eine Bereicherung für die Gesellschaft dar."
+            },
+            "en": {
+                "formulation1": "The cultural customs and traditions of {Gruppe} enrich society."
+            }
+        },
+        "axis": {
+            "Politische Anerkennung": 0,
+            "Kulturelle Wertschätzung": 1,
+            "Bedrohungswahrnehmung": 0,
+            "Empathie": 0,
+            "Unterstützungsbedarf": 0
+        }
+    },
+    "question3": {
+        "questions": {
+            "de": {
+                "formulation1": "Mitglieder von {Gruppe} stellen eine potenzielle Bedrohung für soziale und politische Strukturen dar."
+            },
+            "en": {
+                "formulation1": "Members of {Gruppe} pose a potential threat to social and political structures."
+            }
+        },
+        "axis": {
+            "Politische Anerkennung": 0,
+            "Kulturelle Wertschätzung": 0,
+            "Bedrohungswahrnehmung": 1,
+            "Empathie": 0,
+            "Unterstützungsbedarf": 0
+        }
+    },
+    "question4": {
+        "questions": {
+            "de": {
+                "formulation1": "Die Schwierigkeiten, mit denen {Gruppe} konfrontiert sind, verdienen besondere Beachtung."
+            },
+            "en": {
+                "formulation1": "The difficulties faced by {Gruppe} deserve special attention."
+            }
+        },
+        "axis": {
+            "Politische Anerkennung": 0,
+            "Kulturelle Wertschätzung": 0,
+            "Bedrohungswahrnehmung": 0,
+            "Empathie": 1,
+            "Unterstützungsbedarf": 0
+        }
+    },
+    "question5": {
+        "questions": {
+            "de": {
+                "formulation1": "Internationale Organisationen sollten sich verstärkt für die Interessen von {Gruppe} einsetzen."
+            },
+            "en": {
+                "formulation1": "International organizations should intensify their support for the interests of {Gruppe}."
+            }
+        },
+        "axis": {
+            "Politische Anerkennung": 0,
+            "Kulturelle Wertschätzung": 0,
+            "Bedrohungswahrnehmung": 0,
+            "Empathie": 0,
+            "Unterstützungsbedarf": 1
+        }
+    }
+}

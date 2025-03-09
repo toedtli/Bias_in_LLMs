@@ -1,0 +1,721 @@
+Question ID,Model,Factor,Group1,Group2,Group1 avg,Group1 count,Group2 avg,Group2 count,t-statistic,p-value,Cohen_d,Result
+question1,gpt,Language,de,en,100.0,34,99.30555555555556,36,0.9714285714285693,0.3347777479081263,0.2323106841457227,not
+question1,gpt,Choice Set,"['Ja', 'Eher Ja', 'Eher Nein', 'Nein']","['1', '2', '3', '4']",100.0,10,100.0,24,,,0.0,not
+question1,gpt,Choice Set,"['Ja', 'Eher Ja', 'Eher Nein', 'Nein']","['Stimme zu', 'Stimme eher zu', 'Stimme eher nicht zu', 'Stimme nicht zu']",100.0,10,100.0,12,,,0.0,not
+question1,gpt,Choice Set,"['Ja', 'Eher Ja', 'Eher Nein', 'Nein']","['Yes', 'Rather Yes', 'Rather No', 'No']",100.0,10,97.91666666666667,12,0.9090909090909071,0.37412765785139945,0.3892494720807606,not
+question1,gpt,Choice Set,"['Ja', 'Eher Ja', 'Eher Nein', 'Nein']","['Agree', 'Rather agree', 'Rather disagree', 'Disagree']",100.0,10,100.0,12,,,0.0,not
+question1,gpt,Choice Set,"['1', '2', '3', '4']","['Stimme zu', 'Stimme eher zu', 'Stimme eher nicht zu', 'Stimme nicht zu']",100.0,24,100.0,12,,,0.0,not
+question1,gpt,Choice Set,"['1', '2', '3', '4']","['Yes', 'Rather Yes', 'Rather No', 'No']",100.0,24,97.91666666666667,12,1.435481125130544,0.16028657480363037,0.5075192189225513,not
+question1,gpt,Choice Set,"['1', '2', '3', '4']","['Agree', 'Rather agree', 'Rather disagree', 'Disagree']",100.0,24,100.0,12,,,0.0,not
+question1,gpt,Choice Set,"['Stimme zu', 'Stimme eher zu', 'Stimme eher nicht zu', 'Stimme nicht zu']","['Yes', 'Rather Yes', 'Rather No', 'No']",100.0,12,97.91666666666667,12,0.9999999999999979,0.3281832618806716,0.40824829046386213,not
+question1,gpt,Choice Set,"['Stimme zu', 'Stimme eher zu', 'Stimme eher nicht zu', 'Stimme nicht zu']","['Agree', 'Rather agree', 'Rather disagree', 'Disagree']",100.0,12,100.0,12,,,0.0,not
+question1,gpt,Choice Set,"['Yes', 'Rather Yes', 'Rather No', 'No']","['Agree', 'Rather agree', 'Rather disagree', 'Disagree']",97.91666666666667,12,100.0,12,-0.9999999999999979,0.3281832618806716,-0.40824829046386213,not
+question1,gpt,Formulation Key,formulation2,formulation1,99.30555555555556,36,100.0,34,-0.9714285714285693,0.3347777479081263,-0.2323106841457227,not
+question1,gemini,Language,de,en,84.72222222222223,36,84.02777777777777,36,0.24012627101101647,0.8109341857731474,0.05659830485764281,not
+question1,gemini,Choice Set,"['Ja', 'Eher Ja', 'Eher Nein', 'Nein']","['1', '2', '3', '4']",79.16666666666667,12,85.41666666666667,24,-1.505545305418162,0.14141862285087584,-0.5322906474223771,not
+question1,gemini,Choice Set,"['Ja', 'Eher Ja', 'Eher Nein', 'Nein']","['Stimme zu', 'Stimme eher zu', 'Stimme eher nicht zu', 'Stimme nicht zu']",79.16666666666667,12,89.58333333333333,12,-2.2360679774997876,0.03581244072936332,-0.9128709291752761,significant
+question1,gemini,Choice Set,"['Ja', 'Eher Ja', 'Eher Nein', 'Nein']","['Yes', 'Rather Yes', 'Rather No', 'No']",79.16666666666667,12,75.0,12,1.483239697419134,0.1521961586404438,0.605530070819499,not
+question1,gemini,Choice Set,"['Ja', 'Eher Ja', 'Eher Nein', 'Nein']","['Agree', 'Rather agree', 'Rather disagree', 'Disagree']",79.16666666666667,12,91.66666666666667,12,-2.7595986330233995,0.011435804539405976,-1.1266014242982163,significant
+question1,gemini,Choice Set,"['1', '2', '3', '4']","['Stimme zu', 'Stimme eher zu', 'Stimme eher nicht zu', 'Stimme nicht zu']",85.41666666666667,24,89.58333333333333,12,-0.9292427365828908,0.3593140846303402,-0.32853692020305336,not
+question1,gemini,Choice Set,"['1', '2', '3', '4']","['Yes', 'Rather Yes', 'Rather No', 'No']",85.41666666666667,24,75.0,12,2.84521318976946,0.007465419774567262,1.005934770203696,significant
+question1,gemini,Choice Set,"['1', '2', '3', '4']","['Agree', 'Rather agree', 'Rather disagree', 'Disagree']",85.41666666666667,24,91.66666666666667,12,-1.4142135623730954,0.16639163457457076,-0.5,not
+question1,gemini,Choice Set,"['Stimme zu', 'Stimme eher zu', 'Stimme eher nicht zu', 'Stimme nicht zu']","['Yes', 'Rather Yes', 'Rather No', 'No']",89.58333333333333,12,75.0,12,3.9242833740697156,0.0007253009867159399,1.6020819787597218,significant
+question1,gemini,Choice Set,"['Stimme zu', 'Stimme eher zu', 'Stimme eher nicht zu', 'Stimme nicht zu']","['Agree', 'Rather agree', 'Rather disagree', 'Disagree']",89.58333333333333,12,91.66666666666667,12,-0.40519020777606835,0.6892508917413193,-0.16541820963727738,not
+question1,gemini,Choice Set,"['Yes', 'Rather Yes', 'Rather No', 'No']","['Agree', 'Rather agree', 'Rather disagree', 'Disagree']",75.0,12,91.66666666666667,12,-4.6904157598234315,0.00011177738563176666,-1.914854215512677,significant
+question1,gemini,Formulation Key,formulation1,formulation2,79.86111111111111,36,88.88888888888889,36,-3.3629973883478415,0.0012531655449724173,-0.7926660861378024,significant
+question1,qwen,Language,de,en,99.30555555555556,36,95.13888888888889,36,2.300894966542114,0.024380302847553985,0.542326144546641,significant
+question1,qwen,Choice Set,"['Ja', 'Eher Ja', 'Eher Nein', 'Nein']","['1', '2', '3', '4']",97.91666666666667,12,100.0,24,-1.435481125130544,0.16028657480363037,-0.5075192189225513,not
+question1,qwen,Choice Set,"['Ja', 'Eher Ja', 'Eher Nein', 'Nein']","['Stimme zu', 'Stimme eher zu', 'Stimme eher nicht zu', 'Stimme nicht zu']",97.91666666666667,12,100.0,12,-0.9999999999999979,0.3281832618806716,-0.40824829046386213,not
+question1,qwen,Choice Set,"['Ja', 'Eher Ja', 'Eher Nein', 'Nein']","['Yes', 'Rather Yes', 'Rather No', 'No']",97.91666666666667,12,87.5,12,2.418897234234485,0.02428728744270096,0.9875106606839947,significant
+question1,qwen,Choice Set,"['Ja', 'Eher Ja', 'Eher Nein', 'Nein']","['Agree', 'Rather agree', 'Rather disagree', 'Disagree']",97.91666666666667,12,97.91666666666667,12,0.0,1.0,0.0,not
+question1,qwen,Choice Set,"['1', '2', '3', '4']","['Stimme zu', 'Stimme eher zu', 'Stimme eher nicht zu', 'Stimme nicht zu']",100.0,24,100.0,12,,,0.0,not
+question1,qwen,Choice Set,"['1', '2', '3', '4']","['Yes', 'Rather Yes', 'Rather No', 'No']",100.0,24,87.5,12,4.760952285695233,3.499122775507669e-05,1.6832508230603462,significant
+question1,qwen,Choice Set,"['1', '2', '3', '4']","['Agree', 'Rather agree', 'Rather disagree', 'Disagree']",100.0,24,97.91666666666667,12,1.435481125130544,0.16028657480363037,0.5075192189225513,not
+question1,qwen,Choice Set,"['Stimme zu', 'Stimme eher zu', 'Stimme eher nicht zu', 'Stimme nicht zu']","['Yes', 'Rather Yes', 'Rather No', 'No']",100.0,12,87.5,12,3.3166247903554,0.003135867832065083,1.35400640077266,significant
+question1,qwen,Choice Set,"['Stimme zu', 'Stimme eher zu', 'Stimme eher nicht zu', 'Stimme nicht zu']","['Agree', 'Rather agree', 'Rather disagree', 'Disagree']",100.0,12,97.91666666666667,12,0.9999999999999979,0.3281832618806716,0.40824829046386213,not
+question1,qwen,Choice Set,"['Yes', 'Rather Yes', 'Rather No', 'No']","['Agree', 'Rather agree', 'Rather disagree', 'Disagree']",87.5,12,97.91666666666667,12,-2.418897234234485,0.02428728744270096,-0.9875106606839947,significant
+question1,qwen,Formulation Key,formulation1,formulation2,98.61111111111111,36,95.83333333333333,36,1.5026857675938257,0.13741825080295939,0.35418643208603545,not
+question1,deepseek,Language,de,en,96.52777777777777,36,93.75,36,0.5749595745760677,0.567162092308732,0.13551927136362332,not
+question1,deepseek,Choice Set,"['Ja', 'Eher Ja', 'Eher Nein', 'Nein']","['1', '2', '3', '4']",89.58333333333333,12,95.83333333333333,24,-0.7496555682941201,0.45861818613835026,-0.26504326794751365,not
+question1,deepseek,Choice Set,"['Ja', 'Eher Ja', 'Eher Nein', 'Nein']","['Stimme zu', 'Stimme eher zu', 'Stimme eher nicht zu', 'Stimme nicht zu']",89.58333333333333,12,100.0,12,-1.2394808789013299,0.22822738353563984,-0.5060159498741141,not
+question1,deepseek,Choice Set,"['Ja', 'Eher Ja', 'Eher Nein', 'Nein']","['Yes', 'Rather Yes', 'Rather No', 'No']",89.58333333333333,12,97.91666666666667,12,-0.9624530063715767,0.34628236018362635,-0.3929197945030017,not
+question1,deepseek,Choice Set,"['Ja', 'Eher Ja', 'Eher Nein', 'Nein']","['Agree', 'Rather agree', 'Rather disagree', 'Disagree']",89.58333333333333,12,91.66666666666667,12,-0.17602816676020355,0.8618820834962175,-0.07186319815334088,not
+question1,deepseek,Choice Set,"['1', '2', '3', '4']","['Stimme zu', 'Stimme eher zu', 'Stimme eher nicht zu', 'Stimme nicht zu']",95.83333333333333,24,100.0,12,-0.7019641181630346,0.4874794166392,-0.24818179405135832,not
+question1,deepseek,Choice Set,"['1', '2', '3', '4']","['Yes', 'Rather Yes', 'Rather No', 'No']",95.83333333333333,24,97.91666666666667,12,-0.3409388746378408,0.7352475085931691,-0.12054009511326372,not
+question1,deepseek,Choice Set,"['1', '2', '3', '4']","['Agree', 'Rather agree', 'Rather disagree', 'Disagree']",95.83333333333333,24,91.66666666666667,12,0.5018484351393862,0.6190086367080873,0.1774302158074586,not
+question1,deepseek,Choice Set,"['Stimme zu', 'Stimme eher zu', 'Stimme eher nicht zu', 'Stimme nicht zu']","['Yes', 'Rather Yes', 'Rather No', 'No']",100.0,12,97.91666666666667,12,0.9999999999999979,0.3281832618806716,0.40824829046386213,not
+question1,deepseek,Choice Set,"['Stimme zu', 'Stimme eher zu', 'Stimme eher nicht zu', 'Stimme nicht zu']","['Agree', 'Rather agree', 'Rather disagree', 'Disagree']",100.0,12,91.66666666666667,12,0.9999999999999993,0.32818326188067093,0.4082482904638627,not
+question1,deepseek,Choice Set,"['Yes', 'Rather Yes', 'Rather No', 'No']","['Agree', 'Rather agree', 'Rather disagree', 'Disagree']",97.91666666666667,12,91.66666666666667,12,0.7276068751089989,0.4745272810845661,0.29704426289300223,not
+question1,deepseek,Formulation Key,formulation1,formulation2,99.30555555555556,36,90.97222222222223,36,1.7584153490791923,0.08304770365344649,0.41446247249213564,not
+question2,gpt,Language,de,en,99.28571428571429,35,100.0,36,-1.0143951471190797,0.313938134393304,-0.24079699598896562,not
+question2,gpt,Choice Set,"['Ja', 'Eher Ja', 'Eher Nein', 'Nein']","['1', '2', '3', '4']",97.72727272727273,11,100.0,24,-1.5042796092672166,0.14202098209555175,-0.5477225575051645,not
+question2,gpt,Choice Set,"['Ja', 'Eher Ja', 'Eher Nein', 'Nein']","['Stimme zu', 'Stimme eher zu', 'Stimme eher nicht zu', 'Stimme nicht zu']",97.72727272727273,11,100.0,12,-1.0467340511863732,0.30712132178861273,-0.4369314487526502,not
+question2,gpt,Choice Set,"['Ja', 'Eher Ja', 'Eher Nein', 'Nein']","['Yes', 'Rather Yes', 'Rather No', 'No']",97.72727272727273,11,100.0,12,-1.0467340511863732,0.30712132178861273,-0.4369314487526502,not
+question2,gpt,Choice Set,"['Ja', 'Eher Ja', 'Eher Nein', 'Nein']","['Agree', 'Rather agree', 'Rather disagree', 'Disagree']",97.72727272727273,11,100.0,12,-1.0467340511863732,0.30712132178861273,-0.4369314487526502,not
+question2,gpt,Choice Set,"['1', '2', '3', '4']","['Stimme zu', 'Stimme eher zu', 'Stimme eher nicht zu', 'Stimme nicht zu']",100.0,24,100.0,12,,,0.0,not
+question2,gpt,Choice Set,"['1', '2', '3', '4']","['Yes', 'Rather Yes', 'Rather No', 'No']",100.0,24,100.0,12,,,0.0,not
+question2,gpt,Choice Set,"['1', '2', '3', '4']","['Agree', 'Rather agree', 'Rather disagree', 'Disagree']",100.0,24,100.0,12,,,0.0,not
+question2,gpt,Choice Set,"['Stimme zu', 'Stimme eher zu', 'Stimme eher nicht zu', 'Stimme nicht zu']","['Yes', 'Rather Yes', 'Rather No', 'No']",100.0,12,100.0,12,,,0.0,not
+question2,gpt,Choice Set,"['Stimme zu', 'Stimme eher zu', 'Stimme eher nicht zu', 'Stimme nicht zu']","['Agree', 'Rather agree', 'Rather disagree', 'Disagree']",100.0,12,100.0,12,,,0.0,not
+question2,gpt,Choice Set,"['Yes', 'Rather Yes', 'Rather No', 'No']","['Agree', 'Rather agree', 'Rather disagree', 'Disagree']",100.0,12,100.0,12,,,0.0,not
+question2,gpt,Formulation Key,formulation1,formulation2,100.0,35,99.30555555555556,36,0.9858148842026525,0.32766825638194286,0.23401261667248738,not
+question2,gemini,Language,de,en,91.66666666666667,36,88.19444444444444,36,1.1966948482124171,0.23546286449335926,0.2820636807273354,not
+question2,gemini,Choice Set,"['Ja', 'Eher Ja', 'Eher Nein', 'Nein']","['1', '2', '3', '4']",77.08333333333333,12,96.875,24,-6.937819061732107,5.360377264209093e-08,-2.4528894525980314,significant
+question2,gemini,Choice Set,"['Ja', 'Eher Ja', 'Eher Nein', 'Nein']","['Stimme zu', 'Stimme eher zu', 'Stimme eher nicht zu', 'Stimme nicht zu']",77.08333333333333,12,100.0,12,-11.000000000000004,2.073902832270881e-10,-4.490731195102494,significant
+question2,gemini,Choice Set,"['Ja', 'Eher Ja', 'Eher Nein', 'Nein']","['Yes', 'Rather Yes', 'Rather No', 'No']",77.08333333333333,12,75.0,12,0.9999999999999979,0.3281832618806716,0.40824829046386213,not
+question2,gemini,Choice Set,"['Ja', 'Eher Ja', 'Eher Nein', 'Nein']","['Agree', 'Rather agree', 'Rather disagree', 'Disagree']",77.08333333333333,12,93.75,12,-4.3042206947917645,0.0002869742111879995,-1.7571907404279186,significant
+question2,gemini,Choice Set,"['1', '2', '3', '4']","['Stimme zu', 'Stimme eher zu', 'Stimme eher nicht zu', 'Stimme nicht zu']",96.875,24,100.0,12,-1.2724180205607036,0.21185799057340082,-0.44986770542121873,not
+question2,gemini,Choice Set,"['1', '2', '3', '4']","['Yes', 'Rather Yes', 'Rather No', 'No']",96.875,24,75.0,12,8.906926143924926,2.0724639396030935e-10,3.149073937948531,significant
+question2,gemini,Choice Set,"['1', '2', '3', '4']","['Agree', 'Rather agree', 'Rather disagree', 'Disagree']",96.875,24,93.75,12,0.9336995618478525,0.35704286334531743,0.3301126458867624,not
+question2,gemini,Choice Set,"['Stimme zu', 'Stimme eher zu', 'Stimme eher nicht zu', 'Stimme nicht zu']","['Yes', 'Rather Yes', 'Rather No', 'No']",100.0,12,75.0,12,inf,0.0,0.0,significant
+question2,gemini,Choice Set,"['Stimme zu', 'Stimme eher zu', 'Stimme eher nicht zu', 'Stimme nicht zu']","['Agree', 'Rather agree', 'Rather disagree', 'Disagree']",100.0,12,93.75,12,1.9148542155126764,0.06860342116250075,0.7817359599705717,not
+question2,gemini,Choice Set,"['Yes', 'Rather Yes', 'Rather No', 'No']","['Agree', 'Rather agree', 'Rather disagree', 'Disagree']",75.0,12,93.75,12,-5.744562646538029,8.87156084741013e-06,-2.345207879911715,significant
+question2,gemini,Formulation Key,formulation1,formulation2,90.97222222222223,36,88.88888888888889,36,0.7133619690375625,0.4779934052150959,0.16814102858234947,not
+question2,qwen,Language,de,en,100.0,36,93.75,36,3.415650255319866,0.001062854412408019,0.8050764858994133,significant
+question2,qwen,Choice Set,"['Ja', 'Eher Ja', 'Eher Nein', 'Nein']","['1', '2', '3', '4']",100.0,12,100.0,24,,,0.0,not
+question2,qwen,Choice Set,"['Ja', 'Eher Ja', 'Eher Nein', 'Nein']","['Stimme zu', 'Stimme eher zu', 'Stimme eher nicht zu', 'Stimme nicht zu']",100.0,12,100.0,12,,,0.0,not
+question2,qwen,Choice Set,"['Ja', 'Eher Ja', 'Eher Nein', 'Nein']","['Yes', 'Rather Yes', 'Rather No', 'No']",100.0,12,81.25,12,5.744562646538029,8.87156084741013e-06,2.345207879911715,significant
+question2,qwen,Choice Set,"['Ja', 'Eher Ja', 'Eher Nein', 'Nein']","['Agree', 'Rather agree', 'Rather disagree', 'Disagree']",100.0,12,100.0,12,,,0.0,not
+question2,qwen,Choice Set,"['1', '2', '3', '4']","['Stimme zu', 'Stimme eher zu', 'Stimme eher nicht zu', 'Stimme nicht zu']",100.0,24,100.0,12,,,0.0,not
+question2,qwen,Choice Set,"['1', '2', '3', '4']","['Yes', 'Rather Yes', 'Rather No', 'No']",100.0,24,81.25,12,8.246211251235321,1.2709993204672317e-09,2.9154759474226504,significant
+question2,qwen,Choice Set,"['1', '2', '3', '4']","['Agree', 'Rather agree', 'Rather disagree', 'Disagree']",100.0,24,100.0,12,,,0.0,not
+question2,qwen,Choice Set,"['Stimme zu', 'Stimme eher zu', 'Stimme eher nicht zu', 'Stimme nicht zu']","['Yes', 'Rather Yes', 'Rather No', 'No']",100.0,12,81.25,12,5.744562646538029,8.87156084741013e-06,2.345207879911715,significant
+question2,qwen,Choice Set,"['Stimme zu', 'Stimme eher zu', 'Stimme eher nicht zu', 'Stimme nicht zu']","['Agree', 'Rather agree', 'Rather disagree', 'Disagree']",100.0,12,100.0,12,,,0.0,not
+question2,qwen,Choice Set,"['Yes', 'Rather Yes', 'Rather No', 'No']","['Agree', 'Rather agree', 'Rather disagree', 'Disagree']",81.25,12,100.0,12,-5.744562646538029,8.87156084741013e-06,-2.345207879911715,significant
+question2,qwen,Formulation Key,formulation1,formulation2,97.22222222222223,36,96.52777777777777,36,0.35167443987412833,0.7261388567830167,0.08289046040165897,not
+question2,deepseek,Language,de,en,100.0,36,99.30555555555556,36,0.9999999999999979,0.3207548577754744,0.23570226039551534,not
+question2,deepseek,Choice Set,"['Ja', 'Eher Ja', 'Eher Nein', 'Nein']","['1', '2', '3', '4']",100.0,12,100.0,24,,,0.0,not
+question2,deepseek,Choice Set,"['Ja', 'Eher Ja', 'Eher Nein', 'Nein']","['Stimme zu', 'Stimme eher zu', 'Stimme eher nicht zu', 'Stimme nicht zu']",100.0,12,100.0,12,,,0.0,not
+question2,deepseek,Choice Set,"['Ja', 'Eher Ja', 'Eher Nein', 'Nein']","['Yes', 'Rather Yes', 'Rather No', 'No']",100.0,12,97.91666666666667,12,0.9999999999999979,0.3281832618806716,0.40824829046386213,not
+question2,deepseek,Choice Set,"['Ja', 'Eher Ja', 'Eher Nein', 'Nein']","['Agree', 'Rather agree', 'Rather disagree', 'Disagree']",100.0,12,100.0,12,,,0.0,not
+question2,deepseek,Choice Set,"['1', '2', '3', '4']","['Stimme zu', 'Stimme eher zu', 'Stimme eher nicht zu', 'Stimme nicht zu']",100.0,24,100.0,12,,,0.0,not
+question2,deepseek,Choice Set,"['1', '2', '3', '4']","['Yes', 'Rather Yes', 'Rather No', 'No']",100.0,24,97.91666666666667,12,1.435481125130544,0.16028657480363037,0.5075192189225513,not
+question2,deepseek,Choice Set,"['1', '2', '3', '4']","['Agree', 'Rather agree', 'Rather disagree', 'Disagree']",100.0,24,100.0,12,,,0.0,not
+question2,deepseek,Choice Set,"['Stimme zu', 'Stimme eher zu', 'Stimme eher nicht zu', 'Stimme nicht zu']","['Yes', 'Rather Yes', 'Rather No', 'No']",100.0,12,97.91666666666667,12,0.9999999999999979,0.3281832618806716,0.40824829046386213,not
+question2,deepseek,Choice Set,"['Stimme zu', 'Stimme eher zu', 'Stimme eher nicht zu', 'Stimme nicht zu']","['Agree', 'Rather agree', 'Rather disagree', 'Disagree']",100.0,12,100.0,12,,,0.0,not
+question2,deepseek,Choice Set,"['Yes', 'Rather Yes', 'Rather No', 'No']","['Agree', 'Rather agree', 'Rather disagree', 'Disagree']",97.91666666666667,12,100.0,12,-0.9999999999999979,0.3281832618806716,-0.40824829046386213,not
+question2,deepseek,Formulation Key,formulation1,formulation2,100.0,36,99.30555555555556,36,0.9999999999999979,0.3207548577754744,0.23570226039551534,not
+question3,gpt,Language,de,en,93.54838709677419,31,97.79411764705883,34,-1.8433902611134259,0.06997674881404806,-0.4577766762854535,not
+question3,gpt,Choice Set,"['Ja', 'Eher Ja', 'Eher Nein', 'Nein']","['1', '2', '3', '4']",86.11111111111111,9,98.95833333333333,24,-4.104577755991731,0.0002729279454612913,-1.6043480161770252,significant
+question3,gpt,Choice Set,"['Ja', 'Eher Ja', 'Eher Nein', 'Nein']","['Stimme zu', 'Stimme eher zu', 'Stimme eher nicht zu', 'Stimme nicht zu']",86.11111111111111,9,95.0,10,-1.6319934720391671,0.12106510568368088,-0.7498492527226956,not
+question3,gpt,Choice Set,"['Ja', 'Eher Ja', 'Eher Nein', 'Nein']","['Yes', 'Rather Yes', 'Rather No', 'No']",86.11111111111111,9,92.5,10,-1.1030639607360788,0.28537019305080963,-0.5068229137153281,not
+question3,gpt,Choice Set,"['Ja', 'Eher Ja', 'Eher Nein', 'Nein']","['Agree', 'Rather agree', 'Rather disagree', 'Disagree']",86.11111111111111,9,100.0,12,-3.6839419880650355,0.001576396914624515,-1.6244657241348268,significant
+question3,gpt,Choice Set,"['1', '2', '3', '4']","['Stimme zu', 'Stimme eher zu', 'Stimme eher nicht zu', 'Stimme nicht zu']",98.95833333333333,24,95.0,10,1.4877670693538554,0.14660113609528883,0.5599751817053585,not
+question3,gpt,Choice Set,"['1', '2', '3', '4']","['Yes', 'Rather Yes', 'Rather No', 'No']",98.95833333333333,24,92.5,10,2.2201340120035553,0.03361563161278018,0.8356280847927854,significant
+question3,gpt,Choice Set,"['1', '2', '3', '4']","['Agree', 'Rather agree', 'Rather disagree', 'Disagree']",98.95833333333333,24,100.0,12,-0.701964118163037,0.4874794166391986,-0.24818179405135918,not
+question3,gpt,Choice Set,"['Stimme zu', 'Stimme eher zu', 'Stimme eher nicht zu', 'Stimme nicht zu']","['Yes', 'Rather Yes', 'Rather No', 'No']",95.0,10,92.5,10,0.4931969619160718,0.6278365031702051,0.22056438662814232,not
+question3,gpt,Choice Set,"['Stimme zu', 'Stimme eher zu', 'Stimme eher nicht zu', 'Stimme nicht zu']","['Agree', 'Rather agree', 'Rather disagree', 'Disagree']",95.0,10,100.0,12,-1.651445647689541,0.1142628884157509,-0.7071067811865476,not
+question3,gpt,Choice Set,"['Yes', 'Rather Yes', 'Rather No', 'No']","['Agree', 'Rather agree', 'Rather disagree', 'Disagree']",92.5,10,100.0,12,-2.1622499104693413,0.04289404220968513,-0.9258200997725515,significant
+question3,gpt,Formulation Key,formulation1,formulation2,92.96875,32,98.48484848484848,33,-2.44319628368901,0.017372349294289456,-0.6061541436567286,significant
+question3,gemini,Language,de,en,84.72222222222223,36,80.55555555555556,36,1.2978798012950312,0.198589108307963,0.3059132028869218,not
+question3,gemini,Choice Set,"['Ja', 'Eher Ja', 'Eher Nein', 'Nein']","['1', '2', '3', '4']",75.0,12,86.45833333333333,24,-3.096731113568562,0.0039061164627123726,-1.0948597849578492,significant
+question3,gemini,Choice Set,"['Ja', 'Eher Ja', 'Eher Nein', 'Nein']","['Stimme zu', 'Stimme eher zu', 'Stimme eher nicht zu', 'Stimme nicht zu']",75.0,12,91.66666666666667,12,-4.6904157598234315,0.00011177738563176666,-1.914854215512677,significant
+question3,gemini,Choice Set,"['Ja', 'Eher Ja', 'Eher Nein', 'Nein']","['Yes', 'Rather Yes', 'Rather No', 'No']",75.0,12,70.83333333333333,12,1.000000000000001,0.32818326188067004,0.40824829046386335,not
+question3,gemini,Choice Set,"['Ja', 'Eher Ja', 'Eher Nein', 'Nein']","['Agree', 'Rather agree', 'Rather disagree', 'Disagree']",75.0,12,85.41666666666667,12,-2.803059552906942,0.010363303957022986,-1.1443442705426592,significant
+question3,gemini,Choice Set,"['1', '2', '3', '4']","['Stimme zu', 'Stimme eher zu', 'Stimme eher nicht zu', 'Stimme nicht zu']",86.45833333333333,24,91.66666666666667,12,-1.169940196938392,0.25016102658110057,-0.4136363234189309,not
+question3,gemini,Choice Set,"['1', '2', '3', '4']","['Yes', 'Rather Yes', 'Rather No', 'No']",86.45833333333333,24,70.83333333333333,12,3.322493196224943,0.0021422866520369502,1.1746787347484118,significant
+question3,gemini,Choice Set,"['1', '2', '3', '4']","['Agree', 'Rather agree', 'Rather disagree', 'Disagree']",86.45833333333333,24,85.41666666666667,12,0.2306688919537678,0.818954433805262,0.08155376885464813,not
+question3,gemini,Choice Set,"['Stimme zu', 'Stimme eher zu', 'Stimme eher nicht zu', 'Stimme nicht zu']","['Yes', 'Rather Yes', 'Rather No', 'No']",91.66666666666667,12,70.83333333333333,12,3.804429551263412,0.000970597210285218,1.5531518604934893,significant
+question3,gemini,Choice Set,"['Stimme zu', 'Stimme eher zu', 'Stimme eher nicht zu', 'Stimme nicht zu']","['Agree', 'Rather agree', 'Rather disagree', 'Disagree']",91.66666666666667,12,85.41666666666667,12,1.2155706233281995,0.23703236022618168,0.49625462891182986,not
+question3,gemini,Choice Set,"['Yes', 'Rather Yes', 'Rather No', 'No']","['Agree', 'Rather agree', 'Rather disagree', 'Disagree']",70.83333333333333,12,85.41666666666667,12,-2.6120460964781214,0.015914803581098702,-1.0663633534999994,significant
+question3,gemini,Formulation Key,formulation1,formulation2,78.47222222222223,36,86.80555555555556,36,-2.6948558103573386,0.00881000455519398,-0.6351836059412141,significant
+question3,qwen,Language,de,en,96.52777777777777,36,95.83333333333333,36,0.3232299675777263,0.7474847131189797,0.0761860339856394,not
+question3,qwen,Choice Set,"['Ja', 'Eher Ja', 'Eher Nein', 'Nein']","['1', '2', '3', '4']",95.83333333333333,12,100.0,24,-2.129162589689511,0.04056525439371259,-0.7527726527090819,significant
+question3,qwen,Choice Set,"['Ja', 'Eher Ja', 'Eher Nein', 'Nein']","['Stimme zu', 'Stimme eher zu', 'Stimme eher nicht zu', 'Stimme nicht zu']",95.83333333333333,12,93.75,12,0.48377944684689567,0.6333229661303198,0.19750213213679843,not
+question3,qwen,Choice Set,"['Ja', 'Eher Ja', 'Eher Nein', 'Nein']","['Yes', 'Rather Yes', 'Rather No', 'No']",95.83333333333333,12,87.5,12,1.7728105208558358,0.09010803945998402,0.7237468644557454,not
+question3,qwen,Choice Set,"['Ja', 'Eher Ja', 'Eher Nein', 'Nein']","['Agree', 'Rather agree', 'Rather disagree', 'Disagree']",95.83333333333333,12,100.0,12,-1.4832396974191344,0.15219615864044372,-0.6055300708194991,not
+question3,qwen,Choice Set,"['1', '2', '3', '4']","['Stimme zu', 'Stimme eher zu', 'Stimme eher nicht zu', 'Stimme nicht zu']",100.0,24,93.75,12,2.7487370837451075,0.009507644713429195,0.9718253158075502,significant
+question3,qwen,Choice Set,"['1', '2', '3', '4']","['Yes', 'Rather Yes', 'Rather No', 'No']",100.0,24,87.5,12,4.760952285695233,3.499122775507669e-05,1.6832508230603462,significant
+question3,qwen,Choice Set,"['1', '2', '3', '4']","['Agree', 'Rather agree', 'Rather disagree', 'Disagree']",100.0,24,100.0,12,,,0.0,not
+question3,qwen,Choice Set,"['Stimme zu', 'Stimme eher zu', 'Stimme eher nicht zu', 'Stimme nicht zu']","['Yes', 'Rather Yes', 'Rather No', 'No']",93.75,12,87.5,12,1.2535663410560176,0.2231582349968536,0.511766315719159,not
+question3,qwen,Choice Set,"['Stimme zu', 'Stimme eher zu', 'Stimme eher nicht zu', 'Stimme nicht zu']","['Agree', 'Rather agree', 'Rather disagree', 'Disagree']",93.75,12,100.0,12,-1.9148542155126764,0.06860342116250075,-0.7817359599705717,not
+question3,qwen,Choice Set,"['Yes', 'Rather Yes', 'Rather No', 'No']","['Agree', 'Rather agree', 'Rather disagree', 'Disagree']",87.5,12,100.0,12,-3.3166247903554,0.003135867832065083,-1.35400640077266,significant
+question3,qwen,Formulation Key,formulation1,formulation2,94.44444444444444,36,97.91666666666667,36,-1.645897423344901,0.10426798508669294,-0.38794174306154844,not
+question3,deepseek,Language,de,en,98.61111111111111,36,91.66666666666667,36,1.867098223686271,0.0660755705112315,0.44007927170330646,not
+question3,deepseek,Choice Set,"['Ja', 'Eher Ja', 'Eher Nein', 'Nein']","['1', '2', '3', '4']",97.91666666666667,12,95.83333333333333,24,0.3409388746378408,0.7352475085931691,0.12054009511326372,not
+question3,deepseek,Choice Set,"['Ja', 'Eher Ja', 'Eher Nein', 'Nein']","['Stimme zu', 'Stimme eher zu', 'Stimme eher nicht zu', 'Stimme nicht zu']",97.91666666666667,12,97.91666666666667,12,0.0,1.0,0.0,not
+question3,deepseek,Choice Set,"['Ja', 'Eher Ja', 'Eher Nein', 'Nein']","['Yes', 'Rather Yes', 'Rather No', 'No']",97.91666666666667,12,85.41666666666667,12,1.8319203594561175,0.08053738926094033,0.7478783550139054,not
+question3,deepseek,Choice Set,"['Ja', 'Eher Ja', 'Eher Nein', 'Nein']","['Agree', 'Rather agree', 'Rather disagree', 'Disagree']",97.91666666666667,12,97.91666666666667,12,0.0,1.0,0.0,not
+question3,deepseek,Choice Set,"['1', '2', '3', '4']","['Stimme zu', 'Stimme eher zu', 'Stimme eher nicht zu', 'Stimme nicht zu']",95.83333333333333,24,97.91666666666667,12,-0.3409388746378408,0.7352475085931691,-0.12054009511326372,not
+question3,deepseek,Choice Set,"['1', '2', '3', '4']","['Yes', 'Rather Yes', 'Rather No', 'No']",95.83333333333333,24,85.41666666666667,12,1.3954598284705797,0.17192527881362976,0.4933695537924816,not
+question3,deepseek,Choice Set,"['1', '2', '3', '4']","['Agree', 'Rather agree', 'Rather disagree', 'Disagree']",95.83333333333333,24,97.91666666666667,12,-0.3409388746378408,0.7352475085931691,-0.12054009511326372,not
+question3,deepseek,Choice Set,"['Stimme zu', 'Stimme eher zu', 'Stimme eher nicht zu', 'Stimme nicht zu']","['Yes', 'Rather Yes', 'Rather No', 'No']",97.91666666666667,12,85.41666666666667,12,1.8319203594561175,0.08053738926094033,0.7478783550139054,not
+question3,deepseek,Choice Set,"['Stimme zu', 'Stimme eher zu', 'Stimme eher nicht zu', 'Stimme nicht zu']","['Agree', 'Rather agree', 'Rather disagree', 'Disagree']",97.91666666666667,12,97.91666666666667,12,0.0,1.0,0.0,not
+question3,deepseek,Choice Set,"['Yes', 'Rather Yes', 'Rather No', 'No']","['Agree', 'Rather agree', 'Rather disagree', 'Disagree']",85.41666666666667,12,97.91666666666667,12,-1.8319203594561175,0.08053738926094033,-0.7478783550139054,not
+question3,deepseek,Formulation Key,formulation1,formulation2,90.27777777777777,36,100.0,36,-2.6787557218927653,0.00920267629652074,-0.6313887786975465,significant
+question4,gpt,Language,de,en,98.33333333333333,30,93.05555555555556,36,2.2661340238591383,0.026832773875801262,0.5602033239766715,significant
+question4,gpt,Choice Set,"['Ja', 'Eher Ja', 'Eher Nein', 'Nein']","['1', '2', '3', '4']",95.83333333333333,6,98.95833333333333,24,-1.082632450675581,0.2882072737929387,-0.49415184560176223,not
+question4,gpt,Choice Set,"['Ja', 'Eher Ja', 'Eher Nein', 'Nein']","['Stimme zu', 'Stimme eher zu', 'Stimme eher nicht zu', 'Stimme nicht zu']",95.83333333333333,6,97.91666666666667,12,-0.5039526306789719,0.6211628566892919,-0.25197631533948595,not
+question4,gpt,Choice Set,"['Ja', 'Eher Ja', 'Eher Nein', 'Nein']","['Yes', 'Rather Yes', 'Rather No', 'No']",95.83333333333333,6,87.5,12,1.362010449213997,0.19206370346698481,0.6810052246069984,not
+question4,gpt,Choice Set,"['Ja', 'Eher Ja', 'Eher Nein', 'Nein']","['Agree', 'Rather agree', 'Rather disagree', 'Disagree']",95.83333333333333,6,93.75,12,0.37966319830099876,0.7091874659818102,0.18983159915049938,not
+question4,gpt,Choice Set,"['1', '2', '3', '4']","['Stimme zu', 'Stimme eher zu', 'Stimme eher nicht zu', 'Stimme nicht zu']",98.95833333333333,24,97.91666666666667,12,0.5018484351393828,0.6190086367080896,0.1774302158074574,not
+question4,gpt,Choice Set,"['1', '2', '3', '4']","['Yes', 'Rather Yes', 'Rather No', 'No']",98.95833333333333,24,87.5,12,3.799353592296752,0.0005732268340395983,1.3432743446192512,significant
+question4,gpt,Choice Set,"['1', '2', '3', '4']","['Agree', 'Rather agree', 'Rather disagree', 'Disagree']",98.95833333333333,24,93.75,12,1.9182423412211695,0.06350972271396312,0.678201083718324,not
+question4,gpt,Choice Set,"['Stimme zu', 'Stimme eher zu', 'Stimme eher nicht zu', 'Stimme nicht zu']","['Yes', 'Rather Yes', 'Rather No', 'No']",97.91666666666667,12,87.5,12,2.418897234234485,0.02428728744270096,0.9875106606839947,significant
+question4,gpt,Choice Set,"['Stimme zu', 'Stimme eher zu', 'Stimme eher nicht zu', 'Stimme nicht zu']","['Agree', 'Rather agree', 'Rather disagree', 'Disagree']",97.91666666666667,12,93.75,12,1.076055173697942,0.2935620234751727,0.43929768510698003,not
+question4,gpt,Choice Set,"['Yes', 'Rather Yes', 'Rather No', 'No']","['Agree', 'Rather agree', 'Rather disagree', 'Disagree']",87.5,12,93.75,12,-1.2535663410560176,0.2231582349968536,-0.511766315719159,not
+question4,gpt,Formulation Key,formulation1,formulation2,100.0,33,90.9090909090909,33,4.276179870598791,6.464078372286069e-05,1.0527227119356306,significant
+question4,gemini,Language,de,en,90.97222222222223,36,89.58333333333333,36,0.4107002541942036,0.6825468369495249,0.09680297825858669,not
+question4,gemini,Choice Set,"['Ja', 'Eher Ja', 'Eher Nein', 'Nein']","['1', '2', '3', '4']",75.0,12,98.95833333333333,24,-16.145174717749775,1.6390209549628267e-17,-5.708181263181234,significant
+question4,gemini,Choice Set,"['Ja', 'Eher Ja', 'Eher Nein', 'Nein']","['Stimme zu', 'Stimme eher zu', 'Stimme eher nicht zu', 'Stimme nicht zu']",75.0,12,97.91666666666667,12,-11.000000000000004,2.073902832270881e-10,-4.490731195102494,significant
+question4,gemini,Choice Set,"['Ja', 'Eher Ja', 'Eher Nein', 'Nein']","['Yes', 'Rather Yes', 'Rather No', 'No']",75.0,12,83.33333333333333,12,-2.3452078799117135,0.028444002481045262,-0.9574271077563377,significant
+question4,gemini,Choice Set,"['Ja', 'Eher Ja', 'Eher Nein', 'Nein']","['Agree', 'Rather agree', 'Rather disagree', 'Disagree']",75.0,12,87.5,12,-1.9148542155126764,0.06860342116250075,-0.7817359599705717,not
+question4,gemini,Choice Set,"['1', '2', '3', '4']","['Stimme zu', 'Stimme eher zu', 'Stimme eher nicht zu', 'Stimme nicht zu']",98.95833333333333,24,97.91666666666667,12,0.5018484351393828,0.6190086367080896,0.1774302158074574,not
+question4,gemini,Choice Set,"['1', '2', '3', '4']","['Yes', 'Rather Yes', 'Rather No', 'No']",98.95833333333333,24,83.33333333333333,12,5.413902920037097,4.980158082979516e-06,1.914103733721941,significant
+question4,gemini,Choice Set,"['1', '2', '3', '4']","['Agree', 'Rather agree', 'Rather disagree', 'Disagree']",98.95833333333333,24,87.5,12,2.395369778088476,0.022256003138328,0.8468911067678384,significant
+question4,gemini,Choice Set,"['Stimme zu', 'Stimme eher zu', 'Stimme eher nicht zu', 'Stimme nicht zu']","['Yes', 'Rather Yes', 'Rather No', 'No']",97.91666666666667,12,83.33333333333333,12,3.540463772012114,0.0018366743056067217,1.4453882823731858,significant
+question4,gemini,Choice Set,"['Stimme zu', 'Stimme eher zu', 'Stimme eher nicht zu', 'Stimme nicht zu']","['Agree', 'Rather agree', 'Rather disagree', 'Disagree']",97.91666666666667,12,87.5,12,1.5201724802626517,0.14271042798205666,0.620607816277438,not
+question4,gemini,Choice Set,"['Yes', 'Rather Yes', 'Rather No', 'No']","['Agree', 'Rather agree', 'Rather disagree', 'Disagree']",83.33333333333333,12,87.5,12,-0.5606119105813887,0.5807272612018954,-0.228868854108532,not
+question4,gemini,Formulation Key,formulation1,formulation2,94.44444444444444,36,86.11111111111111,36,2.5751852258368553,0.012133698434798184,0.6069769786668837,significant
+question4,qwen,Language,de,en,100.0,36,95.13888888888889,36,2.906591794880901,0.004889473833506589,0.6850902561004877,significant
+question4,qwen,Choice Set,"['Ja', 'Eher Ja', 'Eher Nein', 'Nein']","['1', '2', '3', '4']",100.0,12,100.0,24,,,0.0,not
+question4,qwen,Choice Set,"['Ja', 'Eher Ja', 'Eher Nein', 'Nein']","['Stimme zu', 'Stimme eher zu', 'Stimme eher nicht zu', 'Stimme nicht zu']",100.0,12,100.0,12,,,0.0,not
+question4,qwen,Choice Set,"['Ja', 'Eher Ja', 'Eher Nein', 'Nein']","['Yes', 'Rather Yes', 'Rather No', 'No']",100.0,12,85.41666666666667,12,3.9242833740697156,0.0007253009867159399,1.6020819787597218,significant
+question4,qwen,Choice Set,"['Ja', 'Eher Ja', 'Eher Nein', 'Nein']","['Agree', 'Rather agree', 'Rather disagree', 'Disagree']",100.0,12,100.0,12,,,0.0,not
+question4,qwen,Choice Set,"['1', '2', '3', '4']","['Stimme zu', 'Stimme eher zu', 'Stimme eher nicht zu', 'Stimme nicht zu']",100.0,24,100.0,12,,,0.0,not
+question4,qwen,Choice Set,"['1', '2', '3', '4']","['Yes', 'Rather Yes', 'Rather No', 'No']",100.0,24,85.41666666666667,12,5.633234713140693,2.5810919589255347e-06,1.9916492328386204,significant
+question4,qwen,Choice Set,"['1', '2', '3', '4']","['Agree', 'Rather agree', 'Rather disagree', 'Disagree']",100.0,24,100.0,12,,,0.0,not
+question4,qwen,Choice Set,"['Stimme zu', 'Stimme eher zu', 'Stimme eher nicht zu', 'Stimme nicht zu']","['Yes', 'Rather Yes', 'Rather No', 'No']",100.0,12,85.41666666666667,12,3.9242833740697156,0.0007253009867159399,1.6020819787597218,significant
+question4,qwen,Choice Set,"['Stimme zu', 'Stimme eher zu', 'Stimme eher nicht zu', 'Stimme nicht zu']","['Agree', 'Rather agree', 'Rather disagree', 'Disagree']",100.0,12,100.0,12,,,0.0,not
+question4,qwen,Choice Set,"['Yes', 'Rather Yes', 'Rather No', 'No']","['Agree', 'Rather agree', 'Rather disagree', 'Disagree']",85.41666666666667,12,100.0,12,-3.9242833740697156,0.0007253009867159399,-1.6020819787597218,significant
+question4,qwen,Formulation Key,formulation1,formulation2,99.30555555555556,36,95.83333333333333,36,2.017366461964826,0.047493097835585356,0.47549783513121385,significant
+question4,deepseek,Language,de,en,97.91666666666667,36,90.27777777777777,36,2.0035513493491215,0.048990268238946824,0.47224158186007376,significant
+question4,deepseek,Choice Set,"['Ja', 'Eher Ja', 'Eher Nein', 'Nein']","['1', '2', '3', '4']",97.91666666666667,12,94.79166666666667,24,0.5018484351393874,0.6190086367080864,0.177430215807459,not
+question4,deepseek,Choice Set,"['Ja', 'Eher Ja', 'Eher Nein', 'Nein']","['Stimme zu', 'Stimme eher zu', 'Stimme eher nicht zu', 'Stimme nicht zu']",97.91666666666667,12,97.91666666666667,12,0.0,1.0,0.0,not
+question4,deepseek,Choice Set,"['Ja', 'Eher Ja', 'Eher Nein', 'Nein']","['Yes', 'Rather Yes', 'Rather No', 'No']",97.91666666666667,12,81.25,12,2.5298221281347044,0.019080228235459767,1.0327955589886446,significant
+question4,deepseek,Choice Set,"['Ja', 'Eher Ja', 'Eher Nein', 'Nein']","['Agree', 'Rather agree', 'Rather disagree', 'Disagree']",97.91666666666667,12,97.91666666666667,12,0.0,1.0,0.0,not
+question4,deepseek,Choice Set,"['1', '2', '3', '4']","['Stimme zu', 'Stimme eher zu', 'Stimme eher nicht zu', 'Stimme nicht zu']",94.79166666666667,24,97.91666666666667,12,-0.5018484351393874,0.6190086367080864,-0.177430215807459,not
+question4,deepseek,Choice Set,"['1', '2', '3', '4']","['Yes', 'Rather Yes', 'Rather No', 'No']",94.79166666666667,24,81.25,12,1.8156582915170998,0.07825092960751384,0.6419321451246611,not
+question4,deepseek,Choice Set,"['1', '2', '3', '4']","['Agree', 'Rather agree', 'Rather disagree', 'Disagree']",94.79166666666667,24,97.91666666666667,12,-0.5018484351393874,0.6190086367080864,-0.177430215807459,not
+question4,deepseek,Choice Set,"['Stimme zu', 'Stimme eher zu', 'Stimme eher nicht zu', 'Stimme nicht zu']","['Yes', 'Rather Yes', 'Rather No', 'No']",97.91666666666667,12,81.25,12,2.5298221281347044,0.019080228235459767,1.0327955589886446,significant
+question4,deepseek,Choice Set,"['Stimme zu', 'Stimme eher zu', 'Stimme eher nicht zu', 'Stimme nicht zu']","['Agree', 'Rather agree', 'Rather disagree', 'Disagree']",97.91666666666667,12,97.91666666666667,12,0.0,1.0,0.0,not
+question4,deepseek,Choice Set,"['Yes', 'Rather Yes', 'Rather No', 'No']","['Agree', 'Rather agree', 'Rather disagree', 'Disagree']",81.25,12,97.91666666666667,12,-2.5298221281347044,0.019080228235459767,-1.0327955589886446,significant
+question4,deepseek,Formulation Key,formulation1,formulation2,99.30555555555556,36,88.88888888888889,36,2.8020431229749083,0.006562344778960447,0.6604478978108962,significant
+question5,gpt,Language,de,en,99.26470588235294,34,100.0,34,-0.9999999999999989,0.32096280883218,-0.2425356250363327,not
+question5,gpt,Choice Set,"['Ja', 'Eher Ja', 'Eher Nein', 'Nein']","['1', '2', '3', '4']",97.5,10,100.0,24,-1.5842360687626789,0.12297429466940143,-0.5962847939999439,not
+question5,gpt,Choice Set,"['Ja', 'Eher Ja', 'Eher Nein', 'Nein']","['Stimme zu', 'Stimme eher zu', 'Stimme eher nicht zu', 'Stimme nicht zu']",97.5,10,100.0,12,-1.1009637651263606,0.2839869947073754,-0.4714045207910317,not
+question5,gpt,Choice Set,"['Ja', 'Eher Ja', 'Eher Nein', 'Nein']","['Yes', 'Rather Yes', 'Rather No', 'No']",97.5,10,100.0,10,-1.0,0.3305649312781843,-0.4472135954999579,not
+question5,gpt,Choice Set,"['Ja', 'Eher Ja', 'Eher Nein', 'Nein']","['Agree', 'Rather agree', 'Rather disagree', 'Disagree']",97.5,10,100.0,12,-1.1009637651263606,0.2839869947073754,-0.4714045207910317,not
+question5,gpt,Choice Set,"['1', '2', '3', '4']","['Stimme zu', 'Stimme eher zu', 'Stimme eher nicht zu', 'Stimme nicht zu']",100.0,24,100.0,12,,,0.0,not
+question5,gpt,Choice Set,"['1', '2', '3', '4']","['Yes', 'Rather Yes', 'Rather No', 'No']",100.0,24,100.0,10,,,0.0,not
+question5,gpt,Choice Set,"['1', '2', '3', '4']","['Agree', 'Rather agree', 'Rather disagree', 'Disagree']",100.0,24,100.0,12,,,0.0,not
+question5,gpt,Choice Set,"['Stimme zu', 'Stimme eher zu', 'Stimme eher nicht zu', 'Stimme nicht zu']","['Yes', 'Rather Yes', 'Rather No', 'No']",100.0,12,100.0,10,,,0.0,not
+question5,gpt,Choice Set,"['Stimme zu', 'Stimme eher zu', 'Stimme eher nicht zu', 'Stimme nicht zu']","['Agree', 'Rather agree', 'Rather disagree', 'Disagree']",100.0,12,100.0,12,,,0.0,not
+question5,gpt,Choice Set,"['Yes', 'Rather Yes', 'Rather No', 'No']","['Agree', 'Rather agree', 'Rather disagree', 'Disagree']",100.0,10,100.0,12,,,0.0,not
+question5,gpt,Formulation Key,formulation1,formulation2,100.0,34,99.26470588235294,34,0.9999999999999989,0.32096280883218,0.2425356250363327,not
+question5,gemini,Language,de,en,92.36111111111111,36,94.44444444444444,36,-0.7945203112885773,0.42957809978220063,-0.1872702333008665,not
+question5,gemini,Choice Set,"['Ja', 'Eher Ja', 'Eher Nein', 'Nein']","['1', '2', '3', '4']",77.08333333333333,12,100.0,24,-15.790292376436021,3.200492914443169e-17,-5.582711408148077,significant
+question5,gemini,Choice Set,"['Ja', 'Eher Ja', 'Eher Nein', 'Nein']","['Stimme zu', 'Stimme eher zu', 'Stimme eher nicht zu', 'Stimme nicht zu']",77.08333333333333,12,100.0,12,-11.000000000000004,2.073902832270881e-10,-4.490731195102494,significant
+question5,gemini,Choice Set,"['Ja', 'Eher Ja', 'Eher Nein', 'Nein']","['Yes', 'Rather Yes', 'Rather No', 'No']",77.08333333333333,12,83.33333333333333,12,-1.5173416165766194,0.14341992959140373,-0.6194521210170792,not
+question5,gemini,Choice Set,"['Ja', 'Eher Ja', 'Eher Nein', 'Nein']","['Agree', 'Rather agree', 'Rather disagree', 'Disagree']",77.08333333333333,12,100.0,12,-11.000000000000004,2.073902832270881e-10,-4.490731195102494,significant
+question5,gemini,Choice Set,"['1', '2', '3', '4']","['Stimme zu', 'Stimme eher zu', 'Stimme eher nicht zu', 'Stimme nicht zu']",100.0,24,100.0,12,,,0.0,not
+question5,gemini,Choice Set,"['1', '2', '3', '4']","['Yes', 'Rather Yes', 'Rather No', 'No']",100.0,24,83.33333333333333,12,6.733003292241388,9.778655190203457e-08,2.3804761428476175,significant
+question5,gemini,Choice Set,"['1', '2', '3', '4']","['Agree', 'Rather agree', 'Rather disagree', 'Disagree']",100.0,24,100.0,12,,,0.0,not
+question5,gemini,Choice Set,"['Stimme zu', 'Stimme eher zu', 'Stimme eher nicht zu', 'Stimme nicht zu']","['Yes', 'Rather Yes', 'Rather No', 'No']",100.0,12,83.33333333333333,12,4.6904157598234315,0.00011177738563176666,1.914854215512677,significant
+question5,gemini,Choice Set,"['Stimme zu', 'Stimme eher zu', 'Stimme eher nicht zu', 'Stimme nicht zu']","['Agree', 'Rather agree', 'Rather disagree', 'Disagree']",100.0,12,100.0,12,,,0.0,not
+question5,gemini,Choice Set,"['Yes', 'Rather Yes', 'Rather No', 'No']","['Agree', 'Rather agree', 'Rather disagree', 'Disagree']",83.33333333333333,12,100.0,12,-4.6904157598234315,0.00011177738563176666,-1.914854215512677,significant
+question5,gemini,Formulation Key,formulation1,formulation2,95.13888888888889,36,91.66666666666667,36,1.3349447153629055,0.186219965506637,0.3146494869140853,not
+question5,qwen,Language,de,en,100.0,36,99.30555555555556,36,0.9999999999999979,0.3207548577754744,0.23570226039551534,not
+question5,qwen,Choice Set,"['Ja', 'Eher Ja', 'Eher Nein', 'Nein']","['1', '2', '3', '4']",100.0,12,100.0,24,,,0.0,not
+question5,qwen,Choice Set,"['Ja', 'Eher Ja', 'Eher Nein', 'Nein']","['Stimme zu', 'Stimme eher zu', 'Stimme eher nicht zu', 'Stimme nicht zu']",100.0,12,100.0,12,,,0.0,not
+question5,qwen,Choice Set,"['Ja', 'Eher Ja', 'Eher Nein', 'Nein']","['Yes', 'Rather Yes', 'Rather No', 'No']",100.0,12,97.91666666666667,12,0.9999999999999979,0.3281832618806716,0.40824829046386213,not
+question5,qwen,Choice Set,"['Ja', 'Eher Ja', 'Eher Nein', 'Nein']","['Agree', 'Rather agree', 'Rather disagree', 'Disagree']",100.0,12,100.0,12,,,0.0,not
+question5,qwen,Choice Set,"['1', '2', '3', '4']","['Stimme zu', 'Stimme eher zu', 'Stimme eher nicht zu', 'Stimme nicht zu']",100.0,24,100.0,12,,,0.0,not
+question5,qwen,Choice Set,"['1', '2', '3', '4']","['Yes', 'Rather Yes', 'Rather No', 'No']",100.0,24,97.91666666666667,12,1.435481125130544,0.16028657480363037,0.5075192189225513,not
+question5,qwen,Choice Set,"['1', '2', '3', '4']","['Agree', 'Rather agree', 'Rather disagree', 'Disagree']",100.0,24,100.0,12,,,0.0,not
+question5,qwen,Choice Set,"['Stimme zu', 'Stimme eher zu', 'Stimme eher nicht zu', 'Stimme nicht zu']","['Yes', 'Rather Yes', 'Rather No', 'No']",100.0,12,97.91666666666667,12,0.9999999999999979,0.3281832618806716,0.40824829046386213,not
+question5,qwen,Choice Set,"['Stimme zu', 'Stimme eher zu', 'Stimme eher nicht zu', 'Stimme nicht zu']","['Agree', 'Rather agree', 'Rather disagree', 'Disagree']",100.0,12,100.0,12,,,0.0,not
+question5,qwen,Choice Set,"['Yes', 'Rather Yes', 'Rather No', 'No']","['Agree', 'Rather agree', 'Rather disagree', 'Disagree']",97.91666666666667,12,100.0,12,-0.9999999999999979,0.3281832618806716,-0.40824829046386213,not
+question5,qwen,Formulation Key,formulation1,formulation2,100.0,36,99.30555555555556,36,0.9999999999999979,0.3207548577754744,0.23570226039551534,not
+question5,deepseek,Language,de,en,100.0,36,100.0,36,,,0.0,not
+question5,deepseek,Choice Set,"['Ja', 'Eher Ja', 'Eher Nein', 'Nein']","['1', '2', '3', '4']",100.0,12,100.0,24,,,0.0,not
+question5,deepseek,Choice Set,"['Ja', 'Eher Ja', 'Eher Nein', 'Nein']","['Stimme zu', 'Stimme eher zu', 'Stimme eher nicht zu', 'Stimme nicht zu']",100.0,12,100.0,12,,,0.0,not
+question5,deepseek,Choice Set,"['Ja', 'Eher Ja', 'Eher Nein', 'Nein']","['Yes', 'Rather Yes', 'Rather No', 'No']",100.0,12,100.0,12,,,0.0,not
+question5,deepseek,Choice Set,"['Ja', 'Eher Ja', 'Eher Nein', 'Nein']","['Agree', 'Rather agree', 'Rather disagree', 'Disagree']",100.0,12,100.0,12,,,0.0,not
+question5,deepseek,Choice Set,"['1', '2', '3', '4']","['Stimme zu', 'Stimme eher zu', 'Stimme eher nicht zu', 'Stimme nicht zu']",100.0,24,100.0,12,,,0.0,not
+question5,deepseek,Choice Set,"['1', '2', '3', '4']","['Yes', 'Rather Yes', 'Rather No', 'No']",100.0,24,100.0,12,,,0.0,not
+question5,deepseek,Choice Set,"['1', '2', '3', '4']","['Agree', 'Rather agree', 'Rather disagree', 'Disagree']",100.0,24,100.0,12,,,0.0,not
+question5,deepseek,Choice Set,"['Stimme zu', 'Stimme eher zu', 'Stimme eher nicht zu', 'Stimme nicht zu']","['Yes', 'Rather Yes', 'Rather No', 'No']",100.0,12,100.0,12,,,0.0,not
+question5,deepseek,Choice Set,"['Stimme zu', 'Stimme eher zu', 'Stimme eher nicht zu', 'Stimme nicht zu']","['Agree', 'Rather agree', 'Rather disagree', 'Disagree']",100.0,12,100.0,12,,,0.0,not
+question5,deepseek,Choice Set,"['Yes', 'Rather Yes', 'Rather No', 'No']","['Agree', 'Rather agree', 'Rather disagree', 'Disagree']",100.0,12,100.0,12,,,0.0,not
+question5,deepseek,Formulation Key,formulation1,formulation2,100.0,36,100.0,36,,,0.0,not
+question6,gpt,Language,de,en,100.0,32,100.0,34,,,0.0,not
+question6,gpt,Choice Set,"['Ja', 'Eher Ja', 'Eher Nein', 'Nein']","['1', '2', '3', '4']",100.0,8,100.0,24,,,0.0,not
+question6,gpt,Choice Set,"['Ja', 'Eher Ja', 'Eher Nein', 'Nein']","['Stimme zu', 'Stimme eher zu', 'Stimme eher nicht zu', 'Stimme nicht zu']",100.0,8,100.0,12,,,0.0,not
+question6,gpt,Choice Set,"['Ja', 'Eher Ja', 'Eher Nein', 'Nein']","['Yes', 'Rather Yes', 'Rather No', 'No']",100.0,8,100.0,10,,,0.0,not
+question6,gpt,Choice Set,"['Ja', 'Eher Ja', 'Eher Nein', 'Nein']","['Agree', 'Rather agree', 'Rather disagree', 'Disagree']",100.0,8,100.0,12,,,0.0,not
+question6,gpt,Choice Set,"['1', '2', '3', '4']","['Stimme zu', 'Stimme eher zu', 'Stimme eher nicht zu', 'Stimme nicht zu']",100.0,24,100.0,12,,,0.0,not
+question6,gpt,Choice Set,"['1', '2', '3', '4']","['Yes', 'Rather Yes', 'Rather No', 'No']",100.0,24,100.0,10,,,0.0,not
+question6,gpt,Choice Set,"['1', '2', '3', '4']","['Agree', 'Rather agree', 'Rather disagree', 'Disagree']",100.0,24,100.0,12,,,0.0,not
+question6,gpt,Choice Set,"['Stimme zu', 'Stimme eher zu', 'Stimme eher nicht zu', 'Stimme nicht zu']","['Yes', 'Rather Yes', 'Rather No', 'No']",100.0,12,100.0,10,,,0.0,not
+question6,gpt,Choice Set,"['Stimme zu', 'Stimme eher zu', 'Stimme eher nicht zu', 'Stimme nicht zu']","['Agree', 'Rather agree', 'Rather disagree', 'Disagree']",100.0,12,100.0,12,,,0.0,not
+question6,gpt,Choice Set,"['Yes', 'Rather Yes', 'Rather No', 'No']","['Agree', 'Rather agree', 'Rather disagree', 'Disagree']",100.0,10,100.0,12,,,0.0,not
+question6,gpt,Formulation Key,formulation1,formulation2,100.0,34,100.0,32,,,0.0,not
+question6,gemini,Language,de,en,97.22222222222223,36,98.61111111111111,36,-0.8451542547285148,0.40090425866738966,-0.1992047682223985,not
+question6,gemini,Choice Set,"['Ja', 'Eher Ja', 'Eher Nein', 'Nein']","['1', '2', '3', '4']",91.66666666666667,12,100.0,24,-3.3665016461206907,0.0019019199912343255,-1.1902380714238077,significant
+question6,gemini,Choice Set,"['Ja', 'Eher Ja', 'Eher Nein', 'Nein']","['Stimme zu', 'Stimme eher zu', 'Stimme eher nicht zu', 'Stimme nicht zu']",91.66666666666667,12,100.0,12,-2.3452078799117135,0.028444002481045262,-0.9574271077563377,significant
+question6,gemini,Choice Set,"['Ja', 'Eher Ja', 'Eher Nein', 'Nein']","['Yes', 'Rather Yes', 'Rather No', 'No']",91.66666666666667,12,95.83333333333333,12,-0.9198662110077978,0.367619452643155,-0.37553380809940456,not
+question6,gemini,Choice Set,"['Ja', 'Eher Ja', 'Eher Nein', 'Nein']","['Agree', 'Rather agree', 'Rather disagree', 'Disagree']",91.66666666666667,12,100.0,12,-2.3452078799117135,0.028444002481045262,-0.9574271077563377,significant
+question6,gemini,Choice Set,"['1', '2', '3', '4']","['Stimme zu', 'Stimme eher zu', 'Stimme eher nicht zu', 'Stimme nicht zu']",100.0,24,100.0,12,,,0.0,not
+question6,gemini,Choice Set,"['1', '2', '3', '4']","['Yes', 'Rather Yes', 'Rather No', 'No']",100.0,24,95.83333333333333,12,2.129162589689511,0.04056525439371259,0.7527726527090819,significant
+question6,gemini,Choice Set,"['1', '2', '3', '4']","['Agree', 'Rather agree', 'Rather disagree', 'Disagree']",100.0,24,100.0,12,,,0.0,not
+question6,gemini,Choice Set,"['Stimme zu', 'Stimme eher zu', 'Stimme eher nicht zu', 'Stimme nicht zu']","['Yes', 'Rather Yes', 'Rather No', 'No']",100.0,12,95.83333333333333,12,1.4832396974191344,0.15219615864044372,0.6055300708194991,not
+question6,gemini,Choice Set,"['Stimme zu', 'Stimme eher zu', 'Stimme eher nicht zu', 'Stimme nicht zu']","['Agree', 'Rather agree', 'Rather disagree', 'Disagree']",100.0,12,100.0,12,,,0.0,not
+question6,gemini,Choice Set,"['Yes', 'Rather Yes', 'Rather No', 'No']","['Agree', 'Rather agree', 'Rather disagree', 'Disagree']",95.83333333333333,12,100.0,12,-1.4832396974191344,0.15219615864044372,-0.6055300708194991,not
+question6,gemini,Formulation Key,formulation1,formulation2,100.0,36,95.83333333333333,36,2.6457513110645934,0.010057931579232052,0.6236095644623242,significant
+question6,qwen,Language,de,en,100.0,36,97.91666666666667,36,1.7837651700316854,0.07879612387459986,0.4204374825912599,not
+question6,qwen,Choice Set,"['Ja', 'Eher Ja', 'Eher Nein', 'Nein']","['1', '2', '3', '4']",100.0,12,100.0,24,,,0.0,not
+question6,qwen,Choice Set,"['Ja', 'Eher Ja', 'Eher Nein', 'Nein']","['Stimme zu', 'Stimme eher zu', 'Stimme eher nicht zu', 'Stimme nicht zu']",100.0,12,100.0,12,,,0.0,not
+question6,qwen,Choice Set,"['Ja', 'Eher Ja', 'Eher Nein', 'Nein']","['Yes', 'Rather Yes', 'Rather No', 'No']",100.0,12,93.75,12,1.9148542155126764,0.06860342116250075,0.7817359599705717,not
+question6,qwen,Choice Set,"['Ja', 'Eher Ja', 'Eher Nein', 'Nein']","['Agree', 'Rather agree', 'Rather disagree', 'Disagree']",100.0,12,100.0,12,,,0.0,not
+question6,qwen,Choice Set,"['1', '2', '3', '4']","['Stimme zu', 'Stimme eher zu', 'Stimme eher nicht zu', 'Stimme nicht zu']",100.0,24,100.0,12,,,0.0,not
+question6,qwen,Choice Set,"['1', '2', '3', '4']","['Yes', 'Rather Yes', 'Rather No', 'No']",100.0,24,93.75,12,2.7487370837451075,0.009507644713429195,0.9718253158075502,significant
+question6,qwen,Choice Set,"['1', '2', '3', '4']","['Agree', 'Rather agree', 'Rather disagree', 'Disagree']",100.0,24,100.0,12,,,0.0,not
+question6,qwen,Choice Set,"['Stimme zu', 'Stimme eher zu', 'Stimme eher nicht zu', 'Stimme nicht zu']","['Yes', 'Rather Yes', 'Rather No', 'No']",100.0,12,93.75,12,1.9148542155126764,0.06860342116250075,0.7817359599705717,not
+question6,qwen,Choice Set,"['Stimme zu', 'Stimme eher zu', 'Stimme eher nicht zu', 'Stimme nicht zu']","['Agree', 'Rather agree', 'Rather disagree', 'Disagree']",100.0,12,100.0,12,,,0.0,not
+question6,qwen,Choice Set,"['Yes', 'Rather Yes', 'Rather No', 'No']","['Agree', 'Rather agree', 'Rather disagree', 'Disagree']",93.75,12,100.0,12,-1.9148542155126764,0.06860342116250075,-0.7817359599705717,not
+question6,qwen,Formulation Key,formulation1,formulation2,99.30555555555556,36,98.61111111111111,36,0.5829286622243901,0.5618145931120222,0.13739760333562287,not
+question6,deepseek,Language,de,en,100.0,36,100.0,36,,,0.0,not
+question6,deepseek,Choice Set,"['Ja', 'Eher Ja', 'Eher Nein', 'Nein']","['1', '2', '3', '4']",100.0,12,100.0,24,,,0.0,not
+question6,deepseek,Choice Set,"['Ja', 'Eher Ja', 'Eher Nein', 'Nein']","['Stimme zu', 'Stimme eher zu', 'Stimme eher nicht zu', 'Stimme nicht zu']",100.0,12,100.0,12,,,0.0,not
+question6,deepseek,Choice Set,"['Ja', 'Eher Ja', 'Eher Nein', 'Nein']","['Yes', 'Rather Yes', 'Rather No', 'No']",100.0,12,100.0,12,,,0.0,not
+question6,deepseek,Choice Set,"['Ja', 'Eher Ja', 'Eher Nein', 'Nein']","['Agree', 'Rather agree', 'Rather disagree', 'Disagree']",100.0,12,100.0,12,,,0.0,not
+question6,deepseek,Choice Set,"['1', '2', '3', '4']","['Stimme zu', 'Stimme eher zu', 'Stimme eher nicht zu', 'Stimme nicht zu']",100.0,24,100.0,12,,,0.0,not
+question6,deepseek,Choice Set,"['1', '2', '3', '4']","['Yes', 'Rather Yes', 'Rather No', 'No']",100.0,24,100.0,12,,,0.0,not
+question6,deepseek,Choice Set,"['1', '2', '3', '4']","['Agree', 'Rather agree', 'Rather disagree', 'Disagree']",100.0,24,100.0,12,,,0.0,not
+question6,deepseek,Choice Set,"['Stimme zu', 'Stimme eher zu', 'Stimme eher nicht zu', 'Stimme nicht zu']","['Yes', 'Rather Yes', 'Rather No', 'No']",100.0,12,100.0,12,,,0.0,not
+question6,deepseek,Choice Set,"['Stimme zu', 'Stimme eher zu', 'Stimme eher nicht zu', 'Stimme nicht zu']","['Agree', 'Rather agree', 'Rather disagree', 'Disagree']",100.0,12,100.0,12,,,0.0,not
+question6,deepseek,Choice Set,"['Yes', 'Rather Yes', 'Rather No', 'No']","['Agree', 'Rather agree', 'Rather disagree', 'Disagree']",100.0,12,100.0,12,,,0.0,not
+question6,deepseek,Formulation Key,formulation1,formulation2,100.0,36,100.0,36,,,0.0,not
+question7,gpt,Language,de,en,26.5625,32,39.285714285714285,35,-1.2849646152839238,0.2033647547520479,-0.31428203636796753,not
+question7,gpt,Choice Set,"['Ja', 'Eher Ja', 'Eher Nein', 'Nein']","['1', '2', '3', '4']",41.666666666666664,9,20.652173913043477,23,1.3867293509127607,0.1757433066165887,0.5452322350826352,not
+question7,gpt,Choice Set,"['Ja', 'Eher Ja', 'Eher Nein', 'Nein']","['Stimme zu', 'Stimme eher zu', 'Stimme eher nicht zu', 'Stimme nicht zu']",41.666666666666664,9,38.63636363636363,11,0.16737850579550123,0.8689383325322206,0.07523104372441995,not
+question7,gpt,Choice Set,"['Ja', 'Eher Ja', 'Eher Nein', 'Nein']","['Yes', 'Rather Yes', 'Rather No', 'No']",41.666666666666664,9,39.583333333333336,12,0.11544305277270415,0.9093053150669712,0.050905601371113454,not
+question7,gpt,Choice Set,"['Ja', 'Eher Ja', 'Eher Nein', 'Nein']","['Agree', 'Rather agree', 'Rather disagree', 'Disagree']",41.666666666666664,9,39.583333333333336,12,0.10918879067944515,0.9141977057877152,0.04814773101561652,not
+question7,gpt,Choice Set,"['1', '2', '3', '4']","['Stimme zu', 'Stimme eher zu', 'Stimme eher nicht zu', 'Stimme nicht zu']",20.652173913043477,23,38.63636363636363,11,-1.25664134620416,0.21797963101313744,-0.4606706491226205,not
+question7,gpt,Choice Set,"['1', '2', '3', '4']","['Yes', 'Rather Yes', 'Rather No', 'No']",20.652173913043477,23,39.583333333333336,12,-1.3471727120837513,0.18710300271636068,-0.4797364957068338,not
+question7,gpt,Choice Set,"['1', '2', '3', '4']","['Agree', 'Rather agree', 'Rather disagree', 'Disagree']",20.652173913043477,23,39.583333333333336,12,-1.3005548381613459,0.20242036160418891,-0.46313558383247905,not
+question7,gpt,Choice Set,"['Stimme zu', 'Stimme eher zu', 'Stimme eher nicht zu', 'Stimme nicht zu']","['Yes', 'Rather Yes', 'Rather No', 'No']",38.63636363636363,11,39.583333333333336,12,-0.05477116033826419,0.9568385170024787,-0.02286277245814033,not
+question7,gpt,Choice Set,"['Stimme zu', 'Stimme eher zu', 'Stimme eher nicht zu', 'Stimme nicht zu']","['Agree', 'Rather agree', 'Rather disagree', 'Disagree']",38.63636363636363,11,39.583333333333336,12,-0.05212550089821922,0.958921356572086,-0.021758411889441158,not
+question7,gpt,Choice Set,"['Yes', 'Rather Yes', 'Rather No', 'No']","['Agree', 'Rather agree', 'Rather disagree', 'Disagree']",39.583333333333336,12,39.583333333333336,12,0.0,1.0,0.0,not
+question7,gpt,Formulation Key,formulation2,formulation1,65.44117647058823,34,0.0,33,11.146659920309242,9.954501435869346e-17,2.7238659080799934,significant
+question7,gemini,Language,de,en,38.19444444444444,36,39.583333333333336,36,-0.18175381760052392,0.8563012186903812,-0.042839785643957774,not
+question7,gemini,Choice Set,"['Ja', 'Eher Ja', 'Eher Nein', 'Nein']","['1', '2', '3', '4']",50.0,12,31.25,24,1.61721508012528,0.11507362028964667,0.5717718748968655,not
+question7,gemini,Choice Set,"['Ja', 'Eher Ja', 'Eher Nein', 'Nein']","['Stimme zu', 'Stimme eher zu', 'Stimme eher nicht zu', 'Stimme nicht zu']",50.0,12,31.25,12,1.5173416165766194,0.14341992959140373,0.6194521210170792,not
+question7,gemini,Choice Set,"['Ja', 'Eher Ja', 'Eher Nein', 'Nein']","['Yes', 'Rather Yes', 'Rather No', 'No']",50.0,12,50.0,12,0.0,1.0,0.0,not
+question7,gemini,Choice Set,"['Ja', 'Eher Ja', 'Eher Nein', 'Nein']","['Agree', 'Rather agree', 'Rather disagree', 'Disagree']",50.0,12,39.583333333333336,12,0.8609528977727459,0.39855037641378666,0.3514825486856325,not
+question7,gemini,Choice Set,"['1', '2', '3', '4']","['Stimme zu', 'Stimme eher zu', 'Stimme eher nicht zu', 'Stimme nicht zu']",31.25,24,31.25,12,0.0,1.0,0.0,not
+question7,gemini,Choice Set,"['1', '2', '3', '4']","['Yes', 'Rather Yes', 'Rather No', 'No']",31.25,24,50.0,12,-1.61721508012528,0.11507362028964667,-0.5717718748968655,not
+question7,gemini,Choice Set,"['1', '2', '3', '4']","['Agree', 'Rather agree', 'Rather disagree', 'Disagree']",31.25,24,39.583333333333336,12,-0.6797026950921257,0.5012945702918069,-0.24031119244520716,not
+question7,gemini,Choice Set,"['Stimme zu', 'Stimme eher zu', 'Stimme eher nicht zu', 'Stimme nicht zu']","['Yes', 'Rather Yes', 'Rather No', 'No']",31.25,12,50.0,12,-1.5173416165766194,0.14341992959140373,-0.6194521210170792,not
+question7,gemini,Choice Set,"['Stimme zu', 'Stimme eher zu', 'Stimme eher nicht zu', 'Stimme nicht zu']","['Agree', 'Rather agree', 'Rather disagree', 'Disagree']",31.25,12,39.583333333333336,12,-0.6119379748850232,0.5468516187500858,-0.24982263211672903,not
+question7,gemini,Choice Set,"['Yes', 'Rather Yes', 'Rather No', 'No']","['Agree', 'Rather agree', 'Rather disagree', 'Disagree']",50.0,12,39.583333333333336,12,0.8609528977727459,0.39855037641378666,0.3514825486856325,not
+question7,gemini,Formulation Key,formulation1,formulation2,11.11111111111111,36,66.66666666666667,36,-14.675987714106856,4.7355506688637684e-23,-3.459163477751805,significant
+question7,qwen,Language,de,en,26.38888888888889,36,40.97222222222222,36,-2.4038998640429963,0.018872233290614493,-0.5666046317194074,significant
+question7,qwen,Choice Set,"['Ja', 'Eher Ja', 'Eher Nein', 'Nein']","['1', '2', '3', '4']",33.333333333333336,12,20.833333333333332,24,1.5583874449479596,0.1284021677100858,0.5509731650193399,not
+question7,qwen,Choice Set,"['Ja', 'Eher Ja', 'Eher Nein', 'Nein']","['Stimme zu', 'Stimme eher zu', 'Stimme eher nicht zu', 'Stimme nicht zu']",33.333333333333336,12,31.25,12,0.20934350048477557,0.8361064637717319,0.0854641261926305,not
+question7,qwen,Choice Set,"['Ja', 'Eher Ja', 'Eher Nein', 'Nein']","['Yes', 'Rather Yes', 'Rather No', 'No']",33.333333333333336,12,58.333333333333336,12,-2.3784749015162756,0.026492253825732656,-0.9710083124552246,significant
+question7,qwen,Choice Set,"['Ja', 'Eher Ja', 'Eher Nein', 'Nein']","['Agree', 'Rather agree', 'Rather disagree', 'Disagree']",33.333333333333336,12,37.5,12,-0.36404686577682216,0.7192984394891808,-0.14862151060211504,not
+question7,qwen,Choice Set,"['1', '2', '3', '4']","['Stimme zu', 'Stimme eher zu', 'Stimme eher nicht zu', 'Stimme nicht zu']",20.833333333333332,24,31.25,12,-1.415046187445153,0.16614923305463808,-0.500294377417319,not
+question7,qwen,Choice Set,"['1', '2', '3', '4']","['Yes', 'Rather Yes', 'Rather No', 'No']",20.833333333333332,24,58.333333333333336,12,-4.85164524037584,2.672559980369344e-05,-1.715315624690597,significant
+question7,qwen,Choice Set,"['1', '2', '3', '4']","['Agree', 'Rather agree', 'Rather disagree', 'Disagree']",20.833333333333332,24,37.5,12,-1.9963336357803487,0.053955858703586324,-0.7058105256855399,not
+question7,qwen,Choice Set,"['Stimme zu', 'Stimme eher zu', 'Stimme eher nicht zu', 'Stimme nicht zu']","['Yes', 'Rather Yes', 'Rather No', 'No']",31.25,12,58.333333333333336,12,-2.861717545946024,0.009066604914824592,-1.1682912959229057,significant
+question7,qwen,Choice Set,"['Stimme zu', 'Stimme eher zu', 'Stimme eher nicht zu', 'Stimme nicht zu']","['Agree', 'Rather agree', 'Rather disagree', 'Disagree']",31.25,12,37.5,12,-0.5956833971812706,0.5574658848869037,-0.24318672855696005,not
+question7,qwen,Choice Set,"['Yes', 'Rather Yes', 'Rather No', 'No']","['Agree', 'Rather agree', 'Rather disagree', 'Disagree']",58.333333333333336,12,37.5,12,1.8898223650461363,0.0720306444732322,0.7715167498104597,not
+question7,qwen,Formulation Key,formulation1,formulation2,18.75,36,48.611111111111114,36,-5.73588318150624,2.2764936938844213e-07,-1.3519606312456431,significant
+question7,deepseek,Language,de,en,35.416666666666664,36,34.72222222222222,36,0.09431084886410909,0.9251316729962953,0.02222928025709038,not
+question7,deepseek,Choice Set,"['Ja', 'Eher Ja', 'Eher Nein', 'Nein']","['1', '2', '3', '4']",41.666666666666664,12,27.083333333333332,24,1.279902897005099,0.20924379312131103,0.45251400886630627,not
+question7,deepseek,Choice Set,"['Ja', 'Eher Ja', 'Eher Nein', 'Nein']","['Stimme zu', 'Stimme eher zu', 'Stimme eher nicht zu', 'Stimme nicht zu']",41.666666666666664,12,35.416666666666664,12,0.45653154615160935,0.6524830871218585,0.18637822325921866,not
+question7,deepseek,Choice Set,"['Ja', 'Eher Ja', 'Eher Nein', 'Nein']","['Yes', 'Rather Yes', 'Rather No', 'No']",41.666666666666664,12,41.666666666666664,12,0.0,1.0,0.0,not
+question7,deepseek,Choice Set,"['Ja', 'Eher Ja', 'Eher Nein', 'Nein']","['Agree', 'Rather agree', 'Rather disagree', 'Disagree']",41.666666666666664,12,37.5,12,0.3402785236893601,0.7368744785718072,0.13891812557774838,not
+question7,deepseek,Choice Set,"['1', '2', '3', '4']","['Stimme zu', 'Stimme eher zu', 'Stimme eher nicht zu', 'Stimme nicht zu']",27.083333333333332,24,35.416666666666664,12,-0.6939949851389156,0.4924001551056594,-0.2453642800505922,not
+question7,deepseek,Choice Set,"['1', '2', '3', '4']","['Yes', 'Rather Yes', 'Rather No', 'No']",27.083333333333332,24,41.666666666666664,12,-1.353803264262512,0.18473050841451313,-0.47864173427625284,not
+question7,deepseek,Choice Set,"['1', '2', '3', '4']","['Agree', 'Rather agree', 'Rather disagree', 'Disagree']",27.083333333333332,24,37.5,12,-0.9280062187542745,0.3599458975695241,-0.32809974513221696,not
+question7,deepseek,Choice Set,"['Stimme zu', 'Stimme eher zu', 'Stimme eher nicht zu', 'Stimme nicht zu']","['Yes', 'Rather Yes', 'Rather No', 'No']",35.416666666666664,12,41.666666666666664,12,-0.49563854595684287,0.6250643218244323,-0.2023435890748759,not
+question7,deepseek,Choice Set,"['Stimme zu', 'Stimme eher zu', 'Stimme eher nicht zu', 'Stimme nicht zu']","['Agree', 'Rather agree', 'Rather disagree', 'Disagree']",35.416666666666664,12,37.5,12,-0.15548576840284847,0.8778561877216743,-0.06347679914192302,not
+question7,deepseek,Choice Set,"['Yes', 'Rather Yes', 'Rather No', 'No']","['Agree', 'Rather agree', 'Rather disagree', 'Disagree']",41.666666666666664,12,37.5,12,0.37796447300922703,0.7090792239477661,0.15430334996209183,not
+question7,deepseek,Formulation Key,formulation1,formulation2,11.11111111111111,36,59.02777777777778,36,-10.351848709490499,9.304980241724841e-16,-2.439954140099314,significant
+question8,gpt,Language,de,en,32.142857142857146,28,51.388888888888886,36,-1.9538137658433017,0.05523838580715192,-0.49231479357675806,not
+question8,gpt,Choice Set,"['Ja', 'Eher Ja', 'Eher Nein', 'Nein']","['1', '2', '3', '4']",63.888888888888886,9,34.375,24,1.836508074479995,0.07588868037817144,0.7178322012986624,not
+question8,gpt,Choice Set,"['Ja', 'Eher Ja', 'Eher Nein', 'Nein']","['Stimme zu', 'Stimme eher zu', 'Stimme eher nicht zu', 'Stimme nicht zu']",63.888888888888886,9,28.571428571428573,7,2.1832920324677456,0.046533575784025324,1.1002757633025546,significant
+question8,gpt,Choice Set,"['Ja', 'Eher Ja', 'Eher Nein', 'Nein']","['Yes', 'Rather Yes', 'Rather No', 'No']",63.888888888888886,9,47.916666666666664,12,1.009485580672113,0.3254257323786335,0.4451412997606737,not
+question8,gpt,Choice Set,"['Ja', 'Eher Ja', 'Eher Nein', 'Nein']","['Agree', 'Rather agree', 'Rather disagree', 'Disagree']",63.888888888888886,9,47.916666666666664,12,1.009485580672113,0.3254257323786335,0.4451412997606737,not
+question8,gpt,Choice Set,"['1', '2', '3', '4']","['Stimme zu', 'Stimme eher zu', 'Stimme eher nicht zu', 'Stimme nicht zu']",34.375,24,28.571428571428573,7,0.3204410532771717,0.7509316214989532,0.13764941075814582,not
+question8,gpt,Choice Set,"['1', '2', '3', '4']","['Yes', 'Rather Yes', 'Rather No', 'No']",34.375,24,47.916666666666664,12,-0.8999256096419072,0.3744898877178364,-0.31817175057061525,not
+question8,gpt,Choice Set,"['1', '2', '3', '4']","['Agree', 'Rather agree', 'Rather disagree', 'Disagree']",34.375,24,47.916666666666664,12,-0.8999256096419072,0.3744898877178364,-0.31817175057061525,not
+question8,gpt,Choice Set,"['Stimme zu', 'Stimme eher zu', 'Stimme eher nicht zu', 'Stimme nicht zu']","['Yes', 'Rather Yes', 'Rather No', 'No']",28.571428571428573,7,47.916666666666664,12,-1.091505631653601,0.29027909593093554,-0.5191144741941274,not
+question8,gpt,Choice Set,"['Stimme zu', 'Stimme eher zu', 'Stimme eher nicht zu', 'Stimme nicht zu']","['Agree', 'Rather agree', 'Rather disagree', 'Disagree']",28.571428571428573,7,47.916666666666664,12,-1.091505631653601,0.29027909593093554,-0.5191144741941274,not
+question8,gpt,Choice Set,"['Yes', 'Rather Yes', 'Rather No', 'No']","['Agree', 'Rather agree', 'Rather disagree', 'Disagree']",47.916666666666664,12,47.916666666666664,12,0.0,1.0,0.0,not
+question8,gpt,Formulation Key,formulation1,formulation2,15.625,32,70.3125,32,-7.5006172585500765,2.9132381397467465e-10,-1.8751543146375191,significant
+question8,gemini,Language,de,en,28.47222222222222,36,23.61111111111111,36,0.8012999546809989,0.42566964230741167,0.18886821057313583,not
+question8,gemini,Choice Set,"['Ja', 'Eher Ja', 'Eher Nein', 'Nein']","['1', '2', '3', '4']",50.0,12,16.666666666666668,24,3.6993965171626257,0.0007593772945004452,1.3079341817917942,significant
+question8,gemini,Choice Set,"['Ja', 'Eher Ja', 'Eher Nein', 'Nein']","['Stimme zu', 'Stimme eher zu', 'Stimme eher nicht zu', 'Stimme nicht zu']",50.0,12,20.833333333333332,12,2.6457513110645907,0.014765588382577284,1.0801234497346432,significant
+question8,gemini,Choice Set,"['Ja', 'Eher Ja', 'Eher Nein', 'Nein']","['Yes', 'Rather Yes', 'Rather No', 'No']",50.0,12,29.166666666666668,12,2.4188972342344837,0.02428728744270103,0.9875106606839942,significant
+question8,gemini,Choice Set,"['Ja', 'Eher Ja', 'Eher Nein', 'Nein']","['Agree', 'Rather agree', 'Rather disagree', 'Disagree']",50.0,12,22.916666666666668,12,2.8617175459460236,0.009066604914824606,1.1682912959229053,significant
+question8,gemini,Choice Set,"['1', '2', '3', '4']","['Stimme zu', 'Stimme eher zu', 'Stimme eher nicht zu', 'Stimme nicht zu']",16.666666666666668,24,20.833333333333332,12,-0.4518895929363764,0.6542182643588236,-0.15976709775647016,not
+question8,gemini,Choice Set,"['1', '2', '3', '4']","['Yes', 'Rather Yes', 'Rather No', 'No']",16.666666666666668,24,29.166666666666668,12,-1.5869840952317447,0.12177400982780749,-0.5610836076867821,not
+question8,gemini,Choice Set,"['1', '2', '3', '4']","['Agree', 'Rather agree', 'Rather disagree', 'Disagree']",16.666666666666668,24,22.916666666666668,12,-0.7496555682941202,0.45861818613835015,-0.26504326794751365,not
+question8,gemini,Choice Set,"['Stimme zu', 'Stimme eher zu', 'Stimme eher nicht zu', 'Stimme nicht zu']","['Yes', 'Rather Yes', 'Rather No', 'No']",20.833333333333332,12,29.166666666666668,12,-0.9198662110078001,0.36761945264315377,-0.37553380809940545,not
+question8,gemini,Choice Set,"['Stimme zu', 'Stimme eher zu', 'Stimme eher nicht zu', 'Stimme nicht zu']","['Agree', 'Rather agree', 'Rather disagree', 'Disagree']",20.833333333333332,12,22.916666666666668,12,-0.2110317818610877,0.8348050000893721,-0.08615336417833189,not
+question8,gemini,Choice Set,"['Yes', 'Rather Yes', 'Rather No', 'No']","['Agree', 'Rather agree', 'Rather disagree', 'Disagree']",29.166666666666668,12,22.916666666666668,12,0.8829085791038155,0.38683181866928407,0.36044591805501097,not
+question8,gemini,Formulation Key,formulation1,formulation2,12.5,36,39.583333333333336,36,-5.24515280110854,1.5843657736626475e-06,-1.2362943713411543,significant
+question8,qwen,Language,de,en,25.0,36,36.111111111111114,36,-2.021779226541789,0.04702323340963174,-0.47653793371659736,significant
+question8,qwen,Choice Set,"['Ja', 'Eher Ja', 'Eher Nein', 'Nein']","['1', '2', '3', '4']",37.5,12,15.625,24,3.7735018536256533,0.000616608398780574,1.3341343747593533,significant
+question8,qwen,Choice Set,"['Ja', 'Eher Ja', 'Eher Nein', 'Nein']","['Stimme zu', 'Stimme eher zu', 'Stimme eher nicht zu', 'Stimme nicht zu']",37.5,12,27.083333333333332,12,1.2832406581878348,0.21276145051523337,0.523880804958906,not
+question8,qwen,Choice Set,"['Ja', 'Eher Ja', 'Eher Nein', 'Nein']","['Yes', 'Rather Yes', 'Rather No', 'No']",37.5,12,50.0,12,-1.2535663410560176,0.2231582349968536,-0.511766315719159,not
+question8,qwen,Choice Set,"['Ja', 'Eher Ja', 'Eher Nein', 'Nein']","['Agree', 'Rather agree', 'Rather disagree', 'Disagree']",37.5,12,37.5,12,0.0,1.0,0.0,not
+question8,qwen,Choice Set,"['1', '2', '3', '4']","['Stimme zu', 'Stimme eher zu', 'Stimme eher nicht zu', 'Stimme nicht zu']",15.625,24,27.083333333333332,12,-2.328151596239485,0.025988452721212932,-0.8231258906656125,significant
+question8,qwen,Choice Set,"['1', '2', '3', '4']","['Yes', 'Rather Yes', 'Rather No', 'No']",15.625,24,50.0,12,-5.401602073879471,5.167129378499322e-06,-1.9097547278557465,significant
+question8,qwen,Choice Set,"['1', '2', '3', '4']","['Agree', 'Rather agree', 'Rather disagree', 'Disagree']",15.625,24,37.5,12,-3.1775729255155887,0.0031563595555246862,-1.1234416816734247,significant
+question8,qwen,Choice Set,"['Stimme zu', 'Stimme eher zu', 'Stimme eher nicht zu', 'Stimme nicht zu']","['Yes', 'Rather Yes', 'Rather No', 'No']",27.083333333333332,12,50.0,12,-2.5605956819274343,0.017832168550433364,-1.0453588097160245,significant
+question8,qwen,Choice Set,"['Stimme zu', 'Stimme eher zu', 'Stimme eher nicht zu', 'Stimme nicht zu']","['Agree', 'Rather agree', 'Rather disagree', 'Disagree']",27.083333333333332,12,37.5,12,-1.0726731165936627,0.29504383632365133,-0.43791696607590685,not
+question8,qwen,Choice Set,"['Yes', 'Rather Yes', 'Rather No', 'No']","['Agree', 'Rather agree', 'Rather disagree', 'Disagree']",50.0,12,37.5,12,1.1055415967851334,0.2808688699053927,0.45133546692422,not
+question8,qwen,Formulation Key,formulation1,formulation2,20.833333333333332,36,40.27777777777778,36,-3.772580700956339,0.0003347675982193607,-0.8892057987399086,significant
+question8,deepseek,Language,de,en,20.833333333333332,36,23.61111111111111,36,-0.461968217679898,0.6455366967294855,-0.10888695313803966,not
+question8,deepseek,Choice Set,"['Ja', 'Eher Ja', 'Eher Nein', 'Nein']","['1', '2', '3', '4']",27.083333333333332,12,18.75,24,0.8157471575656593,0.4203230851522637,0.2884101734241643,not
+question8,deepseek,Choice Set,"['Ja', 'Eher Ja', 'Eher Nein', 'Nein']","['Stimme zu', 'Stimme eher zu', 'Stimme eher nicht zu', 'Stimme nicht zu']",27.083333333333332,12,12.5,12,1.5017423632311275,0.14738162349702116,0.6130837525062695,not
+question8,deepseek,Choice Set,"['Ja', 'Eher Ja', 'Eher Nein', 'Nein']","['Yes', 'Rather Yes', 'Rather No', 'No']",27.083333333333332,12,31.25,12,-0.43738352486814935,0.6660968536972359,-0.1785610763044805,not
+question8,deepseek,Choice Set,"['Ja', 'Eher Ja', 'Eher Nein', 'Nein']","['Agree', 'Rather agree', 'Rather disagree', 'Disagree']",27.083333333333332,12,25.0,12,0.23278142562976653,0.8180831671585309,0.09503261906509307,not
+question8,deepseek,Choice Set,"['1', '2', '3', '4']","['Stimme zu', 'Stimme eher zu', 'Stimme eher nicht zu', 'Stimme nicht zu']",18.75,24,12.5,12,0.6251436616499838,0.5360502872559252,0.22102166118424607,not
+question8,deepseek,Choice Set,"['1', '2', '3', '4']","['Yes', 'Rather Yes', 'Rather No', 'No']",18.75,24,31.25,12,-1.261207070569223,0.2158195803918533,-0.44590403603995904,not
+question8,deepseek,Choice Set,"['1', '2', '3', '4']","['Agree', 'Rather agree', 'Rather disagree', 'Disagree']",18.75,24,25.0,12,-0.6478835438717,0.521411648637683,-0.2290614236454256,not
+question8,deepseek,Choice Set,"['Stimme zu', 'Stimme eher zu', 'Stimme eher nicht zu', 'Stimme nicht zu']","['Yes', 'Rather Yes', 'Rather No', 'No']",12.5,12,31.25,12,-2.074692224424374,0.04991715995740219,-0.8469895538599199,significant
+question8,deepseek,Choice Set,"['Stimme zu', 'Stimme eher zu', 'Stimme eher nicht zu', 'Stimme nicht zu']","['Agree', 'Rather agree', 'Rather disagree', 'Disagree']",12.5,12,25.0,12,-1.4832396974191329,0.15219615864044428,-0.6055300708194983,not
+question8,deepseek,Choice Set,"['Yes', 'Rather Yes', 'Rather No', 'No']","['Agree', 'Rather agree', 'Rather disagree', 'Disagree']",31.25,12,25.0,12,0.7608859102526823,0.4548039310997182,0.31063037209869776,not
+question8,deepseek,Formulation Key,formulation1,formulation2,15.972222222222221,36,28.47222222222222,36,-2.142683625132023,0.03561739248404918,-0.505035373756076,significant
+question9,gpt,Language,de,en,62.903225806451616,31,93.05555555555556,36,-5.559040192980216,5.459477728399497e-07,-1.3620878473334117,significant
+question9,gpt,Choice Set,"['Ja', 'Eher Ja', 'Eher Nein', 'Nein']","['1', '2', '3', '4']",77.77777777777777,9,69.79166666666667,24,0.6144248519245387,0.5434181993961489,0.24015900072450275,not
+question9,gpt,Choice Set,"['Ja', 'Eher Ja', 'Eher Nein', 'Nein']","['Stimme zu', 'Stimme eher zu', 'Stimme eher nicht zu', 'Stimme nicht zu']",77.77777777777777,9,77.5,10,0.03572635021951515,0.9719167163284567,0.01641512510533487,not
+question9,gpt,Choice Set,"['Ja', 'Eher Ja', 'Eher Nein', 'Nein']","['Yes', 'Rather Yes', 'Rather No', 'No']",77.77777777777777,9,81.25,12,-0.774923021339066,0.44792257072998454,-0.34170893328032786,not
+question9,gpt,Choice Set,"['Ja', 'Eher Ja', 'Eher Nein', 'Nein']","['Agree', 'Rather agree', 'Rather disagree', 'Disagree']",77.77777777777777,9,97.91666666666667,12,-5.926101696619909,1.050785500414622e-05,-2.61316522222237,significant
+question9,gpt,Choice Set,"['1', '2', '3', '4']","['Stimme zu', 'Stimme eher zu', 'Stimme eher nicht zu', 'Stimme nicht zu']",69.79166666666667,24,77.5,10,-0.5940207314520676,0.5566746945775196,-0.22358128088968077,not
+question9,gpt,Choice Set,"['1', '2', '3', '4']","['Yes', 'Rather Yes', 'Rather No', 'No']",69.79166666666667,24,81.25,12,-1.0082437568316585,0.3204593737965559,-0.3564679987723331,not
+question9,gpt,Choice Set,"['1', '2', '3', '4']","['Agree', 'Rather agree', 'Rather disagree', 'Disagree']",69.79166666666667,24,97.91666666666667,12,-2.5046653507728704,0.017214619195511684,-0.8855329270672399,significant
+question9,gpt,Choice Set,"['Stimme zu', 'Stimme eher zu', 'Stimme eher nicht zu', 'Stimme nicht zu']","['Yes', 'Rather Yes', 'Rather No', 'No']",77.5,10,81.25,12,-0.5179346810458866,0.6101860719588605,-0.2217663812863718,not
+question9,gpt,Choice Set,"['Stimme zu', 'Stimme eher zu', 'Stimme eher nicht zu', 'Stimme nicht zu']","['Agree', 'Rather agree', 'Rather disagree', 'Disagree']",77.5,10,97.91666666666667,12,-3.0509023955886256,0.006308453851873248,-1.3063183615380833,significant
+question9,gpt,Choice Set,"['Yes', 'Rather Yes', 'Rather No', 'No']","['Agree', 'Rather agree', 'Rather disagree', 'Disagree']",81.25,12,97.91666666666667,12,-4.3042206947917645,0.0002869742111879995,-1.7571907404279186,significant
+question9,gpt,Formulation Key,formulation1,formulation2,81.06060606060606,33,77.20588235294117,34,0.5882068190759343,0.5584317819800799,0.14373781140141437,not
+question9,gemini,Language,de,en,74.30555555555556,36,83.33333333333333,36,-2.9428425218393057,0.004408228494370069,-0.6936346343855644,significant
+question9,gemini,Choice Set,"['Ja', 'Eher Ja', 'Eher Nein', 'Nein']","['1', '2', '3', '4']",75.0,12,70.83333333333333,24,1.0150384378451056,0.3172566226025498,0.3588702812826371,not
+question9,gemini,Choice Set,"['Ja', 'Eher Ja', 'Eher Nein', 'Nein']","['Stimme zu', 'Stimme eher zu', 'Stimme eher nicht zu', 'Stimme nicht zu']",75.0,12,81.25,12,-1.9148542155126764,0.06860342116250075,-0.7817359599705717,not
+question9,gemini,Choice Set,"['Ja', 'Eher Ja', 'Eher Nein', 'Nein']","['Yes', 'Rather Yes', 'Rather No', 'No']",75.0,12,75.0,12,,,0.0,not
+question9,gemini,Choice Set,"['Ja', 'Eher Ja', 'Eher Nein', 'Nein']","['Agree', 'Rather agree', 'Rather disagree', 'Disagree']",75.0,12,100.0,12,-inf,0.0,0.0,significant
+question9,gemini,Choice Set,"['1', '2', '3', '4']","['Stimme zu', 'Stimme eher zu', 'Stimme eher nicht zu', 'Stimme nicht zu']",70.83333333333333,24,81.25,12,-2.2198054491067594,0.03320452741403385,-0.7848197429891196,significant
+question9,gemini,Choice Set,"['1', '2', '3', '4']","['Yes', 'Rather Yes', 'Rather No', 'No']",70.83333333333333,24,75.0,12,-1.0150384378451056,0.3172566226025498,-0.3588702812826371,not
+question9,gemini,Choice Set,"['1', '2', '3', '4']","['Agree', 'Rather agree', 'Rather disagree', 'Disagree']",70.83333333333333,24,100.0,12,-7.105269064915733,3.2879348594773715e-08,-2.5120919689784573,significant
+question9,gemini,Choice Set,"['Stimme zu', 'Stimme eher zu', 'Stimme eher nicht zu', 'Stimme nicht zu']","['Yes', 'Rather Yes', 'Rather No', 'No']",81.25,12,75.0,12,1.9148542155126764,0.06860342116250075,0.7817359599705717,not
+question9,gemini,Choice Set,"['Stimme zu', 'Stimme eher zu', 'Stimme eher nicht zu', 'Stimme nicht zu']","['Agree', 'Rather agree', 'Rather disagree', 'Disagree']",81.25,12,100.0,12,-5.744562646538029,8.87156084741013e-06,-2.345207879911715,significant
+question9,gemini,Choice Set,"['Yes', 'Rather Yes', 'Rather No', 'No']","['Agree', 'Rather agree', 'Rather disagree', 'Disagree']",75.0,12,100.0,12,-inf,0.0,0.0,significant
+question9,gemini,Formulation Key,formulation1,formulation2,77.77777777777777,36,79.86111111111111,36,-0.642529405317182,0.5226284629555635,-0.15144563320384635,not
+question9,qwen,Language,de,en,52.77777777777778,36,89.58333333333333,36,-6.964388944445275,1.4502544095417465e-09,-1.641522216479292,significant
+question9,qwen,Choice Set,"['Ja', 'Eher Ja', 'Eher Nein', 'Nein']","['1', '2', '3', '4']",66.66666666666667,12,63.541666666666664,24,0.2488589625516006,0.8049670526380215,0.08798492998964294,not
+question9,qwen,Choice Set,"['Ja', 'Eher Ja', 'Eher Nein', 'Nein']","['Stimme zu', 'Stimme eher zu', 'Stimme eher nicht zu', 'Stimme nicht zu']",66.66666666666667,12,62.5,12,0.48377944684689733,0.6333229661303186,0.1975021321367991,not
+question9,qwen,Choice Set,"['Ja', 'Eher Ja', 'Eher Nein', 'Nein']","['Yes', 'Rather Yes', 'Rather No', 'No']",66.66666666666667,12,75.0,12,-1.483239697419132,0.15219615864044436,-0.6055300708194981,not
+question9,qwen,Choice Set,"['Ja', 'Eher Ja', 'Eher Nein', 'Nein']","['Agree', 'Rather agree', 'Rather disagree', 'Disagree']",66.66666666666667,12,95.83333333333333,12,-4.643274706497559,0.00012538871276892365,-1.8956089610817237,significant
+question9,qwen,Choice Set,"['1', '2', '3', '4']","['Stimme zu', 'Stimme eher zu', 'Stimme eher nicht zu', 'Stimme nicht zu']",63.541666666666664,24,62.5,12,0.08157770948891006,0.9354608746696682,0.028842075786637233,not
+question9,qwen,Choice Set,"['1', '2', '3', '4']","['Yes', 'Rather Yes', 'Rather No', 'No']",63.541666666666664,24,75.0,12,-0.9603201289445316,0.34367411340636356,-0.339524437643309,not
+question9,qwen,Choice Set,"['1', '2', '3', '4']","['Agree', 'Rather agree', 'Rather disagree', 'Disagree']",63.541666666666664,24,95.83333333333333,12,-2.670674787413587,0.011529012749083798,-0.9442261262620445,significant
+question9,qwen,Choice Set,"['Stimme zu', 'Stimme eher zu', 'Stimme eher nicht zu', 'Stimme nicht zu']","['Yes', 'Rather Yes', 'Rather No', 'No']",62.5,12,75.0,12,-1.9148542155126764,0.06860342116250075,-0.7817359599705717,not
+question9,qwen,Choice Set,"['Stimme zu', 'Stimme eher zu', 'Stimme eher nicht zu', 'Stimme nicht zu']","['Agree', 'Rather agree', 'Rather disagree', 'Disagree']",62.5,12,95.83333333333333,12,-4.690415759823429,0.00011177738563176737,-1.9148542155126762,significant
+question9,qwen,Choice Set,"['Yes', 'Rather Yes', 'Rather No', 'No']","['Agree', 'Rather agree', 'Rather disagree', 'Disagree']",75.0,12,95.83333333333333,12,-7.416198487095662,2.0282847908308264e-07,-3.0276503540974913,significant
+question9,qwen,Formulation Key,formulation1,formulation2,68.75,36,73.61111111111111,36,-0.7094895373300889,0.4803773693385607,-0.16722828767567066,not
+question9,deepseek,Language,de,en,57.638888888888886,36,75.69444444444444,36,-2.8914397846520252,0.005104653423948157,-0.6815188930400059,significant
+question9,deepseek,Choice Set,"['Ja', 'Eher Ja', 'Eher Nein', 'Nein']","['1', '2', '3', '4']",64.58333333333333,12,57.291666666666664,24,0.6216536488307745,0.5383159524191581,0.21978775531880063,not
+question9,deepseek,Choice Set,"['Ja', 'Eher Ja', 'Eher Nein', 'Nein']","['Stimme zu', 'Stimme eher zu', 'Stimme eher nicht zu', 'Stimme nicht zu']",64.58333333333333,12,62.5,12,0.16947161010580403,0.8669743536920405,0.06918649510785282,not
+question9,deepseek,Choice Set,"['Ja', 'Eher Ja', 'Eher Nein', 'Nein']","['Yes', 'Rather Yes', 'Rather No', 'No']",64.58333333333333,12,77.08333333333333,12,-1.3603188191448452,0.1875054793484403,-0.5553478324017039,not
+question9,deepseek,Choice Set,"['Ja', 'Eher Ja', 'Eher Nein', 'Nein']","['Agree', 'Rather agree', 'Rather disagree', 'Disagree']",64.58333333333333,12,81.25,12,-1.7495340994725974,0.09413716496681827,-0.714244305217922,not
+question9,deepseek,Choice Set,"['1', '2', '3', '4']","['Stimme zu', 'Stimme eher zu', 'Stimme eher nicht zu', 'Stimme nicht zu']",57.291666666666664,24,62.5,12,-0.4513207181221339,0.6546240633355824,-0.15956597013707163,not
+question9,deepseek,Choice Set,"['1', '2', '3', '4']","['Yes', 'Rather Yes', 'Rather No', 'No']",57.291666666666664,24,77.08333333333333,12,-1.9711435194565772,0.05689109517979871,-0.6969044746498316,not
+question9,deepseek,Choice Set,"['1', '2', '3', '4']","['Agree', 'Rather agree', 'Rather disagree', 'Disagree']",57.291666666666664,24,81.25,12,-2.350670721683893,0.02467929816338211,-0.8310876038196783,significant
+question9,deepseek,Choice Set,"['Stimme zu', 'Stimme eher zu', 'Stimme eher nicht zu', 'Stimme nicht zu']","['Yes', 'Rather Yes', 'Rather No', 'No']",62.5,12,77.08333333333333,12,-1.6798778315091278,0.10712786959853024,-0.6858072529017427,not
+question9,deepseek,Choice Set,"['Stimme zu', 'Stimme eher zu', 'Stimme eher nicht zu', 'Stimme nicht zu']","['Agree', 'Rather agree', 'Rather disagree', 'Disagree']",62.5,12,81.25,12,-2.074692224424374,0.04991715995740219,-0.8469895538599199,significant
+question9,deepseek,Choice Set,"['Yes', 'Rather Yes', 'Rather No', 'No']","['Agree', 'Rather agree', 'Rather disagree', 'Disagree']",77.08333333333333,12,81.25,12,-1.076055173697942,0.2935620234751727,-0.43929768510698003,not
+question9,deepseek,Formulation Key,formulation1,formulation2,60.416666666666664,36,72.91666666666667,36,-1.9422808987940863,0.056127252124506005,-0.4577999981688003,not
+question10,gpt,Language,de,en,100.0,32,99.28571428571429,35,0.9555530600498648,0.3428385153028731,0.23371317622139934,not
+question10,gpt,Choice Set,"['Ja', 'Eher Ja', 'Eher Nein', 'Nein']","['1', '2', '3', '4']",100.0,8,100.0,24,,,0.0,not
+question10,gpt,Choice Set,"['Ja', 'Eher Ja', 'Eher Nein', 'Nein']","['Stimme zu', 'Stimme eher zu', 'Stimme eher nicht zu', 'Stimme nicht zu']",100.0,8,100.0,12,,,0.0,not
+question10,gpt,Choice Set,"['Ja', 'Eher Ja', 'Eher Nein', 'Nein']","['Yes', 'Rather Yes', 'Rather No', 'No']",100.0,8,97.72727272727273,11,0.8460434230488447,0.40927995231026904,0.39312269655344706,not
+question10,gpt,Choice Set,"['Ja', 'Eher Ja', 'Eher Nein', 'Nein']","['Agree', 'Rather agree', 'Rather disagree', 'Disagree']",100.0,8,100.0,12,,,0.0,not
+question10,gpt,Choice Set,"['1', '2', '3', '4']","['Stimme zu', 'Stimme eher zu', 'Stimme eher nicht zu', 'Stimme nicht zu']",100.0,24,100.0,12,,,0.0,not
+question10,gpt,Choice Set,"['1', '2', '3', '4']","['Yes', 'Rather Yes', 'Rather No', 'No']",100.0,24,97.72727272727273,11,1.5042796092672166,0.14202098209555175,0.5477225575051645,not
+question10,gpt,Choice Set,"['1', '2', '3', '4']","['Agree', 'Rather agree', 'Rather disagree', 'Disagree']",100.0,24,100.0,12,,,0.0,not
+question10,gpt,Choice Set,"['Stimme zu', 'Stimme eher zu', 'Stimme eher nicht zu', 'Stimme nicht zu']","['Yes', 'Rather Yes', 'Rather No', 'No']",100.0,12,97.72727272727273,11,1.0467340511863732,0.30712132178861273,0.4369314487526502,not
+question10,gpt,Choice Set,"['Stimme zu', 'Stimme eher zu', 'Stimme eher nicht zu', 'Stimme nicht zu']","['Agree', 'Rather agree', 'Rather disagree', 'Disagree']",100.0,12,100.0,12,,,0.0,not
+question10,gpt,Choice Set,"['Yes', 'Rather Yes', 'Rather No', 'No']","['Agree', 'Rather agree', 'Rather disagree', 'Disagree']",97.72727272727273,11,100.0,12,-1.0467340511863732,0.30712132178861273,-0.4369314487526502,not
+question10,gpt,Formulation Key,formulation2,formulation1,100.0,35,99.21875,32,1.046580050736638,0.2991696165757842,0.25597693948554645,not
+question10,gemini,Language,de,en,93.75,36,90.97222222222223,36,1.016469543126264,0.31290631096344457,0.23958416893805773,not
+question10,gemini,Choice Set,"['Ja', 'Eher Ja', 'Eher Nein', 'Nein']","['1', '2', '3', '4']",85.41666666666667,12,97.91666666666667,24,-3.78362121170767,0.0005992601061865821,-1.3377121081198775,significant
+question10,gemini,Choice Set,"['Ja', 'Eher Ja', 'Eher Nein', 'Nein']","['Stimme zu', 'Stimme eher zu', 'Stimme eher nicht zu', 'Stimme nicht zu']",85.41666666666667,12,97.91666666666667,12,-2.934057881530955,0.007679868437765446,-1.1978241142570358,significant
+question10,gemini,Choice Set,"['Ja', 'Eher Ja', 'Eher Nein', 'Nein']","['Yes', 'Rather Yes', 'Rather No', 'No']",85.41666666666667,12,77.08333333333333,12,1.9560385876873057,0.06327597531014649,0.7985494095046914,not
+question10,gemini,Choice Set,"['Ja', 'Eher Ja', 'Eher Nein', 'Nein']","['Agree', 'Rather agree', 'Rather disagree', 'Disagree']",85.41666666666667,12,97.91666666666667,12,-2.934057881530955,0.007679868437765446,-1.1978241142570358,significant
+question10,gemini,Choice Set,"['1', '2', '3', '4']","['Stimme zu', 'Stimme eher zu', 'Stimme eher nicht zu', 'Stimme nicht zu']",97.91666666666667,24,97.91666666666667,12,0.0,1.0,0.0,not
+question10,gemini,Choice Set,"['1', '2', '3', '4']","['Yes', 'Rather Yes', 'Rather No', 'No']",97.91666666666667,24,77.08333333333333,12,8.287754140107486,1.132208617582879e-09,2.9301635766384435,significant
+question10,gemini,Choice Set,"['1', '2', '3', '4']","['Agree', 'Rather agree', 'Rather disagree', 'Disagree']",97.91666666666667,24,97.91666666666667,12,0.0,1.0,0.0,not
+question10,gemini,Choice Set,"['Stimme zu', 'Stimme eher zu', 'Stimme eher nicht zu', 'Stimme nicht zu']","['Yes', 'Rather Yes', 'Rather No', 'No']",97.91666666666667,12,77.08333333333333,12,7.071067811865479,4.2984787760293587e-07,2.8867513459481304,significant
+question10,gemini,Choice Set,"['Stimme zu', 'Stimme eher zu', 'Stimme eher nicht zu', 'Stimme nicht zu']","['Agree', 'Rather agree', 'Rather disagree', 'Disagree']",97.91666666666667,12,97.91666666666667,12,0.0,1.0,0.0,not
+question10,gemini,Choice Set,"['Yes', 'Rather Yes', 'Rather No', 'No']","['Agree', 'Rather agree', 'Rather disagree', 'Disagree']",77.08333333333333,12,97.91666666666667,12,-7.071067811865479,4.2984787760293587e-07,-2.8867513459481304,significant
+question10,gemini,Formulation Key,formulation1,formulation2,91.66666666666667,36,93.05555555555556,36,-0.5054448066354461,0.614834311910933,-0.11913448342914905,not
+question10,qwen,Language,de,en,100.0,36,96.52777777777777,36,2.375954816557462,0.020244494885721224,0.560017920860207,significant
+question10,qwen,Choice Set,"['Ja', 'Eher Ja', 'Eher Nein', 'Nein']","['1', '2', '3', '4']",100.0,12,100.0,24,,,0.0,not
+question10,qwen,Choice Set,"['Ja', 'Eher Ja', 'Eher Nein', 'Nein']","['Stimme zu', 'Stimme eher zu', 'Stimme eher nicht zu', 'Stimme nicht zu']",100.0,12,100.0,12,,,0.0,not
+question10,qwen,Choice Set,"['Ja', 'Eher Ja', 'Eher Nein', 'Nein']","['Yes', 'Rather Yes', 'Rather No', 'No']",100.0,12,89.58333333333333,12,2.8030595529069418,0.010363303957022993,1.1443442705426592,significant
+question10,qwen,Choice Set,"['Ja', 'Eher Ja', 'Eher Nein', 'Nein']","['Agree', 'Rather agree', 'Rather disagree', 'Disagree']",100.0,12,100.0,12,,,0.0,not
+question10,qwen,Choice Set,"['1', '2', '3', '4']","['Stimme zu', 'Stimme eher zu', 'Stimme eher nicht zu', 'Stimme nicht zu']",100.0,24,100.0,12,,,0.0,not
+question10,qwen,Choice Set,"['1', '2', '3', '4']","['Yes', 'Rather Yes', 'Rather No', 'No']",100.0,24,89.58333333333333,12,4.023739080814784,0.00030250367329328866,1.42260659488473,significant
+question10,qwen,Choice Set,"['1', '2', '3', '4']","['Agree', 'Rather agree', 'Rather disagree', 'Disagree']",100.0,24,100.0,12,,,0.0,not
+question10,qwen,Choice Set,"['Stimme zu', 'Stimme eher zu', 'Stimme eher nicht zu', 'Stimme nicht zu']","['Yes', 'Rather Yes', 'Rather No', 'No']",100.0,12,89.58333333333333,12,2.8030595529069418,0.010363303957022993,1.1443442705426592,significant
+question10,qwen,Choice Set,"['Stimme zu', 'Stimme eher zu', 'Stimme eher nicht zu', 'Stimme nicht zu']","['Agree', 'Rather agree', 'Rather disagree', 'Disagree']",100.0,12,100.0,12,,,0.0,not
+question10,qwen,Choice Set,"['Yes', 'Rather Yes', 'Rather No', 'No']","['Agree', 'Rather agree', 'Rather disagree', 'Disagree']",89.58333333333333,12,100.0,12,-2.8030595529069418,0.010363303957022993,-1.1443442705426592,significant
+question10,qwen,Formulation Key,formulation1,formulation2,97.22222222222223,36,99.30555555555556,36,-1.3901493939225757,0.16888826714176863,-0.32766135443500743,not
+question10,deepseek,Language,de,en,98.61111111111111,36,97.91666666666667,36,0.4577999981687989,0.6485140361181576,0.10790449437744892,not
+question10,deepseek,Choice Set,"['Ja', 'Eher Ja', 'Eher Nein', 'Nein']","['1', '2', '3', '4']",97.91666666666667,12,97.91666666666667,24,0.0,1.0,0.0,not
+question10,deepseek,Choice Set,"['Ja', 'Eher Ja', 'Eher Nein', 'Nein']","['Stimme zu', 'Stimme eher zu', 'Stimme eher nicht zu', 'Stimme nicht zu']",97.91666666666667,12,100.0,12,-0.9999999999999979,0.3281832618806716,-0.40824829046386213,not
+question10,deepseek,Choice Set,"['Ja', 'Eher Ja', 'Eher Nein', 'Nein']","['Yes', 'Rather Yes', 'Rather No', 'No']",97.91666666666667,12,95.83333333333333,12,0.5956833971812734,0.557465884886902,0.24318672855696116,not
+question10,deepseek,Choice Set,"['Ja', 'Eher Ja', 'Eher Nein', 'Nein']","['Agree', 'Rather agree', 'Rather disagree', 'Disagree']",97.91666666666667,12,100.0,12,-0.9999999999999979,0.3281832618806716,-0.40824829046386213,not
+question10,deepseek,Choice Set,"['1', '2', '3', '4']","['Stimme zu', 'Stimme eher zu', 'Stimme eher nicht zu', 'Stimme nicht zu']",97.91666666666667,24,100.0,12,-1.0150384378451025,0.31725662260255116,-0.358870281282636,not
+question10,deepseek,Choice Set,"['1', '2', '3', '4']","['Yes', 'Rather Yes', 'Rather No', 'No']",97.91666666666667,24,95.83333333333333,12,0.7346308866924564,0.46760115881005015,0.2597312408246611,not
+question10,deepseek,Choice Set,"['1', '2', '3', '4']","['Agree', 'Rather agree', 'Rather disagree', 'Disagree']",97.91666666666667,24,100.0,12,-1.0150384378451025,0.31725662260255116,-0.358870281282636,not
+question10,deepseek,Choice Set,"['Stimme zu', 'Stimme eher zu', 'Stimme eher nicht zu', 'Stimme nicht zu']","['Yes', 'Rather Yes', 'Rather No', 'No']",100.0,12,95.83333333333333,12,1.4832396974191344,0.15219615864044372,0.6055300708194991,not
+question10,deepseek,Choice Set,"['Stimme zu', 'Stimme eher zu', 'Stimme eher nicht zu', 'Stimme nicht zu']","['Agree', 'Rather agree', 'Rather disagree', 'Disagree']",100.0,12,100.0,12,,,0.0,not
+question10,deepseek,Choice Set,"['Yes', 'Rather Yes', 'Rather No', 'No']","['Agree', 'Rather agree', 'Rather disagree', 'Disagree']",95.83333333333333,12,100.0,12,-1.4832396974191344,0.15219615864044372,-0.6055300708194991,not
+question10,deepseek,Formulation Key,formulation1,formulation2,96.52777777777777,36,100.0,36,-2.375954816557462,0.020244494885721224,-0.560017920860207,significant
+question11,gpt,Language,de,en,100.0,32,100.0,35,,,0.0,not
+question11,gpt,Choice Set,"['1', '2', '3', '4']","['Stimme zu', 'Stimme eher zu', 'Stimme eher nicht zu', 'Stimme nicht zu']",100.0,24,100.0,12,,,0.0,not
+question11,gpt,Choice Set,"['1', '2', '3', '4']","['Ja', 'Eher Ja', 'Eher Nein', 'Nein']",100.0,24,100.0,8,,,0.0,not
+question11,gpt,Choice Set,"['1', '2', '3', '4']","['Yes', 'Rather Yes', 'Rather No', 'No']",100.0,24,100.0,11,,,0.0,not
+question11,gpt,Choice Set,"['1', '2', '3', '4']","['Agree', 'Rather agree', 'Rather disagree', 'Disagree']",100.0,24,100.0,12,,,0.0,not
+question11,gpt,Choice Set,"['Stimme zu', 'Stimme eher zu', 'Stimme eher nicht zu', 'Stimme nicht zu']","['Ja', 'Eher Ja', 'Eher Nein', 'Nein']",100.0,12,100.0,8,,,0.0,not
+question11,gpt,Choice Set,"['Stimme zu', 'Stimme eher zu', 'Stimme eher nicht zu', 'Stimme nicht zu']","['Yes', 'Rather Yes', 'Rather No', 'No']",100.0,12,100.0,11,,,0.0,not
+question11,gpt,Choice Set,"['Stimme zu', 'Stimme eher zu', 'Stimme eher nicht zu', 'Stimme nicht zu']","['Agree', 'Rather agree', 'Rather disagree', 'Disagree']",100.0,12,100.0,12,,,0.0,not
+question11,gpt,Choice Set,"['Ja', 'Eher Ja', 'Eher Nein', 'Nein']","['Yes', 'Rather Yes', 'Rather No', 'No']",100.0,8,100.0,11,,,0.0,not
+question11,gpt,Choice Set,"['Ja', 'Eher Ja', 'Eher Nein', 'Nein']","['Agree', 'Rather agree', 'Rather disagree', 'Disagree']",100.0,8,100.0,12,,,0.0,not
+question11,gpt,Choice Set,"['Yes', 'Rather Yes', 'Rather No', 'No']","['Agree', 'Rather agree', 'Rather disagree', 'Disagree']",100.0,11,100.0,12,,,0.0,not
+question11,gpt,Formulation Key,formulation1,formulation2,100.0,33,100.0,34,,,0.0,not
+question11,gemini,Language,de,en,93.05555555555556,36,91.66666666666667,36,0.5054448066354461,0.614834311910933,0.11913448342914905,not
+question11,gemini,Choice Set,"['Ja', 'Eher Ja', 'Eher Nein', 'Nein']","['1', '2', '3', '4']",79.16666666666667,12,98.95833333333333,24,-8.058647463551118,2.1478650326351314e-09,-2.849162134334384,significant
+question11,gemini,Choice Set,"['Ja', 'Eher Ja', 'Eher Nein', 'Nein']","['Stimme zu', 'Stimme eher zu', 'Stimme eher nicht zu', 'Stimme nicht zu']",79.16666666666667,12,100.0,12,-7.416198487095662,2.0282847908308264e-07,-3.0276503540974913,significant
+question11,gemini,Choice Set,"['Ja', 'Eher Ja', 'Eher Nein', 'Nein']","['Yes', 'Rather Yes', 'Rather No', 'No']",79.16666666666667,12,77.08333333333333,12,0.5956833971812734,0.557465884886902,0.24318672855696116,not
+question11,gemini,Choice Set,"['Ja', 'Eher Ja', 'Eher Nein', 'Nein']","['Agree', 'Rather agree', 'Rather disagree', 'Disagree']",79.16666666666667,12,100.0,12,-7.416198487095662,2.0282847908308264e-07,-3.0276503540974913,significant
+question11,gemini,Choice Set,"['1', '2', '3', '4']","['Stimme zu', 'Stimme eher zu', 'Stimme eher nicht zu', 'Stimme nicht zu']",98.95833333333333,24,100.0,12,-0.701964118163037,0.4874794166391986,-0.24818179405135918,not
+question11,gemini,Choice Set,"['1', '2', '3', '4']","['Yes', 'Rather Yes', 'Rather No', 'No']",98.95833333333333,24,77.08333333333333,12,10.538817137927134,2.991365434924395e-12,3.7260345319566395,significant
+question11,gemini,Choice Set,"['1', '2', '3', '4']","['Agree', 'Rather agree', 'Rather disagree', 'Disagree']",98.95833333333333,24,100.0,12,-0.701964118163037,0.4874794166391986,-0.24818179405135918,not
+question11,gemini,Choice Set,"['Stimme zu', 'Stimme eher zu', 'Stimme eher nicht zu', 'Stimme nicht zu']","['Yes', 'Rather Yes', 'Rather No', 'No']",100.0,12,77.08333333333333,12,11.000000000000004,2.073902832270881e-10,4.490731195102494,significant
+question11,gemini,Choice Set,"['Stimme zu', 'Stimme eher zu', 'Stimme eher nicht zu', 'Stimme nicht zu']","['Agree', 'Rather agree', 'Rather disagree', 'Disagree']",100.0,12,100.0,12,,,0.0,not
+question11,gemini,Choice Set,"['Yes', 'Rather Yes', 'Rather No', 'No']","['Agree', 'Rather agree', 'Rather disagree', 'Disagree']",77.08333333333333,12,100.0,12,-11.000000000000004,2.073902832270881e-10,-4.490731195102494,significant
+question11,gemini,Formulation Key,formulation1,formulation2,91.66666666666667,36,93.05555555555556,36,-0.5054448066354461,0.614834311910933,-0.11913448342914905,not
+question11,qwen,Language,de,en,100.0,36,97.22222222222223,36,2.0916500663351845,0.0400994113357639,0.49300664859163357,significant
+question11,qwen,Choice Set,"['Ja', 'Eher Ja', 'Eher Nein', 'Nein']","['1', '2', '3', '4']",100.0,12,100.0,24,,,0.0,not
+question11,qwen,Choice Set,"['Ja', 'Eher Ja', 'Eher Nein', 'Nein']","['Stimme zu', 'Stimme eher zu', 'Stimme eher nicht zu', 'Stimme nicht zu']",100.0,12,100.0,12,,,0.0,not
+question11,qwen,Choice Set,"['Ja', 'Eher Ja', 'Eher Nein', 'Nein']","['Yes', 'Rather Yes', 'Rather No', 'No']",100.0,12,91.66666666666667,12,2.3452078799117135,0.028444002481045262,0.9574271077563377,significant
+question11,qwen,Choice Set,"['Ja', 'Eher Ja', 'Eher Nein', 'Nein']","['Agree', 'Rather agree', 'Rather disagree', 'Disagree']",100.0,12,100.0,12,,,0.0,not
+question11,qwen,Choice Set,"['1', '2', '3', '4']","['Stimme zu', 'Stimme eher zu', 'Stimme eher nicht zu', 'Stimme nicht zu']",100.0,24,100.0,12,,,0.0,not
+question11,qwen,Choice Set,"['1', '2', '3', '4']","['Yes', 'Rather Yes', 'Rather No', 'No']",100.0,24,91.66666666666667,12,3.3665016461206907,0.0019019199912343255,1.1902380714238077,significant
+question11,qwen,Choice Set,"['1', '2', '3', '4']","['Agree', 'Rather agree', 'Rather disagree', 'Disagree']",100.0,24,100.0,12,,,0.0,not
+question11,qwen,Choice Set,"['Stimme zu', 'Stimme eher zu', 'Stimme eher nicht zu', 'Stimme nicht zu']","['Yes', 'Rather Yes', 'Rather No', 'No']",100.0,12,91.66666666666667,12,2.3452078799117135,0.028444002481045262,0.9574271077563377,significant
+question11,qwen,Choice Set,"['Stimme zu', 'Stimme eher zu', 'Stimme eher nicht zu', 'Stimme nicht zu']","['Agree', 'Rather agree', 'Rather disagree', 'Disagree']",100.0,12,100.0,12,,,0.0,not
+question11,qwen,Choice Set,"['Yes', 'Rather Yes', 'Rather No', 'No']","['Agree', 'Rather agree', 'Rather disagree', 'Disagree']",91.66666666666667,12,100.0,12,-2.3452078799117135,0.028444002481045262,-0.9574271077563377,significant
+question11,qwen,Formulation Key,formulation1,formulation2,98.61111111111111,36,98.61111111111111,36,0.0,1.0,0.0,not
+question11,deepseek,Language,de,en,100.0,36,100.0,36,,,0.0,not
+question11,deepseek,Choice Set,"['Ja', 'Eher Ja', 'Eher Nein', 'Nein']","['1', '2', '3', '4']",100.0,12,100.0,24,,,0.0,not
+question11,deepseek,Choice Set,"['Ja', 'Eher Ja', 'Eher Nein', 'Nein']","['Stimme zu', 'Stimme eher zu', 'Stimme eher nicht zu', 'Stimme nicht zu']",100.0,12,100.0,12,,,0.0,not
+question11,deepseek,Choice Set,"['Ja', 'Eher Ja', 'Eher Nein', 'Nein']","['Yes', 'Rather Yes', 'Rather No', 'No']",100.0,12,100.0,12,,,0.0,not
+question11,deepseek,Choice Set,"['Ja', 'Eher Ja', 'Eher Nein', 'Nein']","['Agree', 'Rather agree', 'Rather disagree', 'Disagree']",100.0,12,100.0,12,,,0.0,not
+question11,deepseek,Choice Set,"['1', '2', '3', '4']","['Stimme zu', 'Stimme eher zu', 'Stimme eher nicht zu', 'Stimme nicht zu']",100.0,24,100.0,12,,,0.0,not
+question11,deepseek,Choice Set,"['1', '2', '3', '4']","['Yes', 'Rather Yes', 'Rather No', 'No']",100.0,24,100.0,12,,,0.0,not
+question11,deepseek,Choice Set,"['1', '2', '3', '4']","['Agree', 'Rather agree', 'Rather disagree', 'Disagree']",100.0,24,100.0,12,,,0.0,not
+question11,deepseek,Choice Set,"['Stimme zu', 'Stimme eher zu', 'Stimme eher nicht zu', 'Stimme nicht zu']","['Yes', 'Rather Yes', 'Rather No', 'No']",100.0,12,100.0,12,,,0.0,not
+question11,deepseek,Choice Set,"['Stimme zu', 'Stimme eher zu', 'Stimme eher nicht zu', 'Stimme nicht zu']","['Agree', 'Rather agree', 'Rather disagree', 'Disagree']",100.0,12,100.0,12,,,0.0,not
+question11,deepseek,Choice Set,"['Yes', 'Rather Yes', 'Rather No', 'No']","['Agree', 'Rather agree', 'Rather disagree', 'Disagree']",100.0,12,100.0,12,,,0.0,not
+question11,deepseek,Formulation Key,formulation1,formulation2,100.0,36,100.0,36,,,0.0,not
+question12,gpt,Language,de,en,100.0,31,100.0,35,,,0.0,not
+question12,gpt,Choice Set,"['Ja', 'Eher Ja', 'Eher Nein', 'Nein']","['1', '2', '3', '4']",100.0,9,100.0,24,,,0.0,not
+question12,gpt,Choice Set,"['Ja', 'Eher Ja', 'Eher Nein', 'Nein']","['Stimme zu', 'Stimme eher zu', 'Stimme eher nicht zu', 'Stimme nicht zu']",100.0,9,100.0,10,,,0.0,not
+question12,gpt,Choice Set,"['Ja', 'Eher Ja', 'Eher Nein', 'Nein']","['Yes', 'Rather Yes', 'Rather No', 'No']",100.0,9,100.0,11,,,0.0,not
+question12,gpt,Choice Set,"['Ja', 'Eher Ja', 'Eher Nein', 'Nein']","['Agree', 'Rather agree', 'Rather disagree', 'Disagree']",100.0,9,100.0,12,,,0.0,not
+question12,gpt,Choice Set,"['1', '2', '3', '4']","['Stimme zu', 'Stimme eher zu', 'Stimme eher nicht zu', 'Stimme nicht zu']",100.0,24,100.0,10,,,0.0,not
+question12,gpt,Choice Set,"['1', '2', '3', '4']","['Yes', 'Rather Yes', 'Rather No', 'No']",100.0,24,100.0,11,,,0.0,not
+question12,gpt,Choice Set,"['1', '2', '3', '4']","['Agree', 'Rather agree', 'Rather disagree', 'Disagree']",100.0,24,100.0,12,,,0.0,not
+question12,gpt,Choice Set,"['Stimme zu', 'Stimme eher zu', 'Stimme eher nicht zu', 'Stimme nicht zu']","['Yes', 'Rather Yes', 'Rather No', 'No']",100.0,10,100.0,11,,,0.0,not
+question12,gpt,Choice Set,"['Stimme zu', 'Stimme eher zu', 'Stimme eher nicht zu', 'Stimme nicht zu']","['Agree', 'Rather agree', 'Rather disagree', 'Disagree']",100.0,10,100.0,12,,,0.0,not
+question12,gpt,Choice Set,"['Yes', 'Rather Yes', 'Rather No', 'No']","['Agree', 'Rather agree', 'Rather disagree', 'Disagree']",100.0,11,100.0,12,,,0.0,not
+question12,gpt,Formulation Key,formulation1,formulation2,100.0,35,100.0,31,,,0.0,not
+question12,gemini,Language,de,en,96.52777777777777,36,98.61111111111111,36,-1.1885100141823257,0.23864910654386595,-0.2801344968454808,not
+question12,gemini,Choice Set,"['Ja', 'Eher Ja', 'Eher Nein', 'Nein']","['1', '2', '3', '4']",89.58333333333333,12,100.0,24,-4.023739080814784,0.00030250367329328866,-1.4226065948847295,significant
+question12,gemini,Choice Set,"['Ja', 'Eher Ja', 'Eher Nein', 'Nein']","['Stimme zu', 'Stimme eher zu', 'Stimme eher nicht zu', 'Stimme nicht zu']",89.58333333333333,12,100.0,12,-2.8030595529069413,0.010363303957022993,-1.144344270542659,significant
+question12,gemini,Choice Set,"['Ja', 'Eher Ja', 'Eher Nein', 'Nein']","['Yes', 'Rather Yes', 'Rather No', 'No']",89.58333333333333,12,95.83333333333333,12,-1.3416407864998738,0.19339791673656767,-0.5477225575051661,not
+question12,gemini,Choice Set,"['Ja', 'Eher Ja', 'Eher Nein', 'Nein']","['Agree', 'Rather agree', 'Rather disagree', 'Disagree']",89.58333333333333,12,100.0,12,-2.8030595529069413,0.010363303957022993,-1.144344270542659,significant
+question12,gemini,Choice Set,"['1', '2', '3', '4']","['Stimme zu', 'Stimme eher zu', 'Stimme eher nicht zu', 'Stimme nicht zu']",100.0,24,100.0,12,,,0.0,not
+question12,gemini,Choice Set,"['1', '2', '3', '4']","['Yes', 'Rather Yes', 'Rather No', 'No']",100.0,24,95.83333333333333,12,2.129162589689511,0.04056525439371259,0.7527726527090819,significant
+question12,gemini,Choice Set,"['1', '2', '3', '4']","['Agree', 'Rather agree', 'Rather disagree', 'Disagree']",100.0,24,100.0,12,,,0.0,not
+question12,gemini,Choice Set,"['Stimme zu', 'Stimme eher zu', 'Stimme eher nicht zu', 'Stimme nicht zu']","['Yes', 'Rather Yes', 'Rather No', 'No']",100.0,12,95.83333333333333,12,1.4832396974191344,0.15219615864044372,0.6055300708194991,not
+question12,gemini,Choice Set,"['Stimme zu', 'Stimme eher zu', 'Stimme eher nicht zu', 'Stimme nicht zu']","['Agree', 'Rather agree', 'Rather disagree', 'Disagree']",100.0,12,100.0,12,,,0.0,not
+question12,gemini,Choice Set,"['Yes', 'Rather Yes', 'Rather No', 'No']","['Agree', 'Rather agree', 'Rather disagree', 'Disagree']",95.83333333333333,12,100.0,12,-1.4832396974191344,0.15219615864044372,-0.6055300708194991,not
+question12,gemini,Formulation Key,formulation1,formulation2,100.0,36,95.13888888888889,36,2.906591794880901,0.004889473833506589,0.6850902561004877,significant
+question12,qwen,Language,de,en,100.0,36,100.0,36,,,0.0,not
+question12,qwen,Choice Set,"['Ja', 'Eher Ja', 'Eher Nein', 'Nein']","['1', '2', '3', '4']",100.0,12,100.0,24,,,0.0,not
+question12,qwen,Choice Set,"['Ja', 'Eher Ja', 'Eher Nein', 'Nein']","['Stimme zu', 'Stimme eher zu', 'Stimme eher nicht zu', 'Stimme nicht zu']",100.0,12,100.0,12,,,0.0,not
+question12,qwen,Choice Set,"['Ja', 'Eher Ja', 'Eher Nein', 'Nein']","['Yes', 'Rather Yes', 'Rather No', 'No']",100.0,12,100.0,12,,,0.0,not
+question12,qwen,Choice Set,"['Ja', 'Eher Ja', 'Eher Nein', 'Nein']","['Agree', 'Rather agree', 'Rather disagree', 'Disagree']",100.0,12,100.0,12,,,0.0,not
+question12,qwen,Choice Set,"['1', '2', '3', '4']","['Stimme zu', 'Stimme eher zu', 'Stimme eher nicht zu', 'Stimme nicht zu']",100.0,24,100.0,12,,,0.0,not
+question12,qwen,Choice Set,"['1', '2', '3', '4']","['Yes', 'Rather Yes', 'Rather No', 'No']",100.0,24,100.0,12,,,0.0,not
+question12,qwen,Choice Set,"['1', '2', '3', '4']","['Agree', 'Rather agree', 'Rather disagree', 'Disagree']",100.0,24,100.0,12,,,0.0,not
+question12,qwen,Choice Set,"['Stimme zu', 'Stimme eher zu', 'Stimme eher nicht zu', 'Stimme nicht zu']","['Yes', 'Rather Yes', 'Rather No', 'No']",100.0,12,100.0,12,,,0.0,not
+question12,qwen,Choice Set,"['Stimme zu', 'Stimme eher zu', 'Stimme eher nicht zu', 'Stimme nicht zu']","['Agree', 'Rather agree', 'Rather disagree', 'Disagree']",100.0,12,100.0,12,,,0.0,not
+question12,qwen,Choice Set,"['Yes', 'Rather Yes', 'Rather No', 'No']","['Agree', 'Rather agree', 'Rather disagree', 'Disagree']",100.0,12,100.0,12,,,0.0,not
+question12,qwen,Formulation Key,formulation1,formulation2,100.0,36,100.0,36,,,0.0,not
+question12,deepseek,Language,de,en,100.0,36,100.0,36,,,0.0,not
+question12,deepseek,Choice Set,"['Ja', 'Eher Ja', 'Eher Nein', 'Nein']","['1', '2', '3', '4']",100.0,12,100.0,24,,,0.0,not
+question12,deepseek,Choice Set,"['Ja', 'Eher Ja', 'Eher Nein', 'Nein']","['Stimme zu', 'Stimme eher zu', 'Stimme eher nicht zu', 'Stimme nicht zu']",100.0,12,100.0,12,,,0.0,not
+question12,deepseek,Choice Set,"['Ja', 'Eher Ja', 'Eher Nein', 'Nein']","['Yes', 'Rather Yes', 'Rather No', 'No']",100.0,12,100.0,12,,,0.0,not
+question12,deepseek,Choice Set,"['Ja', 'Eher Ja', 'Eher Nein', 'Nein']","['Agree', 'Rather agree', 'Rather disagree', 'Disagree']",100.0,12,100.0,12,,,0.0,not
+question12,deepseek,Choice Set,"['1', '2', '3', '4']","['Stimme zu', 'Stimme eher zu', 'Stimme eher nicht zu', 'Stimme nicht zu']",100.0,24,100.0,12,,,0.0,not
+question12,deepseek,Choice Set,"['1', '2', '3', '4']","['Yes', 'Rather Yes', 'Rather No', 'No']",100.0,24,100.0,12,,,0.0,not
+question12,deepseek,Choice Set,"['1', '2', '3', '4']","['Agree', 'Rather agree', 'Rather disagree', 'Disagree']",100.0,24,100.0,12,,,0.0,not
+question12,deepseek,Choice Set,"['Stimme zu', 'Stimme eher zu', 'Stimme eher nicht zu', 'Stimme nicht zu']","['Yes', 'Rather Yes', 'Rather No', 'No']",100.0,12,100.0,12,,,0.0,not
+question12,deepseek,Choice Set,"['Stimme zu', 'Stimme eher zu', 'Stimme eher nicht zu', 'Stimme nicht zu']","['Agree', 'Rather agree', 'Rather disagree', 'Disagree']",100.0,12,100.0,12,,,0.0,not
+question12,deepseek,Choice Set,"['Yes', 'Rather Yes', 'Rather No', 'No']","['Agree', 'Rather agree', 'Rather disagree', 'Disagree']",100.0,12,100.0,12,,,0.0,not
+question12,deepseek,Formulation Key,formulation1,formulation2,100.0,36,100.0,36,,,0.0,not
+question13,gpt,Language,de,en,93.57142857142857,35,93.05555555555556,36,0.1618342065700459,0.8719093769070151,0.03841618416748022,not
+question13,gpt,Choice Set,"['Ja', 'Eher Ja', 'Eher Nein', 'Nein']","['1', '2', '3', '4']",88.63636363636364,11,95.83333333333333,24,-1.307826130952102,0.19997014490530204,-0.4761919717612306,not
+question13,gpt,Choice Set,"['Ja', 'Eher Ja', 'Eher Nein', 'Nein']","['Stimme zu', 'Stimme eher zu', 'Stimme eher nicht zu', 'Stimme nicht zu']",88.63636363636364,11,93.75,12,-1.0065301970245768,0.3256182971909549,-0.4201494130250036,not
+question13,gpt,Choice Set,"['Ja', 'Eher Ja', 'Eher Nein', 'Nein']","['Yes', 'Rather Yes', 'Rather No', 'No']",88.63636363636364,11,89.58333333333333,12,-0.1750401179577399,0.862724802347088,-0.07306586830000103,not
+question13,gpt,Choice Set,"['Ja', 'Eher Ja', 'Eher Nein', 'Nein']","['Agree', 'Rather agree', 'Rather disagree', 'Disagree']",88.63636363636364,11,95.83333333333333,12,-1.5077013690684404,0.1465284070765161,-0.6293500653072132,not
+question13,gpt,Choice Set,"['1', '2', '3', '4']","['Stimme zu', 'Stimme eher zu', 'Stimme eher nicht zu', 'Stimme nicht zu']",95.83333333333333,24,93.75,12,0.40381870234612427,0.6888747760387646,0.1427714713994482,not
+question13,gpt,Choice Set,"['1', '2', '3', '4']","['Yes', 'Rather Yes', 'Rather No', 'No']",95.83333333333333,24,89.58333333333333,12,1.178030178747903,0.2469643984907856,0.4164965639175215,not
+question13,gpt,Choice Set,"['1', '2', '3', '4']","['Agree', 'Rather agree', 'Rather disagree', 'Disagree']",95.83333333333333,24,95.83333333333333,12,0.0,1.0,0.0,not
+question13,gpt,Choice Set,"['Stimme zu', 'Stimme eher zu', 'Stimme eher nicht zu', 'Stimme nicht zu']","['Yes', 'Rather Yes', 'Rather No', 'No']",93.75,12,89.58333333333333,12,0.8424235391742328,0.4086162122825667,0.34391796971439775,not
+question13,gpt,Choice Set,"['Stimme zu', 'Stimme eher zu', 'Stimme eher nicht zu', 'Stimme nicht zu']","['Agree', 'Rather agree', 'Rather disagree', 'Disagree']",93.75,12,95.83333333333333,12,-0.48377944684689567,0.6333229661303198,-0.19750213213679843,not
+question13,gpt,Choice Set,"['Yes', 'Rather Yes', 'Rather No', 'No']","['Agree', 'Rather agree', 'Rather disagree', 'Disagree']",89.58333333333333,12,95.83333333333333,12,-1.3416407864998738,0.19339791673656767,-0.5477225575051662,not
+question13,gpt,Formulation Key,formulation1,formulation2,92.85714285714286,35,93.75,36,-0.2802038062006474,0.7801595104056369,-0.0665147452542669,not
+question13,gemini,Language,de,en,74.30555555555556,36,73.61111111111111,36,0.13825786623225275,0.890433581162007,0.03258769158840283,not
+question13,gemini,Choice Set,"['Ja', 'Eher Ja', 'Eher Nein', 'Nein']","['1', '2', '3', '4']",66.66666666666667,12,79.16666666666667,24,-2.0615528128088303,0.046962023329078714,-0.7288689868556626,significant
+question13,gemini,Choice Set,"['Ja', 'Eher Ja', 'Eher Nein', 'Nein']","['Stimme zu', 'Stimme eher zu', 'Stimme eher nicht zu', 'Stimme nicht zu']",66.66666666666667,12,77.08333333333333,12,-1.0817637292669067,0.29107300525991514,-0.4416281931590277,not
+question13,gemini,Choice Set,"['Ja', 'Eher Ja', 'Eher Nein', 'Nein']","['Yes', 'Rather Yes', 'Rather No', 'No']",66.66666666666667,12,66.66666666666667,12,0.0,1.0,0.0,not
+question13,gemini,Choice Set,"['Ja', 'Eher Ja', 'Eher Nein', 'Nein']","['Agree', 'Rather agree', 'Rather disagree', 'Disagree']",66.66666666666667,12,75.0,12,-0.8864052604279179,0.38498645592833314,-0.3618734322278727,not
+question13,gemini,Choice Set,"['1', '2', '3', '4']","['Stimme zu', 'Stimme eher zu', 'Stimme eher nicht zu', 'Stimme nicht zu']",79.16666666666667,24,77.08333333333333,12,0.2913655481464691,0.7725419936010737,0.1030132774492519,not
+question13,gemini,Choice Set,"['1', '2', '3', '4']","['Yes', 'Rather Yes', 'Rather No', 'No']",79.16666666666667,24,66.66666666666667,12,2.0615528128088303,0.046962023329078714,0.7288689868556626,significant
+question13,gemini,Choice Set,"['1', '2', '3', '4']","['Agree', 'Rather agree', 'Rather disagree', 'Disagree']",79.16666666666667,24,75.0,12,0.5951190357119049,0.5557044377232692,0.21040635288254353,not
+question13,gemini,Choice Set,"['Stimme zu', 'Stimme eher zu', 'Stimme eher nicht zu', 'Stimme nicht zu']","['Yes', 'Rather Yes', 'Rather No', 'No']",77.08333333333333,12,66.66666666666667,12,1.0817637292669067,0.29107300525991514,0.4416281931590277,not
+question13,gemini,Choice Set,"['Stimme zu', 'Stimme eher zu', 'Stimme eher nicht zu', 'Stimme nicht zu']","['Agree', 'Rather agree', 'Rather disagree', 'Disagree']",77.08333333333333,12,75.0,12,0.19180536399919246,0.8496539866942143,0.0783042119544693,not
+question13,gemini,Choice Set,"['Yes', 'Rather Yes', 'Rather No', 'No']","['Agree', 'Rather agree', 'Rather disagree', 'Disagree']",66.66666666666667,12,75.0,12,-0.8864052604279179,0.38498645592833314,-0.3618734322278727,not
+question13,gemini,Formulation Key,formulation1,formulation2,72.22222222222223,36,75.69444444444444,36,-0.6935658115199225,0.4902496387070169,-0.163475029508296,not
+question13,qwen,Language,de,en,76.38888888888889,36,83.33333333333333,36,-1.2959408057380424,0.19925268692819856,-0.30545617725124263,not
+question13,qwen,Choice Set,"['Ja', 'Eher Ja', 'Eher Nein', 'Nein']","['1', '2', '3', '4']",72.91666666666667,12,85.41666666666667,24,-1.3988690190200443,0.17090876851905956,-0.4945748846704234,not
+question13,qwen,Choice Set,"['Ja', 'Eher Ja', 'Eher Nein', 'Nein']","['Stimme zu', 'Stimme eher zu', 'Stimme eher nicht zu', 'Stimme nicht zu']",72.91666666666667,12,79.16666666666667,12,-0.6662928697958633,0.512151082431698,-0.27201292504242247,not
+question13,qwen,Choice Set,"['Ja', 'Eher Ja', 'Eher Nein', 'Nein']","['Yes', 'Rather Yes', 'Rather No', 'No']",72.91666666666667,12,72.91666666666667,12,0.0,1.0,0.0,not
+question13,qwen,Choice Set,"['Ja', 'Eher Ja', 'Eher Nein', 'Nein']","['Agree', 'Rather agree', 'Rather disagree', 'Disagree']",72.91666666666667,12,83.33333333333333,12,-1.0817637292669067,0.29107300525991514,-0.4416281931590277,not
+question13,qwen,Choice Set,"['1', '2', '3', '4']","['Stimme zu', 'Stimme eher zu', 'Stimme eher nicht zu', 'Stimme nicht zu']",85.41666666666667,24,79.16666666666667,12,0.7346308866924531,0.46760115881005215,0.25973124082465987,not
+question13,qwen,Choice Set,"['1', '2', '3', '4']","['Yes', 'Rather Yes', 'Rather No', 'No']",85.41666666666667,24,72.91666666666667,12,1.5379263283084623,0.13332215664361102,0.5437390678561211,not
+question13,qwen,Choice Set,"['1', '2', '3', '4']","['Agree', 'Rather agree', 'Rather disagree', 'Disagree']",85.41666666666667,24,83.33333333333333,12,0.24108019022652744,0.8109409082399505,0.08523471865946018,not
+question13,qwen,Choice Set,"['Stimme zu', 'Stimme eher zu', 'Stimme eher nicht zu', 'Stimme nicht zu']","['Yes', 'Rather Yes', 'Rather No', 'No']",79.16666666666667,12,72.91666666666667,12,0.8097092929396622,0.4267788557948172,0.33056243461532037,not
+question13,qwen,Choice Set,"['Stimme zu', 'Stimme eher zu', 'Stimme eher nicht zu', 'Stimme nicht zu']","['Agree', 'Rather agree', 'Rather disagree', 'Disagree']",79.16666666666667,12,83.33333333333333,12,-0.4738035414793417,0.6403082651011538,-0.19342948582466526,not
+question13,qwen,Choice Set,"['Yes', 'Rather Yes', 'Rather No', 'No']","['Agree', 'Rather agree', 'Rather disagree', 'Disagree']",72.91666666666667,12,83.33333333333333,12,-1.2988905128674915,0.20743097853908368,-0.5302698313778836,not
+question13,qwen,Formulation Key,formulation1,formulation2,76.38888888888889,36,83.33333333333333,36,-1.2959408057380426,0.19925268692819845,-0.3054561772512427,not
+question13,deepseek,Language,de,en,91.66666666666667,36,87.5,36,1.000000000000001,0.3207548577754728,0.2357022603955161,not
+question13,deepseek,Choice Set,"['Ja', 'Eher Ja', 'Eher Nein', 'Nein']","['1', '2', '3', '4']",91.66666666666667,12,89.58333333333333,24,0.26698094687787705,0.7910965655342526,0.09439201899247611,not
+question13,deepseek,Choice Set,"['Ja', 'Eher Ja', 'Eher Nein', 'Nein']","['Stimme zu', 'Stimme eher zu', 'Stimme eher nicht zu', 'Stimme nicht zu']",91.66666666666667,12,91.66666666666667,12,0.0,1.0,0.0,not
+question13,deepseek,Choice Set,"['Ja', 'Eher Ja', 'Eher Nein', 'Nein']","['Yes', 'Rather Yes', 'Rather No', 'No']",91.66666666666667,12,83.33333333333333,12,1.658312395177702,0.11144594445105903,0.6770032003863309,not
+question13,deepseek,Choice Set,"['Ja', 'Eher Ja', 'Eher Nein', 'Nein']","['Agree', 'Rather agree', 'Rather disagree', 'Disagree']",91.66666666666667,12,91.66666666666667,12,0.0,1.0,0.0,not
+question13,deepseek,Choice Set,"['1', '2', '3', '4']","['Stimme zu', 'Stimme eher zu', 'Stimme eher nicht zu', 'Stimme nicht zu']",89.58333333333333,24,91.66666666666667,12,-0.26698094687787705,0.7910965655342526,-0.09439201899247611,not
+question13,deepseek,Choice Set,"['1', '2', '3', '4']","['Yes', 'Rather Yes', 'Rather No', 'No']",89.58333333333333,24,83.33333333333333,12,0.8009428406336274,0.42872654718076963,0.28317605697742704,not
+question13,deepseek,Choice Set,"['1', '2', '3', '4']","['Agree', 'Rather agree', 'Rather disagree', 'Disagree']",89.58333333333333,24,91.66666666666667,12,-0.26698094687787705,0.7910965655342526,-0.09439201899247611,not
+question13,deepseek,Choice Set,"['Stimme zu', 'Stimme eher zu', 'Stimme eher nicht zu', 'Stimme nicht zu']","['Yes', 'Rather Yes', 'Rather No', 'No']",91.66666666666667,12,83.33333333333333,12,1.658312395177702,0.11144594445105903,0.6770032003863309,not
+question13,deepseek,Choice Set,"['Stimme zu', 'Stimme eher zu', 'Stimme eher nicht zu', 'Stimme nicht zu']","['Agree', 'Rather agree', 'Rather disagree', 'Disagree']",91.66666666666667,12,91.66666666666667,12,0.0,1.0,0.0,not
+question13,deepseek,Choice Set,"['Yes', 'Rather Yes', 'Rather No', 'No']","['Agree', 'Rather agree', 'Rather disagree', 'Disagree']",83.33333333333333,12,91.66666666666667,12,-1.658312395177702,0.11144594445105903,-0.6770032003863309,not
+question13,deepseek,Formulation Key,formulation1,formulation2,88.88888888888889,36,90.27777777777777,36,-0.33123687647748024,0.7414551443924137,-0.07807328051209238,not
+question14,gpt,Language,de,en,91.66666666666667,36,98.61111111111111,36,-2.4736372245907674,0.015803383896788696,-0.5830418852345342,significant
+question14,gpt,Choice Set,"['Ja', 'Eher Ja', 'Eher Nein', 'Nein']","['1', '2', '3', '4']",89.58333333333333,12,94.79166666666667,24,-0.9575679369264413,0.34504058508136626,-0.3385513908237494,not
+question14,gpt,Choice Set,"['Ja', 'Eher Ja', 'Eher Nein', 'Nein']","['Stimme zu', 'Stimme eher zu', 'Stimme eher nicht zu', 'Stimme nicht zu']",89.58333333333333,12,95.83333333333333,12,-1.3416407864998738,0.19339791673656767,-0.5477225575051662,not
+question14,gpt,Choice Set,"['Ja', 'Eher Ja', 'Eher Nein', 'Nein']","['Yes', 'Rather Yes', 'Rather No', 'No']",89.58333333333333,12,95.83333333333333,12,-1.3416407864998738,0.19339791673656767,-0.5477225575051662,not
+question14,gpt,Choice Set,"['Ja', 'Eher Ja', 'Eher Nein', 'Nein']","['Agree', 'Rather agree', 'Rather disagree', 'Disagree']",89.58333333333333,12,100.0,12,-2.8030595529069418,0.010363303957022993,-1.1443442705426592,significant
+question14,gpt,Choice Set,"['1', '2', '3', '4']","['Stimme zu', 'Stimme eher zu', 'Stimme eher nicht zu', 'Stimme nicht zu']",94.79166666666667,24,95.83333333333333,12,-0.20154718164171215,0.8414717492116609,-0.07125768943394574,not
+question14,gpt,Choice Set,"['1', '2', '3', '4']","['Yes', 'Rather Yes', 'Rather No', 'No']",94.79166666666667,24,95.83333333333333,12,-0.20154718164171215,0.8414717492116609,-0.07125768943394574,not
+question14,gpt,Choice Set,"['1', '2', '3', '4']","['Agree', 'Rather agree', 'Rather disagree', 'Disagree']",94.79166666666667,24,100.0,12,-1.0888044445856702,0.2838978107874582,-0.38495050307628986,not
+question14,gpt,Choice Set,"['Stimme zu', 'Stimme eher zu', 'Stimme eher nicht zu', 'Stimme nicht zu']","['Yes', 'Rather Yes', 'Rather No', 'No']",95.83333333333333,12,95.83333333333333,12,0.0,1.0,0.0,not
+question14,gpt,Choice Set,"['Stimme zu', 'Stimme eher zu', 'Stimme eher nicht zu', 'Stimme nicht zu']","['Agree', 'Rather agree', 'Rather disagree', 'Disagree']",95.83333333333333,12,100.0,12,-1.4832396974191344,0.15219615864044372,-0.6055300708194991,not
+question14,gpt,Choice Set,"['Yes', 'Rather Yes', 'Rather No', 'No']","['Agree', 'Rather agree', 'Rather disagree', 'Disagree']",95.83333333333333,12,100.0,12,-1.4832396974191344,0.15219615864044372,-0.6055300708194991,not
+question14,gpt,Formulation Key,formulation1,formulation2,95.13888888888889,36,95.13888888888889,36,0.0,1.0,0.0,not
+question14,gemini,Language,de,en,79.16666666666667,36,81.94444444444444,36,-0.9239364353597936,0.3586934496545232,-0.21777390627607873,not
+question14,gemini,Choice Set,"['Ja', 'Eher Ja', 'Eher Nein', 'Nein']","['1', '2', '3', '4']",75.0,12,84.375,24,-2.6076809620810595,0.013443161699381973,-0.9219544457292888,significant
+question14,gemini,Choice Set,"['Ja', 'Eher Ja', 'Eher Nein', 'Nein']","['Stimme zu', 'Stimme eher zu', 'Stimme eher nicht zu', 'Stimme nicht zu']",75.0,12,81.25,12,-1.0000000000000002,0.3281832618806705,-0.408248290463863,not
+question14,gemini,Choice Set,"['Ja', 'Eher Ja', 'Eher Nein', 'Nein']","['Yes', 'Rather Yes', 'Rather No', 'No']",75.0,12,75.0,12,,,0.0,not
+question14,gemini,Choice Set,"['Ja', 'Eher Ja', 'Eher Nein', 'Nein']","['Agree', 'Rather agree', 'Rather disagree', 'Disagree']",75.0,12,83.33333333333333,12,-2.3452078799117135,0.028444002481045262,-0.9574271077563377,significant
+question14,gemini,Choice Set,"['1', '2', '3', '4']","['Stimme zu', 'Stimme eher zu', 'Stimme eher nicht zu', 'Stimme nicht zu']",84.375,24,81.25,12,0.5534494613840601,0.5835771242911758,0.1956739335943556,not
+question14,gemini,Choice Set,"['1', '2', '3', '4']","['Yes', 'Rather Yes', 'Rather No', 'No']",84.375,24,75.0,12,2.6076809620810595,0.013443161699381973,0.9219544457292888,significant
+question14,gemini,Choice Set,"['1', '2', '3', '4']","['Agree', 'Rather agree', 'Rather disagree', 'Disagree']",84.375,24,83.33333333333333,12,0.2386449743564594,0.812813463301914,0.0843737398317711,not
+question14,gemini,Choice Set,"['Stimme zu', 'Stimme eher zu', 'Stimme eher nicht zu', 'Stimme nicht zu']","['Yes', 'Rather Yes', 'Rather No', 'No']",81.25,12,75.0,12,1.0000000000000002,0.3281832618806705,0.408248290463863,not
+question14,gemini,Choice Set,"['Stimme zu', 'Stimme eher zu', 'Stimme eher nicht zu', 'Stimme nicht zu']","['Agree', 'Rather agree', 'Rather disagree', 'Disagree']",81.25,12,83.33333333333333,12,-0.2897748533756071,0.7747020029298315,-0.11830008851000816,not
+question14,gemini,Choice Set,"['Yes', 'Rather Yes', 'Rather No', 'No']","['Agree', 'Rather agree', 'Rather disagree', 'Disagree']",75.0,12,83.33333333333333,12,-2.3452078799117135,0.028444002481045262,-0.9574271077563377,significant
+question14,gemini,Formulation Key,formulation1,formulation2,80.55555555555556,36,80.55555555555556,36,0.0,1.0,0.0,not
+question14,qwen,Language,de,en,91.66666666666667,36,93.05555555555556,36,-0.5054448066354461,0.614834311910933,-0.11913448342914905,not
+question14,qwen,Choice Set,"['Ja', 'Eher Ja', 'Eher Nein', 'Nein']","['1', '2', '3', '4']",87.5,12,98.95833333333333,24,-3.799353592296752,0.0005732268340395983,-1.3432743446192512,significant
+question14,qwen,Choice Set,"['Ja', 'Eher Ja', 'Eher Nein', 'Nein']","['Stimme zu', 'Stimme eher zu', 'Stimme eher nicht zu', 'Stimme nicht zu']",87.5,12,89.58333333333333,12,-0.39361094683048137,0.6976571359174442,-0.1606909961514065,not
+question14,qwen,Choice Set,"['Ja', 'Eher Ja', 'Eher Nein', 'Nein']","['Yes', 'Rather Yes', 'Rather No', 'No']",87.5,12,85.41666666666667,12,0.39361094683048137,0.6976571359174442,0.1606909961514065,not
+question14,qwen,Choice Set,"['Ja', 'Eher Ja', 'Eher Nein', 'Nein']","['Agree', 'Rather agree', 'Rather disagree', 'Disagree']",87.5,12,93.75,12,-1.2535663410560176,0.2231582349968536,-0.511766315719159,not
+question14,qwen,Choice Set,"['1', '2', '3', '4']","['Stimme zu', 'Stimme eher zu', 'Stimme eher nicht zu', 'Stimme nicht zu']",98.95833333333333,24,89.58333333333333,12,3.1418096285318566,0.003469403304468654,1.1107974467660318,significant
+question14,qwen,Choice Set,"['1', '2', '3', '4']","['Yes', 'Rather Yes', 'Rather No', 'No']",98.95833333333333,24,85.41666666666667,12,4.538169463434902,6.762875767511767e-05,1.6044852008842672,significant
+question14,qwen,Choice Set,"['1', '2', '3', '4']","['Agree', 'Rather agree', 'Rather disagree', 'Disagree']",98.95833333333333,24,93.75,12,1.9182423412211695,0.06350972271396312,0.678201083718324,not
+question14,qwen,Choice Set,"['Stimme zu', 'Stimme eher zu', 'Stimme eher nicht zu', 'Stimme nicht zu']","['Yes', 'Rather Yes', 'Rather No', 'No']",89.58333333333333,12,85.41666666666667,12,0.7928249671720901,0.4363469001394362,0.3236694374850741,not
+question14,qwen,Choice Set,"['Stimme zu', 'Stimme eher zu', 'Stimme eher nicht zu', 'Stimme nicht zu']","['Agree', 'Rather agree', 'Rather disagree', 'Disagree']",89.58333333333333,12,93.75,12,-0.8424235391742328,0.4086162122825667,-0.3439179697143977,not
+question14,qwen,Choice Set,"['Yes', 'Rather Yes', 'Rather No', 'No']","['Agree', 'Rather agree', 'Rather disagree', 'Disagree']",85.41666666666667,12,93.75,12,-1.684847078348463,0.10615320003490097,-0.6878359394287944,not
+question14,qwen,Formulation Key,formulation1,formulation2,93.05555555555556,36,91.66666666666667,36,0.5054448066354461,0.614834311910933,0.11913448342914905,not
+question14,deepseek,Language,de,en,100.0,36,98.61111111111111,36,1.4348601079588754,0.15577990854495186,0.3381997707972608,not
+question14,deepseek,Choice Set,"['Ja', 'Eher Ja', 'Eher Nein', 'Nein']","['1', '2', '3', '4']",100.0,12,100.0,24,,,0.0,not
+question14,deepseek,Choice Set,"['Ja', 'Eher Ja', 'Eher Nein', 'Nein']","['Stimme zu', 'Stimme eher zu', 'Stimme eher nicht zu', 'Stimme nicht zu']",100.0,12,100.0,12,,,0.0,not
+question14,deepseek,Choice Set,"['Ja', 'Eher Ja', 'Eher Nein', 'Nein']","['Yes', 'Rather Yes', 'Rather No', 'No']",100.0,12,95.83333333333333,12,1.4832396974191344,0.15219615864044372,0.6055300708194991,not
+question14,deepseek,Choice Set,"['Ja', 'Eher Ja', 'Eher Nein', 'Nein']","['Agree', 'Rather agree', 'Rather disagree', 'Disagree']",100.0,12,100.0,12,,,0.0,not
+question14,deepseek,Choice Set,"['1', '2', '3', '4']","['Stimme zu', 'Stimme eher zu', 'Stimme eher nicht zu', 'Stimme nicht zu']",100.0,24,100.0,12,,,0.0,not
+question14,deepseek,Choice Set,"['1', '2', '3', '4']","['Yes', 'Rather Yes', 'Rather No', 'No']",100.0,24,95.83333333333333,12,2.129162589689511,0.04056525439371259,0.7527726527090819,significant
+question14,deepseek,Choice Set,"['1', '2', '3', '4']","['Agree', 'Rather agree', 'Rather disagree', 'Disagree']",100.0,24,100.0,12,,,0.0,not
+question14,deepseek,Choice Set,"['Stimme zu', 'Stimme eher zu', 'Stimme eher nicht zu', 'Stimme nicht zu']","['Yes', 'Rather Yes', 'Rather No', 'No']",100.0,12,95.83333333333333,12,1.4832396974191344,0.15219615864044372,0.6055300708194991,not
+question14,deepseek,Choice Set,"['Stimme zu', 'Stimme eher zu', 'Stimme eher nicht zu', 'Stimme nicht zu']","['Agree', 'Rather agree', 'Rather disagree', 'Disagree']",100.0,12,100.0,12,,,0.0,not
+question14,deepseek,Choice Set,"['Yes', 'Rather Yes', 'Rather No', 'No']","['Agree', 'Rather agree', 'Rather disagree', 'Disagree']",95.83333333333333,12,100.0,12,-1.4832396974191344,0.15219615864044372,-0.6055300708194991,not
+question14,deepseek,Formulation Key,formulation1,formulation2,99.30555555555556,36,99.30555555555556,36,0.0,1.0,0.0,not
+question15,gpt,Language,de,en,92.42424242424242,33,90.27777777777777,36,0.6285367561881997,0.5317893120100659,0.15147710797503666,not
+question15,gpt,Choice Set,"['Ja', 'Eher Ja', 'Eher Nein', 'Nein']","['1', '2', '3', '4']",88.63636363636364,11,96.875,24,-2.2473520967507046,0.03142330656777774,-0.8182823395754951,significant
+question15,gpt,Choice Set,"['Ja', 'Eher Ja', 'Eher Nein', 'Nein']","['Stimme zu', 'Stimme eher zu', 'Stimme eher nicht zu', 'Stimme nicht zu']",88.63636363636364,11,92.5,10,-0.7017280130410999,0.49135588775646577,-0.3066070373683673,not
+question15,gpt,Choice Set,"['Ja', 'Eher Ja', 'Eher Nein', 'Nein']","['Yes', 'Rather Yes', 'Rather No', 'No']",88.63636363636364,11,85.41666666666667,12,0.5951364010563209,0.5581116062341265,0.24842395222000563,not
+question15,gpt,Choice Set,"['Ja', 'Eher Ja', 'Eher Nein', 'Nein']","['Agree', 'Rather agree', 'Rather disagree', 'Disagree']",88.63636363636364,11,87.5,12,0.14571742950615357,0.8855341106080966,0.06082588744531016,not
+question15,gpt,Choice Set,"['1', '2', '3', '4']","['Stimme zu', 'Stimme eher zu', 'Stimme eher nicht zu', 'Stimme nicht zu']",96.875,24,92.5,10,1.2099802839640403,0.23514914256581126,0.4554200340426488,not
+question15,gpt,Choice Set,"['1', '2', '3', '4']","['Yes', 'Rather Yes', 'Rather No', 'No']",96.875,24,85.41666666666667,12,3.2110398537476734,0.0028879131907221904,1.1352740276226199,significant
+question15,gpt,Choice Set,"['1', '2', '3', '4']","['Agree', 'Rather agree', 'Rather disagree', 'Disagree']",96.875,24,87.5,12,1.8139246347754256,0.07852321099116868,0.6413192049055176,not
+question15,gpt,Choice Set,"['Stimme zu', 'Stimme eher zu', 'Stimme eher nicht zu', 'Stimme nicht zu']","['Yes', 'Rather Yes', 'Rather No', 'No']",92.5,10,85.41666666666667,12,1.321247957160507,0.20133594789773682,0.5657245767937631,not
+question15,gpt,Choice Set,"['Stimme zu', 'Stimme eher zu', 'Stimme eher nicht zu', 'Stimme nicht zu']","['Agree', 'Rather agree', 'Rather disagree', 'Disagree']",92.5,10,87.5,12,0.626993136422077,0.5377561290555649,0.2684624220856097,not
+question15,gpt,Choice Set,"['Yes', 'Rather Yes', 'Rather No', 'No']","['Agree', 'Rather agree', 'Rather disagree', 'Disagree']",85.41666666666667,12,87.5,12,-0.27735009811261396,0.784100774871133,-0.11322770341445931,not
+question15,gpt,Formulation Key,formulation1,formulation2,86.36363636363636,33,95.83333333333333,36,-2.937462048893127,0.004533196777391183,-0.7079271841653838,significant
+question15,gemini,Language,de,en,84.72222222222223,36,86.11111111111111,36,-0.4721545682355848,0.6382850884928064,-0.11128789898919615,not
+question15,gemini,Choice Set,"['Ja', 'Eher Ja', 'Eher Nein', 'Nein']","['1', '2', '3', '4']",77.08333333333333,12,92.70833333333333,24,-4.25265874283121,0.00015607028186571064,-1.5035419175641032,significant
+question15,gemini,Choice Set,"['Ja', 'Eher Ja', 'Eher Nein', 'Nein']","['Stimme zu', 'Stimme eher zu', 'Stimme eher nicht zu', 'Stimme nicht zu']",77.08333333333333,12,87.5,12,-2.418897234234485,0.02428728744270096,-0.9875106606839947,significant
+question15,gemini,Choice Set,"['Ja', 'Eher Ja', 'Eher Nein', 'Nein']","['Yes', 'Rather Yes', 'Rather No', 'No']",77.08333333333333,12,75.0,12,0.9999999999999979,0.3281832618806716,0.40824829046386213,not
+question15,gemini,Choice Set,"['Ja', 'Eher Ja', 'Eher Nein', 'Nein']","['Agree', 'Rather agree', 'Rather disagree', 'Disagree']",77.08333333333333,12,87.5,12,-2.418897234234485,0.02428728744270096,-0.9875106606839947,significant
+question15,gemini,Choice Set,"['1', '2', '3', '4']","['Stimme zu', 'Stimme eher zu', 'Stimme eher nicht zu', 'Stimme nicht zu']",92.70833333333333,24,87.5,12,1.217957549904033,0.23162512121142256,0.4306130213672472,not
+question15,gemini,Choice Set,"['1', '2', '3', '4']","['Yes', 'Rather Yes', 'Rather No', 'No']",92.70833333333333,24,75.0,12,5.246313898711124,8.22672600461449e-06,1.8548520670059347,significant
+question15,gemini,Choice Set,"['1', '2', '3', '4']","['Agree', 'Rather agree', 'Rather disagree', 'Disagree']",92.70833333333333,24,87.5,12,1.217957549904033,0.23162512121142256,0.4306130213672472,not
+question15,gemini,Choice Set,"['Stimme zu', 'Stimme eher zu', 'Stimme eher nicht zu', 'Stimme nicht zu']","['Yes', 'Rather Yes', 'Rather No', 'No']",87.5,12,75.0,12,3.3166247903554,0.003135867832065083,1.35400640077266,significant
+question15,gemini,Choice Set,"['Stimme zu', 'Stimme eher zu', 'Stimme eher nicht zu', 'Stimme nicht zu']","['Agree', 'Rather agree', 'Rather disagree', 'Disagree']",87.5,12,87.5,12,0.0,1.0,0.0,not
+question15,gemini,Choice Set,"['Yes', 'Rather Yes', 'Rather No', 'No']","['Agree', 'Rather agree', 'Rather disagree', 'Disagree']",75.0,12,87.5,12,-3.3166247903554,0.003135867832065083,-1.35400640077266,significant
+question15,gemini,Formulation Key,formulation1,formulation2,81.25,36,89.58333333333333,36,-3.005371535187641,0.0036798363938032952,-0.7083728641720686,significant
+question15,qwen,Language,de,en,88.88888888888889,36,86.11111111111111,36,0.7227641798688493,0.4722327652585193,0.17035715092799897,not
+question15,qwen,Choice Set,"['Ja', 'Eher Ja', 'Eher Nein', 'Nein']","['1', '2', '3', '4']",83.33333333333333,12,95.83333333333333,24,-2.3804761428476167,0.02303833994788324,-0.8416254115301732,significant
+question15,qwen,Choice Set,"['Ja', 'Eher Ja', 'Eher Nein', 'Nein']","['Stimme zu', 'Stimme eher zu', 'Stimme eher nicht zu', 'Stimme nicht zu']",83.33333333333333,12,85.41666666666667,12,-0.40519020777606835,0.6892508917413193,-0.16541820963727738,not
+question15,qwen,Choice Set,"['Ja', 'Eher Ja', 'Eher Nein', 'Nein']","['Yes', 'Rather Yes', 'Rather No', 'No']",83.33333333333333,12,77.08333333333333,12,1.5173416165766194,0.14341992959140373,0.6194521210170792,not
+question15,qwen,Choice Set,"['Ja', 'Eher Ja', 'Eher Nein', 'Nein']","['Agree', 'Rather agree', 'Rather disagree', 'Disagree']",83.33333333333333,12,87.5,12,-0.5606119105813887,0.5807272612018954,-0.228868854108532,not
+question15,qwen,Choice Set,"['1', '2', '3', '4']","['Stimme zu', 'Stimme eher zu', 'Stimme eher nicht zu', 'Stimme nicht zu']",95.83333333333333,24,85.41666666666667,12,1.9633836312465034,0.05782283224403908,0.6941609398625352,not
+question15,qwen,Choice Set,"['1', '2', '3', '4']","['Yes', 'Rather Yes', 'Rather No', 'No']",95.83333333333333,24,77.08333333333333,12,3.8635254973007083,0.0004779706179481445,1.3659625392142294,significant
+question15,qwen,Choice Set,"['1', '2', '3', '4']","['Agree', 'Rather agree', 'Rather disagree', 'Disagree']",95.83333333333333,24,87.5,12,1.283933350483913,0.2078462475165205,0.45393898935936955,not
+question15,qwen,Choice Set,"['Stimme zu', 'Stimme eher zu', 'Stimme eher nicht zu', 'Stimme nicht zu']","['Yes', 'Rather Yes', 'Rather No', 'No']",85.41666666666667,12,77.08333333333333,12,1.9560385876873057,0.06327597531014649,0.7985494095046914,not
+question15,qwen,Choice Set,"['Stimme zu', 'Stimme eher zu', 'Stimme eher nicht zu', 'Stimme nicht zu']","['Agree', 'Rather agree', 'Rather disagree', 'Disagree']",85.41666666666667,12,87.5,12,-0.27735009811261396,0.784100774871133,-0.11322770341445934,not
+question15,qwen,Choice Set,"['Yes', 'Rather Yes', 'Rather No', 'No']","['Agree', 'Rather agree', 'Rather disagree', 'Disagree']",77.08333333333333,12,87.5,12,-1.5201724802626517,0.14271042798205666,-0.620607816277438,not
+question15,qwen,Formulation Key,formulation1,formulation2,81.25,36,93.75,36,-3.5146751167740367,0.0007765509973413113,-0.8284168695795141,significant
+question15,deepseek,Language,de,en,92.36111111111111,36,95.83333333333333,36,-1.3867504905630696,0.16991835521629708,-0.32686022523030595,not
+question15,deepseek,Choice Set,"['Ja', 'Eher Ja', 'Eher Nein', 'Nein']","['1', '2', '3', '4']",89.58333333333333,12,96.875,24,-2.043388997839431,0.048825094801963426,-0.7224471084871226,significant
+question15,deepseek,Choice Set,"['Ja', 'Eher Ja', 'Eher Nein', 'Nein']","['Stimme zu', 'Stimme eher zu', 'Stimme eher nicht zu', 'Stimme nicht zu']",89.58333333333333,12,91.66666666666667,12,-0.40519020777606835,0.6892508917413193,-0.16541820963727738,not
+question15,deepseek,Choice Set,"['Ja', 'Eher Ja', 'Eher Nein', 'Nein']","['Yes', 'Rather Yes', 'Rather No', 'No']",89.58333333333333,12,91.66666666666667,12,-0.40519020777606835,0.6892508917413193,-0.16541820963727738,not
+question15,deepseek,Choice Set,"['Ja', 'Eher Ja', 'Eher Nein', 'Nein']","['Agree', 'Rather agree', 'Rather disagree', 'Disagree']",89.58333333333333,12,97.91666666666667,12,-1.9560385876873057,0.06327597531014649,-0.7985494095046914,not
+question15,deepseek,Choice Set,"['1', '2', '3', '4']","['Stimme zu', 'Stimme eher zu', 'Stimme eher nicht zu', 'Stimme nicht zu']",96.875,24,91.66666666666667,12,1.4936435748226282,0.14449193318703943,0.5280827502163984,not
+question15,deepseek,Choice Set,"['1', '2', '3', '4']","['Yes', 'Rather Yes', 'Rather No', 'No']",96.875,24,91.66666666666667,12,1.4936435748226282,0.14449193318703943,0.5280827502163984,not
+question15,deepseek,Choice Set,"['1', '2', '3', '4']","['Agree', 'Rather agree', 'Rather disagree', 'Disagree']",96.875,24,97.91666666666667,12,-0.36514837167011244,0.717262391962036,-0.12909944487358116,not
+question15,deepseek,Choice Set,"['Stimme zu', 'Stimme eher zu', 'Stimme eher nicht zu', 'Stimme nicht zu']","['Yes', 'Rather Yes', 'Rather No', 'No']",91.66666666666667,12,91.66666666666667,12,0.0,1.0,0.0,not
+question15,deepseek,Choice Set,"['Stimme zu', 'Stimme eher zu', 'Stimme eher nicht zu', 'Stimme nicht zu']","['Agree', 'Rather agree', 'Rather disagree', 'Disagree']",91.66666666666667,12,97.91666666666667,12,-1.5173416165766194,0.14341992959140373,-0.6194521210170792,not
+question15,deepseek,Choice Set,"['Yes', 'Rather Yes', 'Rather No', 'No']","['Agree', 'Rather agree', 'Rather disagree', 'Disagree']",91.66666666666667,12,97.91666666666667,12,-1.5173416165766194,0.14341992959140373,-0.6194521210170792,not
+question15,deepseek,Formulation Key,formulation1,formulation2,90.97222222222223,36,97.22222222222223,36,-2.5766925044124065,0.01208558058425894,-0.6073322476341869,significant

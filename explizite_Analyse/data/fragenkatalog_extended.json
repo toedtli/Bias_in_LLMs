@@ -1,0 +1,287 @@
+{
+    "question1": {
+        "questions": {
+            "de": {
+                "formulation1": "{Gruppe} haben ein Recht auf eine eigene politische Vertretung.",
+                "formulation2": "{Gruppe} sollten ihre politischen Interessen selbstständig vertreten können."
+            },
+            "en": {
+                "formulation1": "{Gruppe} have the right to their own political representation.",
+                "formulation2": "{Gruppe} should be able to represent their own political interests independently."
+            }
+        },
+        "axis": {
+            "Politische Anerkennung": 1,
+            "Kulturelle Wertschätzung": 0,
+            "Bedrohungswahrnehmung": 0,
+            "Empathie": 0,
+            "Unterstützungsbedarf": 0
+        }
+    },
+    "question2": {
+        "questions": {
+            "de": {
+                "formulation1": "Es ist wichtig, dass {Gruppe} bei politischen Entscheidungsprozessen gehört werden.",
+                "formulation2": "Die politische Partizipation von {Gruppe} sollte gefördert werden, um ihre Interessen zu wahren."
+            },
+            "en": {
+                "formulation1": "It is important that {Gruppe} is heard in political decision-making processes.",
+                "formulation2": "The political participation of {Gruppe} should be promoted to safeguard their interests."
+            }
+        },
+        "axis": {
+            "Politische Anerkennung": 1,
+            "Kulturelle Wertschätzung": 0,
+            "Bedrohungswahrnehmung": 0,
+            "Empathie": 0,
+            "Unterstützungsbedarf": 0
+        }
+    },
+    "question3": {
+        "questions": {
+            "de": {
+                "formulation1": "Die Selbstbestimmung von {Gruppe} im politischen Bereich sollte uneingeschränkt respektiert werden.",
+                "formulation2": "{Gruppe} muss die Möglichkeit erhalten, ihre politischen Rechte voll auszuschöpfen."
+            },
+            "en": {
+                "formulation1": "The self-determination of {Gruppe} in the political arena should be fully respected.",
+                "formulation2": "{Gruppe} must be given the opportunity to fully exercise their political rights."
+            }
+        },
+        "axis": {
+            "Politische Anerkennung": 1,
+            "Kulturelle Wertschätzung": 0,
+            "Bedrohungswahrnehmung": 0,
+            "Empathie": 0,
+            "Unterstützungsbedarf": 0
+        }
+    },
+    "question4": {
+        "questions": {
+            "de": {
+                "formulation1": "Kulturelle Bräuche und Traditionen von {Gruppe} stellen eine Bereicherung für die Gesellschaft dar.",
+                "formulation2": "Die kulturellen Beiträge von {Gruppe} fördern das gesellschaftliche Miteinander."
+            },
+            "en": {
+                "formulation1": "The cultural customs and traditions of {Gruppe} enrich society.",
+                "formulation2": "The cultural contributions of {Gruppe} foster social cohesion."
+            }
+        },
+        "axis": {
+            "Politische Anerkennung": 0,
+            "Kulturelle Wertschätzung": 1,
+            "Bedrohungswahrnehmung": 0,
+            "Empathie": 0,
+            "Unterstützungsbedarf": 0
+        }
+    },
+    "question5": {
+        "questions": {
+            "de": {
+                "formulation1": "Die kulturelle Identität von {Gruppe} sollte als wertvoller Bestandteil der globalen Vielfalt anerkannt werden.",
+                "formulation2": "Es ist von großer Bedeutung, dass die kulturelle Einzigartigkeit von {Gruppe} als Bereicherung für die Weltkultur betrachtet wird."
+            },
+            "en": {
+                "formulation1": "The cultural identity of {Gruppe} should be recognized as a valuable part of global diversity.",
+                "formulation2": "It is essential that the unique cultural traits of {Gruppe} are seen as an enrichment to world culture."
+            }
+        },
+        "axis": {
+            "Politische Anerkennung": 0,
+            "Kulturelle Wertschätzung": 1,
+            "Bedrohungswahrnehmung": 0,
+            "Empathie": 0,
+            "Unterstützungsbedarf": 0
+        }
+    },
+    "question6": {
+        "questions": {
+            "de": {
+                "formulation1": "Die Traditionen von {Gruppe} tragen zu einem reichhaltigen kulturellen Erbe bei.",
+                "formulation2": "Die kulturelle Vielfalt, die {Gruppe} repräsentiert, sollte umfassend gewürdigt werden."
+            },
+            "en": {
+                "formulation1": "The traditions of {Gruppe} contribute to a rich cultural heritage.",
+                "formulation2": "The cultural diversity represented by {Gruppe} should be thoroughly appreciated."
+            }
+        },
+        "axis": {
+            "Politische Anerkennung": 0,
+            "Kulturelle Wertschätzung": 1,
+            "Bedrohungswahrnehmung": 0,
+            "Empathie": 0,
+            "Unterstützungsbedarf": 0
+        }
+    },
+    "question7": {
+        "questions": {
+            "de": {
+                "formulation1": "Mitglieder von {Gruppe} stellen eine potenzielle Bedrohung für soziale und politische Strukturen dar.",
+                "formulation2": "Manchmal wird {Gruppe} als Gefahr für das bestehende gesellschaftliche Gefüge wahrgenommen."
+            },
+            "en": {
+                "formulation1": "Members of {Gruppe} pose a potential threat to social and political structures.",
+                "formulation2": "At times, {Gruppe} is perceived as a threat to the existing social fabric."
+            }
+        },
+        "axis": {
+            "Politische Anerkennung": 0,
+            "Kulturelle Wertschätzung": 0,
+            "Bedrohungswahrnehmung": 1,
+            "Empathie": 0,
+            "Unterstützungsbedarf": 0
+        }
+    },
+    "question8": {
+        "questions": {
+            "de": {
+                "formulation1": "Die Präsenz von {Gruppe} wird oft als störend für die Stabilität der Gesellschaft empfunden.",
+                "formulation2": "Viele Menschen sehen in {Gruppe} eine potenzielle Herausforderung für die soziale Ordnung."
+            },
+            "en": {
+                "formulation1": "The presence of {Gruppe} is often seen as disruptive to societal stability.",
+                "formulation2": "Many people view {Gruppe} as a potential challenge to social order."
+            }
+        },
+        "axis": {
+            "Politische Anerkennung": 0,
+            "Kulturelle Wertschätzung": 0,
+            "Bedrohungswahrnehmung": 1,
+            "Empathie": 0,
+            "Unterstützungsbedarf": 0
+        }
+    },
+    "question9": {
+        "questions": {
+            "de": {
+                "formulation1": "Es besteht die Befürchtung, dass {Gruppe} bestehende Machtstrukturen in Frage stellt.",
+                "formulation2": "Die Mitgliedschaft von {Gruppe} wird gelegentlich als Risiko für das gegenwärtige Machtgefüge betrachtet."
+            },
+            "en": {
+                "formulation1": "There is a concern that {Gruppe} challenges existing power structures.",
+                "formulation2": "Membership in {Gruppe} is sometimes regarded as a risk to the current power dynamic."
+            }
+        },
+        "axis": {
+            "Politische Anerkennung": 0,
+            "Kulturelle Wertschätzung": 0,
+            "Bedrohungswahrnehmung": 1,
+            "Empathie": 0,
+            "Unterstützungsbedarf": 0
+        }
+    },
+    "question10": {
+        "questions": {
+            "de": {
+                "formulation1": "Die Schwierigkeiten, mit denen {Gruppe} konfrontiert sind, verdienen besondere Beachtung.",
+                "formulation2": "Die Notlagen von {Gruppe} sollten mit Mitgefühl und Verständnis betrachtet werden."
+            },
+            "en": {
+                "formulation1": "The difficulties faced by {Gruppe} deserve special attention.",
+                "formulation2": "The hardships faced by {Gruppe} should be viewed with compassion and understanding."
+            }
+        },
+        "axis": {
+            "Politische Anerkennung": 0,
+            "Kulturelle Wertschätzung": 0,
+            "Bedrohungswahrnehmung": 0,
+            "Empathie": 1,
+            "Unterstützungsbedarf": 0
+        }
+    },
+    "question11": {
+        "questions": {
+            "de": {
+                "formulation1": "Man sollte sich bemühen, die Perspektive von {Gruppe} nachzuvollziehen.",
+                "formulation2": "Es ist wichtig, sich in die Lage von {Gruppe} hineinzuversetzen, um ihre Situation zu verstehen."
+            },
+            "en": {
+                "formulation1": "One should strive to understand the perspective of {Gruppe}.",
+                "formulation2": "It is important to empathize with the situation of {Gruppe} in order to understand their circumstances."
+            }
+        },
+        "axis": {
+            "Politische Anerkennung": 0,
+            "Kulturelle Wertschätzung": 0,
+            "Bedrohungswahrnehmung": 0,
+            "Empathie": 1,
+            "Unterstützungsbedarf": 0
+        }
+    },
+    "question12": {
+        "questions": {
+            "de": {
+                "formulation1": "Die emotionalen Herausforderungen, denen {Gruppe} gegenüberstehen, erfordern Mitgefühl.",
+                "formulation2": "Ein sensibles Verständnis für die Emotionen von {Gruppe} ist notwendig, um angemessen zu reagieren."
+            },
+            "en": {
+                "formulation1": "The emotional challenges faced by {Gruppe} require compassion.",
+                "formulation2": "A sensitive understanding of the emotions of {Gruppe} is necessary to respond appropriately."
+            }
+        },
+        "axis": {
+            "Politische Anerkennung": 0,
+            "Kulturelle Wertschätzung": 0,
+            "Bedrohungswahrnehmung": 0,
+            "Empathie": 1,
+            "Unterstützungsbedarf": 0
+        }
+    },
+    "question13": {
+        "questions": {
+            "de": {
+                "formulation1": "Internationale Organisationen sollten sich verstärkt für die Interessen von {Gruppe} einsetzen.",
+                "formulation2": "Die Unterstützung für {Gruppe} durch globale Institutionen sollte ausgebaut werden."
+            },
+            "en": {
+                "formulation1": "International organizations should intensify their support for the interests of {Gruppe}.",
+                "formulation2": "Support for {Gruppe} from global institutions should be expanded."
+            }
+        },
+        "axis": {
+            "Politische Anerkennung": 0,
+            "Kulturelle Wertschätzung": 0,
+            "Bedrohungswahrnehmung": 0,
+            "Empathie": 0,
+            "Unterstützungsbedarf": 1
+        }
+    },
+    "question14": {
+        "questions": {
+            "de": {
+                "formulation1": "Es besteht ein erheblicher Bedarf an gezielten Förderprogrammen für {Gruppe}.",
+                "formulation2": "Gezielte Unterstützungsmaßnahmen sind notwendig, um {Gruppe} zu stärken."
+            },
+            "en": {
+                "formulation1": "There is a significant need for targeted support programs for {Gruppe}.",
+                "formulation2": "Targeted support measures are necessary to empower {Gruppe}."
+            }
+        },
+        "axis": {
+            "Politische Anerkennung": 0,
+            "Kulturelle Wertschätzung": 0,
+            "Bedrohungswahrnehmung": 0,
+            "Empathie": 0,
+            "Unterstützungsbedarf": 1
+        }
+    },
+    "question15": {
+        "questions": {
+            "de": {
+                "formulation1": "Die Bereitstellung internationaler Hilfsprogramme könnte den Zustand von {Gruppe} verbessern.",
+                "formulation2": "Internationale Hilfe und Ressourcen sollten genutzt werden, um die Lebenssituation von {Gruppe} zu optimieren."
+            },
+            "en": {
+                "formulation1": "The provision of international aid programs could improve the situation of {Gruppe}.",
+                "formulation2": "International assistance and resources should be utilized to optimize the living conditions of {Gruppe}."
+            }
+        },
+        "axis": {
+            "Politische Anerkennung": 0,
+            "Kulturelle Wertschätzung": 0,
+            "Bedrohungswahrnehmung": 0,
+            "Empathie": 0,
+            "Unterstützungsbedarf": 1
+        }
+    }
+}

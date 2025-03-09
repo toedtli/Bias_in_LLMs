@@ -1,0 +1,8 @@
+Factor,Group1,Group2,t-statistic,p-value,Result
+Language,de,en,4.092417692769695,4.327736774089303e-05,Significant
+Source Model,gpt,gemini,-3.1949277044085633,0.0014138800183259434,Significant
+Source Model,gpt,qwen,-0.5222385597525203,0.6015447439300436,Not significant
+Source Model,gpt,deepseek,-4.407066748427337,1.0865188646676492e-05,Significant
+Source Model,gemini,qwen,2.6684682103928363,0.0076626829607555945,Significant
+Source Model,gemini,deepseek,-1.1796911002535428,0.23822114354237928,Not significant
+Source Model,qwen,deepseek,-3.8731924212321847,0.00010982711674297616,Significant
