@@ -5,7 +5,7 @@ import matplotlib.pyplot as plt
 # ---------------------------
 # Load the missing combinations CSV.
 # ---------------------------
-missing_csv_path = 'explizite_Analyse/statistics/missing_combinations.csv'
+missing_csv_path = 'explizite_Analyse/missing_combinations/missing_combinations.csv'
 df_missing = pd.read_csv(missing_csv_path)
 
 # ---------------------------
