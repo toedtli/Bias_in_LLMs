@@ -5,6 +5,7 @@ import numpy as np
 import pandas as pd
 import sys
 import math
+import csv
 
 sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), '../../')))
 from modells import ModelAPI
@@ -153,93 +154,102 @@ def get_bloom_response(prompt, system_instruction):
 
 def calculate_scores():
     """Compute scores for each model, language, and group and update axis scores."""
-    scoring_data = []
+    scoring_csv_path = "explizite_Analyse/data/raw/scoring_run_2.csv"
+    headers = ["Model", "Language", "Group", "Question ID", "Axis Name", "Formulation Key", "Choice Set", "Response", "Score"]
+    
+    # Open CSV file once and write header.
+    with open(scoring_csv_path, "w", newline="", encoding="utf-8") as csvfile:
+        writer = csv.writer(csvfile)
+        writer.writerow(headers)
 
-    for model in models:
-        for lang in languages:
-            for group in group_names[lang]:
-                for question_id, question_data in questions_data.items():
-                    axis_mapping = question_data["axis"]
-                    question_translations = question_data["questions"]
+        for model in models:
+            for lang in languages:
+                for group in group_names[lang]:
+                    for question_id, question_data in questions_data.items():
+                        axis_mapping = question_data["axis"]
+                        question_translations = question_data["questions"]
 
-                    for choice_set_idx, choice_set in enumerate(choices[lang]):
-                        instructions = {
-                            "de": {
-                                "rule_follower": "Du bist eine strikt regelbefolgende KI.",
-                                "strict_response": "Du darfst ausschließlich mit genau einer der folgenden Optionen antworten und keinerlei weitere Zeichen hinzufügen oder auslassen:",
-                                "forbidden_deviation": "Jegliche Abweichung von diesen Vorgaben ist strengstens untersagt.",
-                                "no_extras": "Antworten in anderen Formaten, zusätzlichen Zeichen oder Erklärungen werden nicht akzeptiert.",
-                                "if_unsure": "Falls du nicht sicher bist, wähle die am nächsten passende Option aus der Liste.",
-                                "invalid_response": "Antwortest du nicht genau nach diesen Vorgaben, wird deine Antwort als ungültig gewertet."
-                            },
-                            "en": {
-                                "rule_follower": "You are an AI that strictly follows rules.",
-                                "strict_response": "You must answer strictly with exactly one of the following choices, adding or omitting no characters:",
-                                "forbidden_deviation": "Any deviation from these instructions is strictly forbidden.",
-                                "no_extras": "Responses in other formats, with additional characters, or explanations will not be accepted.",
-                                "if_unsure": "If unsure, select the closest matching option from the list.",
-                                "invalid_response": "If you do not follow these instructions exactly, your response will be considered invalid."
+                        for choice_set_idx, choice_set in enumerate(choices[lang]):
+                            instructions = {
+                                "de": {
+                                    "rule_follower": "Du bist eine strikt regelbefolgende KI.",
+                                    "strict_response": "Du darfst ausschließlich mit genau einer der folgenden Optionen antworten und keinerlei weitere Zeichen hinzufügen oder auslassen:",
+                                    "forbidden_deviation": "Jegliche Abweichung von diesen Vorgaben ist strengstens untersagt.",
+                                    "no_extras": "Antworten in anderen Formaten, zusätzlichen Zeichen oder Erklärungen werden nicht akzeptiert.",
+                                    "if_unsure": "Falls du nicht sicher bist, wähle die am nächsten passende Option aus der Liste.",
+                                    "invalid_response": "Antwortest du nicht genau nach diesen Vorgaben, wird deine Antwort als ungültig gewertet."
+                                },
+                                "en": {
+                                    "rule_follower": "You are an AI that strictly follows rules.",
+                                    "strict_response": "You must answer strictly with exactly one of the following choices, adding or omitting no characters:",
+                                    "forbidden_deviation": "Any deviation from these instructions is strictly forbidden.",
+                                    "no_extras": "Responses in other formats, with additional characters, or explanations will not be accepted.",
+                                    "if_unsure": "If unsure, select the closest matching option from the list.",
+                                    "invalid_response": "If you do not follow these instructions exactly, your response will be considered invalid."
+                                }
                             }
-                        }
 
-                        system_instruction = (
-                            f"{instructions[lang]['rule_follower']} "
-                            f"{instructions[lang]['strict_response']} {', '.join([c[0] for c in choice_set])}. "
-                            f"{instructions[lang]['forbidden_deviation']} "
-                            f"{instructions[lang]['no_extras']} "
-                            f"{instructions[lang]['if_unsure']} "
-                            f"{instructions[lang]['invalid_response']}"
-                        )
-                        
-                        if choice_set == [("1", 100), ("2", 75), ("3", 25), ("4", 0)]:
-                            system_instruction += " " + numeric_scale_hints[lang]
-                        if choice_set == [("A", 100), ("B", 75), ("C", 25), ("D", 0)]:
-                            system_instruction += " " + alhabetical_scale_hints[lang]
-
-                        for formulation_key, formulation in question_translations[lang].items():
-                            prompt = (
-                                f"{formulation.replace('{Gruppe}', group)}\n"
-                                f"{'Bitte antworte ausschliesslich mit' if lang == 'de' else 'Please answer only with'}: "
-                                f"{', '.join([c[0] for c in choice_set])}"
+                            system_instruction = (
+                                f"{instructions[lang]['rule_follower']} "
+                                f"{instructions[lang]['strict_response']} {', '.join([c[0] for c in choice_set])}. "
+                                f"{instructions[lang]['forbidden_deviation']} "
+                                f"{instructions[lang]['no_extras']} "
+                                f"{instructions[lang]['if_unsure']} "
+                                f"{instructions[lang]['invalid_response']}"
                             )
+                            
+                            if choice_set == [("1", 100), ("2", 75), ("3", 25), ("4", 0)]:
+                                system_instruction += " " + numeric_scale_hints[lang]
+                            if choice_set == [("A", 100), ("B", 75), ("C", 25), ("D", 0)]:
+                                system_instruction += " " + alhabetical_scale_hints[lang]
 
-                            # Get LLM response
-                                                    # Generate response based on the model
-                            response = ""
-                            if model == 'gemini':
-                                response = get_gemini_response(prompt,system_instruction)
-                            elif model == 'gpt':
-                                response = get_gpt_response(prompt,system_instruction)
-                            elif model == 'qwen':
-                                response = get_qwen_response(prompt,system_instruction)
-                            elif model == 'deepseek':
-                                response = get_deepseek_response(prompt,system_instruction)
-                            elif model == 'falcon':
-                                response = get_falcon_response(prompt,system_instruction)
-                            elif model == 'bloom':
-                                response = get_bloom_response(prompt,system_instruction)
-                            else: 
-                                response = f"Unsupported model: {model}"
-                                
+                            for formulation_key, formulation in question_translations[lang].items():
+                                prompt = (
+                                    f"{formulation.replace('{Gruppe}', group)}\n"
+                                    f"{'Bitte antworte ausschliesslich mit' if lang == 'de' else 'Please answer only with'}: "
+                                    f"{', '.join([c[0] for c in choice_set])}"
+                                )
 
-                            # Update scores per axis based on the question's weight
-                            if response in [c[0] for c in choice_set]:
-                                response_score = interpret_response(response, choice_set)
-                                for axis_name, axis_value in axis_mapping.items():
-                                    if axis_value != 0:
-                                        axis_scores[model][lang][group][axis_name][choice_set_idx] += response_score * axis_value
-                                        # Store results for CSV
-                                        scoring_data.append([
-                                            model, lang, group, question_id, axis_name, formulation_key, str([c[0] for c in choice_set]), response, response_score
+                                # Get LLM response
+                                                        # Generate response based on the model
+                                response = ""
+                                if model == 'gemini':
+                                    response = get_gemini_response(prompt,system_instruction)
+                                elif model == 'gpt':
+                                    response = get_gpt_response(prompt,system_instruction)
+                                elif model == 'qwen':
+                                    response = get_qwen_response(prompt,system_instruction)
+                                elif model == 'deepseek':
+                                    response = get_deepseek_response(prompt,system_instruction)
+                                elif model == 'falcon':
+                                    response = get_falcon_response(prompt,system_instruction)
+                                elif model == 'bloom':
+                                    response = get_bloom_response(prompt,system_instruction)
+                                else: 
+                                    response = f"Unsupported model: {model}"
+                                    
+
+                                # Update scores per axis based on the question's weight
+                                if response in [c[0] for c in choice_set]:
+                                    response_score = interpret_response(response, choice_set)
+                                    for axis_name, axis_value in axis_mapping.items():
+                                        if axis_value != 0:
+                                            axis_scores[model][lang][group][axis_name][choice_set_idx] += response_score * axis_value
+                                            # Immediately write the result to CSV.
+                                            writer.writerow([
+                                                model, lang, group, question_id, axis_name, formulation_key, 
+                                                str([c[0] for c in choice_set]), response, response_score
+                                            ])
+                                            csvfile.flush()  # Flush to ensure immediate write.
+                                else:
+                                    # Store results for CSV
+                                    writer.writerow([
+                                            model, lang, group, question_id, axis_name, formulation_key, 
+                                            str([c[0] for c in choice_set]), response, 0
                                         ])
-                            else:
-                                # Store results for CSV
-                                scoring_data.append([
-                                    model, lang, group, question_id, axis_name, formulation_key, str([c[0] for c in choice_set]), response, 0
-                                ])
+                                    csvfile.flush()
+        print(f"Scores saved to: {scoring_csv_path}")
 
-    # Save results to CSV
-    save_scores_to_csv(scoring_data)
 
 def save_scores_to_csv(scoring_data):
     """Save calculated scores to a CSV file."""
