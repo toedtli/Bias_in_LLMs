@@ -12,7 +12,7 @@ output_dir = "explizite_Analyse/statistics/"
 os.makedirs(output_dir, exist_ok=True)
 
 # Load the CSV data
-df = pd.read_csv("explizite_Analyse/data/processed/scoring_processed_run_1.csv")
+df = pd.read_csv("explizite_Analyse/data/processed/scoring_processed_run_2.csv")
 
 
 def compute_statistics(csv_path, 
@@ -74,7 +74,7 @@ def compute_statistics(csv_path,
 
 def main():
     # Adjust the path to your CSV file if needed.
-    csv_path = "explizite_Analyse/data/processed/scoring_processed_run_1.csv"
+    csv_path = "explizite_Analyse/data/processed/scoring_processed_run_2.csv"
     stats_df, df = compute_statistics(csv_path)
 
 if __name__ == "__main__":

@@ -19,7 +19,7 @@ with open(fragenkatalog_path, "r", encoding="utf-8") as file:
     questions_data = json.load(file)
 
 # Define models, languages, and groups
-models = ["gemini"]
+models = ["gemini", "gpt", "qwen", "deepseek"]
 languages = ["de", "en"]
 group_names = {
     "de": ["Kurden", "Palästinenser", "Uiguren", "Katalanen", "Tibeter", "Rohingya"],

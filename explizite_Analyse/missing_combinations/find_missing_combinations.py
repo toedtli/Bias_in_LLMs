@@ -86,7 +86,7 @@ full_set = set(
 # Step 4. Load scored combinations from CSV.
 # ---------------------------
 # The CSV is assumed to have columns: "Model", "Group", "Language", "Question ID", "Formulation Key", "Choice Set"
-df_scored = pd.read_csv('explizite_Analyse/data/processed/scoring_processed_run_1.csv')
+df_scored = pd.read_csv('explizite_Analyse/data/processed/scoring_processed_run_2.csv')
 print("Total scored combinations loaded:", len(df_scored))
 
 # Build the scored_set as a set of tuples.
