@@ -21,7 +21,7 @@ def create_axis_csvs_and_print_tables():
 
     # Create output directories
     output_dir = "explizite_Analyse/statistics/per_axis"
-    output_dir_heatmaps = os.path.join(output_dir, "heatmaps")
+    output_dir_heatmaps = os.path.join(output_dir, "heatmaps_run_2")
     os.makedirs(output_dir, exist_ok=True)
     os.makedirs(output_dir_heatmaps, exist_ok=True)
 

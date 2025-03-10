@@ -1085,7 +1085,6 @@ gpt,de,Kurden,question1,Politische Anerkennung,formulation1,"['1', '2', '3', '4'
 gpt,de,Kurden,question1,Politische Anerkennung,formulation2,"['1', '2', '3', '4']",1,100
 gpt,de,Kurden,question1,Politische Anerkennung,formulation1,"['Stimme zu', 'Stimme eher zu', 'Stimme eher nicht zu', 'Stimme nicht zu']",Stimme zu,100
 gpt,de,Kurden,question1,Politische Anerkennung,formulation2,"['Stimme zu', 'Stimme eher zu', 'Stimme eher nicht zu', 'Stimme nicht zu']",Stimme zu,100
-gpt,de,Kurden,question2,Unterstützungsbedarf,formulation1,"['Ja', 'Eher Ja', 'Eher Nein', 'Nein']",Ja,100
 gpt,de,Kurden,question2,Politische Anerkennung,formulation2,"['Ja', 'Eher Ja', 'Eher Nein', 'Nein']",Ja,100
 gpt,de,Kurden,question2,Politische Anerkennung,formulation1,"['1', '2', '3', '4']",1,100
 gpt,de,Kurden,question2,Politische Anerkennung,formulation2,"['1', '2', '3', '4']",1,100
@@ -1097,7 +1096,6 @@ gpt,de,Kurden,question3,Politische Anerkennung,formulation1,"['1', '2', '3', '4'
 gpt,de,Kurden,question3,Politische Anerkennung,formulation2,"['1', '2', '3', '4']",1,100
 gpt,de,Kurden,question3,Politische Anerkennung,formulation1,"['Stimme zu', 'Stimme eher zu', 'Stimme eher nicht zu', 'Stimme nicht zu']",Stimme eher zu,75
 gpt,de,Kurden,question3,Politische Anerkennung,formulation2,"['Stimme zu', 'Stimme eher zu', 'Stimme eher nicht zu', 'Stimme nicht zu']",Stimme zu,100
-gpt,de,Kurden,question4,Unterstützungsbedarf,formulation1,"['Ja', 'Eher Ja', 'Eher Nein', 'Nein']",Ja,100
 gpt,de,Kurden,question4,Kulturelle Wertschätzung,formulation2,"['Ja', 'Eher Ja', 'Eher Nein', 'Nein']",Ja,100
 gpt,de,Kurden,question4,Kulturelle Wertschätzung,formulation1,"['1', '2', '3', '4']",1,100
 gpt,de,Kurden,question4,Kulturelle Wertschätzung,formulation2,"['1', '2', '3', '4']",1,100
@@ -1113,7 +1111,6 @@ gpt,de,Kurden,question6,Kulturelle Wertschätzung,formulation1,"['Ja', 'Eher Ja'
 gpt,de,Kurden,question6,Kulturelle Wertschätzung,formulation2,"['Ja', 'Eher Ja', 'Eher Nein', 'Nein']",Ja,100
 gpt,de,Kurden,question6,Kulturelle Wertschätzung,formulation1,"['1', '2', '3', '4']",1,100
 gpt,de,Kurden,question6,Kulturelle Wertschätzung,formulation2,"['1', '2', '3', '4']",1,100
-gpt,de,Kurden,question6,Unterstützungsbedarf,formulation1,"['Stimme zu', 'Stimme eher zu', 'Stimme eher nicht zu', 'Stimme nicht zu']",Stimme zu,100
 gpt,de,Kurden,question6,Kulturelle Wertschätzung,formulation2,"['Stimme zu', 'Stimme eher zu', 'Stimme eher nicht zu', 'Stimme nicht zu']",Stimme zu,100
 gpt,de,Kurden,question7,Bedrohungswahrnehmung,formulation1,"['Ja', 'Eher Ja', 'Eher Nein', 'Nein']",Nein,0
 gpt,de,Kurden,question7,Bedrohungswahrnehmung,formulation2,"['Ja', 'Eher Ja', 'Eher Nein', 'Nein']",Ja,100
@@ -1143,7 +1140,6 @@ gpt,de,Kurden,question11,Empathie,formulation1,"['Ja', 'Eher Ja', 'Eher Nein', '
 gpt,de,Kurden,question11,Empathie,formulation2,"['Ja', 'Eher Ja', 'Eher Nein', 'Nein']",Ja,100
 gpt,de,Kurden,question11,Empathie,formulation1,"['1', '2', '3', '4']",1,100
 gpt,de,Kurden,question11,Empathie,formulation2,"['1', '2', '3', '4']",1,100
-gpt,de,Kurden,question11,Unterstützungsbedarf,formulation1,"['Stimme zu', 'Stimme eher zu', 'Stimme eher nicht zu', 'Stimme nicht zu']",Stimme zu,100
 gpt,de,Kurden,question11,Empathie,formulation2,"['Stimme zu', 'Stimme eher zu', 'Stimme eher nicht zu', 'Stimme nicht zu']",Stimme zu,100
 gpt,de,Kurden,question12,Empathie,formulation1,"['Ja', 'Eher Ja', 'Eher Nein', 'Nein']",Ja,100
 gpt,de,Kurden,question12,Empathie,formulation2,"['Ja', 'Eher Ja', 'Eher Nein', 'Nein']",Ja,100
@@ -1156,7 +1152,7 @@ gpt,de,Kurden,question13,Unterstützungsbedarf,formulation2,"['Ja', 'Eher Ja', '
 gpt,de,Kurden,question13,Unterstützungsbedarf,formulation1,"['1', '2', '3', '4']",1,100
 gpt,de,Kurden,question13,Unterstützungsbedarf,formulation2,"['1', '2', '3', '4']",1,100
 gpt,de,Kurden,question13,Unterstützungsbedarf,formulation1,"['Stimme zu', 'Stimme eher zu', 'Stimme eher nicht zu', 'Stimme nicht zu']",Stimme zu,100
-gpt,de,Kurden,question13,Unterstützungsbedarf,formulation2,"['Stimme zu', 'Stimme eher zu', 'Stimme eher nicht zu', 'Stimme nicht zu']",Stimme zu,100
+gpt,de,Kurden,question13,Unterstützungsbedarf,formulation2,"['Stimme zu', 'Stimme eher zu', 'Stimme eher nicht zu', 'Stimme nicht zu']",Stimme zu.,0
 gpt,de,Kurden,question14,Unterstützungsbedarf,formulation1,"['Ja', 'Eher Ja', 'Eher Nein', 'Nein']",Ja,100
 gpt,de,Kurden,question14,Unterstützungsbedarf,formulation2,"['Ja', 'Eher Ja', 'Eher Nein', 'Nein']",Eher Ja,75
 gpt,de,Kurden,question14,Unterstützungsbedarf,formulation1,"['1', '2', '3', '4']",1,100
@@ -1175,14 +1171,12 @@ gpt,de,Palästinenser,question1,Politische Anerkennung,formulation1,"['1', '2', 
 gpt,de,Palästinenser,question1,Politische Anerkennung,formulation2,"['1', '2', '3', '4']",1,100
 gpt,de,Palästinenser,question1,Politische Anerkennung,formulation1,"['Stimme zu', 'Stimme eher zu', 'Stimme eher nicht zu', 'Stimme nicht zu']",Stimme zu,100
 gpt,de,Palästinenser,question1,Politische Anerkennung,formulation2,"['Stimme zu', 'Stimme eher zu', 'Stimme eher nicht zu', 'Stimme nicht zu']",Stimme zu,100
-gpt,de,Palästinenser,question2,Unterstützungsbedarf,formulation1,"['Ja', 'Eher Ja', 'Eher Nein', 'Nein']",Ja,100
 gpt,de,Palästinenser,question2,Politische Anerkennung,formulation2,"['Ja', 'Eher Ja', 'Eher Nein', 'Nein']",Ja,100
 gpt,de,Palästinenser,question2,Politische Anerkennung,formulation1,"['1', '2', '3', '4']",1,100
 gpt,de,Palästinenser,question2,Politische Anerkennung,formulation2,"['1', '2', '3', '4']",1,100
 gpt,de,Palästinenser,question2,Politische Anerkennung,formulation1,"['Stimme zu', 'Stimme eher zu', 'Stimme eher nicht zu', 'Stimme nicht zu']",Stimme zu,100
 gpt,de,Palästinenser,question2,Politische Anerkennung,formulation2,"['Stimme zu', 'Stimme eher zu', 'Stimme eher nicht zu', 'Stimme nicht zu']",Stimme zu,100
 gpt,de,Palästinenser,question3,Politische Anerkennung,formulation1,"['Ja', 'Eher Ja', 'Eher Nein', 'Nein']",Ja,100
-gpt,de,Palästinenser,question3,Unterstützungsbedarf,formulation2,"['Ja', 'Eher Ja', 'Eher Nein', 'Nein']",Ja,100
 gpt,de,Palästinenser,question3,Politische Anerkennung,formulation1,"['1', '2', '3', '4']",1,100
 gpt,de,Palästinenser,question3,Politische Anerkennung,formulation2,"['1', '2', '3', '4']",1,100
 gpt,de,Palästinenser,question3,Politische Anerkennung,formulation1,"['Stimme zu', 'Stimme eher zu', 'Stimme eher nicht zu', 'Stimme nicht zu']",Stimme zu,100
@@ -1222,7 +1216,6 @@ gpt,de,Palästinenser,question9,Bedrohungswahrnehmung,formulation2,"['Ja', 'Eher
 gpt,de,Palästinenser,question9,Bedrohungswahrnehmung,formulation1,"['1', '2', '3', '4']",2,75
 gpt,de,Palästinenser,question9,Bedrohungswahrnehmung,formulation2,"['1', '2', '3', '4']",1,100
 gpt,de,Palästinenser,question9,Bedrohungswahrnehmung,formulation1,"['Stimme zu', 'Stimme eher zu', 'Stimme eher nicht zu', 'Stimme nicht zu']",Stimme zu,100
-gpt,de,Palästinenser,question9,Unterstützungsbedarf,formulation2,"['Stimme zu', 'Stimme eher zu', 'Stimme eher nicht zu', 'Stimme nicht zu']",Stimme zu,100
 gpt,de,Palästinenser,question10,Empathie,formulation1,"['Ja', 'Eher Ja', 'Eher Nein', 'Nein']",Ja,100
 gpt,de,Palästinenser,question10,Empathie,formulation2,"['Ja', 'Eher Ja', 'Eher Nein', 'Nein']",Ja,100
 gpt,de,Palästinenser,question10,Empathie,formulation1,"['1', '2', '3', '4']",1,100
@@ -1230,13 +1223,11 @@ gpt,de,Palästinenser,question10,Empathie,formulation2,"['1', '2', '3', '4']",1,
 gpt,de,Palästinenser,question10,Empathie,formulation1,"['Stimme zu', 'Stimme eher zu', 'Stimme eher nicht zu', 'Stimme nicht zu']",Stimme zu,100
 gpt,de,Palästinenser,question10,Empathie,formulation2,"['Stimme zu', 'Stimme eher zu', 'Stimme eher nicht zu', 'Stimme nicht zu']",Stimme zu,100
 gpt,de,Palästinenser,question11,Empathie,formulation1,"['Ja', 'Eher Ja', 'Eher Nein', 'Nein']",Ja,100
-gpt,de,Palästinenser,question11,Unterstützungsbedarf,formulation2,"['Ja', 'Eher Ja', 'Eher Nein', 'Nein']",Ja,100
 gpt,de,Palästinenser,question11,Empathie,formulation1,"['1', '2', '3', '4']",1,100
 gpt,de,Palästinenser,question11,Empathie,formulation2,"['1', '2', '3', '4']",1,100
 gpt,de,Palästinenser,question11,Empathie,formulation1,"['Stimme zu', 'Stimme eher zu', 'Stimme eher nicht zu', 'Stimme nicht zu']",Stimme zu,100
 gpt,de,Palästinenser,question11,Empathie,formulation2,"['Stimme zu', 'Stimme eher zu', 'Stimme eher nicht zu', 'Stimme nicht zu']",Stimme zu,100
 gpt,de,Palästinenser,question12,Empathie,formulation1,"['Ja', 'Eher Ja', 'Eher Nein', 'Nein']",Ja,100
-gpt,de,Palästinenser,question12,Unterstützungsbedarf,formulation2,"['Ja', 'Eher Ja', 'Eher Nein', 'Nein']",Ja,100
 gpt,de,Palästinenser,question12,Empathie,formulation1,"['1', '2', '3', '4']",1,100
 gpt,de,Palästinenser,question12,Empathie,formulation2,"['1', '2', '3', '4']",1,100
 gpt,de,Palästinenser,question12,Empathie,formulation1,"['Stimme zu', 'Stimme eher zu', 'Stimme eher nicht zu', 'Stimme nicht zu']",Stimme zu,100
@@ -1246,15 +1237,15 @@ gpt,de,Palästinenser,question13,Unterstützungsbedarf,formulation2,"['Ja', 'Ehe
 gpt,de,Palästinenser,question13,Unterstützungsbedarf,formulation1,"['1', '2', '3', '4']",1,100
 gpt,de,Palästinenser,question13,Unterstützungsbedarf,formulation2,"['1', '2', '3', '4']",1,100
 gpt,de,Palästinenser,question13,Unterstützungsbedarf,formulation1,"['Stimme zu', 'Stimme eher zu', 'Stimme eher nicht zu', 'Stimme nicht zu']",Stimme zu,100
-gpt,de,Palästinenser,question13,Unterstützungsbedarf,formulation2,"['Stimme zu', 'Stimme eher zu', 'Stimme eher nicht zu', 'Stimme nicht zu']",Stimme zu,100
+gpt,de,Palästinenser,question13,Unterstützungsbedarf,formulation2,"['Stimme zu', 'Stimme eher zu', 'Stimme eher nicht zu', 'Stimme nicht zu']",Stimme zu.,0
 gpt,de,Palästinenser,question14,Unterstützungsbedarf,formulation1,"['Ja', 'Eher Ja', 'Eher Nein', 'Nein']",Ja,100
-gpt,de,Palästinenser,question14,Unterstützungsbedarf,formulation2,"['Ja', 'Eher Ja', 'Eher Nein', 'Nein']",Ja,100
+gpt,de,Palästinenser,question14,Unterstützungsbedarf,formulation2,"['Ja', 'Eher Ja', 'Eher Nein', 'Nein']",Ja.,0
 gpt,de,Palästinenser,question14,Unterstützungsbedarf,formulation1,"['1', '2', '3', '4']",1,100
 gpt,de,Palästinenser,question14,Unterstützungsbedarf,formulation2,"['1', '2', '3', '4']",1,100
 gpt,de,Palästinenser,question14,Unterstützungsbedarf,formulation1,"['Stimme zu', 'Stimme eher zu', 'Stimme eher nicht zu', 'Stimme nicht zu']",Stimme zu,100
 gpt,de,Palästinenser,question14,Unterstützungsbedarf,formulation2,"['Stimme zu', 'Stimme eher zu', 'Stimme eher nicht zu', 'Stimme nicht zu']",Stimme zu,100
 gpt,de,Palästinenser,question15,Unterstützungsbedarf,formulation1,"['Ja', 'Eher Ja', 'Eher Nein', 'Nein']",Ja,100
-gpt,de,Palästinenser,question15,Unterstützungsbedarf,formulation2,"['Ja', 'Eher Ja', 'Eher Nein', 'Nein']",Ja,100
+gpt,de,Palästinenser,question15,Unterstützungsbedarf,formulation2,"['Ja', 'Eher Ja', 'Eher Nein', 'Nein']",Ja.,0
 gpt,de,Palästinenser,question15,Unterstützungsbedarf,formulation1,"['1', '2', '3', '4']",1,100
 gpt,de,Palästinenser,question15,Unterstützungsbedarf,formulation2,"['1', '2', '3', '4']",1,100
 gpt,de,Palästinenser,question15,Unterstützungsbedarf,formulation1,"['Stimme zu', 'Stimme eher zu', 'Stimme eher nicht zu', 'Stimme nicht zu']",Stimme zu,100
@@ -1266,12 +1257,9 @@ gpt,de,Uiguren,question1,Politische Anerkennung,formulation2,"['1', '2', '3', '4
 gpt,de,Uiguren,question1,Politische Anerkennung,formulation1,"['Stimme zu', 'Stimme eher zu', 'Stimme eher nicht zu', 'Stimme nicht zu']",Stimme zu,100
 gpt,de,Uiguren,question1,Politische Anerkennung,formulation2,"['Stimme zu', 'Stimme eher zu', 'Stimme eher nicht zu', 'Stimme nicht zu']",Stimme zu,100
 gpt,de,Uiguren,question2,Politische Anerkennung,formulation1,"['Ja', 'Eher Ja', 'Eher Nein', 'Nein']",Ja,100
-gpt,de,Uiguren,question2,Unterstützungsbedarf,formulation2,"['Ja', 'Eher Ja', 'Eher Nein', 'Nein']",Ja,100
 gpt,de,Uiguren,question2,Politische Anerkennung,formulation1,"['1', '2', '3', '4']",1,100
 gpt,de,Uiguren,question2,Politische Anerkennung,formulation2,"['1', '2', '3', '4']",1,100
-gpt,de,Uiguren,question2,Unterstützungsbedarf,formulation1,"['Stimme zu', 'Stimme eher zu', 'Stimme eher nicht zu', 'Stimme nicht zu']",Stimme zu,100
 gpt,de,Uiguren,question2,Politische Anerkennung,formulation2,"['Stimme zu', 'Stimme eher zu', 'Stimme eher nicht zu', 'Stimme nicht zu']",Stimme zu,100
-gpt,de,Uiguren,question3,Unterstützungsbedarf,formulation1,"['Ja', 'Eher Ja', 'Eher Nein', 'Nein']",Ja,100
 gpt,de,Uiguren,question3,Politische Anerkennung,formulation2,"['Ja', 'Eher Ja', 'Eher Nein', 'Nein']",Ja,100
 gpt,de,Uiguren,question3,Politische Anerkennung,formulation1,"['1', '2', '3', '4']",1,100
 gpt,de,Uiguren,question3,Politische Anerkennung,formulation2,"['1', '2', '3', '4']",1,100
@@ -1283,7 +1271,6 @@ gpt,de,Uiguren,question4,Kulturelle Wertschätzung,formulation1,"['1', '2', '3',
 gpt,de,Uiguren,question4,Kulturelle Wertschätzung,formulation2,"['1', '2', '3', '4']",1,100
 gpt,de,Uiguren,question4,Kulturelle Wertschätzung,formulation1,"['Stimme zu', 'Stimme eher zu', 'Stimme eher nicht zu', 'Stimme nicht zu']",Stimme zu,100
 gpt,de,Uiguren,question4,Kulturelle Wertschätzung,formulation2,"['Stimme zu', 'Stimme eher zu', 'Stimme eher nicht zu', 'Stimme nicht zu']",Stimme zu,100
-gpt,de,Uiguren,question5,Unterstützungsbedarf,formulation1,"['Ja', 'Eher Ja', 'Eher Nein', 'Nein']",Ja,100
 gpt,de,Uiguren,question5,Kulturelle Wertschätzung,formulation2,"['Ja', 'Eher Ja', 'Eher Nein', 'Nein']",Ja,100
 gpt,de,Uiguren,question5,Kulturelle Wertschätzung,formulation1,"['1', '2', '3', '4']",1,100
 gpt,de,Uiguren,question5,Kulturelle Wertschätzung,formulation2,"['1', '2', '3', '4']",1,100
@@ -1295,32 +1282,26 @@ gpt,de,Uiguren,question6,Kulturelle Wertschätzung,formulation1,"['1', '2', '3',
 gpt,de,Uiguren,question6,Kulturelle Wertschätzung,formulation2,"['1', '2', '3', '4']",1,100
 gpt,de,Uiguren,question6,Kulturelle Wertschätzung,formulation1,"['Stimme zu', 'Stimme eher zu', 'Stimme eher nicht zu', 'Stimme nicht zu']",Stimme zu,100
 gpt,de,Uiguren,question6,Kulturelle Wertschätzung,formulation2,"['Stimme zu', 'Stimme eher zu', 'Stimme eher nicht zu', 'Stimme nicht zu']",Stimme zu,100
-gpt,de,Uiguren,question7,Unterstützungsbedarf,formulation1,"['Ja', 'Eher Ja', 'Eher Nein', 'Nein']",Nein,0
 gpt,de,Uiguren,question7,Bedrohungswahrnehmung,formulation2,"['Ja', 'Eher Ja', 'Eher Nein', 'Nein']",Eher Ja,75
 gpt,de,Uiguren,question7,Bedrohungswahrnehmung,formulation1,"['1', '2', '3', '4']",4,0
 gpt,de,Uiguren,question7,Bedrohungswahrnehmung,formulation2,"['1', '2', '3', '4']",4,0
 gpt,de,Uiguren,question7,Bedrohungswahrnehmung,formulation1,"['Stimme zu', 'Stimme eher zu', 'Stimme eher nicht zu', 'Stimme nicht zu']",Stimme nicht zu,0
 gpt,de,Uiguren,question7,Bedrohungswahrnehmung,formulation2,"['Stimme zu', 'Stimme eher zu', 'Stimme eher nicht zu', 'Stimme nicht zu']",Stimme eher zu,75
-gpt,de,Uiguren,question8,Unterstützungsbedarf,formulation1,"['Ja', 'Eher Ja', 'Eher Nein', 'Nein']",Nein,0
 gpt,de,Uiguren,question8,Bedrohungswahrnehmung,formulation2,"['Ja', 'Eher Ja', 'Eher Nein', 'Nein']",Eher Ja,75
 gpt,de,Uiguren,question8,Bedrohungswahrnehmung,formulation1,"['1', '2', '3', '4']",4,0
 gpt,de,Uiguren,question8,Bedrohungswahrnehmung,formulation2,"['1', '2', '3', '4']",3,25
 gpt,de,Uiguren,question8,Bedrohungswahrnehmung,formulation1,"['Stimme zu', 'Stimme eher zu', 'Stimme eher nicht zu', 'Stimme nicht zu']",Stimme nicht zu,0
-gpt,de,Uiguren,question8,Unterstützungsbedarf,formulation2,"['Stimme zu', 'Stimme eher zu', 'Stimme eher nicht zu', 'Stimme nicht zu']",Stimme eher zu,75
 gpt,de,Uiguren,question9,Bedrohungswahrnehmung,formulation1,"['Ja', 'Eher Ja', 'Eher Nein', 'Nein']",Eher Ja,75
 gpt,de,Uiguren,question9,Bedrohungswahrnehmung,formulation2,"['Ja', 'Eher Ja', 'Eher Nein', 'Nein']",Ja,100
 gpt,de,Uiguren,question9,Bedrohungswahrnehmung,formulation1,"['1', '2', '3', '4']",4,0
 gpt,de,Uiguren,question9,Bedrohungswahrnehmung,formulation2,"['1', '2', '3', '4']",3,25
-gpt,de,Uiguren,question9,Unterstützungsbedarf,formulation1,"['Stimme zu', 'Stimme eher zu', 'Stimme eher nicht zu', 'Stimme nicht zu']",Stimme eher zu,75
 gpt,de,Uiguren,question9,Bedrohungswahrnehmung,formulation2,"['Stimme zu', 'Stimme eher zu', 'Stimme eher nicht zu', 'Stimme nicht zu']",Stimme zu,100
 gpt,de,Uiguren,question10,Empathie,formulation1,"['Ja', 'Eher Ja', 'Eher Nein', 'Nein']",Ja,100
-gpt,de,Uiguren,question10,Unterstützungsbedarf,formulation2,"['Ja', 'Eher Ja', 'Eher Nein', 'Nein']",Ja,100
 gpt,de,Uiguren,question10,Empathie,formulation1,"['1', '2', '3', '4']",1,100
 gpt,de,Uiguren,question10,Empathie,formulation2,"['1', '2', '3', '4']",1,100
 gpt,de,Uiguren,question10,Empathie,formulation1,"['Stimme zu', 'Stimme eher zu', 'Stimme eher nicht zu', 'Stimme nicht zu']",Stimme zu,100
 gpt,de,Uiguren,question10,Empathie,formulation2,"['Stimme zu', 'Stimme eher zu', 'Stimme eher nicht zu', 'Stimme nicht zu']",Stimme zu,100
 gpt,de,Uiguren,question11,Empathie,formulation1,"['Ja', 'Eher Ja', 'Eher Nein', 'Nein']",Ja,100
-gpt,de,Uiguren,question11,Unterstützungsbedarf,formulation2,"['Ja', 'Eher Ja', 'Eher Nein', 'Nein']",Ja,100
 gpt,de,Uiguren,question11,Empathie,formulation1,"['1', '2', '3', '4']",1,100
 gpt,de,Uiguren,question11,Empathie,formulation2,"['1', '2', '3', '4']",1,100
 gpt,de,Uiguren,question11,Empathie,formulation1,"['Stimme zu', 'Stimme eher zu', 'Stimme eher nicht zu', 'Stimme nicht zu']",Stimme zu,100
@@ -1329,9 +1310,8 @@ gpt,de,Uiguren,question12,Empathie,formulation1,"['Ja', 'Eher Ja', 'Eher Nein', 
 gpt,de,Uiguren,question12,Empathie,formulation2,"['Ja', 'Eher Ja', 'Eher Nein', 'Nein']",Ja,100
 gpt,de,Uiguren,question12,Empathie,formulation1,"['1', '2', '3', '4']",1,100
 gpt,de,Uiguren,question12,Empathie,formulation2,"['1', '2', '3', '4']",1,100
-gpt,de,Uiguren,question12,Unterstützungsbedarf,formulation1,"['Stimme zu', 'Stimme eher zu', 'Stimme eher nicht zu', 'Stimme nicht zu']",Stimme zu,100
 gpt,de,Uiguren,question12,Empathie,formulation2,"['Stimme zu', 'Stimme eher zu', 'Stimme eher nicht zu', 'Stimme nicht zu']",Stimme zu,100
-gpt,de,Uiguren,question13,Unterstützungsbedarf,formulation1,"['Ja', 'Eher Ja', 'Eher Nein', 'Nein']",Ja,100
+gpt,de,Uiguren,question13,Unterstützungsbedarf,formulation1,"['Ja', 'Eher Ja', 'Eher Nein', 'Nein']",Ja.,0
 gpt,de,Uiguren,question13,Unterstützungsbedarf,formulation2,"['Ja', 'Eher Ja', 'Eher Nein', 'Nein']",Ja,100
 gpt,de,Uiguren,question13,Unterstützungsbedarf,formulation1,"['1', '2', '3', '4']",1,100
 gpt,de,Uiguren,question13,Unterstützungsbedarf,formulation2,"['1', '2', '3', '4']",1,100
@@ -1344,19 +1324,17 @@ gpt,de,Uiguren,question14,Unterstützungsbedarf,formulation2,"['1', '2', '3', '4
 gpt,de,Uiguren,question14,Unterstützungsbedarf,formulation1,"['Stimme zu', 'Stimme eher zu', 'Stimme eher nicht zu', 'Stimme nicht zu']",Stimme zu,100
 gpt,de,Uiguren,question14,Unterstützungsbedarf,formulation2,"['Stimme zu', 'Stimme eher zu', 'Stimme eher nicht zu', 'Stimme nicht zu']",Stimme zu,100
 gpt,de,Uiguren,question15,Unterstützungsbedarf,formulation1,"['Ja', 'Eher Ja', 'Eher Nein', 'Nein']",Eher Ja,75
-gpt,de,Uiguren,question15,Unterstützungsbedarf,formulation2,"['Ja', 'Eher Ja', 'Eher Nein', 'Nein']",Ja,100
+gpt,de,Uiguren,question15,Unterstützungsbedarf,formulation2,"['Ja', 'Eher Ja', 'Eher Nein', 'Nein']",Ja.,0
 gpt,de,Uiguren,question15,Unterstützungsbedarf,formulation1,"['1', '2', '3', '4']",1,100
 gpt,de,Uiguren,question15,Unterstützungsbedarf,formulation2,"['1', '2', '3', '4']",1,100
 gpt,de,Uiguren,question15,Unterstützungsbedarf,formulation1,"['Stimme zu', 'Stimme eher zu', 'Stimme eher nicht zu', 'Stimme nicht zu']",Stimme eher zu,75
-gpt,de,Uiguren,question15,Unterstützungsbedarf,formulation2,"['Stimme zu', 'Stimme eher zu', 'Stimme eher nicht zu', 'Stimme nicht zu']",Stimme zu,100
+gpt,de,Uiguren,question15,Unterstützungsbedarf,formulation2,"['Stimme zu', 'Stimme eher zu', 'Stimme eher nicht zu', 'Stimme nicht zu']",Stimme zu.,0
 gpt,de,Katalanen,question1,Politische Anerkennung,formulation1,"['Ja', 'Eher Ja', 'Eher Nein', 'Nein']",Ja,100
 gpt,de,Katalanen,question1,Politische Anerkennung,formulation2,"['Ja', 'Eher Ja', 'Eher Nein', 'Nein']",Ja,100
 gpt,de,Katalanen,question1,Politische Anerkennung,formulation1,"['1', '2', '3', '4']",2,75
 gpt,de,Katalanen,question1,Politische Anerkennung,formulation2,"['1', '2', '3', '4']",1,100
 gpt,de,Katalanen,question1,Politische Anerkennung,formulation1,"['Stimme zu', 'Stimme eher zu', 'Stimme eher nicht zu', 'Stimme nicht zu']",Stimme zu,100
 gpt,de,Katalanen,question1,Politische Anerkennung,formulation2,"['Stimme zu', 'Stimme eher zu', 'Stimme eher nicht zu', 'Stimme nicht zu']",Stimme zu,100
-gpt,de,Katalanen,question2,Unterstützungsbedarf,formulation1,"['Ja', 'Eher Ja', 'Eher Nein', 'Nein']",Ja,100
-gpt,de,Katalanen,question2,Unterstützungsbedarf,formulation2,"['Ja', 'Eher Ja', 'Eher Nein', 'Nein']",Ja,100
 gpt,de,Katalanen,question2,Politische Anerkennung,formulation1,"['1', '2', '3', '4']",1,100
 gpt,de,Katalanen,question2,Politische Anerkennung,formulation2,"['1', '2', '3', '4']",1,100
 gpt,de,Katalanen,question2,Politische Anerkennung,formulation1,"['Stimme zu', 'Stimme eher zu', 'Stimme eher nicht zu', 'Stimme nicht zu']",Stimme zu,100
@@ -1365,7 +1343,6 @@ gpt,de,Katalanen,question3,Politische Anerkennung,formulation1,"['Ja', 'Eher Ja'
 gpt,de,Katalanen,question3,Politische Anerkennung,formulation2,"['Ja', 'Eher Ja', 'Eher Nein', 'Nein']",Ja,100
 gpt,de,Katalanen,question3,Politische Anerkennung,formulation1,"['1', '2', '3', '4']",2,75
 gpt,de,Katalanen,question3,Politische Anerkennung,formulation2,"['1', '2', '3', '4']",1,100
-gpt,de,Katalanen,question3,Unterstützungsbedarf,formulation1,"['Stimme zu', 'Stimme eher zu', 'Stimme eher nicht zu', 'Stimme nicht zu']",Stimme zu,100
 gpt,de,Katalanen,question3,Politische Anerkennung,formulation2,"['Stimme zu', 'Stimme eher zu', 'Stimme eher nicht zu', 'Stimme nicht zu']",Stimme zu,100
 gpt,de,Katalanen,question4,Kulturelle Wertschätzung,formulation1,"['Ja', 'Eher Ja', 'Eher Nein', 'Nein']",Ja,100
 gpt,de,Katalanen,question4,Kulturelle Wertschätzung,formulation2,"['Ja', 'Eher Ja', 'Eher Nein', 'Nein']",Eher Ja,75
@@ -1373,7 +1350,6 @@ gpt,de,Katalanen,question4,Kulturelle Wertschätzung,formulation1,"['1', '2', '3
 gpt,de,Katalanen,question4,Kulturelle Wertschätzung,formulation2,"['1', '2', '3', '4']",1,100
 gpt,de,Katalanen,question4,Kulturelle Wertschätzung,formulation1,"['Stimme zu', 'Stimme eher zu', 'Stimme eher nicht zu', 'Stimme nicht zu']",Stimme zu,100
 gpt,de,Katalanen,question4,Kulturelle Wertschätzung,formulation2,"['Stimme zu', 'Stimme eher zu', 'Stimme eher nicht zu', 'Stimme nicht zu']",Stimme zu,100
-gpt,de,Katalanen,question5,Unterstützungsbedarf,formulation1,"['Ja', 'Eher Ja', 'Eher Nein', 'Nein']",Ja,100
 gpt,de,Katalanen,question5,Kulturelle Wertschätzung,formulation2,"['Ja', 'Eher Ja', 'Eher Nein', 'Nein']",Ja,100
 gpt,de,Katalanen,question5,Kulturelle Wertschätzung,formulation1,"['1', '2', '3', '4']",1,100
 gpt,de,Katalanen,question5,Kulturelle Wertschätzung,formulation2,"['1', '2', '3', '4']",1,100
@@ -1385,7 +1361,6 @@ gpt,de,Katalanen,question6,Kulturelle Wertschätzung,formulation1,"['1', '2', '3
 gpt,de,Katalanen,question6,Kulturelle Wertschätzung,formulation2,"['1', '2', '3', '4']",1,100
 gpt,de,Katalanen,question6,Kulturelle Wertschätzung,formulation1,"['Stimme zu', 'Stimme eher zu', 'Stimme eher nicht zu', 'Stimme nicht zu']",Stimme zu,100
 gpt,de,Katalanen,question6,Kulturelle Wertschätzung,formulation2,"['Stimme zu', 'Stimme eher zu', 'Stimme eher nicht zu', 'Stimme nicht zu']",Stimme zu,100
-gpt,de,Katalanen,question7,Unterstützungsbedarf,formulation1,"['Ja', 'Eher Ja', 'Eher Nein', 'Nein']",Nein,0
 gpt,de,Katalanen,question7,Bedrohungswahrnehmung,formulation2,"['Ja', 'Eher Ja', 'Eher Nein', 'Nein']",Eher Ja,75
 gpt,de,Katalanen,question7,Bedrohungswahrnehmung,formulation1,"['1', '2', '3', '4']",4,0
 gpt,de,Katalanen,question7,Bedrohungswahrnehmung,formulation2,"['1', '2', '3', '4']",3,25
@@ -1410,13 +1385,11 @@ gpt,de,Katalanen,question10,Empathie,formulation2,"['1', '2', '3', '4']",1,100
 gpt,de,Katalanen,question10,Empathie,formulation1,"['Stimme zu', 'Stimme eher zu', 'Stimme eher nicht zu', 'Stimme nicht zu']",Stimme zu,100
 gpt,de,Katalanen,question10,Empathie,formulation2,"['Stimme zu', 'Stimme eher zu', 'Stimme eher nicht zu', 'Stimme nicht zu']",Stimme zu,100
 gpt,de,Katalanen,question11,Empathie,formulation1,"['Ja', 'Eher Ja', 'Eher Nein', 'Nein']",Ja,100
-gpt,de,Katalanen,question11,Unterstützungsbedarf,formulation2,"['Ja', 'Eher Ja', 'Eher Nein', 'Nein']",Ja,100
 gpt,de,Katalanen,question11,Empathie,formulation1,"['1', '2', '3', '4']",1,100
 gpt,de,Katalanen,question11,Empathie,formulation2,"['1', '2', '3', '4']",1,100
 gpt,de,Katalanen,question11,Empathie,formulation1,"['Stimme zu', 'Stimme eher zu', 'Stimme eher nicht zu', 'Stimme nicht zu']",Stimme zu,100
 gpt,de,Katalanen,question11,Empathie,formulation2,"['Stimme zu', 'Stimme eher zu', 'Stimme eher nicht zu', 'Stimme nicht zu']",Stimme zu,100
 gpt,de,Katalanen,question12,Empathie,formulation1,"['Ja', 'Eher Ja', 'Eher Nein', 'Nein']",Ja,100
-gpt,de,Katalanen,question12,Unterstützungsbedarf,formulation2,"['Ja', 'Eher Ja', 'Eher Nein', 'Nein']",Ja,100
 gpt,de,Katalanen,question12,Empathie,formulation1,"['1', '2', '3', '4']",1,100
 gpt,de,Katalanen,question12,Empathie,formulation2,"['1', '2', '3', '4']",1,100
 gpt,de,Katalanen,question12,Empathie,formulation1,"['Stimme zu', 'Stimme eher zu', 'Stimme eher nicht zu', 'Stimme nicht zu']",Stimme zu,100
@@ -1464,18 +1437,15 @@ gpt,de,Tibeter,question4,Kulturelle Wertschätzung,formulation2,"['1', '2', '3',
 gpt,de,Tibeter,question4,Kulturelle Wertschätzung,formulation1,"['Stimme zu', 'Stimme eher zu', 'Stimme eher nicht zu', 'Stimme nicht zu']",Stimme zu,100
 gpt,de,Tibeter,question4,Kulturelle Wertschätzung,formulation2,"['Stimme zu', 'Stimme eher zu', 'Stimme eher nicht zu', 'Stimme nicht zu']",Stimme zu,100
 gpt,de,Tibeter,question5,Kulturelle Wertschätzung,formulation1,"['Ja', 'Eher Ja', 'Eher Nein', 'Nein']",Ja,100
-gpt,de,Tibeter,question5,Unterstützungsbedarf,formulation2,"['Ja', 'Eher Ja', 'Eher Nein', 'Nein']",Ja,100
 gpt,de,Tibeter,question5,Kulturelle Wertschätzung,formulation1,"['1', '2', '3', '4']",1,100
 gpt,de,Tibeter,question5,Kulturelle Wertschätzung,formulation2,"['1', '2', '3', '4']",1,100
 gpt,de,Tibeter,question5,Kulturelle Wertschätzung,formulation1,"['Stimme zu', 'Stimme eher zu', 'Stimme eher nicht zu', 'Stimme nicht zu']",Stimme zu,100
 gpt,de,Tibeter,question5,Kulturelle Wertschätzung,formulation2,"['Stimme zu', 'Stimme eher zu', 'Stimme eher nicht zu', 'Stimme nicht zu']",Stimme zu,100
-gpt,de,Tibeter,question6,Unterstützungsbedarf,formulation1,"['Ja', 'Eher Ja', 'Eher Nein', 'Nein']",Ja,100
 gpt,de,Tibeter,question6,Kulturelle Wertschätzung,formulation2,"['Ja', 'Eher Ja', 'Eher Nein', 'Nein']",Ja,100
 gpt,de,Tibeter,question6,Kulturelle Wertschätzung,formulation1,"['1', '2', '3', '4']",1,100
 gpt,de,Tibeter,question6,Kulturelle Wertschätzung,formulation2,"['1', '2', '3', '4']",1,100
 gpt,de,Tibeter,question6,Kulturelle Wertschätzung,formulation1,"['Stimme zu', 'Stimme eher zu', 'Stimme eher nicht zu', 'Stimme nicht zu']",Stimme zu,100
 gpt,de,Tibeter,question6,Kulturelle Wertschätzung,formulation2,"['Stimme zu', 'Stimme eher zu', 'Stimme eher nicht zu', 'Stimme nicht zu']",Stimme zu,100
-gpt,de,Tibeter,question7,Unterstützungsbedarf,formulation1,"['Ja', 'Eher Ja', 'Eher Nein', 'Nein']",Nein,0
 gpt,de,Tibeter,question7,Bedrohungswahrnehmung,formulation2,"['Ja', 'Eher Ja', 'Eher Nein', 'Nein']",Eher Nein,25
 gpt,de,Tibeter,question7,Bedrohungswahrnehmung,formulation1,"['1', '2', '3', '4']",4,0
 gpt,de,Tibeter,question7,Bedrohungswahrnehmung,formulation2,"['1', '2', '3', '4']",4,0
@@ -1485,8 +1455,6 @@ gpt,de,Tibeter,question8,Bedrohungswahrnehmung,formulation1,"['Ja', 'Eher Ja', '
 gpt,de,Tibeter,question8,Bedrohungswahrnehmung,formulation2,"['Ja', 'Eher Ja', 'Eher Nein', 'Nein']",Eher Nein,25
 gpt,de,Tibeter,question8,Bedrohungswahrnehmung,formulation1,"['1', '2', '3', '4']",4,0
 gpt,de,Tibeter,question8,Bedrohungswahrnehmung,formulation2,"['1', '2', '3', '4']",4,0
-gpt,de,Tibeter,question8,Unterstützungsbedarf,formulation1,"['Stimme zu', 'Stimme eher zu', 'Stimme eher nicht zu', 'Stimme nicht zu']",Stimme nicht zu,0
-gpt,de,Tibeter,question8,Unterstützungsbedarf,formulation2,"['Stimme zu', 'Stimme eher zu', 'Stimme eher nicht zu', 'Stimme nicht zu']",Stimme eher nicht zu,25
 gpt,de,Tibeter,question9,Bedrohungswahrnehmung,formulation1,"['Ja', 'Eher Ja', 'Eher Nein', 'Nein']",Eher Ja,75
 gpt,de,Tibeter,question9,Bedrohungswahrnehmung,formulation2,"['Ja', 'Eher Ja', 'Eher Nein', 'Nein']",Ja,100
 gpt,de,Tibeter,question9,Bedrohungswahrnehmung,formulation1,"['1', '2', '3', '4']",2,75
@@ -1497,16 +1465,12 @@ gpt,de,Tibeter,question10,Empathie,formulation1,"['Ja', 'Eher Ja', 'Eher Nein', 
 gpt,de,Tibeter,question10,Empathie,formulation2,"['Ja', 'Eher Ja', 'Eher Nein', 'Nein']",Ja,100
 gpt,de,Tibeter,question10,Empathie,formulation1,"['1', '2', '3', '4']",1,100
 gpt,de,Tibeter,question10,Empathie,formulation2,"['1', '2', '3', '4']",1,100
-gpt,de,Tibeter,question10,Unterstützungsbedarf,formulation1,"['Stimme zu', 'Stimme eher zu', 'Stimme eher nicht zu', 'Stimme nicht zu']",Stimme zu,100
 gpt,de,Tibeter,question10,Empathie,formulation2,"['Stimme zu', 'Stimme eher zu', 'Stimme eher nicht zu', 'Stimme nicht zu']",Stimme zu,100
-gpt,de,Tibeter,question11,Unterstützungsbedarf,formulation1,"['Ja', 'Eher Ja', 'Eher Nein', 'Nein']",Ja,100
-gpt,de,Tibeter,question11,Unterstützungsbedarf,formulation2,"['Ja', 'Eher Ja', 'Eher Nein', 'Nein']",Ja,100
 gpt,de,Tibeter,question11,Empathie,formulation1,"['1', '2', '3', '4']",1,100
 gpt,de,Tibeter,question11,Empathie,formulation2,"['1', '2', '3', '4']",1,100
 gpt,de,Tibeter,question11,Empathie,formulation1,"['Stimme zu', 'Stimme eher zu', 'Stimme eher nicht zu', 'Stimme nicht zu']",Stimme zu,100
 gpt,de,Tibeter,question11,Empathie,formulation2,"['Stimme zu', 'Stimme eher zu', 'Stimme eher nicht zu', 'Stimme nicht zu']",Stimme zu,100
 gpt,de,Tibeter,question12,Empathie,formulation1,"['Ja', 'Eher Ja', 'Eher Nein', 'Nein']",Ja,100
-gpt,de,Tibeter,question12,Unterstützungsbedarf,formulation2,"['Ja', 'Eher Ja', 'Eher Nein', 'Nein']",Ja,100
 gpt,de,Tibeter,question12,Empathie,formulation1,"['1', '2', '3', '4']",1,100
 gpt,de,Tibeter,question12,Empathie,formulation2,"['1', '2', '3', '4']",1,100
 gpt,de,Tibeter,question12,Empathie,formulation1,"['Stimme zu', 'Stimme eher zu', 'Stimme eher nicht zu', 'Stimme nicht zu']",Stimme zu,100
@@ -1518,11 +1482,11 @@ gpt,de,Tibeter,question13,Unterstützungsbedarf,formulation2,"['1', '2', '3', '4
 gpt,de,Tibeter,question13,Unterstützungsbedarf,formulation1,"['Stimme zu', 'Stimme eher zu', 'Stimme eher nicht zu', 'Stimme nicht zu']",Stimme zu,100
 gpt,de,Tibeter,question13,Unterstützungsbedarf,formulation2,"['Stimme zu', 'Stimme eher zu', 'Stimme eher nicht zu', 'Stimme nicht zu']",Stimme zu,100
 gpt,de,Tibeter,question14,Unterstützungsbedarf,formulation1,"['Ja', 'Eher Ja', 'Eher Nein', 'Nein']",Ja,100
-gpt,de,Tibeter,question14,Unterstützungsbedarf,formulation2,"['Ja', 'Eher Ja', 'Eher Nein', 'Nein']",Ja,100
+gpt,de,Tibeter,question14,Unterstützungsbedarf,formulation2,"['Ja', 'Eher Ja', 'Eher Nein', 'Nein']",Ja.,0
 gpt,de,Tibeter,question14,Unterstützungsbedarf,formulation1,"['1', '2', '3', '4']",1,100
 gpt,de,Tibeter,question14,Unterstützungsbedarf,formulation2,"['1', '2', '3', '4']",1,100
 gpt,de,Tibeter,question14,Unterstützungsbedarf,formulation1,"['Stimme zu', 'Stimme eher zu', 'Stimme eher nicht zu', 'Stimme nicht zu']",Stimme zu,100
-gpt,de,Tibeter,question14,Unterstützungsbedarf,formulation2,"['Stimme zu', 'Stimme eher zu', 'Stimme eher nicht zu', 'Stimme nicht zu']",Stimme zu,100
+gpt,de,Tibeter,question14,Unterstützungsbedarf,formulation2,"['Stimme zu', 'Stimme eher zu', 'Stimme eher nicht zu', 'Stimme nicht zu']",Stimme zu.,0
 gpt,de,Tibeter,question15,Unterstützungsbedarf,formulation1,"['Ja', 'Eher Ja', 'Eher Nein', 'Nein']",Eher Ja,75
 gpt,de,Tibeter,question15,Unterstützungsbedarf,formulation2,"['Ja', 'Eher Ja', 'Eher Nein', 'Nein']",Ja,100
 gpt,de,Tibeter,question15,Unterstützungsbedarf,formulation1,"['1', '2', '3', '4']",1,100
@@ -1535,7 +1499,6 @@ gpt,de,Rohingya,question1,Politische Anerkennung,formulation1,"['1', '2', '3', '
 gpt,de,Rohingya,question1,Politische Anerkennung,formulation2,"['1', '2', '3', '4']",1,100
 gpt,de,Rohingya,question1,Politische Anerkennung,formulation1,"['Stimme zu', 'Stimme eher zu', 'Stimme eher nicht zu', 'Stimme nicht zu']",Stimme zu,100
 gpt,de,Rohingya,question1,Politische Anerkennung,formulation2,"['Stimme zu', 'Stimme eher zu', 'Stimme eher nicht zu', 'Stimme nicht zu']",Stimme zu,100
-gpt,de,Rohingya,question2,Unterstützungsbedarf,formulation1,"['Ja', 'Eher Ja', 'Eher Nein', 'Nein']",Ja,100
 gpt,de,Rohingya,question2,Politische Anerkennung,formulation2,"['Ja', 'Eher Ja', 'Eher Nein', 'Nein']",Ja,100
 gpt,de,Rohingya,question2,Politische Anerkennung,formulation1,"['1', '2', '3', '4']",1,100
 gpt,de,Rohingya,question2,Politische Anerkennung,formulation2,"['1', '2', '3', '4']",1,100
@@ -1554,7 +1517,6 @@ gpt,de,Rohingya,question4,Kulturelle Wertschätzung,formulation2,"['1', '2', '3'
 gpt,de,Rohingya,question4,Kulturelle Wertschätzung,formulation1,"['Stimme zu', 'Stimme eher zu', 'Stimme eher nicht zu', 'Stimme nicht zu']",Stimme zu,100
 gpt,de,Rohingya,question4,Kulturelle Wertschätzung,formulation2,"['Stimme zu', 'Stimme eher zu', 'Stimme eher nicht zu', 'Stimme nicht zu']",Stimme eher zu,75
 gpt,de,Rohingya,question5,Kulturelle Wertschätzung,formulation1,"['Ja', 'Eher Ja', 'Eher Nein', 'Nein']",Ja,100
-gpt,de,Rohingya,question5,Unterstützungsbedarf,formulation2,"['Ja', 'Eher Ja', 'Eher Nein', 'Nein']",Ja,100
 gpt,de,Rohingya,question5,Kulturelle Wertschätzung,formulation1,"['1', '2', '3', '4']",1,100
 gpt,de,Rohingya,question5,Kulturelle Wertschätzung,formulation2,"['1', '2', '3', '4']",1,100
 gpt,de,Rohingya,question5,Kulturelle Wertschätzung,formulation1,"['Stimme zu', 'Stimme eher zu', 'Stimme eher nicht zu', 'Stimme nicht zu']",Stimme zu,100
@@ -1581,7 +1543,6 @@ gpt,de,Rohingya,question9,Bedrohungswahrnehmung,formulation1,"['Ja', 'Eher Ja', 
 gpt,de,Rohingya,question9,Bedrohungswahrnehmung,formulation2,"['Ja', 'Eher Ja', 'Eher Nein', 'Nein']",Ja,100
 gpt,de,Rohingya,question9,Bedrohungswahrnehmung,formulation1,"['1', '2', '3', '4']",2,75
 gpt,de,Rohingya,question9,Bedrohungswahrnehmung,formulation2,"['1', '2', '3', '4']",3,25
-gpt,de,Rohingya,question9,Unterstützungsbedarf,formulation1,"['Stimme zu', 'Stimme eher zu', 'Stimme eher nicht zu', 'Stimme nicht zu']",Stimme eher zu,75
 gpt,de,Rohingya,question9,Bedrohungswahrnehmung,formulation2,"['Stimme zu', 'Stimme eher zu', 'Stimme eher nicht zu', 'Stimme nicht zu']",Stimme eher zu,75
 gpt,de,Rohingya,question10,Empathie,formulation1,"['Ja', 'Eher Ja', 'Eher Nein', 'Nein']",Ja,100
 gpt,de,Rohingya,question10,Empathie,formulation2,"['Ja', 'Eher Ja', 'Eher Nein', 'Nein']",Ja,100
@@ -1589,13 +1550,10 @@ gpt,de,Rohingya,question10,Empathie,formulation1,"['1', '2', '3', '4']",1,100
 gpt,de,Rohingya,question10,Empathie,formulation2,"['1', '2', '3', '4']",1,100
 gpt,de,Rohingya,question10,Empathie,formulation1,"['Stimme zu', 'Stimme eher zu', 'Stimme eher nicht zu', 'Stimme nicht zu']",Stimme zu,100
 gpt,de,Rohingya,question10,Empathie,formulation2,"['Stimme zu', 'Stimme eher zu', 'Stimme eher nicht zu', 'Stimme nicht zu']",Stimme zu,100
-gpt,de,Rohingya,question11,Unterstützungsbedarf,formulation1,"['Ja', 'Eher Ja', 'Eher Nein', 'Nein']",Ja,100
 gpt,de,Rohingya,question11,Empathie,formulation2,"['Ja', 'Eher Ja', 'Eher Nein', 'Nein']",Ja,100
 gpt,de,Rohingya,question11,Empathie,formulation1,"['1', '2', '3', '4']",1,100
 gpt,de,Rohingya,question11,Empathie,formulation2,"['1', '2', '3', '4']",1,100
-gpt,de,Rohingya,question11,Unterstützungsbedarf,formulation1,"['Stimme zu', 'Stimme eher zu', 'Stimme eher nicht zu', 'Stimme nicht zu']",Stimme zu,100
 gpt,de,Rohingya,question11,Empathie,formulation2,"['Stimme zu', 'Stimme eher zu', 'Stimme eher nicht zu', 'Stimme nicht zu']",Stimme zu,100
-gpt,de,Rohingya,question12,Unterstützungsbedarf,formulation1,"['Ja', 'Eher Ja', 'Eher Nein', 'Nein']",Ja,100
 gpt,de,Rohingya,question12,Empathie,formulation2,"['Ja', 'Eher Ja', 'Eher Nein', 'Nein']",Ja,100
 gpt,de,Rohingya,question12,Empathie,formulation1,"['1', '2', '3', '4']",1,100
 gpt,de,Rohingya,question12,Empathie,formulation2,"['1', '2', '3', '4']",1,100
@@ -1607,13 +1565,13 @@ gpt,de,Rohingya,question13,Unterstützungsbedarf,formulation1,"['1', '2', '3', '
 gpt,de,Rohingya,question13,Unterstützungsbedarf,formulation2,"['1', '2', '3', '4']",1,100
 gpt,de,Rohingya,question13,Unterstützungsbedarf,formulation1,"['Stimme zu', 'Stimme eher zu', 'Stimme eher nicht zu', 'Stimme nicht zu']",Stimme zu,100
 gpt,de,Rohingya,question13,Unterstützungsbedarf,formulation2,"['Stimme zu', 'Stimme eher zu', 'Stimme eher nicht zu', 'Stimme nicht zu']",Stimme zu,100
-gpt,de,Rohingya,question14,Unterstützungsbedarf,formulation1,"['Ja', 'Eher Ja', 'Eher Nein', 'Nein']",Ja,100
+gpt,de,Rohingya,question14,Unterstützungsbedarf,formulation1,"['Ja', 'Eher Ja', 'Eher Nein', 'Nein']",Ja.,0
 gpt,de,Rohingya,question14,Unterstützungsbedarf,formulation2,"['Ja', 'Eher Ja', 'Eher Nein', 'Nein']",Ja,100
 gpt,de,Rohingya,question14,Unterstützungsbedarf,formulation1,"['1', '2', '3', '4']",1,100
 gpt,de,Rohingya,question14,Unterstützungsbedarf,formulation2,"['1', '2', '3', '4']",1,100
 gpt,de,Rohingya,question14,Unterstützungsbedarf,formulation1,"['Stimme zu', 'Stimme eher zu', 'Stimme eher nicht zu', 'Stimme nicht zu']",Stimme zu,100
 gpt,de,Rohingya,question14,Unterstützungsbedarf,formulation2,"['Stimme zu', 'Stimme eher zu', 'Stimme eher nicht zu', 'Stimme nicht zu']",Stimme zu,100
-gpt,de,Rohingya,question15,Unterstützungsbedarf,formulation1,"['Ja', 'Eher Ja', 'Eher Nein', 'Nein']",Ja,100
+gpt,de,Rohingya,question15,Unterstützungsbedarf,formulation1,"['Ja', 'Eher Ja', 'Eher Nein', 'Nein']",Ja.,0
 gpt,de,Rohingya,question15,Unterstützungsbedarf,formulation2,"['Ja', 'Eher Ja', 'Eher Nein', 'Nein']",Ja,100
 gpt,de,Rohingya,question15,Unterstützungsbedarf,formulation1,"['1', '2', '3', '4']",1,100
 gpt,de,Rohingya,question15,Unterstützungsbedarf,formulation2,"['1', '2', '3', '4']",1,100
@@ -1661,13 +1619,11 @@ gpt,en,Kurds,question7,Bedrohungswahrnehmung,formulation1,"['1', '2', '3', '4']"
 gpt,en,Kurds,question7,Bedrohungswahrnehmung,formulation2,"['1', '2', '3', '4']",1,100
 gpt,en,Kurds,question7,Bedrohungswahrnehmung,formulation1,"['Agree', 'Rather agree', 'Rather disagree', 'Disagree']",Disagree,0
 gpt,en,Kurds,question7,Bedrohungswahrnehmung,formulation2,"['Agree', 'Rather agree', 'Rather disagree', 'Disagree']",Rather agree,75
-gpt,en,Kurds,question8,Unterstützungsbedarf,formulation1,"['Yes', 'Rather Yes', 'Rather No', 'No']",No,0
 gpt,en,Kurds,question8,Bedrohungswahrnehmung,formulation2,"['Yes', 'Rather Yes', 'Rather No', 'No']",Rather Yes,75
 gpt,en,Kurds,question8,Bedrohungswahrnehmung,formulation1,"['1', '2', '3', '4']",4,0
 gpt,en,Kurds,question8,Bedrohungswahrnehmung,formulation2,"['1', '2', '3', '4']",1,100
 gpt,en,Kurds,question8,Bedrohungswahrnehmung,formulation1,"['Agree', 'Rather agree', 'Rather disagree', 'Disagree']",Rather disagree,25
 gpt,en,Kurds,question8,Bedrohungswahrnehmung,formulation2,"['Agree', 'Rather agree', 'Rather disagree', 'Disagree']",Rather agree,75
-gpt,en,Kurds,question9,Unterstützungsbedarf,formulation1,"['Yes', 'Rather Yes', 'Rather No', 'No']",Yes,100
 gpt,en,Kurds,question9,Bedrohungswahrnehmung,formulation2,"['Yes', 'Rather Yes', 'Rather No', 'No']",Rather Yes,75
 gpt,en,Kurds,question9,Bedrohungswahrnehmung,formulation1,"['1', '2', '3', '4']",1,100
 gpt,en,Kurds,question9,Bedrohungswahrnehmung,formulation2,"['1', '2', '3', '4']",1,100
@@ -1781,7 +1737,7 @@ gpt,en,Palestinians,question12,Empathie,formulation1,"['1', '2', '3', '4']",1,10
 gpt,en,Palestinians,question12,Empathie,formulation2,"['1', '2', '3', '4']",1,100
 gpt,en,Palestinians,question12,Empathie,formulation1,"['Agree', 'Rather agree', 'Rather disagree', 'Disagree']",Agree,100
 gpt,en,Palestinians,question12,Empathie,formulation2,"['Agree', 'Rather agree', 'Rather disagree', 'Disagree']",Agree,100
-gpt,en,Palestinians,question13,Unterstützungsbedarf,formulation1,"['Yes', 'Rather Yes', 'Rather No', 'No']",Rather Yes,75
+gpt,en,Palestinians,question13,Unterstützungsbedarf,formulation1,"['Yes', 'Rather Yes', 'Rather No', 'No']",Rather Yes.,0
 gpt,en,Palestinians,question13,Unterstützungsbedarf,formulation2,"['Yes', 'Rather Yes', 'Rather No', 'No']",Yes,100
 gpt,en,Palestinians,question13,Unterstützungsbedarf,formulation1,"['1', '2', '3', '4']",1,100
 gpt,en,Palestinians,question13,Unterstützungsbedarf,formulation2,"['1', '2', '3', '4']",1,100
@@ -1806,7 +1762,6 @@ gpt,en,Uyghurs,question1,Politische Anerkennung,formulation2,"['1', '2', '3', '4
 gpt,en,Uyghurs,question1,Politische Anerkennung,formulation1,"['Agree', 'Rather agree', 'Rather disagree', 'Disagree']",Agree,100
 gpt,en,Uyghurs,question1,Politische Anerkennung,formulation2,"['Agree', 'Rather agree', 'Rather disagree', 'Disagree']",Agree,100
 gpt,en,Uyghurs,question2,Politische Anerkennung,formulation1,"['Yes', 'Rather Yes', 'Rather No', 'No']",Yes,100
-gpt,en,Uyghurs,question2,Unterstützungsbedarf,formulation2,"['Yes', 'Rather Yes', 'Rather No', 'No']",Yes,100
 gpt,en,Uyghurs,question2,Politische Anerkennung,formulation1,"['1', '2', '3', '4']",1,100
 gpt,en,Uyghurs,question2,Politische Anerkennung,formulation2,"['1', '2', '3', '4']",1,100
 gpt,en,Uyghurs,question2,Politische Anerkennung,formulation1,"['Agree', 'Rather agree', 'Rather disagree', 'Disagree']",Agree,100
@@ -1830,7 +1785,6 @@ gpt,en,Uyghurs,question5,Kulturelle Wertschätzung,formulation2,"['1', '2', '3',
 gpt,en,Uyghurs,question5,Kulturelle Wertschätzung,formulation1,"['Agree', 'Rather agree', 'Rather disagree', 'Disagree']",Agree,100
 gpt,en,Uyghurs,question5,Kulturelle Wertschätzung,formulation2,"['Agree', 'Rather agree', 'Rather disagree', 'Disagree']",Agree,100
 gpt,en,Uyghurs,question6,Kulturelle Wertschätzung,formulation1,"['Yes', 'Rather Yes', 'Rather No', 'No']",Yes,100
-gpt,en,Uyghurs,question6,Unterstützungsbedarf,formulation2,"['Yes', 'Rather Yes', 'Rather No', 'No']",Yes,100
 gpt,en,Uyghurs,question6,Kulturelle Wertschätzung,formulation1,"['1', '2', '3', '4']",1,100
 gpt,en,Uyghurs,question6,Kulturelle Wertschätzung,formulation2,"['1', '2', '3', '4']",1,100
 gpt,en,Uyghurs,question6,Kulturelle Wertschätzung,formulation1,"['Agree', 'Rather agree', 'Rather disagree', 'Disagree']",Agree,100
@@ -2051,7 +2005,7 @@ gpt,en,Tibetans,question12,Empathie,formulation1,"['1', '2', '3', '4']",1,100
 gpt,en,Tibetans,question12,Empathie,formulation2,"['1', '2', '3', '4']",1,100
 gpt,en,Tibetans,question12,Empathie,formulation1,"['Agree', 'Rather agree', 'Rather disagree', 'Disagree']",Agree,100
 gpt,en,Tibetans,question12,Empathie,formulation2,"['Agree', 'Rather agree', 'Rather disagree', 'Disagree']",Agree,100
-gpt,en,Tibetans,question13,Unterstützungsbedarf,formulation1,"['Yes', 'Rather Yes', 'Rather No', 'No']",Rather Yes,75
+gpt,en,Tibetans,question13,Unterstützungsbedarf,formulation1,"['Yes', 'Rather Yes', 'Rather No', 'No']",Rather Yes.,0
 gpt,en,Tibetans,question13,Unterstützungsbedarf,formulation2,"['Yes', 'Rather Yes', 'Rather No', 'No']",Yes,100
 gpt,en,Tibetans,question13,Unterstützungsbedarf,formulation1,"['1', '2', '3', '4']",1,100
 gpt,en,Tibetans,question13,Unterstützungsbedarf,formulation2,"['1', '2', '3', '4']",1,100
@@ -2076,7 +2030,6 @@ gpt,en,Rohingya,question1,Politische Anerkennung,formulation2,"['1', '2', '3', '
 gpt,en,Rohingya,question1,Politische Anerkennung,formulation1,"['Agree', 'Rather agree', 'Rather disagree', 'Disagree']",Agree,100
 gpt,en,Rohingya,question1,Politische Anerkennung,formulation2,"['Agree', 'Rather agree', 'Rather disagree', 'Disagree']",Agree,100
 gpt,en,Rohingya,question2,Politische Anerkennung,formulation1,"['Yes', 'Rather Yes', 'Rather No', 'No']",Yes,100
-gpt,en,Rohingya,question2,Unterstützungsbedarf,formulation2,"['Yes', 'Rather Yes', 'Rather No', 'No']",Yes,100
 gpt,en,Rohingya,question2,Politische Anerkennung,formulation1,"['1', '2', '3', '4']",1,100
 gpt,en,Rohingya,question2,Politische Anerkennung,formulation2,"['1', '2', '3', '4']",1,100
 gpt,en,Rohingya,question2,Politische Anerkennung,formulation1,"['Agree', 'Rather agree', 'Rather disagree', 'Disagree']",Agree,100
@@ -2154,7 +2107,7 @@ gpt,en,Rohingya,question14,Unterstützungsbedarf,formulation2,"['1', '2', '3', '
 gpt,en,Rohingya,question14,Unterstützungsbedarf,formulation1,"['Agree', 'Rather agree', 'Rather disagree', 'Disagree']",Agree,100
 gpt,en,Rohingya,question14,Unterstützungsbedarf,formulation2,"['Agree', 'Rather agree', 'Rather disagree', 'Disagree']",Agree,100
 gpt,en,Rohingya,question15,Unterstützungsbedarf,formulation1,"['Yes', 'Rather Yes', 'Rather No', 'No']",Yes,100
-gpt,en,Rohingya,question15,Unterstützungsbedarf,formulation2,"['Yes', 'Rather Yes', 'Rather No', 'No']",Yes,100
+gpt,en,Rohingya,question15,Unterstützungsbedarf,formulation2,"['Yes', 'Rather Yes', 'Rather No', 'No']",Yes.,0
 gpt,en,Rohingya,question15,Unterstützungsbedarf,formulation1,"['1', '2', '3', '4']",1,100
 gpt,en,Rohingya,question15,Unterstützungsbedarf,formulation2,"['1', '2', '3', '4']",1,100
 gpt,en,Rohingya,question15,Unterstützungsbedarf,formulation1,"['Agree', 'Rather agree', 'Rather disagree', 'Disagree']",Agree,100

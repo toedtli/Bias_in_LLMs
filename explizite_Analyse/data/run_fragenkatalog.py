@@ -241,13 +241,7 @@ def calculate_scores():
                                                 str([c[0] for c in choice_set]), response, response_score
                                             ])
                                             csvfile.flush()  # Flush to ensure immediate write.
-                                else:
-                                    # Store results for CSV
-                                    writer.writerow([
-                                            model, lang, group, question_id, axis_name, formulation_key, 
-                                            str([c[0] for c in choice_set]), response, 0
-                                        ])
-                                    csvfile.flush()
+
         print(f"Scores saved to: {scoring_csv_path}")
 
 
