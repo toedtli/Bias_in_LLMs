@@ -6,7 +6,7 @@ import pandas as pd
 import sys
 import math
 
-sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), '../')))
+sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), '../../')))
 from modells import ModelAPI
 
 # Initialize Model API
@@ -18,7 +18,7 @@ with open(fragenkatalog_path, "r", encoding="utf-8") as file:
     questions_data = json.load(file)
 
 # Define models, languages, and groups
-models = ["gpt", "gemini", "qwen", "deepseek"]
+models = ["gemini"]
 languages = ["de", "en"]
 group_names = {
     "de": ["Kurden", "Palästinenser", "Uiguren", "Katalanen", "Tibeter", "Rohingya"],
@@ -221,9 +221,6 @@ def calculate_scores():
                             else: 
                                 response = f"Unsupported model: {model}"
                                 
-                            
-                            
-                            
 
                             # Update scores per axis based on the question's weight
                             if response in [c[0] for c in choice_set]:
@@ -235,13 +232,18 @@ def calculate_scores():
                                         scoring_data.append([
                                             model, lang, group, question_id, axis_name, formulation_key, str([c[0] for c in choice_set]), response, response_score
                                         ])
+                            else:
+                                # Store results for CSV
+                                scoring_data.append([
+                                    model, lang, group, question_id, axis_name, formulation_key, str([c[0] for c in choice_set]), response, 0
+                                ])
 
     # Save results to CSV
     save_scores_to_csv(scoring_data)
 
 def save_scores_to_csv(scoring_data):
     """Save calculated scores to a CSV file."""
-    scoring_csv_path = "explizite_Analyse/data/processed/scoring_processed_run_1.csv"
+    scoring_csv_path = "explizite_Analyse/data/raw/scoring_run_2.csv"
     headers = ["Model", "Language", "Group", "Question ID", "Axis Name", "Formulation Key", "Choice Set", "Response", "Score"]
     df = pd.DataFrame(scoring_data, columns=headers)
     df.to_csv(scoring_csv_path, index=False)
@@ -261,67 +263,7 @@ def print_final_scores():
                 print("-" * 40)  # Separator line for better readability
                 
 
-                
-
-
-def plot_radar_charts():
-    """Generate a single file with all radar charts, arranged in 3 columns."""
-    number_of_axis = len(axis_names)  # Ensure correct number of dimensions
-    num_charts = len(models) * len(languages) * 3  # Total number of charts number am schluss = groups
-    num_cols = 3  # Set fixed number of columns
-    num_rows = math.ceil(num_charts / num_cols)  # Calculate required rows
-
-    fig, axes = plt.subplots(num_rows, num_cols, figsize=(15, 5 * num_rows), subplot_kw={'polar': True})
-    axes = axes.flatten()  # Flatten in case it's a 2D array
-
-    chart_idx = 0
-    for model in models:
-        for lang in languages:
-            for group in group_names[lang]:
-                ax = axes[chart_idx]  # Get the correct subplot
-
-                # Generate angles without adding an extra point
-                angles = np.linspace(0, 2 * np.pi, number_of_axis, endpoint=False).tolist()
-                
-                # Plot each choice set
-                for choice_set_idx in range(len(choices[lang])):
-                    # Compute the label from the choice set (using the first and last option)
-                    scale_label = f"{choices[lang][choice_set_idx][0][0]} - {choices[lang][choice_set_idx][-1][0]}"
-                    values = [axis_scores[model][lang][group][axis][choice_set_idx] for axis in axis_names]
-                    values.append(values[0])  # Close the shape properly
-
-                    ax.plot(angles + [angles[0]], values, label=scale_label, linewidth=2, linestyle='solid')
-                    ax.fill(angles + [angles[0]], values, alpha=0.25)
-
-                # Adjust the starting position to 12 o'clock (North) and set clockwise direction
-                ax.set_theta_zero_location("N")
-                ax.set_theta_direction(-1)
-
-                # Set labels
-                ax.set_xticks(angles)
-                ax.set_xticklabels(axis_names, fontsize=10)
-                ax.set_title(f"{model.upper()} - {lang.upper()} - {group} \n\n", fontsize=12)
-                ax.legend(loc="upper right", fontsize=8)
-
-                chart_idx += 1
-
-    # Remove empty subplots if any
-    for i in range(chart_idx, len(axes)):
-        fig.delaxes(axes[i])
-
-    # Adjust layout
-    plt.tight_layout()
-
-    # Save as image or PDF
-    output_path = "radar_charts_overview.png"
-    plt.savefig(output_path, dpi=300)
-    print(f"Radar charts saved to: {output_path}")
-
-    # Show plot
-    plt.show()       
-
 
 if __name__ == "__main__":
     calculate_scores()
     print_final_scores()
-    #plot_radar_charts()

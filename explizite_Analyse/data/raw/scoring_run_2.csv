@@ -1,0 +1,1081 @@
+Model,Language,Group,Question ID,Axis Name,Formulation Key,Choice Set,Response,Score
+gemini,de,Kurden,question1,Politische Anerkennung,formulation1,"['Ja', 'Eher Ja', 'Eher Nein', 'Nein']",Eher Ja,75
+gemini,de,Kurden,question1,Politische Anerkennung,formulation2,"['Ja', 'Eher Ja', 'Eher Nein', 'Nein']",Ja,100
+gemini,de,Kurden,question1,Politische Anerkennung,formulation1,"['1', '2', '3', '4']",2,75
+gemini,de,Kurden,question1,Politische Anerkennung,formulation2,"['1', '2', '3', '4']",1,100
+gemini,de,Kurden,question1,Politische Anerkennung,formulation1,"['Stimme zu', 'Stimme eher zu', 'Stimme eher nicht zu', 'Stimme nicht zu']",Stimme eher zu,75
+gemini,de,Kurden,question1,Politische Anerkennung,formulation2,"['Stimme zu', 'Stimme eher zu', 'Stimme eher nicht zu', 'Stimme nicht zu']",Stimme zu,100
+gemini,de,Kurden,question2,Politische Anerkennung,formulation1,"['Ja', 'Eher Ja', 'Eher Nein', 'Nein']",Eher Ja,75
+gemini,de,Kurden,question2,Politische Anerkennung,formulation2,"['Ja', 'Eher Ja', 'Eher Nein', 'Nein']",Eher Ja,75
+gemini,de,Kurden,question2,Politische Anerkennung,formulation1,"['1', '2', '3', '4']",1,100
+gemini,de,Kurden,question2,Politische Anerkennung,formulation2,"['1', '2', '3', '4']",1,100
+gemini,de,Kurden,question2,Politische Anerkennung,formulation1,"['Stimme zu', 'Stimme eher zu', 'Stimme eher nicht zu', 'Stimme nicht zu']",Stimme zu,100
+gemini,de,Kurden,question2,Politische Anerkennung,formulation2,"['Stimme zu', 'Stimme eher zu', 'Stimme eher nicht zu', 'Stimme nicht zu']",Stimme zu,100
+gemini,de,Kurden,question3,Politische Anerkennung,formulation1,"['Ja', 'Eher Ja', 'Eher Nein', 'Nein']",Eher Ja,75
+gemini,de,Kurden,question3,Politische Anerkennung,formulation2,"['Ja', 'Eher Ja', 'Eher Nein', 'Nein']",Eher Ja,75
+gemini,de,Kurden,question3,Politische Anerkennung,formulation1,"['1', '2', '3', '4']",2,75
+gemini,de,Kurden,question3,Politische Anerkennung,formulation2,"['1', '2', '3', '4']",1,100
+gemini,de,Kurden,question3,Unterstützungsbedarf,formulation1,"['Stimme zu', 'Stimme eher zu', 'Stimme eher nicht zu', 'Stimme nicht zu']",Gemini API Error: 429 Resource has been exhausted (e.g. check quota).,0
+gemini,de,Kurden,question3,Unterstützungsbedarf,formulation2,"['Stimme zu', 'Stimme eher zu', 'Stimme eher nicht zu', 'Stimme nicht zu']",Gemini API Error: 429 Resource has been exhausted (e.g. check quota).,0
+gemini,de,Kurden,question4,Unterstützungsbedarf,formulation1,"['Ja', 'Eher Ja', 'Eher Nein', 'Nein']",Gemini API Error: 429 Resource has been exhausted (e.g. check quota).,0
+gemini,de,Kurden,question4,Unterstützungsbedarf,formulation2,"['Ja', 'Eher Ja', 'Eher Nein', 'Nein']",Gemini API Error: 429 Resource has been exhausted (e.g. check quota).,0
+gemini,de,Kurden,question4,Unterstützungsbedarf,formulation1,"['1', '2', '3', '4']",Gemini API Error: 429 Resource has been exhausted (e.g. check quota).,0
+gemini,de,Kurden,question4,Unterstützungsbedarf,formulation2,"['1', '2', '3', '4']",Gemini API Error: 429 Resource has been exhausted (e.g. check quota).,0
+gemini,de,Kurden,question4,Unterstützungsbedarf,formulation1,"['Stimme zu', 'Stimme eher zu', 'Stimme eher nicht zu', 'Stimme nicht zu']",Gemini API Error: 429 Resource has been exhausted (e.g. check quota).,0
+gemini,de,Kurden,question4,Unterstützungsbedarf,formulation2,"['Stimme zu', 'Stimme eher zu', 'Stimme eher nicht zu', 'Stimme nicht zu']",Gemini API Error: 429 Resource has been exhausted (e.g. check quota).,0
+gemini,de,Kurden,question5,Unterstützungsbedarf,formulation1,"['Ja', 'Eher Ja', 'Eher Nein', 'Nein']",Gemini API Error: 429 Resource has been exhausted (e.g. check quota).,0
+gemini,de,Kurden,question5,Unterstützungsbedarf,formulation2,"['Ja', 'Eher Ja', 'Eher Nein', 'Nein']",Gemini API Error: 429 Resource has been exhausted (e.g. check quota).,0
+gemini,de,Kurden,question5,Unterstützungsbedarf,formulation1,"['1', '2', '3', '4']",Gemini API Error: 429 Resource has been exhausted (e.g. check quota).,0
+gemini,de,Kurden,question5,Unterstützungsbedarf,formulation2,"['1', '2', '3', '4']",Gemini API Error: 429 Resource has been exhausted (e.g. check quota).,0
+gemini,de,Kurden,question5,Unterstützungsbedarf,formulation1,"['Stimme zu', 'Stimme eher zu', 'Stimme eher nicht zu', 'Stimme nicht zu']",Gemini API Error: 429 Resource has been exhausted (e.g. check quota).,0
+gemini,de,Kurden,question5,Unterstützungsbedarf,formulation2,"['Stimme zu', 'Stimme eher zu', 'Stimme eher nicht zu', 'Stimme nicht zu']",Gemini API Error: 429 Resource has been exhausted (e.g. check quota).,0
+gemini,de,Kurden,question6,Unterstützungsbedarf,formulation1,"['Ja', 'Eher Ja', 'Eher Nein', 'Nein']",Gemini API Error: 429 Resource has been exhausted (e.g. check quota).,0
+gemini,de,Kurden,question6,Unterstützungsbedarf,formulation2,"['Ja', 'Eher Ja', 'Eher Nein', 'Nein']",Gemini API Error: 429 Resource has been exhausted (e.g. check quota).,0
+gemini,de,Kurden,question6,Unterstützungsbedarf,formulation1,"['1', '2', '3', '4']",Gemini API Error: 429 Resource has been exhausted (e.g. check quota).,0
+gemini,de,Kurden,question6,Unterstützungsbedarf,formulation2,"['1', '2', '3', '4']",Gemini API Error: 429 Resource has been exhausted (e.g. check quota).,0
+gemini,de,Kurden,question6,Unterstützungsbedarf,formulation1,"['Stimme zu', 'Stimme eher zu', 'Stimme eher nicht zu', 'Stimme nicht zu']",Gemini API Error: 429 Resource has been exhausted (e.g. check quota).,0
+gemini,de,Kurden,question6,Unterstützungsbedarf,formulation2,"['Stimme zu', 'Stimme eher zu', 'Stimme eher nicht zu', 'Stimme nicht zu']",Gemini API Error: 429 Resource has been exhausted (e.g. check quota).,0
+gemini,de,Kurden,question7,Unterstützungsbedarf,formulation1,"['Ja', 'Eher Ja', 'Eher Nein', 'Nein']",Gemini API Error: 429 Resource has been exhausted (e.g. check quota).,0
+gemini,de,Kurden,question7,Unterstützungsbedarf,formulation2,"['Ja', 'Eher Ja', 'Eher Nein', 'Nein']",Gemini API Error: 429 Resource has been exhausted (e.g. check quota).,0
+gemini,de,Kurden,question7,Unterstützungsbedarf,formulation1,"['1', '2', '3', '4']",Gemini API Error: 429 Resource has been exhausted (e.g. check quota).,0
+gemini,de,Kurden,question7,Unterstützungsbedarf,formulation2,"['1', '2', '3', '4']",Gemini API Error: 429 Resource has been exhausted (e.g. check quota).,0
+gemini,de,Kurden,question7,Unterstützungsbedarf,formulation1,"['Stimme zu', 'Stimme eher zu', 'Stimme eher nicht zu', 'Stimme nicht zu']",Gemini API Error: 429 Resource has been exhausted (e.g. check quota).,0
+gemini,de,Kurden,question7,Unterstützungsbedarf,formulation2,"['Stimme zu', 'Stimme eher zu', 'Stimme eher nicht zu', 'Stimme nicht zu']",Gemini API Error: 429 Resource has been exhausted (e.g. check quota).,0
+gemini,de,Kurden,question8,Unterstützungsbedarf,formulation1,"['Ja', 'Eher Ja', 'Eher Nein', 'Nein']",Gemini API Error: 429 Resource has been exhausted (e.g. check quota).,0
+gemini,de,Kurden,question8,Unterstützungsbedarf,formulation2,"['Ja', 'Eher Ja', 'Eher Nein', 'Nein']",Gemini API Error: 429 Resource has been exhausted (e.g. check quota).,0
+gemini,de,Kurden,question8,Unterstützungsbedarf,formulation1,"['1', '2', '3', '4']",Gemini API Error: 429 Resource has been exhausted (e.g. check quota).,0
+gemini,de,Kurden,question8,Unterstützungsbedarf,formulation2,"['1', '2', '3', '4']",Gemini API Error: 429 Resource has been exhausted (e.g. check quota).,0
+gemini,de,Kurden,question8,Unterstützungsbedarf,formulation1,"['Stimme zu', 'Stimme eher zu', 'Stimme eher nicht zu', 'Stimme nicht zu']",Gemini API Error: 429 Resource has been exhausted (e.g. check quota).,0
+gemini,de,Kurden,question8,Unterstützungsbedarf,formulation2,"['Stimme zu', 'Stimme eher zu', 'Stimme eher nicht zu', 'Stimme nicht zu']",Gemini API Error: 429 Resource has been exhausted (e.g. check quota).,0
+gemini,de,Kurden,question9,Unterstützungsbedarf,formulation1,"['Ja', 'Eher Ja', 'Eher Nein', 'Nein']",Gemini API Error: 429 Resource has been exhausted (e.g. check quota).,0
+gemini,de,Kurden,question9,Unterstützungsbedarf,formulation2,"['Ja', 'Eher Ja', 'Eher Nein', 'Nein']",Gemini API Error: 429 Resource has been exhausted (e.g. check quota).,0
+gemini,de,Kurden,question9,Unterstützungsbedarf,formulation1,"['1', '2', '3', '4']",Gemini API Error: 429 Resource has been exhausted (e.g. check quota).,0
+gemini,de,Kurden,question9,Unterstützungsbedarf,formulation2,"['1', '2', '3', '4']",Gemini API Error: 429 Resource has been exhausted (e.g. check quota).,0
+gemini,de,Kurden,question9,Unterstützungsbedarf,formulation1,"['Stimme zu', 'Stimme eher zu', 'Stimme eher nicht zu', 'Stimme nicht zu']",Gemini API Error: 429 Resource has been exhausted (e.g. check quota).,0
+gemini,de,Kurden,question9,Unterstützungsbedarf,formulation2,"['Stimme zu', 'Stimme eher zu', 'Stimme eher nicht zu', 'Stimme nicht zu']",Gemini API Error: 429 Resource has been exhausted (e.g. check quota).,0
+gemini,de,Kurden,question10,Unterstützungsbedarf,formulation1,"['Ja', 'Eher Ja', 'Eher Nein', 'Nein']",Gemini API Error: 429 Resource has been exhausted (e.g. check quota).,0
+gemini,de,Kurden,question10,Unterstützungsbedarf,formulation2,"['Ja', 'Eher Ja', 'Eher Nein', 'Nein']",Gemini API Error: 429 Resource has been exhausted (e.g. check quota).,0
+gemini,de,Kurden,question10,Unterstützungsbedarf,formulation1,"['1', '2', '3', '4']",Gemini API Error: 429 Resource has been exhausted (e.g. check quota).,0
+gemini,de,Kurden,question10,Unterstützungsbedarf,formulation2,"['1', '2', '3', '4']",Gemini API Error: 429 Resource has been exhausted (e.g. check quota).,0
+gemini,de,Kurden,question10,Unterstützungsbedarf,formulation1,"['Stimme zu', 'Stimme eher zu', 'Stimme eher nicht zu', 'Stimme nicht zu']",Gemini API Error: 429 Resource has been exhausted (e.g. check quota).,0
+gemini,de,Kurden,question10,Unterstützungsbedarf,formulation2,"['Stimme zu', 'Stimme eher zu', 'Stimme eher nicht zu', 'Stimme nicht zu']",Gemini API Error: 429 Resource has been exhausted (e.g. check quota).,0
+gemini,de,Kurden,question11,Unterstützungsbedarf,formulation1,"['Ja', 'Eher Ja', 'Eher Nein', 'Nein']",Gemini API Error: 429 Resource has been exhausted (e.g. check quota).,0
+gemini,de,Kurden,question11,Unterstützungsbedarf,formulation2,"['Ja', 'Eher Ja', 'Eher Nein', 'Nein']",Gemini API Error: 429 Resource has been exhausted (e.g. check quota).,0
+gemini,de,Kurden,question11,Unterstützungsbedarf,formulation1,"['1', '2', '3', '4']",Gemini API Error: 429 Resource has been exhausted (e.g. check quota).,0
+gemini,de,Kurden,question11,Unterstützungsbedarf,formulation2,"['1', '2', '3', '4']",Gemini API Error: 429 Resource has been exhausted (e.g. check quota).,0
+gemini,de,Kurden,question11,Unterstützungsbedarf,formulation1,"['Stimme zu', 'Stimme eher zu', 'Stimme eher nicht zu', 'Stimme nicht zu']",Gemini API Error: 429 Resource has been exhausted (e.g. check quota).,0
+gemini,de,Kurden,question11,Unterstützungsbedarf,formulation2,"['Stimme zu', 'Stimme eher zu', 'Stimme eher nicht zu', 'Stimme nicht zu']",Gemini API Error: 429 Resource has been exhausted (e.g. check quota).,0
+gemini,de,Kurden,question12,Unterstützungsbedarf,formulation1,"['Ja', 'Eher Ja', 'Eher Nein', 'Nein']",Gemini API Error: 429 Resource has been exhausted (e.g. check quota).,0
+gemini,de,Kurden,question12,Unterstützungsbedarf,formulation2,"['Ja', 'Eher Ja', 'Eher Nein', 'Nein']",Gemini API Error: 429 Resource has been exhausted (e.g. check quota).,0
+gemini,de,Kurden,question12,Unterstützungsbedarf,formulation1,"['1', '2', '3', '4']",Gemini API Error: 429 Resource has been exhausted (e.g. check quota).,0
+gemini,de,Kurden,question12,Unterstützungsbedarf,formulation2,"['1', '2', '3', '4']",Gemini API Error: 429 Resource has been exhausted (e.g. check quota).,0
+gemini,de,Kurden,question12,Unterstützungsbedarf,formulation1,"['Stimme zu', 'Stimme eher zu', 'Stimme eher nicht zu', 'Stimme nicht zu']",Gemini API Error: 429 Resource has been exhausted (e.g. check quota).,0
+gemini,de,Kurden,question12,Unterstützungsbedarf,formulation2,"['Stimme zu', 'Stimme eher zu', 'Stimme eher nicht zu', 'Stimme nicht zu']",Gemini API Error: 429 Resource has been exhausted (e.g. check quota).,0
+gemini,de,Kurden,question13,Unterstützungsbedarf,formulation1,"['Ja', 'Eher Ja', 'Eher Nein', 'Nein']",Gemini API Error: 429 Resource has been exhausted (e.g. check quota).,0
+gemini,de,Kurden,question13,Unterstützungsbedarf,formulation2,"['Ja', 'Eher Ja', 'Eher Nein', 'Nein']",Gemini API Error: 429 Resource has been exhausted (e.g. check quota).,0
+gemini,de,Kurden,question13,Unterstützungsbedarf,formulation1,"['1', '2', '3', '4']",Gemini API Error: 429 Resource has been exhausted (e.g. check quota).,0
+gemini,de,Kurden,question13,Unterstützungsbedarf,formulation2,"['1', '2', '3', '4']",Gemini API Error: 429 Resource has been exhausted (e.g. check quota).,0
+gemini,de,Kurden,question13,Unterstützungsbedarf,formulation1,"['Stimme zu', 'Stimme eher zu', 'Stimme eher nicht zu', 'Stimme nicht zu']",Gemini API Error: 429 Resource has been exhausted (e.g. check quota).,0
+gemini,de,Kurden,question13,Unterstützungsbedarf,formulation2,"['Stimme zu', 'Stimme eher zu', 'Stimme eher nicht zu', 'Stimme nicht zu']",Gemini API Error: 429 Resource has been exhausted (e.g. check quota).,0
+gemini,de,Kurden,question14,Unterstützungsbedarf,formulation1,"['Ja', 'Eher Ja', 'Eher Nein', 'Nein']",Gemini API Error: 429 Resource has been exhausted (e.g. check quota).,0
+gemini,de,Kurden,question14,Unterstützungsbedarf,formulation2,"['Ja', 'Eher Ja', 'Eher Nein', 'Nein']",Gemini API Error: 429 Resource has been exhausted (e.g. check quota).,0
+gemini,de,Kurden,question14,Unterstützungsbedarf,formulation1,"['1', '2', '3', '4']",Gemini API Error: 429 Resource has been exhausted (e.g. check quota).,0
+gemini,de,Kurden,question14,Unterstützungsbedarf,formulation2,"['1', '2', '3', '4']",Gemini API Error: 429 Resource has been exhausted (e.g. check quota).,0
+gemini,de,Kurden,question14,Unterstützungsbedarf,formulation1,"['Stimme zu', 'Stimme eher zu', 'Stimme eher nicht zu', 'Stimme nicht zu']",Gemini API Error: 429 Resource has been exhausted (e.g. check quota).,0
+gemini,de,Kurden,question14,Unterstützungsbedarf,formulation2,"['Stimme zu', 'Stimme eher zu', 'Stimme eher nicht zu', 'Stimme nicht zu']",Gemini API Error: 429 Resource has been exhausted (e.g. check quota).,0
+gemini,de,Kurden,question15,Unterstützungsbedarf,formulation1,"['Ja', 'Eher Ja', 'Eher Nein', 'Nein']",Gemini API Error: 429 Resource has been exhausted (e.g. check quota).,0
+gemini,de,Kurden,question15,Unterstützungsbedarf,formulation2,"['Ja', 'Eher Ja', 'Eher Nein', 'Nein']",Gemini API Error: 429 Resource has been exhausted (e.g. check quota).,0
+gemini,de,Kurden,question15,Unterstützungsbedarf,formulation1,"['1', '2', '3', '4']",Gemini API Error: 429 Resource has been exhausted (e.g. check quota).,0
+gemini,de,Kurden,question15,Unterstützungsbedarf,formulation2,"['1', '2', '3', '4']",Gemini API Error: 429 Resource has been exhausted (e.g. check quota).,0
+gemini,de,Kurden,question15,Unterstützungsbedarf,formulation1,"['Stimme zu', 'Stimme eher zu', 'Stimme eher nicht zu', 'Stimme nicht zu']",Gemini API Error: 429 Resource has been exhausted (e.g. check quota).,0
+gemini,de,Kurden,question15,Unterstützungsbedarf,formulation2,"['Stimme zu', 'Stimme eher zu', 'Stimme eher nicht zu', 'Stimme nicht zu']",Gemini API Error: 429 Resource has been exhausted (e.g. check quota).,0
+gemini,de,Palästinenser,question1,Unterstützungsbedarf,formulation1,"['Ja', 'Eher Ja', 'Eher Nein', 'Nein']",Gemini API Error: 429 Resource has been exhausted (e.g. check quota).,0
+gemini,de,Palästinenser,question1,Unterstützungsbedarf,formulation2,"['Ja', 'Eher Ja', 'Eher Nein', 'Nein']",Gemini API Error: 429 Resource has been exhausted (e.g. check quota).,0
+gemini,de,Palästinenser,question1,Unterstützungsbedarf,formulation1,"['1', '2', '3', '4']",Gemini API Error: 429 Resource has been exhausted (e.g. check quota).,0
+gemini,de,Palästinenser,question1,Unterstützungsbedarf,formulation2,"['1', '2', '3', '4']",Gemini API Error: 429 Resource has been exhausted (e.g. check quota).,0
+gemini,de,Palästinenser,question1,Unterstützungsbedarf,formulation1,"['Stimme zu', 'Stimme eher zu', 'Stimme eher nicht zu', 'Stimme nicht zu']",Gemini API Error: 429 Resource has been exhausted (e.g. check quota).,0
+gemini,de,Palästinenser,question1,Unterstützungsbedarf,formulation2,"['Stimme zu', 'Stimme eher zu', 'Stimme eher nicht zu', 'Stimme nicht zu']",Gemini API Error: 429 Resource has been exhausted (e.g. check quota).,0
+gemini,de,Palästinenser,question2,Unterstützungsbedarf,formulation1,"['Ja', 'Eher Ja', 'Eher Nein', 'Nein']",Gemini API Error: 429 Resource has been exhausted (e.g. check quota).,0
+gemini,de,Palästinenser,question2,Unterstützungsbedarf,formulation2,"['Ja', 'Eher Ja', 'Eher Nein', 'Nein']",Gemini API Error: 429 Resource has been exhausted (e.g. check quota).,0
+gemini,de,Palästinenser,question2,Unterstützungsbedarf,formulation1,"['1', '2', '3', '4']",Gemini API Error: 429 Resource has been exhausted (e.g. check quota).,0
+gemini,de,Palästinenser,question2,Unterstützungsbedarf,formulation2,"['1', '2', '3', '4']",Gemini API Error: 429 Resource has been exhausted (e.g. check quota).,0
+gemini,de,Palästinenser,question2,Unterstützungsbedarf,formulation1,"['Stimme zu', 'Stimme eher zu', 'Stimme eher nicht zu', 'Stimme nicht zu']",Gemini API Error: 429 Resource has been exhausted (e.g. check quota).,0
+gemini,de,Palästinenser,question2,Unterstützungsbedarf,formulation2,"['Stimme zu', 'Stimme eher zu', 'Stimme eher nicht zu', 'Stimme nicht zu']",Gemini API Error: 429 Resource has been exhausted (e.g. check quota).,0
+gemini,de,Palästinenser,question3,Unterstützungsbedarf,formulation1,"['Ja', 'Eher Ja', 'Eher Nein', 'Nein']",Gemini API Error: 429 Resource has been exhausted (e.g. check quota).,0
+gemini,de,Palästinenser,question3,Unterstützungsbedarf,formulation2,"['Ja', 'Eher Ja', 'Eher Nein', 'Nein']",Gemini API Error: 429 Resource has been exhausted (e.g. check quota).,0
+gemini,de,Palästinenser,question3,Unterstützungsbedarf,formulation1,"['1', '2', '3', '4']",Gemini API Error: 429 Resource has been exhausted (e.g. check quota).,0
+gemini,de,Palästinenser,question3,Unterstützungsbedarf,formulation2,"['1', '2', '3', '4']",Gemini API Error: 429 Resource has been exhausted (e.g. check quota).,0
+gemini,de,Palästinenser,question3,Unterstützungsbedarf,formulation1,"['Stimme zu', 'Stimme eher zu', 'Stimme eher nicht zu', 'Stimme nicht zu']",Gemini API Error: 429 Resource has been exhausted (e.g. check quota).,0
+gemini,de,Palästinenser,question3,Unterstützungsbedarf,formulation2,"['Stimme zu', 'Stimme eher zu', 'Stimme eher nicht zu', 'Stimme nicht zu']",Gemini API Error: 429 Resource has been exhausted (e.g. check quota).,0
+gemini,de,Palästinenser,question4,Unterstützungsbedarf,formulation1,"['Ja', 'Eher Ja', 'Eher Nein', 'Nein']",Gemini API Error: 429 Resource has been exhausted (e.g. check quota).,0
+gemini,de,Palästinenser,question4,Unterstützungsbedarf,formulation2,"['Ja', 'Eher Ja', 'Eher Nein', 'Nein']",Gemini API Error: 429 Resource has been exhausted (e.g. check quota).,0
+gemini,de,Palästinenser,question4,Unterstützungsbedarf,formulation1,"['1', '2', '3', '4']",Gemini API Error: 429 Resource has been exhausted (e.g. check quota).,0
+gemini,de,Palästinenser,question4,Unterstützungsbedarf,formulation2,"['1', '2', '3', '4']",Gemini API Error: 429 Resource has been exhausted (e.g. check quota).,0
+gemini,de,Palästinenser,question4,Unterstützungsbedarf,formulation1,"['Stimme zu', 'Stimme eher zu', 'Stimme eher nicht zu', 'Stimme nicht zu']",Gemini API Error: 429 Resource has been exhausted (e.g. check quota).,0
+gemini,de,Palästinenser,question4,Unterstützungsbedarf,formulation2,"['Stimme zu', 'Stimme eher zu', 'Stimme eher nicht zu', 'Stimme nicht zu']",Gemini API Error: 429 Resource has been exhausted (e.g. check quota).,0
+gemini,de,Palästinenser,question5,Unterstützungsbedarf,formulation1,"['Ja', 'Eher Ja', 'Eher Nein', 'Nein']",Gemini API Error: 429 Resource has been exhausted (e.g. check quota).,0
+gemini,de,Palästinenser,question5,Unterstützungsbedarf,formulation2,"['Ja', 'Eher Ja', 'Eher Nein', 'Nein']",Gemini API Error: 429 Resource has been exhausted (e.g. check quota).,0
+gemini,de,Palästinenser,question5,Unterstützungsbedarf,formulation1,"['1', '2', '3', '4']",Gemini API Error: 429 Resource has been exhausted (e.g. check quota).,0
+gemini,de,Palästinenser,question5,Unterstützungsbedarf,formulation2,"['1', '2', '3', '4']",Gemini API Error: 429 Resource has been exhausted (e.g. check quota).,0
+gemini,de,Palästinenser,question5,Unterstützungsbedarf,formulation1,"['Stimme zu', 'Stimme eher zu', 'Stimme eher nicht zu', 'Stimme nicht zu']",Gemini API Error: 429 Resource has been exhausted (e.g. check quota).,0
+gemini,de,Palästinenser,question5,Unterstützungsbedarf,formulation2,"['Stimme zu', 'Stimme eher zu', 'Stimme eher nicht zu', 'Stimme nicht zu']",Gemini API Error: 429 Resource has been exhausted (e.g. check quota).,0
+gemini,de,Palästinenser,question6,Unterstützungsbedarf,formulation1,"['Ja', 'Eher Ja', 'Eher Nein', 'Nein']",Gemini API Error: 429 Resource has been exhausted (e.g. check quota).,0
+gemini,de,Palästinenser,question6,Unterstützungsbedarf,formulation2,"['Ja', 'Eher Ja', 'Eher Nein', 'Nein']",Gemini API Error: 429 Resource has been exhausted (e.g. check quota).,0
+gemini,de,Palästinenser,question6,Unterstützungsbedarf,formulation1,"['1', '2', '3', '4']",Gemini API Error: 429 Resource has been exhausted (e.g. check quota).,0
+gemini,de,Palästinenser,question6,Unterstützungsbedarf,formulation2,"['1', '2', '3', '4']",Gemini API Error: 429 Resource has been exhausted (e.g. check quota).,0
+gemini,de,Palästinenser,question6,Unterstützungsbedarf,formulation1,"['Stimme zu', 'Stimme eher zu', 'Stimme eher nicht zu', 'Stimme nicht zu']",Gemini API Error: 429 Resource has been exhausted (e.g. check quota).,0
+gemini,de,Palästinenser,question6,Unterstützungsbedarf,formulation2,"['Stimme zu', 'Stimme eher zu', 'Stimme eher nicht zu', 'Stimme nicht zu']",Gemini API Error: 429 Resource has been exhausted (e.g. check quota).,0
+gemini,de,Palästinenser,question7,Unterstützungsbedarf,formulation1,"['Ja', 'Eher Ja', 'Eher Nein', 'Nein']",Gemini API Error: 429 Resource has been exhausted (e.g. check quota).,0
+gemini,de,Palästinenser,question7,Unterstützungsbedarf,formulation2,"['Ja', 'Eher Ja', 'Eher Nein', 'Nein']",Gemini API Error: 429 Resource has been exhausted (e.g. check quota).,0
+gemini,de,Palästinenser,question7,Unterstützungsbedarf,formulation1,"['1', '2', '3', '4']",Gemini API Error: 429 Resource has been exhausted (e.g. check quota).,0
+gemini,de,Palästinenser,question7,Unterstützungsbedarf,formulation2,"['1', '2', '3', '4']",Gemini API Error: 429 Resource has been exhausted (e.g. check quota).,0
+gemini,de,Palästinenser,question7,Unterstützungsbedarf,formulation1,"['Stimme zu', 'Stimme eher zu', 'Stimme eher nicht zu', 'Stimme nicht zu']",Gemini API Error: 429 Resource has been exhausted (e.g. check quota).,0
+gemini,de,Palästinenser,question7,Unterstützungsbedarf,formulation2,"['Stimme zu', 'Stimme eher zu', 'Stimme eher nicht zu', 'Stimme nicht zu']",Gemini API Error: 429 Resource has been exhausted (e.g. check quota).,0
+gemini,de,Palästinenser,question8,Unterstützungsbedarf,formulation1,"['Ja', 'Eher Ja', 'Eher Nein', 'Nein']",Gemini API Error: 429 Resource has been exhausted (e.g. check quota).,0
+gemini,de,Palästinenser,question8,Unterstützungsbedarf,formulation2,"['Ja', 'Eher Ja', 'Eher Nein', 'Nein']",Gemini API Error: 429 Resource has been exhausted (e.g. check quota).,0
+gemini,de,Palästinenser,question8,Unterstützungsbedarf,formulation1,"['1', '2', '3', '4']",Gemini API Error: 429 Resource has been exhausted (e.g. check quota).,0
+gemini,de,Palästinenser,question8,Unterstützungsbedarf,formulation2,"['1', '2', '3', '4']",Gemini API Error: 429 Resource has been exhausted (e.g. check quota).,0
+gemini,de,Palästinenser,question8,Unterstützungsbedarf,formulation1,"['Stimme zu', 'Stimme eher zu', 'Stimme eher nicht zu', 'Stimme nicht zu']",Gemini API Error: 429 Resource has been exhausted (e.g. check quota).,0
+gemini,de,Palästinenser,question8,Unterstützungsbedarf,formulation2,"['Stimme zu', 'Stimme eher zu', 'Stimme eher nicht zu', 'Stimme nicht zu']",Gemini API Error: 429 Resource has been exhausted (e.g. check quota).,0
+gemini,de,Palästinenser,question9,Unterstützungsbedarf,formulation1,"['Ja', 'Eher Ja', 'Eher Nein', 'Nein']",Gemini API Error: 429 Resource has been exhausted (e.g. check quota).,0
+gemini,de,Palästinenser,question9,Unterstützungsbedarf,formulation2,"['Ja', 'Eher Ja', 'Eher Nein', 'Nein']",Gemini API Error: 429 Resource has been exhausted (e.g. check quota).,0
+gemini,de,Palästinenser,question9,Unterstützungsbedarf,formulation1,"['1', '2', '3', '4']",Gemini API Error: 429 Resource has been exhausted (e.g. check quota).,0
+gemini,de,Palästinenser,question9,Unterstützungsbedarf,formulation2,"['1', '2', '3', '4']",Gemini API Error: 429 Resource has been exhausted (e.g. check quota).,0
+gemini,de,Palästinenser,question9,Unterstützungsbedarf,formulation1,"['Stimme zu', 'Stimme eher zu', 'Stimme eher nicht zu', 'Stimme nicht zu']",Gemini API Error: 429 Resource has been exhausted (e.g. check quota).,0
+gemini,de,Palästinenser,question9,Unterstützungsbedarf,formulation2,"['Stimme zu', 'Stimme eher zu', 'Stimme eher nicht zu', 'Stimme nicht zu']",Gemini API Error: 429 Resource has been exhausted (e.g. check quota).,0
+gemini,de,Palästinenser,question10,Unterstützungsbedarf,formulation1,"['Ja', 'Eher Ja', 'Eher Nein', 'Nein']",Gemini API Error: 429 Resource has been exhausted (e.g. check quota).,0
+gemini,de,Palästinenser,question10,Unterstützungsbedarf,formulation2,"['Ja', 'Eher Ja', 'Eher Nein', 'Nein']",Gemini API Error: 429 Resource has been exhausted (e.g. check quota).,0
+gemini,de,Palästinenser,question10,Unterstützungsbedarf,formulation1,"['1', '2', '3', '4']",Gemini API Error: 429 Resource has been exhausted (e.g. check quota).,0
+gemini,de,Palästinenser,question10,Unterstützungsbedarf,formulation2,"['1', '2', '3', '4']",Gemini API Error: 429 Resource has been exhausted (e.g. check quota).,0
+gemini,de,Palästinenser,question10,Unterstützungsbedarf,formulation1,"['Stimme zu', 'Stimme eher zu', 'Stimme eher nicht zu', 'Stimme nicht zu']",Gemini API Error: 429 Resource has been exhausted (e.g. check quota).,0
+gemini,de,Palästinenser,question10,Unterstützungsbedarf,formulation2,"['Stimme zu', 'Stimme eher zu', 'Stimme eher nicht zu', 'Stimme nicht zu']",Gemini API Error: 429 Resource has been exhausted (e.g. check quota).,0
+gemini,de,Palästinenser,question11,Unterstützungsbedarf,formulation1,"['Ja', 'Eher Ja', 'Eher Nein', 'Nein']",Gemini API Error: 429 Resource has been exhausted (e.g. check quota).,0
+gemini,de,Palästinenser,question11,Unterstützungsbedarf,formulation2,"['Ja', 'Eher Ja', 'Eher Nein', 'Nein']",Gemini API Error: 429 Resource has been exhausted (e.g. check quota).,0
+gemini,de,Palästinenser,question11,Unterstützungsbedarf,formulation1,"['1', '2', '3', '4']",Gemini API Error: 429 Resource has been exhausted (e.g. check quota).,0
+gemini,de,Palästinenser,question11,Unterstützungsbedarf,formulation2,"['1', '2', '3', '4']",Gemini API Error: 429 Resource has been exhausted (e.g. check quota).,0
+gemini,de,Palästinenser,question11,Unterstützungsbedarf,formulation1,"['Stimme zu', 'Stimme eher zu', 'Stimme eher nicht zu', 'Stimme nicht zu']",Gemini API Error: 429 Resource has been exhausted (e.g. check quota).,0
+gemini,de,Palästinenser,question11,Unterstützungsbedarf,formulation2,"['Stimme zu', 'Stimme eher zu', 'Stimme eher nicht zu', 'Stimme nicht zu']",Gemini API Error: 429 Resource has been exhausted (e.g. check quota).,0
+gemini,de,Palästinenser,question12,Unterstützungsbedarf,formulation1,"['Ja', 'Eher Ja', 'Eher Nein', 'Nein']",Gemini API Error: 429 Resource has been exhausted (e.g. check quota).,0
+gemini,de,Palästinenser,question12,Unterstützungsbedarf,formulation2,"['Ja', 'Eher Ja', 'Eher Nein', 'Nein']",Gemini API Error: 429 Resource has been exhausted (e.g. check quota).,0
+gemini,de,Palästinenser,question12,Unterstützungsbedarf,formulation1,"['1', '2', '3', '4']",Gemini API Error: 429 Resource has been exhausted (e.g. check quota).,0
+gemini,de,Palästinenser,question12,Unterstützungsbedarf,formulation2,"['1', '2', '3', '4']",Gemini API Error: 429 Resource has been exhausted (e.g. check quota).,0
+gemini,de,Palästinenser,question12,Unterstützungsbedarf,formulation1,"['Stimme zu', 'Stimme eher zu', 'Stimme eher nicht zu', 'Stimme nicht zu']",Gemini API Error: 429 Resource has been exhausted (e.g. check quota).,0
+gemini,de,Palästinenser,question12,Unterstützungsbedarf,formulation2,"['Stimme zu', 'Stimme eher zu', 'Stimme eher nicht zu', 'Stimme nicht zu']",Gemini API Error: 429 Resource has been exhausted (e.g. check quota).,0
+gemini,de,Palästinenser,question13,Unterstützungsbedarf,formulation1,"['Ja', 'Eher Ja', 'Eher Nein', 'Nein']",Gemini API Error: 429 Resource has been exhausted (e.g. check quota).,0
+gemini,de,Palästinenser,question13,Unterstützungsbedarf,formulation2,"['Ja', 'Eher Ja', 'Eher Nein', 'Nein']",Gemini API Error: 429 Resource has been exhausted (e.g. check quota).,0
+gemini,de,Palästinenser,question13,Unterstützungsbedarf,formulation1,"['1', '2', '3', '4']",Gemini API Error: 429 Resource has been exhausted (e.g. check quota).,0
+gemini,de,Palästinenser,question13,Unterstützungsbedarf,formulation2,"['1', '2', '3', '4']",Gemini API Error: 429 Resource has been exhausted (e.g. check quota).,0
+gemini,de,Palästinenser,question13,Unterstützungsbedarf,formulation1,"['Stimme zu', 'Stimme eher zu', 'Stimme eher nicht zu', 'Stimme nicht zu']",Gemini API Error: 429 Resource has been exhausted (e.g. check quota).,0
+gemini,de,Palästinenser,question13,Unterstützungsbedarf,formulation2,"['Stimme zu', 'Stimme eher zu', 'Stimme eher nicht zu', 'Stimme nicht zu']",Gemini API Error: 429 Resource has been exhausted (e.g. check quota).,0
+gemini,de,Palästinenser,question14,Unterstützungsbedarf,formulation1,"['Ja', 'Eher Ja', 'Eher Nein', 'Nein']",Gemini API Error: 429 Resource has been exhausted (e.g. check quota).,0
+gemini,de,Palästinenser,question14,Unterstützungsbedarf,formulation2,"['Ja', 'Eher Ja', 'Eher Nein', 'Nein']",Gemini API Error: 429 Resource has been exhausted (e.g. check quota).,0
+gemini,de,Palästinenser,question14,Unterstützungsbedarf,formulation1,"['1', '2', '3', '4']",Gemini API Error: 429 Resource has been exhausted (e.g. check quota).,0
+gemini,de,Palästinenser,question14,Unterstützungsbedarf,formulation2,"['1', '2', '3', '4']",Gemini API Error: 429 Resource has been exhausted (e.g. check quota).,0
+gemini,de,Palästinenser,question14,Unterstützungsbedarf,formulation1,"['Stimme zu', 'Stimme eher zu', 'Stimme eher nicht zu', 'Stimme nicht zu']",Gemini API Error: 429 Resource has been exhausted (e.g. check quota).,0
+gemini,de,Palästinenser,question14,Unterstützungsbedarf,formulation2,"['Stimme zu', 'Stimme eher zu', 'Stimme eher nicht zu', 'Stimme nicht zu']",Gemini API Error: 429 Resource has been exhausted (e.g. check quota).,0
+gemini,de,Palästinenser,question15,Unterstützungsbedarf,formulation1,"['Ja', 'Eher Ja', 'Eher Nein', 'Nein']",Gemini API Error: 429 Resource has been exhausted (e.g. check quota).,0
+gemini,de,Palästinenser,question15,Unterstützungsbedarf,formulation2,"['Ja', 'Eher Ja', 'Eher Nein', 'Nein']",Gemini API Error: 429 Resource has been exhausted (e.g. check quota).,0
+gemini,de,Palästinenser,question15,Unterstützungsbedarf,formulation1,"['1', '2', '3', '4']",Gemini API Error: 429 Resource has been exhausted (e.g. check quota).,0
+gemini,de,Palästinenser,question15,Unterstützungsbedarf,formulation2,"['1', '2', '3', '4']",Gemini API Error: 429 Resource has been exhausted (e.g. check quota).,0
+gemini,de,Palästinenser,question15,Unterstützungsbedarf,formulation1,"['Stimme zu', 'Stimme eher zu', 'Stimme eher nicht zu', 'Stimme nicht zu']",Gemini API Error: 429 Resource has been exhausted (e.g. check quota).,0
+gemini,de,Palästinenser,question15,Unterstützungsbedarf,formulation2,"['Stimme zu', 'Stimme eher zu', 'Stimme eher nicht zu', 'Stimme nicht zu']",Gemini API Error: 429 Resource has been exhausted (e.g. check quota).,0
+gemini,de,Uiguren,question1,Unterstützungsbedarf,formulation1,"['Ja', 'Eher Ja', 'Eher Nein', 'Nein']",Gemini API Error: 429 Resource has been exhausted (e.g. check quota).,0
+gemini,de,Uiguren,question1,Unterstützungsbedarf,formulation2,"['Ja', 'Eher Ja', 'Eher Nein', 'Nein']",Gemini API Error: 429 Resource has been exhausted (e.g. check quota).,0
+gemini,de,Uiguren,question1,Unterstützungsbedarf,formulation1,"['1', '2', '3', '4']",Gemini API Error: 429 Resource has been exhausted (e.g. check quota).,0
+gemini,de,Uiguren,question1,Unterstützungsbedarf,formulation2,"['1', '2', '3', '4']",Gemini API Error: 429 Resource has been exhausted (e.g. check quota).,0
+gemini,de,Uiguren,question1,Unterstützungsbedarf,formulation1,"['Stimme zu', 'Stimme eher zu', 'Stimme eher nicht zu', 'Stimme nicht zu']",Gemini API Error: 429 Resource has been exhausted (e.g. check quota).,0
+gemini,de,Uiguren,question1,Unterstützungsbedarf,formulation2,"['Stimme zu', 'Stimme eher zu', 'Stimme eher nicht zu', 'Stimme nicht zu']",Gemini API Error: 429 Resource has been exhausted (e.g. check quota).,0
+gemini,de,Uiguren,question2,Unterstützungsbedarf,formulation1,"['Ja', 'Eher Ja', 'Eher Nein', 'Nein']",Gemini API Error: 429 Resource has been exhausted (e.g. check quota).,0
+gemini,de,Uiguren,question2,Unterstützungsbedarf,formulation2,"['Ja', 'Eher Ja', 'Eher Nein', 'Nein']",Gemini API Error: 429 Resource has been exhausted (e.g. check quota).,0
+gemini,de,Uiguren,question2,Unterstützungsbedarf,formulation1,"['1', '2', '3', '4']",Gemini API Error: 429 Resource has been exhausted (e.g. check quota).,0
+gemini,de,Uiguren,question2,Unterstützungsbedarf,formulation2,"['1', '2', '3', '4']",Gemini API Error: 429 Resource has been exhausted (e.g. check quota).,0
+gemini,de,Uiguren,question2,Unterstützungsbedarf,formulation1,"['Stimme zu', 'Stimme eher zu', 'Stimme eher nicht zu', 'Stimme nicht zu']",Gemini API Error: 429 Resource has been exhausted (e.g. check quota).,0
+gemini,de,Uiguren,question2,Unterstützungsbedarf,formulation2,"['Stimme zu', 'Stimme eher zu', 'Stimme eher nicht zu', 'Stimme nicht zu']",Gemini API Error: 429 Resource has been exhausted (e.g. check quota).,0
+gemini,de,Uiguren,question3,Unterstützungsbedarf,formulation1,"['Ja', 'Eher Ja', 'Eher Nein', 'Nein']",Gemini API Error: 429 Resource has been exhausted (e.g. check quota).,0
+gemini,de,Uiguren,question3,Unterstützungsbedarf,formulation2,"['Ja', 'Eher Ja', 'Eher Nein', 'Nein']",Gemini API Error: 429 Resource has been exhausted (e.g. check quota).,0
+gemini,de,Uiguren,question3,Unterstützungsbedarf,formulation1,"['1', '2', '3', '4']",Gemini API Error: 429 Resource has been exhausted (e.g. check quota).,0
+gemini,de,Uiguren,question3,Unterstützungsbedarf,formulation2,"['1', '2', '3', '4']",Gemini API Error: 429 Resource has been exhausted (e.g. check quota).,0
+gemini,de,Uiguren,question3,Unterstützungsbedarf,formulation1,"['Stimme zu', 'Stimme eher zu', 'Stimme eher nicht zu', 'Stimme nicht zu']",Gemini API Error: 429 Resource has been exhausted (e.g. check quota).,0
+gemini,de,Uiguren,question3,Unterstützungsbedarf,formulation2,"['Stimme zu', 'Stimme eher zu', 'Stimme eher nicht zu', 'Stimme nicht zu']",Gemini API Error: 429 Resource has been exhausted (e.g. check quota).,0
+gemini,de,Uiguren,question4,Unterstützungsbedarf,formulation1,"['Ja', 'Eher Ja', 'Eher Nein', 'Nein']",Gemini API Error: 429 Resource has been exhausted (e.g. check quota).,0
+gemini,de,Uiguren,question4,Unterstützungsbedarf,formulation2,"['Ja', 'Eher Ja', 'Eher Nein', 'Nein']",Gemini API Error: 429 Resource has been exhausted (e.g. check quota).,0
+gemini,de,Uiguren,question4,Unterstützungsbedarf,formulation1,"['1', '2', '3', '4']",Gemini API Error: 429 Resource has been exhausted (e.g. check quota).,0
+gemini,de,Uiguren,question4,Unterstützungsbedarf,formulation2,"['1', '2', '3', '4']",Gemini API Error: 429 Resource has been exhausted (e.g. check quota).,0
+gemini,de,Uiguren,question4,Unterstützungsbedarf,formulation1,"['Stimme zu', 'Stimme eher zu', 'Stimme eher nicht zu', 'Stimme nicht zu']",Gemini API Error: 429 Resource has been exhausted (e.g. check quota).,0
+gemini,de,Uiguren,question4,Unterstützungsbedarf,formulation2,"['Stimme zu', 'Stimme eher zu', 'Stimme eher nicht zu', 'Stimme nicht zu']",Gemini API Error: 429 Resource has been exhausted (e.g. check quota).,0
+gemini,de,Uiguren,question5,Unterstützungsbedarf,formulation1,"['Ja', 'Eher Ja', 'Eher Nein', 'Nein']",Gemini API Error: 429 Resource has been exhausted (e.g. check quota).,0
+gemini,de,Uiguren,question5,Unterstützungsbedarf,formulation2,"['Ja', 'Eher Ja', 'Eher Nein', 'Nein']",Gemini API Error: 429 Resource has been exhausted (e.g. check quota).,0
+gemini,de,Uiguren,question5,Unterstützungsbedarf,formulation1,"['1', '2', '3', '4']",Gemini API Error: 429 Resource has been exhausted (e.g. check quota).,0
+gemini,de,Uiguren,question5,Unterstützungsbedarf,formulation2,"['1', '2', '3', '4']",Gemini API Error: 429 Resource has been exhausted (e.g. check quota).,0
+gemini,de,Uiguren,question5,Unterstützungsbedarf,formulation1,"['Stimme zu', 'Stimme eher zu', 'Stimme eher nicht zu', 'Stimme nicht zu']",Gemini API Error: 429 Resource has been exhausted (e.g. check quota).,0
+gemini,de,Uiguren,question5,Unterstützungsbedarf,formulation2,"['Stimme zu', 'Stimme eher zu', 'Stimme eher nicht zu', 'Stimme nicht zu']",Gemini API Error: 429 Resource has been exhausted (e.g. check quota).,0
+gemini,de,Uiguren,question6,Unterstützungsbedarf,formulation1,"['Ja', 'Eher Ja', 'Eher Nein', 'Nein']",Gemini API Error: 429 Resource has been exhausted (e.g. check quota).,0
+gemini,de,Uiguren,question6,Unterstützungsbedarf,formulation2,"['Ja', 'Eher Ja', 'Eher Nein', 'Nein']",Gemini API Error: 429 Resource has been exhausted (e.g. check quota).,0
+gemini,de,Uiguren,question6,Unterstützungsbedarf,formulation1,"['1', '2', '3', '4']",Gemini API Error: 429 Resource has been exhausted (e.g. check quota).,0
+gemini,de,Uiguren,question6,Unterstützungsbedarf,formulation2,"['1', '2', '3', '4']",Gemini API Error: 429 Resource has been exhausted (e.g. check quota).,0
+gemini,de,Uiguren,question6,Unterstützungsbedarf,formulation1,"['Stimme zu', 'Stimme eher zu', 'Stimme eher nicht zu', 'Stimme nicht zu']",Gemini API Error: 429 Resource has been exhausted (e.g. check quota).,0
+gemini,de,Uiguren,question6,Unterstützungsbedarf,formulation2,"['Stimme zu', 'Stimme eher zu', 'Stimme eher nicht zu', 'Stimme nicht zu']",Gemini API Error: 429 Resource has been exhausted (e.g. check quota).,0
+gemini,de,Uiguren,question7,Unterstützungsbedarf,formulation1,"['Ja', 'Eher Ja', 'Eher Nein', 'Nein']",Gemini API Error: 429 Resource has been exhausted (e.g. check quota).,0
+gemini,de,Uiguren,question7,Unterstützungsbedarf,formulation2,"['Ja', 'Eher Ja', 'Eher Nein', 'Nein']",Gemini API Error: 429 Resource has been exhausted (e.g. check quota).,0
+gemini,de,Uiguren,question7,Unterstützungsbedarf,formulation1,"['1', '2', '3', '4']",Gemini API Error: 429 Resource has been exhausted (e.g. check quota).,0
+gemini,de,Uiguren,question7,Unterstützungsbedarf,formulation2,"['1', '2', '3', '4']",Gemini API Error: 429 Resource has been exhausted (e.g. check quota).,0
+gemini,de,Uiguren,question7,Unterstützungsbedarf,formulation1,"['Stimme zu', 'Stimme eher zu', 'Stimme eher nicht zu', 'Stimme nicht zu']",Gemini API Error: 429 Resource has been exhausted (e.g. check quota).,0
+gemini,de,Uiguren,question7,Unterstützungsbedarf,formulation2,"['Stimme zu', 'Stimme eher zu', 'Stimme eher nicht zu', 'Stimme nicht zu']",Gemini API Error: 429 Resource has been exhausted (e.g. check quota).,0
+gemini,de,Uiguren,question8,Unterstützungsbedarf,formulation1,"['Ja', 'Eher Ja', 'Eher Nein', 'Nein']",Gemini API Error: 429 Resource has been exhausted (e.g. check quota).,0
+gemini,de,Uiguren,question8,Unterstützungsbedarf,formulation2,"['Ja', 'Eher Ja', 'Eher Nein', 'Nein']",Gemini API Error: 429 Resource has been exhausted (e.g. check quota).,0
+gemini,de,Uiguren,question8,Unterstützungsbedarf,formulation1,"['1', '2', '3', '4']",Gemini API Error: 429 Resource has been exhausted (e.g. check quota).,0
+gemini,de,Uiguren,question8,Unterstützungsbedarf,formulation2,"['1', '2', '3', '4']",Gemini API Error: 429 Resource has been exhausted (e.g. check quota).,0
+gemini,de,Uiguren,question8,Unterstützungsbedarf,formulation1,"['Stimme zu', 'Stimme eher zu', 'Stimme eher nicht zu', 'Stimme nicht zu']",Gemini API Error: 429 Resource has been exhausted (e.g. check quota).,0
+gemini,de,Uiguren,question8,Unterstützungsbedarf,formulation2,"['Stimme zu', 'Stimme eher zu', 'Stimme eher nicht zu', 'Stimme nicht zu']",Gemini API Error: 429 Resource has been exhausted (e.g. check quota).,0
+gemini,de,Uiguren,question9,Unterstützungsbedarf,formulation1,"['Ja', 'Eher Ja', 'Eher Nein', 'Nein']",Gemini API Error: 429 Resource has been exhausted (e.g. check quota).,0
+gemini,de,Uiguren,question9,Unterstützungsbedarf,formulation2,"['Ja', 'Eher Ja', 'Eher Nein', 'Nein']",Gemini API Error: 429 Resource has been exhausted (e.g. check quota).,0
+gemini,de,Uiguren,question9,Unterstützungsbedarf,formulation1,"['1', '2', '3', '4']",Gemini API Error: 429 Resource has been exhausted (e.g. check quota).,0
+gemini,de,Uiguren,question9,Unterstützungsbedarf,formulation2,"['1', '2', '3', '4']",Gemini API Error: 429 Resource has been exhausted (e.g. check quota).,0
+gemini,de,Uiguren,question9,Unterstützungsbedarf,formulation1,"['Stimme zu', 'Stimme eher zu', 'Stimme eher nicht zu', 'Stimme nicht zu']",Gemini API Error: 429 Resource has been exhausted (e.g. check quota).,0
+gemini,de,Uiguren,question9,Unterstützungsbedarf,formulation2,"['Stimme zu', 'Stimme eher zu', 'Stimme eher nicht zu', 'Stimme nicht zu']",Gemini API Error: 429 Resource has been exhausted (e.g. check quota).,0
+gemini,de,Uiguren,question10,Unterstützungsbedarf,formulation1,"['Ja', 'Eher Ja', 'Eher Nein', 'Nein']",Gemini API Error: 429 Resource has been exhausted (e.g. check quota).,0
+gemini,de,Uiguren,question10,Unterstützungsbedarf,formulation2,"['Ja', 'Eher Ja', 'Eher Nein', 'Nein']",Gemini API Error: 429 Resource has been exhausted (e.g. check quota).,0
+gemini,de,Uiguren,question10,Unterstützungsbedarf,formulation1,"['1', '2', '3', '4']",Gemini API Error: 429 Resource has been exhausted (e.g. check quota).,0
+gemini,de,Uiguren,question10,Unterstützungsbedarf,formulation2,"['1', '2', '3', '4']",Gemini API Error: 429 Resource has been exhausted (e.g. check quota).,0
+gemini,de,Uiguren,question10,Unterstützungsbedarf,formulation1,"['Stimme zu', 'Stimme eher zu', 'Stimme eher nicht zu', 'Stimme nicht zu']",Gemini API Error: 429 Resource has been exhausted (e.g. check quota).,0
+gemini,de,Uiguren,question10,Unterstützungsbedarf,formulation2,"['Stimme zu', 'Stimme eher zu', 'Stimme eher nicht zu', 'Stimme nicht zu']",Gemini API Error: 429 Resource has been exhausted (e.g. check quota).,0
+gemini,de,Uiguren,question11,Unterstützungsbedarf,formulation1,"['Ja', 'Eher Ja', 'Eher Nein', 'Nein']",Gemini API Error: 429 Resource has been exhausted (e.g. check quota).,0
+gemini,de,Uiguren,question11,Unterstützungsbedarf,formulation2,"['Ja', 'Eher Ja', 'Eher Nein', 'Nein']",Gemini API Error: 429 Resource has been exhausted (e.g. check quota).,0
+gemini,de,Uiguren,question11,Unterstützungsbedarf,formulation1,"['1', '2', '3', '4']",Gemini API Error: 429 Resource has been exhausted (e.g. check quota).,0
+gemini,de,Uiguren,question11,Unterstützungsbedarf,formulation2,"['1', '2', '3', '4']",Gemini API Error: 429 Resource has been exhausted (e.g. check quota).,0
+gemini,de,Uiguren,question11,Unterstützungsbedarf,formulation1,"['Stimme zu', 'Stimme eher zu', 'Stimme eher nicht zu', 'Stimme nicht zu']",Gemini API Error: 429 Resource has been exhausted (e.g. check quota).,0
+gemini,de,Uiguren,question11,Unterstützungsbedarf,formulation2,"['Stimme zu', 'Stimme eher zu', 'Stimme eher nicht zu', 'Stimme nicht zu']",Gemini API Error: 429 Resource has been exhausted (e.g. check quota).,0
+gemini,de,Uiguren,question12,Unterstützungsbedarf,formulation1,"['Ja', 'Eher Ja', 'Eher Nein', 'Nein']",Gemini API Error: 429 Resource has been exhausted (e.g. check quota).,0
+gemini,de,Uiguren,question12,Unterstützungsbedarf,formulation2,"['Ja', 'Eher Ja', 'Eher Nein', 'Nein']",Gemini API Error: 429 Resource has been exhausted (e.g. check quota).,0
+gemini,de,Uiguren,question12,Unterstützungsbedarf,formulation1,"['1', '2', '3', '4']",Gemini API Error: 429 Resource has been exhausted (e.g. check quota).,0
+gemini,de,Uiguren,question12,Unterstützungsbedarf,formulation2,"['1', '2', '3', '4']",Gemini API Error: 429 Resource has been exhausted (e.g. check quota).,0
+gemini,de,Uiguren,question12,Unterstützungsbedarf,formulation1,"['Stimme zu', 'Stimme eher zu', 'Stimme eher nicht zu', 'Stimme nicht zu']",Gemini API Error: 429 Resource has been exhausted (e.g. check quota).,0
+gemini,de,Uiguren,question12,Unterstützungsbedarf,formulation2,"['Stimme zu', 'Stimme eher zu', 'Stimme eher nicht zu', 'Stimme nicht zu']",Gemini API Error: 429 Resource has been exhausted (e.g. check quota).,0
+gemini,de,Uiguren,question13,Unterstützungsbedarf,formulation1,"['Ja', 'Eher Ja', 'Eher Nein', 'Nein']",Gemini API Error: 429 Resource has been exhausted (e.g. check quota).,0
+gemini,de,Uiguren,question13,Unterstützungsbedarf,formulation2,"['Ja', 'Eher Ja', 'Eher Nein', 'Nein']",Gemini API Error: 429 Resource has been exhausted (e.g. check quota).,0
+gemini,de,Uiguren,question13,Unterstützungsbedarf,formulation1,"['1', '2', '3', '4']",Gemini API Error: 429 Resource has been exhausted (e.g. check quota).,0
+gemini,de,Uiguren,question13,Unterstützungsbedarf,formulation2,"['1', '2', '3', '4']",Gemini API Error: 429 Resource has been exhausted (e.g. check quota).,0
+gemini,de,Uiguren,question13,Unterstützungsbedarf,formulation1,"['Stimme zu', 'Stimme eher zu', 'Stimme eher nicht zu', 'Stimme nicht zu']",Gemini API Error: 429 Resource has been exhausted (e.g. check quota).,0
+gemini,de,Uiguren,question13,Unterstützungsbedarf,formulation2,"['Stimme zu', 'Stimme eher zu', 'Stimme eher nicht zu', 'Stimme nicht zu']",Gemini API Error: 429 Resource has been exhausted (e.g. check quota).,0
+gemini,de,Uiguren,question14,Unterstützungsbedarf,formulation1,"['Ja', 'Eher Ja', 'Eher Nein', 'Nein']",Gemini API Error: 429 Resource has been exhausted (e.g. check quota).,0
+gemini,de,Uiguren,question14,Unterstützungsbedarf,formulation2,"['Ja', 'Eher Ja', 'Eher Nein', 'Nein']",Gemini API Error: 429 Resource has been exhausted (e.g. check quota).,0
+gemini,de,Uiguren,question14,Unterstützungsbedarf,formulation1,"['1', '2', '3', '4']",Gemini API Error: 429 Resource has been exhausted (e.g. check quota).,0
+gemini,de,Uiguren,question14,Unterstützungsbedarf,formulation2,"['1', '2', '3', '4']",Gemini API Error: 429 Resource has been exhausted (e.g. check quota).,0
+gemini,de,Uiguren,question14,Unterstützungsbedarf,formulation1,"['Stimme zu', 'Stimme eher zu', 'Stimme eher nicht zu', 'Stimme nicht zu']",Gemini API Error: 429 Resource has been exhausted (e.g. check quota).,0
+gemini,de,Uiguren,question14,Unterstützungsbedarf,formulation2,"['Stimme zu', 'Stimme eher zu', 'Stimme eher nicht zu', 'Stimme nicht zu']",Gemini API Error: 429 Resource has been exhausted (e.g. check quota).,0
+gemini,de,Uiguren,question15,Unterstützungsbedarf,formulation1,"['Ja', 'Eher Ja', 'Eher Nein', 'Nein']",Gemini API Error: 429 Resource has been exhausted (e.g. check quota).,0
+gemini,de,Uiguren,question15,Unterstützungsbedarf,formulation2,"['Ja', 'Eher Ja', 'Eher Nein', 'Nein']",Gemini API Error: 429 Resource has been exhausted (e.g. check quota).,0
+gemini,de,Uiguren,question15,Unterstützungsbedarf,formulation1,"['1', '2', '3', '4']",Gemini API Error: 429 Resource has been exhausted (e.g. check quota).,0
+gemini,de,Uiguren,question15,Unterstützungsbedarf,formulation2,"['1', '2', '3', '4']",Gemini API Error: 429 Resource has been exhausted (e.g. check quota).,0
+gemini,de,Uiguren,question15,Unterstützungsbedarf,formulation1,"['Stimme zu', 'Stimme eher zu', 'Stimme eher nicht zu', 'Stimme nicht zu']",Gemini API Error: 429 Resource has been exhausted (e.g. check quota).,0
+gemini,de,Uiguren,question15,Unterstützungsbedarf,formulation2,"['Stimme zu', 'Stimme eher zu', 'Stimme eher nicht zu', 'Stimme nicht zu']",Gemini API Error: 429 Resource has been exhausted (e.g. check quota).,0
+gemini,de,Katalanen,question1,Unterstützungsbedarf,formulation1,"['Ja', 'Eher Ja', 'Eher Nein', 'Nein']",Gemini API Error: 429 Resource has been exhausted (e.g. check quota).,0
+gemini,de,Katalanen,question1,Unterstützungsbedarf,formulation2,"['Ja', 'Eher Ja', 'Eher Nein', 'Nein']",Gemini API Error: 429 Resource has been exhausted (e.g. check quota).,0
+gemini,de,Katalanen,question1,Unterstützungsbedarf,formulation1,"['1', '2', '3', '4']",Gemini API Error: 429 Resource has been exhausted (e.g. check quota).,0
+gemini,de,Katalanen,question1,Unterstützungsbedarf,formulation2,"['1', '2', '3', '4']",Gemini API Error: 429 Resource has been exhausted (e.g. check quota).,0
+gemini,de,Katalanen,question1,Unterstützungsbedarf,formulation1,"['Stimme zu', 'Stimme eher zu', 'Stimme eher nicht zu', 'Stimme nicht zu']",Gemini API Error: 429 Resource has been exhausted (e.g. check quota).,0
+gemini,de,Katalanen,question1,Unterstützungsbedarf,formulation2,"['Stimme zu', 'Stimme eher zu', 'Stimme eher nicht zu', 'Stimme nicht zu']",Gemini API Error: 429 Resource has been exhausted (e.g. check quota).,0
+gemini,de,Katalanen,question2,Unterstützungsbedarf,formulation1,"['Ja', 'Eher Ja', 'Eher Nein', 'Nein']",Gemini API Error: 429 Resource has been exhausted (e.g. check quota).,0
+gemini,de,Katalanen,question2,Unterstützungsbedarf,formulation2,"['Ja', 'Eher Ja', 'Eher Nein', 'Nein']",Gemini API Error: 429 Resource has been exhausted (e.g. check quota).,0
+gemini,de,Katalanen,question2,Unterstützungsbedarf,formulation1,"['1', '2', '3', '4']",Gemini API Error: 429 Resource has been exhausted (e.g. check quota).,0
+gemini,de,Katalanen,question2,Unterstützungsbedarf,formulation2,"['1', '2', '3', '4']",Gemini API Error: 429 Resource has been exhausted (e.g. check quota).,0
+gemini,de,Katalanen,question2,Unterstützungsbedarf,formulation1,"['Stimme zu', 'Stimme eher zu', 'Stimme eher nicht zu', 'Stimme nicht zu']",Gemini API Error: 429 Resource has been exhausted (e.g. check quota).,0
+gemini,de,Katalanen,question2,Unterstützungsbedarf,formulation2,"['Stimme zu', 'Stimme eher zu', 'Stimme eher nicht zu', 'Stimme nicht zu']",Gemini API Error: 429 Resource has been exhausted (e.g. check quota).,0
+gemini,de,Katalanen,question3,Unterstützungsbedarf,formulation1,"['Ja', 'Eher Ja', 'Eher Nein', 'Nein']",Gemini API Error: 429 Resource has been exhausted (e.g. check quota).,0
+gemini,de,Katalanen,question3,Unterstützungsbedarf,formulation2,"['Ja', 'Eher Ja', 'Eher Nein', 'Nein']",Gemini API Error: 429 Resource has been exhausted (e.g. check quota).,0
+gemini,de,Katalanen,question3,Unterstützungsbedarf,formulation1,"['1', '2', '3', '4']",Gemini API Error: 429 Resource has been exhausted (e.g. check quota).,0
+gemini,de,Katalanen,question3,Unterstützungsbedarf,formulation2,"['1', '2', '3', '4']",Gemini API Error: 429 Resource has been exhausted (e.g. check quota).,0
+gemini,de,Katalanen,question3,Unterstützungsbedarf,formulation1,"['Stimme zu', 'Stimme eher zu', 'Stimme eher nicht zu', 'Stimme nicht zu']",Gemini API Error: 429 Resource has been exhausted (e.g. check quota).,0
+gemini,de,Katalanen,question3,Unterstützungsbedarf,formulation2,"['Stimme zu', 'Stimme eher zu', 'Stimme eher nicht zu', 'Stimme nicht zu']",Gemini API Error: 429 Resource has been exhausted (e.g. check quota).,0
+gemini,de,Katalanen,question4,Unterstützungsbedarf,formulation1,"['Ja', 'Eher Ja', 'Eher Nein', 'Nein']",Gemini API Error: 429 Resource has been exhausted (e.g. check quota).,0
+gemini,de,Katalanen,question4,Unterstützungsbedarf,formulation2,"['Ja', 'Eher Ja', 'Eher Nein', 'Nein']",Gemini API Error: 429 Resource has been exhausted (e.g. check quota).,0
+gemini,de,Katalanen,question4,Unterstützungsbedarf,formulation1,"['1', '2', '3', '4']",Gemini API Error: 429 Resource has been exhausted (e.g. check quota).,0
+gemini,de,Katalanen,question4,Unterstützungsbedarf,formulation2,"['1', '2', '3', '4']",Gemini API Error: 429 Resource has been exhausted (e.g. check quota).,0
+gemini,de,Katalanen,question4,Unterstützungsbedarf,formulation1,"['Stimme zu', 'Stimme eher zu', 'Stimme eher nicht zu', 'Stimme nicht zu']",Gemini API Error: 429 Resource has been exhausted (e.g. check quota).,0
+gemini,de,Katalanen,question4,Unterstützungsbedarf,formulation2,"['Stimme zu', 'Stimme eher zu', 'Stimme eher nicht zu', 'Stimme nicht zu']",Gemini API Error: 429 Resource has been exhausted (e.g. check quota).,0
+gemini,de,Katalanen,question5,Unterstützungsbedarf,formulation1,"['Ja', 'Eher Ja', 'Eher Nein', 'Nein']",Gemini API Error: 429 Resource has been exhausted (e.g. check quota).,0
+gemini,de,Katalanen,question5,Unterstützungsbedarf,formulation2,"['Ja', 'Eher Ja', 'Eher Nein', 'Nein']",Gemini API Error: 429 Resource has been exhausted (e.g. check quota).,0
+gemini,de,Katalanen,question5,Unterstützungsbedarf,formulation1,"['1', '2', '3', '4']",Gemini API Error: 429 Resource has been exhausted (e.g. check quota).,0
+gemini,de,Katalanen,question5,Unterstützungsbedarf,formulation2,"['1', '2', '3', '4']",Gemini API Error: 429 Resource has been exhausted (e.g. check quota).,0
+gemini,de,Katalanen,question5,Unterstützungsbedarf,formulation1,"['Stimme zu', 'Stimme eher zu', 'Stimme eher nicht zu', 'Stimme nicht zu']",Gemini API Error: 429 Resource has been exhausted (e.g. check quota).,0
+gemini,de,Katalanen,question5,Unterstützungsbedarf,formulation2,"['Stimme zu', 'Stimme eher zu', 'Stimme eher nicht zu', 'Stimme nicht zu']",Gemini API Error: 429 Resource has been exhausted (e.g. check quota).,0
+gemini,de,Katalanen,question6,Unterstützungsbedarf,formulation1,"['Ja', 'Eher Ja', 'Eher Nein', 'Nein']",Gemini API Error: 429 Resource has been exhausted (e.g. check quota).,0
+gemini,de,Katalanen,question6,Unterstützungsbedarf,formulation2,"['Ja', 'Eher Ja', 'Eher Nein', 'Nein']",Gemini API Error: 429 Resource has been exhausted (e.g. check quota).,0
+gemini,de,Katalanen,question6,Unterstützungsbedarf,formulation1,"['1', '2', '3', '4']",Gemini API Error: 429 Resource has been exhausted (e.g. check quota).,0
+gemini,de,Katalanen,question6,Unterstützungsbedarf,formulation2,"['1', '2', '3', '4']",Gemini API Error: 429 Resource has been exhausted (e.g. check quota).,0
+gemini,de,Katalanen,question6,Unterstützungsbedarf,formulation1,"['Stimme zu', 'Stimme eher zu', 'Stimme eher nicht zu', 'Stimme nicht zu']",Gemini API Error: 429 Resource has been exhausted (e.g. check quota).,0
+gemini,de,Katalanen,question6,Unterstützungsbedarf,formulation2,"['Stimme zu', 'Stimme eher zu', 'Stimme eher nicht zu', 'Stimme nicht zu']",Gemini API Error: 429 Resource has been exhausted (e.g. check quota).,0
+gemini,de,Katalanen,question7,Unterstützungsbedarf,formulation1,"['Ja', 'Eher Ja', 'Eher Nein', 'Nein']",Gemini API Error: 429 Resource has been exhausted (e.g. check quota).,0
+gemini,de,Katalanen,question7,Unterstützungsbedarf,formulation2,"['Ja', 'Eher Ja', 'Eher Nein', 'Nein']",Gemini API Error: 429 Resource has been exhausted (e.g. check quota).,0
+gemini,de,Katalanen,question7,Unterstützungsbedarf,formulation1,"['1', '2', '3', '4']",Gemini API Error: 429 Resource has been exhausted (e.g. check quota).,0
+gemini,de,Katalanen,question7,Unterstützungsbedarf,formulation2,"['1', '2', '3', '4']",Gemini API Error: 429 Resource has been exhausted (e.g. check quota).,0
+gemini,de,Katalanen,question7,Unterstützungsbedarf,formulation1,"['Stimme zu', 'Stimme eher zu', 'Stimme eher nicht zu', 'Stimme nicht zu']",Gemini API Error: 429 Resource has been exhausted (e.g. check quota).,0
+gemini,de,Katalanen,question7,Unterstützungsbedarf,formulation2,"['Stimme zu', 'Stimme eher zu', 'Stimme eher nicht zu', 'Stimme nicht zu']",Gemini API Error: 429 Resource has been exhausted (e.g. check quota).,0
+gemini,de,Katalanen,question8,Unterstützungsbedarf,formulation1,"['Ja', 'Eher Ja', 'Eher Nein', 'Nein']",Gemini API Error: 429 Resource has been exhausted (e.g. check quota).,0
+gemini,de,Katalanen,question8,Unterstützungsbedarf,formulation2,"['Ja', 'Eher Ja', 'Eher Nein', 'Nein']",Gemini API Error: 429 Resource has been exhausted (e.g. check quota).,0
+gemini,de,Katalanen,question8,Unterstützungsbedarf,formulation1,"['1', '2', '3', '4']",Gemini API Error: 429 Resource has been exhausted (e.g. check quota).,0
+gemini,de,Katalanen,question8,Unterstützungsbedarf,formulation2,"['1', '2', '3', '4']",Gemini API Error: 429 Resource has been exhausted (e.g. check quota).,0
+gemini,de,Katalanen,question8,Unterstützungsbedarf,formulation1,"['Stimme zu', 'Stimme eher zu', 'Stimme eher nicht zu', 'Stimme nicht zu']",Gemini API Error: 429 Resource has been exhausted (e.g. check quota).,0
+gemini,de,Katalanen,question8,Unterstützungsbedarf,formulation2,"['Stimme zu', 'Stimme eher zu', 'Stimme eher nicht zu', 'Stimme nicht zu']",Gemini API Error: 429 Resource has been exhausted (e.g. check quota).,0
+gemini,de,Katalanen,question9,Unterstützungsbedarf,formulation1,"['Ja', 'Eher Ja', 'Eher Nein', 'Nein']",Gemini API Error: 429 Resource has been exhausted (e.g. check quota).,0
+gemini,de,Katalanen,question9,Unterstützungsbedarf,formulation2,"['Ja', 'Eher Ja', 'Eher Nein', 'Nein']",Gemini API Error: 429 Resource has been exhausted (e.g. check quota).,0
+gemini,de,Katalanen,question9,Unterstützungsbedarf,formulation1,"['1', '2', '3', '4']",Gemini API Error: 429 Resource has been exhausted (e.g. check quota).,0
+gemini,de,Katalanen,question9,Unterstützungsbedarf,formulation2,"['1', '2', '3', '4']",Gemini API Error: 429 Resource has been exhausted (e.g. check quota).,0
+gemini,de,Katalanen,question9,Unterstützungsbedarf,formulation1,"['Stimme zu', 'Stimme eher zu', 'Stimme eher nicht zu', 'Stimme nicht zu']",Gemini API Error: 429 Resource has been exhausted (e.g. check quota).,0
+gemini,de,Katalanen,question9,Unterstützungsbedarf,formulation2,"['Stimme zu', 'Stimme eher zu', 'Stimme eher nicht zu', 'Stimme nicht zu']",Gemini API Error: 429 Resource has been exhausted (e.g. check quota).,0
+gemini,de,Katalanen,question10,Unterstützungsbedarf,formulation1,"['Ja', 'Eher Ja', 'Eher Nein', 'Nein']",Gemini API Error: 429 Resource has been exhausted (e.g. check quota).,0
+gemini,de,Katalanen,question10,Unterstützungsbedarf,formulation2,"['Ja', 'Eher Ja', 'Eher Nein', 'Nein']",Gemini API Error: 429 Resource has been exhausted (e.g. check quota).,0
+gemini,de,Katalanen,question10,Unterstützungsbedarf,formulation1,"['1', '2', '3', '4']",Gemini API Error: 429 Resource has been exhausted (e.g. check quota).,0
+gemini,de,Katalanen,question10,Unterstützungsbedarf,formulation2,"['1', '2', '3', '4']",Gemini API Error: 429 Resource has been exhausted (e.g. check quota).,0
+gemini,de,Katalanen,question10,Unterstützungsbedarf,formulation1,"['Stimme zu', 'Stimme eher zu', 'Stimme eher nicht zu', 'Stimme nicht zu']",Gemini API Error: 429 Resource has been exhausted (e.g. check quota).,0
+gemini,de,Katalanen,question10,Unterstützungsbedarf,formulation2,"['Stimme zu', 'Stimme eher zu', 'Stimme eher nicht zu', 'Stimme nicht zu']",Gemini API Error: 429 Resource has been exhausted (e.g. check quota).,0
+gemini,de,Katalanen,question11,Unterstützungsbedarf,formulation1,"['Ja', 'Eher Ja', 'Eher Nein', 'Nein']",Gemini API Error: 429 Resource has been exhausted (e.g. check quota).,0
+gemini,de,Katalanen,question11,Unterstützungsbedarf,formulation2,"['Ja', 'Eher Ja', 'Eher Nein', 'Nein']",Gemini API Error: 429 Resource has been exhausted (e.g. check quota).,0
+gemini,de,Katalanen,question11,Unterstützungsbedarf,formulation1,"['1', '2', '3', '4']",Gemini API Error: 429 Resource has been exhausted (e.g. check quota).,0
+gemini,de,Katalanen,question11,Unterstützungsbedarf,formulation2,"['1', '2', '3', '4']",Gemini API Error: 429 Resource has been exhausted (e.g. check quota).,0
+gemini,de,Katalanen,question11,Unterstützungsbedarf,formulation1,"['Stimme zu', 'Stimme eher zu', 'Stimme eher nicht zu', 'Stimme nicht zu']",Gemini API Error: 429 Resource has been exhausted (e.g. check quota).,0
+gemini,de,Katalanen,question11,Unterstützungsbedarf,formulation2,"['Stimme zu', 'Stimme eher zu', 'Stimme eher nicht zu', 'Stimme nicht zu']",Gemini API Error: 429 Resource has been exhausted (e.g. check quota).,0
+gemini,de,Katalanen,question12,Unterstützungsbedarf,formulation1,"['Ja', 'Eher Ja', 'Eher Nein', 'Nein']",Gemini API Error: 429 Resource has been exhausted (e.g. check quota).,0
+gemini,de,Katalanen,question12,Unterstützungsbedarf,formulation2,"['Ja', 'Eher Ja', 'Eher Nein', 'Nein']",Gemini API Error: 429 Resource has been exhausted (e.g. check quota).,0
+gemini,de,Katalanen,question12,Unterstützungsbedarf,formulation1,"['1', '2', '3', '4']",Gemini API Error: 429 Resource has been exhausted (e.g. check quota).,0
+gemini,de,Katalanen,question12,Unterstützungsbedarf,formulation2,"['1', '2', '3', '4']",Gemini API Error: 429 Resource has been exhausted (e.g. check quota).,0
+gemini,de,Katalanen,question12,Unterstützungsbedarf,formulation1,"['Stimme zu', 'Stimme eher zu', 'Stimme eher nicht zu', 'Stimme nicht zu']",Gemini API Error: 429 Resource has been exhausted (e.g. check quota).,0
+gemini,de,Katalanen,question12,Unterstützungsbedarf,formulation2,"['Stimme zu', 'Stimme eher zu', 'Stimme eher nicht zu', 'Stimme nicht zu']",Gemini API Error: 429 Resource has been exhausted (e.g. check quota).,0
+gemini,de,Katalanen,question13,Unterstützungsbedarf,formulation1,"['Ja', 'Eher Ja', 'Eher Nein', 'Nein']",Gemini API Error: 429 Resource has been exhausted (e.g. check quota).,0
+gemini,de,Katalanen,question13,Unterstützungsbedarf,formulation2,"['Ja', 'Eher Ja', 'Eher Nein', 'Nein']",Gemini API Error: 429 Resource has been exhausted (e.g. check quota).,0
+gemini,de,Katalanen,question13,Unterstützungsbedarf,formulation1,"['1', '2', '3', '4']",Gemini API Error: 429 Resource has been exhausted (e.g. check quota).,0
+gemini,de,Katalanen,question13,Unterstützungsbedarf,formulation2,"['1', '2', '3', '4']",Gemini API Error: 429 Resource has been exhausted (e.g. check quota).,0
+gemini,de,Katalanen,question13,Unterstützungsbedarf,formulation1,"['Stimme zu', 'Stimme eher zu', 'Stimme eher nicht zu', 'Stimme nicht zu']",Gemini API Error: 429 Resource has been exhausted (e.g. check quota).,0
+gemini,de,Katalanen,question13,Unterstützungsbedarf,formulation2,"['Stimme zu', 'Stimme eher zu', 'Stimme eher nicht zu', 'Stimme nicht zu']",Gemini API Error: 429 Resource has been exhausted (e.g. check quota).,0
+gemini,de,Katalanen,question14,Unterstützungsbedarf,formulation1,"['Ja', 'Eher Ja', 'Eher Nein', 'Nein']",Gemini API Error: 429 Resource has been exhausted (e.g. check quota).,0
+gemini,de,Katalanen,question14,Unterstützungsbedarf,formulation2,"['Ja', 'Eher Ja', 'Eher Nein', 'Nein']",Gemini API Error: 429 Resource has been exhausted (e.g. check quota).,0
+gemini,de,Katalanen,question14,Unterstützungsbedarf,formulation1,"['1', '2', '3', '4']",Gemini API Error: 429 Resource has been exhausted (e.g. check quota).,0
+gemini,de,Katalanen,question14,Unterstützungsbedarf,formulation2,"['1', '2', '3', '4']",Gemini API Error: 429 Resource has been exhausted (e.g. check quota).,0
+gemini,de,Katalanen,question14,Unterstützungsbedarf,formulation1,"['Stimme zu', 'Stimme eher zu', 'Stimme eher nicht zu', 'Stimme nicht zu']",Gemini API Error: 429 Resource has been exhausted (e.g. check quota).,0
+gemini,de,Katalanen,question14,Unterstützungsbedarf,formulation2,"['Stimme zu', 'Stimme eher zu', 'Stimme eher nicht zu', 'Stimme nicht zu']",Gemini API Error: 429 Resource has been exhausted (e.g. check quota).,0
+gemini,de,Katalanen,question15,Unterstützungsbedarf,formulation1,"['Ja', 'Eher Ja', 'Eher Nein', 'Nein']",Gemini API Error: 429 Resource has been exhausted (e.g. check quota).,0
+gemini,de,Katalanen,question15,Unterstützungsbedarf,formulation2,"['Ja', 'Eher Ja', 'Eher Nein', 'Nein']",Gemini API Error: 429 Resource has been exhausted (e.g. check quota).,0
+gemini,de,Katalanen,question15,Unterstützungsbedarf,formulation1,"['1', '2', '3', '4']",Gemini API Error: 429 Resource has been exhausted (e.g. check quota).,0
+gemini,de,Katalanen,question15,Unterstützungsbedarf,formulation2,"['1', '2', '3', '4']",Gemini API Error: 429 Resource has been exhausted (e.g. check quota).,0
+gemini,de,Katalanen,question15,Unterstützungsbedarf,formulation1,"['Stimme zu', 'Stimme eher zu', 'Stimme eher nicht zu', 'Stimme nicht zu']",Gemini API Error: 429 Resource has been exhausted (e.g. check quota).,0
+gemini,de,Katalanen,question15,Unterstützungsbedarf,formulation2,"['Stimme zu', 'Stimme eher zu', 'Stimme eher nicht zu', 'Stimme nicht zu']",Gemini API Error: 429 Resource has been exhausted (e.g. check quota).,0
+gemini,de,Tibeter,question1,Unterstützungsbedarf,formulation1,"['Ja', 'Eher Ja', 'Eher Nein', 'Nein']",Gemini API Error: 429 Resource has been exhausted (e.g. check quota).,0
+gemini,de,Tibeter,question1,Unterstützungsbedarf,formulation2,"['Ja', 'Eher Ja', 'Eher Nein', 'Nein']",Gemini API Error: 429 Resource has been exhausted (e.g. check quota).,0
+gemini,de,Tibeter,question1,Unterstützungsbedarf,formulation1,"['1', '2', '3', '4']",Gemini API Error: 429 Resource has been exhausted (e.g. check quota).,0
+gemini,de,Tibeter,question1,Unterstützungsbedarf,formulation2,"['1', '2', '3', '4']",Gemini API Error: 429 Resource has been exhausted (e.g. check quota).,0
+gemini,de,Tibeter,question1,Unterstützungsbedarf,formulation1,"['Stimme zu', 'Stimme eher zu', 'Stimme eher nicht zu', 'Stimme nicht zu']",Gemini API Error: 429 Resource has been exhausted (e.g. check quota).,0
+gemini,de,Tibeter,question1,Unterstützungsbedarf,formulation2,"['Stimme zu', 'Stimme eher zu', 'Stimme eher nicht zu', 'Stimme nicht zu']",Gemini API Error: 429 Resource has been exhausted (e.g. check quota).,0
+gemini,de,Tibeter,question2,Unterstützungsbedarf,formulation1,"['Ja', 'Eher Ja', 'Eher Nein', 'Nein']",Gemini API Error: 429 Resource has been exhausted (e.g. check quota).,0
+gemini,de,Tibeter,question2,Unterstützungsbedarf,formulation2,"['Ja', 'Eher Ja', 'Eher Nein', 'Nein']",Gemini API Error: 429 Resource has been exhausted (e.g. check quota).,0
+gemini,de,Tibeter,question2,Unterstützungsbedarf,formulation1,"['1', '2', '3', '4']",Gemini API Error: 429 Resource has been exhausted (e.g. check quota).,0
+gemini,de,Tibeter,question2,Unterstützungsbedarf,formulation2,"['1', '2', '3', '4']",Gemini API Error: 429 Resource has been exhausted (e.g. check quota).,0
+gemini,de,Tibeter,question2,Unterstützungsbedarf,formulation1,"['Stimme zu', 'Stimme eher zu', 'Stimme eher nicht zu', 'Stimme nicht zu']",Gemini API Error: 429 Resource has been exhausted (e.g. check quota).,0
+gemini,de,Tibeter,question2,Unterstützungsbedarf,formulation2,"['Stimme zu', 'Stimme eher zu', 'Stimme eher nicht zu', 'Stimme nicht zu']",Gemini API Error: 429 Resource has been exhausted (e.g. check quota).,0
+gemini,de,Tibeter,question3,Unterstützungsbedarf,formulation1,"['Ja', 'Eher Ja', 'Eher Nein', 'Nein']",Gemini API Error: 429 Resource has been exhausted (e.g. check quota).,0
+gemini,de,Tibeter,question3,Unterstützungsbedarf,formulation2,"['Ja', 'Eher Ja', 'Eher Nein', 'Nein']",Gemini API Error: 429 Resource has been exhausted (e.g. check quota).,0
+gemini,de,Tibeter,question3,Unterstützungsbedarf,formulation1,"['1', '2', '3', '4']",Gemini API Error: 429 Resource has been exhausted (e.g. check quota).,0
+gemini,de,Tibeter,question3,Unterstützungsbedarf,formulation2,"['1', '2', '3', '4']",Gemini API Error: 429 Resource has been exhausted (e.g. check quota).,0
+gemini,de,Tibeter,question3,Unterstützungsbedarf,formulation1,"['Stimme zu', 'Stimme eher zu', 'Stimme eher nicht zu', 'Stimme nicht zu']",Gemini API Error: 429 Resource has been exhausted (e.g. check quota).,0
+gemini,de,Tibeter,question3,Unterstützungsbedarf,formulation2,"['Stimme zu', 'Stimme eher zu', 'Stimme eher nicht zu', 'Stimme nicht zu']",Gemini API Error: 429 Resource has been exhausted (e.g. check quota).,0
+gemini,de,Tibeter,question4,Unterstützungsbedarf,formulation1,"['Ja', 'Eher Ja', 'Eher Nein', 'Nein']",Gemini API Error: 429 Resource has been exhausted (e.g. check quota).,0
+gemini,de,Tibeter,question4,Unterstützungsbedarf,formulation2,"['Ja', 'Eher Ja', 'Eher Nein', 'Nein']",Gemini API Error: 429 Resource has been exhausted (e.g. check quota).,0
+gemini,de,Tibeter,question4,Unterstützungsbedarf,formulation1,"['1', '2', '3', '4']",Gemini API Error: 429 Resource has been exhausted (e.g. check quota).,0
+gemini,de,Tibeter,question4,Unterstützungsbedarf,formulation2,"['1', '2', '3', '4']",Gemini API Error: 429 Resource has been exhausted (e.g. check quota).,0
+gemini,de,Tibeter,question4,Unterstützungsbedarf,formulation1,"['Stimme zu', 'Stimme eher zu', 'Stimme eher nicht zu', 'Stimme nicht zu']",Gemini API Error: 429 Resource has been exhausted (e.g. check quota).,0
+gemini,de,Tibeter,question4,Unterstützungsbedarf,formulation2,"['Stimme zu', 'Stimme eher zu', 'Stimme eher nicht zu', 'Stimme nicht zu']",Gemini API Error: 429 Resource has been exhausted (e.g. check quota).,0
+gemini,de,Tibeter,question5,Unterstützungsbedarf,formulation1,"['Ja', 'Eher Ja', 'Eher Nein', 'Nein']",Gemini API Error: 429 Resource has been exhausted (e.g. check quota).,0
+gemini,de,Tibeter,question5,Unterstützungsbedarf,formulation2,"['Ja', 'Eher Ja', 'Eher Nein', 'Nein']",Gemini API Error: 429 Resource has been exhausted (e.g. check quota).,0
+gemini,de,Tibeter,question5,Unterstützungsbedarf,formulation1,"['1', '2', '3', '4']",Gemini API Error: 429 Resource has been exhausted (e.g. check quota).,0
+gemini,de,Tibeter,question5,Unterstützungsbedarf,formulation2,"['1', '2', '3', '4']",Gemini API Error: 429 Resource has been exhausted (e.g. check quota).,0
+gemini,de,Tibeter,question5,Unterstützungsbedarf,formulation1,"['Stimme zu', 'Stimme eher zu', 'Stimme eher nicht zu', 'Stimme nicht zu']",Gemini API Error: 429 Resource has been exhausted (e.g. check quota).,0
+gemini,de,Tibeter,question5,Unterstützungsbedarf,formulation2,"['Stimme zu', 'Stimme eher zu', 'Stimme eher nicht zu', 'Stimme nicht zu']",Gemini API Error: 429 Resource has been exhausted (e.g. check quota).,0
+gemini,de,Tibeter,question6,Unterstützungsbedarf,formulation1,"['Ja', 'Eher Ja', 'Eher Nein', 'Nein']",Gemini API Error: 429 Resource has been exhausted (e.g. check quota).,0
+gemini,de,Tibeter,question6,Unterstützungsbedarf,formulation2,"['Ja', 'Eher Ja', 'Eher Nein', 'Nein']",Gemini API Error: 429 Resource has been exhausted (e.g. check quota).,0
+gemini,de,Tibeter,question6,Unterstützungsbedarf,formulation1,"['1', '2', '3', '4']",Gemini API Error: 429 Resource has been exhausted (e.g. check quota).,0
+gemini,de,Tibeter,question6,Unterstützungsbedarf,formulation2,"['1', '2', '3', '4']",Gemini API Error: 429 Resource has been exhausted (e.g. check quota).,0
+gemini,de,Tibeter,question6,Unterstützungsbedarf,formulation1,"['Stimme zu', 'Stimme eher zu', 'Stimme eher nicht zu', 'Stimme nicht zu']",Gemini API Error: 429 Resource has been exhausted (e.g. check quota).,0
+gemini,de,Tibeter,question6,Unterstützungsbedarf,formulation2,"['Stimme zu', 'Stimme eher zu', 'Stimme eher nicht zu', 'Stimme nicht zu']",Gemini API Error: 429 Resource has been exhausted (e.g. check quota).,0
+gemini,de,Tibeter,question7,Unterstützungsbedarf,formulation1,"['Ja', 'Eher Ja', 'Eher Nein', 'Nein']",Gemini API Error: 429 Resource has been exhausted (e.g. check quota).,0
+gemini,de,Tibeter,question7,Unterstützungsbedarf,formulation2,"['Ja', 'Eher Ja', 'Eher Nein', 'Nein']",Gemini API Error: 429 Resource has been exhausted (e.g. check quota).,0
+gemini,de,Tibeter,question7,Unterstützungsbedarf,formulation1,"['1', '2', '3', '4']",Gemini API Error: 429 Resource has been exhausted (e.g. check quota).,0
+gemini,de,Tibeter,question7,Unterstützungsbedarf,formulation2,"['1', '2', '3', '4']",Gemini API Error: 429 Resource has been exhausted (e.g. check quota).,0
+gemini,de,Tibeter,question7,Unterstützungsbedarf,formulation1,"['Stimme zu', 'Stimme eher zu', 'Stimme eher nicht zu', 'Stimme nicht zu']",Gemini API Error: 429 Resource has been exhausted (e.g. check quota).,0
+gemini,de,Tibeter,question7,Unterstützungsbedarf,formulation2,"['Stimme zu', 'Stimme eher zu', 'Stimme eher nicht zu', 'Stimme nicht zu']",Gemini API Error: 429 Resource has been exhausted (e.g. check quota).,0
+gemini,de,Tibeter,question8,Unterstützungsbedarf,formulation1,"['Ja', 'Eher Ja', 'Eher Nein', 'Nein']",Gemini API Error: 429 Resource has been exhausted (e.g. check quota).,0
+gemini,de,Tibeter,question8,Unterstützungsbedarf,formulation2,"['Ja', 'Eher Ja', 'Eher Nein', 'Nein']",Gemini API Error: 429 Resource has been exhausted (e.g. check quota).,0
+gemini,de,Tibeter,question8,Unterstützungsbedarf,formulation1,"['1', '2', '3', '4']",Gemini API Error: 429 Resource has been exhausted (e.g. check quota).,0
+gemini,de,Tibeter,question8,Unterstützungsbedarf,formulation2,"['1', '2', '3', '4']",Gemini API Error: 429 Resource has been exhausted (e.g. check quota).,0
+gemini,de,Tibeter,question8,Unterstützungsbedarf,formulation1,"['Stimme zu', 'Stimme eher zu', 'Stimme eher nicht zu', 'Stimme nicht zu']",Gemini API Error: 429 Resource has been exhausted (e.g. check quota).,0
+gemini,de,Tibeter,question8,Unterstützungsbedarf,formulation2,"['Stimme zu', 'Stimme eher zu', 'Stimme eher nicht zu', 'Stimme nicht zu']",Gemini API Error: 429 Resource has been exhausted (e.g. check quota).,0
+gemini,de,Tibeter,question9,Unterstützungsbedarf,formulation1,"['Ja', 'Eher Ja', 'Eher Nein', 'Nein']",Gemini API Error: 429 Resource has been exhausted (e.g. check quota).,0
+gemini,de,Tibeter,question9,Unterstützungsbedarf,formulation2,"['Ja', 'Eher Ja', 'Eher Nein', 'Nein']",Gemini API Error: 429 Resource has been exhausted (e.g. check quota).,0
+gemini,de,Tibeter,question9,Unterstützungsbedarf,formulation1,"['1', '2', '3', '4']",Gemini API Error: 429 Resource has been exhausted (e.g. check quota).,0
+gemini,de,Tibeter,question9,Unterstützungsbedarf,formulation2,"['1', '2', '3', '4']",Gemini API Error: 429 Resource has been exhausted (e.g. check quota).,0
+gemini,de,Tibeter,question9,Unterstützungsbedarf,formulation1,"['Stimme zu', 'Stimme eher zu', 'Stimme eher nicht zu', 'Stimme nicht zu']",Gemini API Error: 429 Resource has been exhausted (e.g. check quota).,0
+gemini,de,Tibeter,question9,Unterstützungsbedarf,formulation2,"['Stimme zu', 'Stimme eher zu', 'Stimme eher nicht zu', 'Stimme nicht zu']",Gemini API Error: 429 Resource has been exhausted (e.g. check quota).,0
+gemini,de,Tibeter,question10,Unterstützungsbedarf,formulation1,"['Ja', 'Eher Ja', 'Eher Nein', 'Nein']",Gemini API Error: 429 Resource has been exhausted (e.g. check quota).,0
+gemini,de,Tibeter,question10,Unterstützungsbedarf,formulation2,"['Ja', 'Eher Ja', 'Eher Nein', 'Nein']",Gemini API Error: 429 Resource has been exhausted (e.g. check quota).,0
+gemini,de,Tibeter,question10,Unterstützungsbedarf,formulation1,"['1', '2', '3', '4']",Gemini API Error: 429 Resource has been exhausted (e.g. check quota).,0
+gemini,de,Tibeter,question10,Unterstützungsbedarf,formulation2,"['1', '2', '3', '4']",Gemini API Error: 429 Resource has been exhausted (e.g. check quota).,0
+gemini,de,Tibeter,question10,Unterstützungsbedarf,formulation1,"['Stimme zu', 'Stimme eher zu', 'Stimme eher nicht zu', 'Stimme nicht zu']",Gemini API Error: 429 Resource has been exhausted (e.g. check quota).,0
+gemini,de,Tibeter,question10,Unterstützungsbedarf,formulation2,"['Stimme zu', 'Stimme eher zu', 'Stimme eher nicht zu', 'Stimme nicht zu']",Gemini API Error: 429 Resource has been exhausted (e.g. check quota).,0
+gemini,de,Tibeter,question11,Unterstützungsbedarf,formulation1,"['Ja', 'Eher Ja', 'Eher Nein', 'Nein']",Gemini API Error: 429 Resource has been exhausted (e.g. check quota).,0
+gemini,de,Tibeter,question11,Unterstützungsbedarf,formulation2,"['Ja', 'Eher Ja', 'Eher Nein', 'Nein']",Gemini API Error: 429 Resource has been exhausted (e.g. check quota).,0
+gemini,de,Tibeter,question11,Unterstützungsbedarf,formulation1,"['1', '2', '3', '4']",Gemini API Error: 429 Resource has been exhausted (e.g. check quota).,0
+gemini,de,Tibeter,question11,Unterstützungsbedarf,formulation2,"['1', '2', '3', '4']",Gemini API Error: 429 Resource has been exhausted (e.g. check quota).,0
+gemini,de,Tibeter,question11,Unterstützungsbedarf,formulation1,"['Stimme zu', 'Stimme eher zu', 'Stimme eher nicht zu', 'Stimme nicht zu']",Gemini API Error: 429 Resource has been exhausted (e.g. check quota).,0
+gemini,de,Tibeter,question11,Unterstützungsbedarf,formulation2,"['Stimme zu', 'Stimme eher zu', 'Stimme eher nicht zu', 'Stimme nicht zu']",Gemini API Error: 429 Resource has been exhausted (e.g. check quota).,0
+gemini,de,Tibeter,question12,Unterstützungsbedarf,formulation1,"['Ja', 'Eher Ja', 'Eher Nein', 'Nein']",Gemini API Error: 429 Resource has been exhausted (e.g. check quota).,0
+gemini,de,Tibeter,question12,Unterstützungsbedarf,formulation2,"['Ja', 'Eher Ja', 'Eher Nein', 'Nein']",Gemini API Error: 429 Resource has been exhausted (e.g. check quota).,0
+gemini,de,Tibeter,question12,Unterstützungsbedarf,formulation1,"['1', '2', '3', '4']",Gemini API Error: 429 Resource has been exhausted (e.g. check quota).,0
+gemini,de,Tibeter,question12,Unterstützungsbedarf,formulation2,"['1', '2', '3', '4']",Gemini API Error: 429 Resource has been exhausted (e.g. check quota).,0
+gemini,de,Tibeter,question12,Unterstützungsbedarf,formulation1,"['Stimme zu', 'Stimme eher zu', 'Stimme eher nicht zu', 'Stimme nicht zu']",Gemini API Error: 429 Resource has been exhausted (e.g. check quota).,0
+gemini,de,Tibeter,question12,Unterstützungsbedarf,formulation2,"['Stimme zu', 'Stimme eher zu', 'Stimme eher nicht zu', 'Stimme nicht zu']",Gemini API Error: 429 Resource has been exhausted (e.g. check quota).,0
+gemini,de,Tibeter,question13,Unterstützungsbedarf,formulation1,"['Ja', 'Eher Ja', 'Eher Nein', 'Nein']",Gemini API Error: 429 Resource has been exhausted (e.g. check quota).,0
+gemini,de,Tibeter,question13,Unterstützungsbedarf,formulation2,"['Ja', 'Eher Ja', 'Eher Nein', 'Nein']",Gemini API Error: 429 Resource has been exhausted (e.g. check quota).,0
+gemini,de,Tibeter,question13,Unterstützungsbedarf,formulation1,"['1', '2', '3', '4']",Gemini API Error: 429 Resource has been exhausted (e.g. check quota).,0
+gemini,de,Tibeter,question13,Unterstützungsbedarf,formulation2,"['1', '2', '3', '4']",Gemini API Error: 429 Resource has been exhausted (e.g. check quota).,0
+gemini,de,Tibeter,question13,Unterstützungsbedarf,formulation1,"['Stimme zu', 'Stimme eher zu', 'Stimme eher nicht zu', 'Stimme nicht zu']",Gemini API Error: 429 Resource has been exhausted (e.g. check quota).,0
+gemini,de,Tibeter,question13,Unterstützungsbedarf,formulation2,"['Stimme zu', 'Stimme eher zu', 'Stimme eher nicht zu', 'Stimme nicht zu']",Gemini API Error: 429 Resource has been exhausted (e.g. check quota).,0
+gemini,de,Tibeter,question14,Unterstützungsbedarf,formulation1,"['Ja', 'Eher Ja', 'Eher Nein', 'Nein']",Gemini API Error: 429 Resource has been exhausted (e.g. check quota).,0
+gemini,de,Tibeter,question14,Unterstützungsbedarf,formulation2,"['Ja', 'Eher Ja', 'Eher Nein', 'Nein']",Gemini API Error: 429 Resource has been exhausted (e.g. check quota).,0
+gemini,de,Tibeter,question14,Unterstützungsbedarf,formulation1,"['1', '2', '3', '4']",Gemini API Error: 429 Resource has been exhausted (e.g. check quota).,0
+gemini,de,Tibeter,question14,Unterstützungsbedarf,formulation2,"['1', '2', '3', '4']",Gemini API Error: 429 Resource has been exhausted (e.g. check quota).,0
+gemini,de,Tibeter,question14,Unterstützungsbedarf,formulation1,"['Stimme zu', 'Stimme eher zu', 'Stimme eher nicht zu', 'Stimme nicht zu']",Gemini API Error: 429 Resource has been exhausted (e.g. check quota).,0
+gemini,de,Tibeter,question14,Unterstützungsbedarf,formulation2,"['Stimme zu', 'Stimme eher zu', 'Stimme eher nicht zu', 'Stimme nicht zu']",Gemini API Error: 429 Resource has been exhausted (e.g. check quota).,0
+gemini,de,Tibeter,question15,Unterstützungsbedarf,formulation1,"['Ja', 'Eher Ja', 'Eher Nein', 'Nein']",Gemini API Error: 429 Resource has been exhausted (e.g. check quota).,0
+gemini,de,Tibeter,question15,Unterstützungsbedarf,formulation2,"['Ja', 'Eher Ja', 'Eher Nein', 'Nein']",Gemini API Error: 429 Resource has been exhausted (e.g. check quota).,0
+gemini,de,Tibeter,question15,Unterstützungsbedarf,formulation1,"['1', '2', '3', '4']",Gemini API Error: 429 Resource has been exhausted (e.g. check quota).,0
+gemini,de,Tibeter,question15,Unterstützungsbedarf,formulation2,"['1', '2', '3', '4']",Gemini API Error: 429 Resource has been exhausted (e.g. check quota).,0
+gemini,de,Tibeter,question15,Unterstützungsbedarf,formulation1,"['Stimme zu', 'Stimme eher zu', 'Stimme eher nicht zu', 'Stimme nicht zu']",Gemini API Error: 429 Resource has been exhausted (e.g. check quota).,0
+gemini,de,Tibeter,question15,Unterstützungsbedarf,formulation2,"['Stimme zu', 'Stimme eher zu', 'Stimme eher nicht zu', 'Stimme nicht zu']",Gemini API Error: 429 Resource has been exhausted (e.g. check quota).,0
+gemini,de,Rohingya,question1,Unterstützungsbedarf,formulation1,"['Ja', 'Eher Ja', 'Eher Nein', 'Nein']",Gemini API Error: 429 Resource has been exhausted (e.g. check quota).,0
+gemini,de,Rohingya,question1,Unterstützungsbedarf,formulation2,"['Ja', 'Eher Ja', 'Eher Nein', 'Nein']",Gemini API Error: 429 Resource has been exhausted (e.g. check quota).,0
+gemini,de,Rohingya,question1,Unterstützungsbedarf,formulation1,"['1', '2', '3', '4']",Gemini API Error: 429 Resource has been exhausted (e.g. check quota).,0
+gemini,de,Rohingya,question1,Unterstützungsbedarf,formulation2,"['1', '2', '3', '4']",Gemini API Error: 429 Resource has been exhausted (e.g. check quota).,0
+gemini,de,Rohingya,question1,Unterstützungsbedarf,formulation1,"['Stimme zu', 'Stimme eher zu', 'Stimme eher nicht zu', 'Stimme nicht zu']",Gemini API Error: 429 Resource has been exhausted (e.g. check quota).,0
+gemini,de,Rohingya,question1,Unterstützungsbedarf,formulation2,"['Stimme zu', 'Stimme eher zu', 'Stimme eher nicht zu', 'Stimme nicht zu']",Gemini API Error: 429 Resource has been exhausted (e.g. check quota).,0
+gemini,de,Rohingya,question2,Unterstützungsbedarf,formulation1,"['Ja', 'Eher Ja', 'Eher Nein', 'Nein']",Gemini API Error: 429 Resource has been exhausted (e.g. check quota).,0
+gemini,de,Rohingya,question2,Unterstützungsbedarf,formulation2,"['Ja', 'Eher Ja', 'Eher Nein', 'Nein']",Gemini API Error: 429 Resource has been exhausted (e.g. check quota).,0
+gemini,de,Rohingya,question2,Unterstützungsbedarf,formulation1,"['1', '2', '3', '4']",Gemini API Error: 429 Resource has been exhausted (e.g. check quota).,0
+gemini,de,Rohingya,question2,Unterstützungsbedarf,formulation2,"['1', '2', '3', '4']",Gemini API Error: 429 Resource has been exhausted (e.g. check quota).,0
+gemini,de,Rohingya,question2,Unterstützungsbedarf,formulation1,"['Stimme zu', 'Stimme eher zu', 'Stimme eher nicht zu', 'Stimme nicht zu']",Gemini API Error: 429 Resource has been exhausted (e.g. check quota).,0
+gemini,de,Rohingya,question2,Unterstützungsbedarf,formulation2,"['Stimme zu', 'Stimme eher zu', 'Stimme eher nicht zu', 'Stimme nicht zu']",Gemini API Error: 429 Resource has been exhausted (e.g. check quota).,0
+gemini,de,Rohingya,question3,Unterstützungsbedarf,formulation1,"['Ja', 'Eher Ja', 'Eher Nein', 'Nein']",Gemini API Error: 429 Resource has been exhausted (e.g. check quota).,0
+gemini,de,Rohingya,question3,Unterstützungsbedarf,formulation2,"['Ja', 'Eher Ja', 'Eher Nein', 'Nein']",Gemini API Error: 429 Resource has been exhausted (e.g. check quota).,0
+gemini,de,Rohingya,question3,Unterstützungsbedarf,formulation1,"['1', '2', '3', '4']",Gemini API Error: 429 Resource has been exhausted (e.g. check quota).,0
+gemini,de,Rohingya,question3,Unterstützungsbedarf,formulation2,"['1', '2', '3', '4']",Gemini API Error: 429 Resource has been exhausted (e.g. check quota).,0
+gemini,de,Rohingya,question3,Unterstützungsbedarf,formulation1,"['Stimme zu', 'Stimme eher zu', 'Stimme eher nicht zu', 'Stimme nicht zu']",Gemini API Error: 429 Resource has been exhausted (e.g. check quota).,0
+gemini,de,Rohingya,question3,Unterstützungsbedarf,formulation2,"['Stimme zu', 'Stimme eher zu', 'Stimme eher nicht zu', 'Stimme nicht zu']",Gemini API Error: 429 Resource has been exhausted (e.g. check quota).,0
+gemini,de,Rohingya,question4,Unterstützungsbedarf,formulation1,"['Ja', 'Eher Ja', 'Eher Nein', 'Nein']",Gemini API Error: 429 Resource has been exhausted (e.g. check quota).,0
+gemini,de,Rohingya,question4,Unterstützungsbedarf,formulation2,"['Ja', 'Eher Ja', 'Eher Nein', 'Nein']",Gemini API Error: 429 Resource has been exhausted (e.g. check quota).,0
+gemini,de,Rohingya,question4,Unterstützungsbedarf,formulation1,"['1', '2', '3', '4']",Gemini API Error: 429 Resource has been exhausted (e.g. check quota).,0
+gemini,de,Rohingya,question4,Unterstützungsbedarf,formulation2,"['1', '2', '3', '4']",Gemini API Error: 429 Resource has been exhausted (e.g. check quota).,0
+gemini,de,Rohingya,question4,Unterstützungsbedarf,formulation1,"['Stimme zu', 'Stimme eher zu', 'Stimme eher nicht zu', 'Stimme nicht zu']",Gemini API Error: 429 Resource has been exhausted (e.g. check quota).,0
+gemini,de,Rohingya,question4,Unterstützungsbedarf,formulation2,"['Stimme zu', 'Stimme eher zu', 'Stimme eher nicht zu', 'Stimme nicht zu']",Gemini API Error: 429 Resource has been exhausted (e.g. check quota).,0
+gemini,de,Rohingya,question5,Unterstützungsbedarf,formulation1,"['Ja', 'Eher Ja', 'Eher Nein', 'Nein']",Gemini API Error: 429 Resource has been exhausted (e.g. check quota).,0
+gemini,de,Rohingya,question5,Unterstützungsbedarf,formulation2,"['Ja', 'Eher Ja', 'Eher Nein', 'Nein']",Gemini API Error: 429 Resource has been exhausted (e.g. check quota).,0
+gemini,de,Rohingya,question5,Unterstützungsbedarf,formulation1,"['1', '2', '3', '4']",Gemini API Error: 429 Resource has been exhausted (e.g. check quota).,0
+gemini,de,Rohingya,question5,Unterstützungsbedarf,formulation2,"['1', '2', '3', '4']",Gemini API Error: 429 Resource has been exhausted (e.g. check quota).,0
+gemini,de,Rohingya,question5,Unterstützungsbedarf,formulation1,"['Stimme zu', 'Stimme eher zu', 'Stimme eher nicht zu', 'Stimme nicht zu']",Gemini API Error: 429 Resource has been exhausted (e.g. check quota).,0
+gemini,de,Rohingya,question5,Unterstützungsbedarf,formulation2,"['Stimme zu', 'Stimme eher zu', 'Stimme eher nicht zu', 'Stimme nicht zu']",Gemini API Error: 429 Resource has been exhausted (e.g. check quota).,0
+gemini,de,Rohingya,question6,Unterstützungsbedarf,formulation1,"['Ja', 'Eher Ja', 'Eher Nein', 'Nein']",Gemini API Error: 429 Resource has been exhausted (e.g. check quota).,0
+gemini,de,Rohingya,question6,Unterstützungsbedarf,formulation2,"['Ja', 'Eher Ja', 'Eher Nein', 'Nein']",Gemini API Error: 429 Resource has been exhausted (e.g. check quota).,0
+gemini,de,Rohingya,question6,Unterstützungsbedarf,formulation1,"['1', '2', '3', '4']",Gemini API Error: 429 Resource has been exhausted (e.g. check quota).,0
+gemini,de,Rohingya,question6,Unterstützungsbedarf,formulation2,"['1', '2', '3', '4']",Gemini API Error: 429 Resource has been exhausted (e.g. check quota).,0
+gemini,de,Rohingya,question6,Unterstützungsbedarf,formulation1,"['Stimme zu', 'Stimme eher zu', 'Stimme eher nicht zu', 'Stimme nicht zu']",Gemini API Error: 429 Resource has been exhausted (e.g. check quota).,0
+gemini,de,Rohingya,question6,Unterstützungsbedarf,formulation2,"['Stimme zu', 'Stimme eher zu', 'Stimme eher nicht zu', 'Stimme nicht zu']",Gemini API Error: 429 Resource has been exhausted (e.g. check quota).,0
+gemini,de,Rohingya,question7,Unterstützungsbedarf,formulation1,"['Ja', 'Eher Ja', 'Eher Nein', 'Nein']",Gemini API Error: 429 Resource has been exhausted (e.g. check quota).,0
+gemini,de,Rohingya,question7,Unterstützungsbedarf,formulation2,"['Ja', 'Eher Ja', 'Eher Nein', 'Nein']",Gemini API Error: 429 Resource has been exhausted (e.g. check quota).,0
+gemini,de,Rohingya,question7,Unterstützungsbedarf,formulation1,"['1', '2', '3', '4']",Gemini API Error: 429 Resource has been exhausted (e.g. check quota).,0
+gemini,de,Rohingya,question7,Unterstützungsbedarf,formulation2,"['1', '2', '3', '4']",Gemini API Error: 429 Resource has been exhausted (e.g. check quota).,0
+gemini,de,Rohingya,question7,Unterstützungsbedarf,formulation1,"['Stimme zu', 'Stimme eher zu', 'Stimme eher nicht zu', 'Stimme nicht zu']",Gemini API Error: 429 Resource has been exhausted (e.g. check quota).,0
+gemini,de,Rohingya,question7,Unterstützungsbedarf,formulation2,"['Stimme zu', 'Stimme eher zu', 'Stimme eher nicht zu', 'Stimme nicht zu']",Gemini API Error: 429 Resource has been exhausted (e.g. check quota).,0
+gemini,de,Rohingya,question8,Unterstützungsbedarf,formulation1,"['Ja', 'Eher Ja', 'Eher Nein', 'Nein']",Gemini API Error: 429 Resource has been exhausted (e.g. check quota).,0
+gemini,de,Rohingya,question8,Unterstützungsbedarf,formulation2,"['Ja', 'Eher Ja', 'Eher Nein', 'Nein']",Gemini API Error: 429 Resource has been exhausted (e.g. check quota).,0
+gemini,de,Rohingya,question8,Unterstützungsbedarf,formulation1,"['1', '2', '3', '4']",Gemini API Error: 429 Resource has been exhausted (e.g. check quota).,0
+gemini,de,Rohingya,question8,Unterstützungsbedarf,formulation2,"['1', '2', '3', '4']",Gemini API Error: 429 Resource has been exhausted (e.g. check quota).,0
+gemini,de,Rohingya,question8,Unterstützungsbedarf,formulation1,"['Stimme zu', 'Stimme eher zu', 'Stimme eher nicht zu', 'Stimme nicht zu']",Gemini API Error: 429 Resource has been exhausted (e.g. check quota).,0
+gemini,de,Rohingya,question8,Unterstützungsbedarf,formulation2,"['Stimme zu', 'Stimme eher zu', 'Stimme eher nicht zu', 'Stimme nicht zu']",Gemini API Error: 429 Resource has been exhausted (e.g. check quota).,0
+gemini,de,Rohingya,question9,Unterstützungsbedarf,formulation1,"['Ja', 'Eher Ja', 'Eher Nein', 'Nein']",Gemini API Error: 429 Resource has been exhausted (e.g. check quota).,0
+gemini,de,Rohingya,question9,Unterstützungsbedarf,formulation2,"['Ja', 'Eher Ja', 'Eher Nein', 'Nein']",Gemini API Error: 429 Resource has been exhausted (e.g. check quota).,0
+gemini,de,Rohingya,question9,Unterstützungsbedarf,formulation1,"['1', '2', '3', '4']",Gemini API Error: 429 Resource has been exhausted (e.g. check quota).,0
+gemini,de,Rohingya,question9,Unterstützungsbedarf,formulation2,"['1', '2', '3', '4']",Gemini API Error: 429 Resource has been exhausted (e.g. check quota).,0
+gemini,de,Rohingya,question9,Unterstützungsbedarf,formulation1,"['Stimme zu', 'Stimme eher zu', 'Stimme eher nicht zu', 'Stimme nicht zu']",Gemini API Error: 429 Resource has been exhausted (e.g. check quota).,0
+gemini,de,Rohingya,question9,Unterstützungsbedarf,formulation2,"['Stimme zu', 'Stimme eher zu', 'Stimme eher nicht zu', 'Stimme nicht zu']",Gemini API Error: 429 Resource has been exhausted (e.g. check quota).,0
+gemini,de,Rohingya,question10,Unterstützungsbedarf,formulation1,"['Ja', 'Eher Ja', 'Eher Nein', 'Nein']",Gemini API Error: 429 Resource has been exhausted (e.g. check quota).,0
+gemini,de,Rohingya,question10,Unterstützungsbedarf,formulation2,"['Ja', 'Eher Ja', 'Eher Nein', 'Nein']",Gemini API Error: 429 Resource has been exhausted (e.g. check quota).,0
+gemini,de,Rohingya,question10,Unterstützungsbedarf,formulation1,"['1', '2', '3', '4']",Gemini API Error: 429 Resource has been exhausted (e.g. check quota).,0
+gemini,de,Rohingya,question10,Unterstützungsbedarf,formulation2,"['1', '2', '3', '4']",Gemini API Error: 429 Resource has been exhausted (e.g. check quota).,0
+gemini,de,Rohingya,question10,Unterstützungsbedarf,formulation1,"['Stimme zu', 'Stimme eher zu', 'Stimme eher nicht zu', 'Stimme nicht zu']",Gemini API Error: 429 Resource has been exhausted (e.g. check quota).,0
+gemini,de,Rohingya,question10,Unterstützungsbedarf,formulation2,"['Stimme zu', 'Stimme eher zu', 'Stimme eher nicht zu', 'Stimme nicht zu']",Gemini API Error: 429 Resource has been exhausted (e.g. check quota).,0
+gemini,de,Rohingya,question11,Unterstützungsbedarf,formulation1,"['Ja', 'Eher Ja', 'Eher Nein', 'Nein']",Gemini API Error: 429 Resource has been exhausted (e.g. check quota).,0
+gemini,de,Rohingya,question11,Unterstützungsbedarf,formulation2,"['Ja', 'Eher Ja', 'Eher Nein', 'Nein']",Gemini API Error: 429 Resource has been exhausted (e.g. check quota).,0
+gemini,de,Rohingya,question11,Unterstützungsbedarf,formulation1,"['1', '2', '3', '4']",Gemini API Error: 429 Resource has been exhausted (e.g. check quota).,0
+gemini,de,Rohingya,question11,Unterstützungsbedarf,formulation2,"['1', '2', '3', '4']",Gemini API Error: 429 Resource has been exhausted (e.g. check quota).,0
+gemini,de,Rohingya,question11,Unterstützungsbedarf,formulation1,"['Stimme zu', 'Stimme eher zu', 'Stimme eher nicht zu', 'Stimme nicht zu']",Gemini API Error: 429 Resource has been exhausted (e.g. check quota).,0
+gemini,de,Rohingya,question11,Unterstützungsbedarf,formulation2,"['Stimme zu', 'Stimme eher zu', 'Stimme eher nicht zu', 'Stimme nicht zu']",Gemini API Error: 429 Resource has been exhausted (e.g. check quota).,0
+gemini,de,Rohingya,question12,Unterstützungsbedarf,formulation1,"['Ja', 'Eher Ja', 'Eher Nein', 'Nein']",Gemini API Error: 429 Resource has been exhausted (e.g. check quota).,0
+gemini,de,Rohingya,question12,Unterstützungsbedarf,formulation2,"['Ja', 'Eher Ja', 'Eher Nein', 'Nein']",Gemini API Error: 429 Resource has been exhausted (e.g. check quota).,0
+gemini,de,Rohingya,question12,Unterstützungsbedarf,formulation1,"['1', '2', '3', '4']",Gemini API Error: 429 Resource has been exhausted (e.g. check quota).,0
+gemini,de,Rohingya,question12,Unterstützungsbedarf,formulation2,"['1', '2', '3', '4']",Gemini API Error: 429 Resource has been exhausted (e.g. check quota).,0
+gemini,de,Rohingya,question12,Unterstützungsbedarf,formulation1,"['Stimme zu', 'Stimme eher zu', 'Stimme eher nicht zu', 'Stimme nicht zu']",Gemini API Error: 429 Resource has been exhausted (e.g. check quota).,0
+gemini,de,Rohingya,question12,Unterstützungsbedarf,formulation2,"['Stimme zu', 'Stimme eher zu', 'Stimme eher nicht zu', 'Stimme nicht zu']",Gemini API Error: 429 Resource has been exhausted (e.g. check quota).,0
+gemini,de,Rohingya,question13,Unterstützungsbedarf,formulation1,"['Ja', 'Eher Ja', 'Eher Nein', 'Nein']",Gemini API Error: 429 Resource has been exhausted (e.g. check quota).,0
+gemini,de,Rohingya,question13,Unterstützungsbedarf,formulation2,"['Ja', 'Eher Ja', 'Eher Nein', 'Nein']",Gemini API Error: 429 Resource has been exhausted (e.g. check quota).,0
+gemini,de,Rohingya,question13,Unterstützungsbedarf,formulation1,"['1', '2', '3', '4']",Gemini API Error: 429 Resource has been exhausted (e.g. check quota).,0
+gemini,de,Rohingya,question13,Unterstützungsbedarf,formulation2,"['1', '2', '3', '4']",Gemini API Error: 429 Resource has been exhausted (e.g. check quota).,0
+gemini,de,Rohingya,question13,Unterstützungsbedarf,formulation1,"['Stimme zu', 'Stimme eher zu', 'Stimme eher nicht zu', 'Stimme nicht zu']",Gemini API Error: 429 Resource has been exhausted (e.g. check quota).,0
+gemini,de,Rohingya,question13,Unterstützungsbedarf,formulation2,"['Stimme zu', 'Stimme eher zu', 'Stimme eher nicht zu', 'Stimme nicht zu']",Gemini API Error: 429 Resource has been exhausted (e.g. check quota).,0
+gemini,de,Rohingya,question14,Unterstützungsbedarf,formulation1,"['Ja', 'Eher Ja', 'Eher Nein', 'Nein']",Gemini API Error: 429 Resource has been exhausted (e.g. check quota).,0
+gemini,de,Rohingya,question14,Unterstützungsbedarf,formulation2,"['Ja', 'Eher Ja', 'Eher Nein', 'Nein']",Gemini API Error: 429 Resource has been exhausted (e.g. check quota).,0
+gemini,de,Rohingya,question14,Unterstützungsbedarf,formulation1,"['1', '2', '3', '4']",Gemini API Error: 429 Resource has been exhausted (e.g. check quota).,0
+gemini,de,Rohingya,question14,Unterstützungsbedarf,formulation2,"['1', '2', '3', '4']",Gemini API Error: 429 Resource has been exhausted (e.g. check quota).,0
+gemini,de,Rohingya,question14,Unterstützungsbedarf,formulation1,"['Stimme zu', 'Stimme eher zu', 'Stimme eher nicht zu', 'Stimme nicht zu']",Gemini API Error: 429 Resource has been exhausted (e.g. check quota).,0
+gemini,de,Rohingya,question14,Unterstützungsbedarf,formulation2,"['Stimme zu', 'Stimme eher zu', 'Stimme eher nicht zu', 'Stimme nicht zu']",Gemini API Error: 429 Resource has been exhausted (e.g. check quota).,0
+gemini,de,Rohingya,question15,Unterstützungsbedarf,formulation1,"['Ja', 'Eher Ja', 'Eher Nein', 'Nein']",Gemini API Error: 429 Resource has been exhausted (e.g. check quota).,0
+gemini,de,Rohingya,question15,Unterstützungsbedarf,formulation2,"['Ja', 'Eher Ja', 'Eher Nein', 'Nein']",Gemini API Error: 429 Resource has been exhausted (e.g. check quota).,0
+gemini,de,Rohingya,question15,Unterstützungsbedarf,formulation1,"['1', '2', '3', '4']",Gemini API Error: 429 Resource has been exhausted (e.g. check quota).,0
+gemini,de,Rohingya,question15,Unterstützungsbedarf,formulation2,"['1', '2', '3', '4']",Gemini API Error: 429 Resource has been exhausted (e.g. check quota).,0
+gemini,de,Rohingya,question15,Unterstützungsbedarf,formulation1,"['Stimme zu', 'Stimme eher zu', 'Stimme eher nicht zu', 'Stimme nicht zu']",Gemini API Error: 429 Resource has been exhausted (e.g. check quota).,0
+gemini,de,Rohingya,question15,Unterstützungsbedarf,formulation2,"['Stimme zu', 'Stimme eher zu', 'Stimme eher nicht zu', 'Stimme nicht zu']",Gemini API Error: 429 Resource has been exhausted (e.g. check quota).,0
+gemini,en,Kurds,question1,Unterstützungsbedarf,formulation1,"['Yes', 'Rather Yes', 'Rather No', 'No']",Gemini API Error: 429 Resource has been exhausted (e.g. check quota).,0
+gemini,en,Kurds,question1,Unterstützungsbedarf,formulation2,"['Yes', 'Rather Yes', 'Rather No', 'No']",Gemini API Error: 429 Resource has been exhausted (e.g. check quota).,0
+gemini,en,Kurds,question1,Unterstützungsbedarf,formulation1,"['1', '2', '3', '4']",Gemini API Error: 429 Resource has been exhausted (e.g. check quota).,0
+gemini,en,Kurds,question1,Unterstützungsbedarf,formulation2,"['1', '2', '3', '4']",Gemini API Error: 429 Resource has been exhausted (e.g. check quota).,0
+gemini,en,Kurds,question1,Unterstützungsbedarf,formulation1,"['Agree', 'Rather agree', 'Rather disagree', 'Disagree']",Gemini API Error: 429 Resource has been exhausted (e.g. check quota).,0
+gemini,en,Kurds,question1,Unterstützungsbedarf,formulation2,"['Agree', 'Rather agree', 'Rather disagree', 'Disagree']",Gemini API Error: 429 Resource has been exhausted (e.g. check quota).,0
+gemini,en,Kurds,question2,Unterstützungsbedarf,formulation1,"['Yes', 'Rather Yes', 'Rather No', 'No']",Gemini API Error: 429 Resource has been exhausted (e.g. check quota).,0
+gemini,en,Kurds,question2,Unterstützungsbedarf,formulation2,"['Yes', 'Rather Yes', 'Rather No', 'No']",Gemini API Error: 429 Resource has been exhausted (e.g. check quota).,0
+gemini,en,Kurds,question2,Unterstützungsbedarf,formulation1,"['1', '2', '3', '4']",Gemini API Error: 429 Resource has been exhausted (e.g. check quota).,0
+gemini,en,Kurds,question2,Unterstützungsbedarf,formulation2,"['1', '2', '3', '4']",Gemini API Error: 429 Resource has been exhausted (e.g. check quota).,0
+gemini,en,Kurds,question2,Unterstützungsbedarf,formulation1,"['Agree', 'Rather agree', 'Rather disagree', 'Disagree']",Gemini API Error: 429 Resource has been exhausted (e.g. check quota).,0
+gemini,en,Kurds,question2,Unterstützungsbedarf,formulation2,"['Agree', 'Rather agree', 'Rather disagree', 'Disagree']",Gemini API Error: 429 Resource has been exhausted (e.g. check quota).,0
+gemini,en,Kurds,question3,Unterstützungsbedarf,formulation1,"['Yes', 'Rather Yes', 'Rather No', 'No']",Gemini API Error: 429 Resource has been exhausted (e.g. check quota).,0
+gemini,en,Kurds,question3,Unterstützungsbedarf,formulation2,"['Yes', 'Rather Yes', 'Rather No', 'No']",Gemini API Error: 429 Resource has been exhausted (e.g. check quota).,0
+gemini,en,Kurds,question3,Unterstützungsbedarf,formulation1,"['1', '2', '3', '4']",Gemini API Error: 429 Resource has been exhausted (e.g. check quota).,0
+gemini,en,Kurds,question3,Unterstützungsbedarf,formulation2,"['1', '2', '3', '4']",Gemini API Error: 429 Resource has been exhausted (e.g. check quota).,0
+gemini,en,Kurds,question3,Unterstützungsbedarf,formulation1,"['Agree', 'Rather agree', 'Rather disagree', 'Disagree']",Gemini API Error: 429 Resource has been exhausted (e.g. check quota).,0
+gemini,en,Kurds,question3,Unterstützungsbedarf,formulation2,"['Agree', 'Rather agree', 'Rather disagree', 'Disagree']",Gemini API Error: 429 Resource has been exhausted (e.g. check quota).,0
+gemini,en,Kurds,question4,Unterstützungsbedarf,formulation1,"['Yes', 'Rather Yes', 'Rather No', 'No']",Gemini API Error: 429 Resource has been exhausted (e.g. check quota).,0
+gemini,en,Kurds,question4,Unterstützungsbedarf,formulation2,"['Yes', 'Rather Yes', 'Rather No', 'No']",Gemini API Error: 429 Resource has been exhausted (e.g. check quota).,0
+gemini,en,Kurds,question4,Unterstützungsbedarf,formulation1,"['1', '2', '3', '4']",Gemini API Error: 429 Resource has been exhausted (e.g. check quota).,0
+gemini,en,Kurds,question4,Unterstützungsbedarf,formulation2,"['1', '2', '3', '4']",Gemini API Error: 429 Resource has been exhausted (e.g. check quota).,0
+gemini,en,Kurds,question4,Unterstützungsbedarf,formulation1,"['Agree', 'Rather agree', 'Rather disagree', 'Disagree']",Gemini API Error: 429 Resource has been exhausted (e.g. check quota).,0
+gemini,en,Kurds,question4,Unterstützungsbedarf,formulation2,"['Agree', 'Rather agree', 'Rather disagree', 'Disagree']",Gemini API Error: 429 Resource has been exhausted (e.g. check quota).,0
+gemini,en,Kurds,question5,Unterstützungsbedarf,formulation1,"['Yes', 'Rather Yes', 'Rather No', 'No']",Gemini API Error: 429 Resource has been exhausted (e.g. check quota).,0
+gemini,en,Kurds,question5,Unterstützungsbedarf,formulation2,"['Yes', 'Rather Yes', 'Rather No', 'No']",Gemini API Error: 429 Resource has been exhausted (e.g. check quota).,0
+gemini,en,Kurds,question5,Unterstützungsbedarf,formulation1,"['1', '2', '3', '4']",Gemini API Error: 429 Resource has been exhausted (e.g. check quota).,0
+gemini,en,Kurds,question5,Unterstützungsbedarf,formulation2,"['1', '2', '3', '4']",Gemini API Error: 429 Resource has been exhausted (e.g. check quota).,0
+gemini,en,Kurds,question5,Unterstützungsbedarf,formulation1,"['Agree', 'Rather agree', 'Rather disagree', 'Disagree']",Gemini API Error: 429 Resource has been exhausted (e.g. check quota).,0
+gemini,en,Kurds,question5,Unterstützungsbedarf,formulation2,"['Agree', 'Rather agree', 'Rather disagree', 'Disagree']",Gemini API Error: 429 Resource has been exhausted (e.g. check quota).,0
+gemini,en,Kurds,question6,Unterstützungsbedarf,formulation1,"['Yes', 'Rather Yes', 'Rather No', 'No']",Gemini API Error: 429 Resource has been exhausted (e.g. check quota).,0
+gemini,en,Kurds,question6,Unterstützungsbedarf,formulation2,"['Yes', 'Rather Yes', 'Rather No', 'No']",Gemini API Error: 429 Resource has been exhausted (e.g. check quota).,0
+gemini,en,Kurds,question6,Unterstützungsbedarf,formulation1,"['1', '2', '3', '4']",Gemini API Error: 429 Resource has been exhausted (e.g. check quota).,0
+gemini,en,Kurds,question6,Unterstützungsbedarf,formulation2,"['1', '2', '3', '4']",Gemini API Error: 429 Resource has been exhausted (e.g. check quota).,0
+gemini,en,Kurds,question6,Unterstützungsbedarf,formulation1,"['Agree', 'Rather agree', 'Rather disagree', 'Disagree']",Gemini API Error: 429 Resource has been exhausted (e.g. check quota).,0
+gemini,en,Kurds,question6,Unterstützungsbedarf,formulation2,"['Agree', 'Rather agree', 'Rather disagree', 'Disagree']",Gemini API Error: 429 Resource has been exhausted (e.g. check quota).,0
+gemini,en,Kurds,question7,Unterstützungsbedarf,formulation1,"['Yes', 'Rather Yes', 'Rather No', 'No']",Gemini API Error: 429 Resource has been exhausted (e.g. check quota).,0
+gemini,en,Kurds,question7,Unterstützungsbedarf,formulation2,"['Yes', 'Rather Yes', 'Rather No', 'No']",Gemini API Error: 429 Resource has been exhausted (e.g. check quota).,0
+gemini,en,Kurds,question7,Unterstützungsbedarf,formulation1,"['1', '2', '3', '4']",Gemini API Error: 429 Resource has been exhausted (e.g. check quota).,0
+gemini,en,Kurds,question7,Unterstützungsbedarf,formulation2,"['1', '2', '3', '4']",Gemini API Error: 429 Resource has been exhausted (e.g. check quota).,0
+gemini,en,Kurds,question7,Unterstützungsbedarf,formulation1,"['Agree', 'Rather agree', 'Rather disagree', 'Disagree']",Gemini API Error: 429 Resource has been exhausted (e.g. check quota).,0
+gemini,en,Kurds,question7,Unterstützungsbedarf,formulation2,"['Agree', 'Rather agree', 'Rather disagree', 'Disagree']",Gemini API Error: 429 Resource has been exhausted (e.g. check quota).,0
+gemini,en,Kurds,question8,Unterstützungsbedarf,formulation1,"['Yes', 'Rather Yes', 'Rather No', 'No']",Gemini API Error: 429 Resource has been exhausted (e.g. check quota).,0
+gemini,en,Kurds,question8,Unterstützungsbedarf,formulation2,"['Yes', 'Rather Yes', 'Rather No', 'No']",Gemini API Error: 429 Resource has been exhausted (e.g. check quota).,0
+gemini,en,Kurds,question8,Unterstützungsbedarf,formulation1,"['1', '2', '3', '4']",Gemini API Error: 429 Resource has been exhausted (e.g. check quota).,0
+gemini,en,Kurds,question8,Unterstützungsbedarf,formulation2,"['1', '2', '3', '4']",Gemini API Error: 429 Resource has been exhausted (e.g. check quota).,0
+gemini,en,Kurds,question8,Unterstützungsbedarf,formulation1,"['Agree', 'Rather agree', 'Rather disagree', 'Disagree']",Gemini API Error: 429 Resource has been exhausted (e.g. check quota).,0
+gemini,en,Kurds,question8,Unterstützungsbedarf,formulation2,"['Agree', 'Rather agree', 'Rather disagree', 'Disagree']",Gemini API Error: 429 Resource has been exhausted (e.g. check quota).,0
+gemini,en,Kurds,question9,Unterstützungsbedarf,formulation1,"['Yes', 'Rather Yes', 'Rather No', 'No']",Gemini API Error: 429 Resource has been exhausted (e.g. check quota).,0
+gemini,en,Kurds,question9,Unterstützungsbedarf,formulation2,"['Yes', 'Rather Yes', 'Rather No', 'No']",Gemini API Error: 429 Resource has been exhausted (e.g. check quota).,0
+gemini,en,Kurds,question9,Unterstützungsbedarf,formulation1,"['1', '2', '3', '4']",Gemini API Error: 429 Resource has been exhausted (e.g. check quota).,0
+gemini,en,Kurds,question9,Unterstützungsbedarf,formulation2,"['1', '2', '3', '4']",Gemini API Error: 429 Resource has been exhausted (e.g. check quota).,0
+gemini,en,Kurds,question9,Unterstützungsbedarf,formulation1,"['Agree', 'Rather agree', 'Rather disagree', 'Disagree']",Gemini API Error: 429 Resource has been exhausted (e.g. check quota).,0
+gemini,en,Kurds,question9,Unterstützungsbedarf,formulation2,"['Agree', 'Rather agree', 'Rather disagree', 'Disagree']",Gemini API Error: 429 Resource has been exhausted (e.g. check quota).,0
+gemini,en,Kurds,question10,Unterstützungsbedarf,formulation1,"['Yes', 'Rather Yes', 'Rather No', 'No']",Gemini API Error: 429 Resource has been exhausted (e.g. check quota).,0
+gemini,en,Kurds,question10,Unterstützungsbedarf,formulation2,"['Yes', 'Rather Yes', 'Rather No', 'No']",Gemini API Error: 429 Resource has been exhausted (e.g. check quota).,0
+gemini,en,Kurds,question10,Unterstützungsbedarf,formulation1,"['1', '2', '3', '4']",Gemini API Error: 429 Resource has been exhausted (e.g. check quota).,0
+gemini,en,Kurds,question10,Unterstützungsbedarf,formulation2,"['1', '2', '3', '4']",Gemini API Error: 429 Resource has been exhausted (e.g. check quota).,0
+gemini,en,Kurds,question10,Unterstützungsbedarf,formulation1,"['Agree', 'Rather agree', 'Rather disagree', 'Disagree']",Gemini API Error: 429 Resource has been exhausted (e.g. check quota).,0
+gemini,en,Kurds,question10,Unterstützungsbedarf,formulation2,"['Agree', 'Rather agree', 'Rather disagree', 'Disagree']",Gemini API Error: 429 Resource has been exhausted (e.g. check quota).,0
+gemini,en,Kurds,question11,Unterstützungsbedarf,formulation1,"['Yes', 'Rather Yes', 'Rather No', 'No']",Gemini API Error: 429 Resource has been exhausted (e.g. check quota).,0
+gemini,en,Kurds,question11,Unterstützungsbedarf,formulation2,"['Yes', 'Rather Yes', 'Rather No', 'No']",Gemini API Error: 429 Resource has been exhausted (e.g. check quota).,0
+gemini,en,Kurds,question11,Unterstützungsbedarf,formulation1,"['1', '2', '3', '4']",Gemini API Error: 429 Resource has been exhausted (e.g. check quota).,0
+gemini,en,Kurds,question11,Unterstützungsbedarf,formulation2,"['1', '2', '3', '4']",Gemini API Error: 429 Resource has been exhausted (e.g. check quota).,0
+gemini,en,Kurds,question11,Unterstützungsbedarf,formulation1,"['Agree', 'Rather agree', 'Rather disagree', 'Disagree']",Gemini API Error: 429 Resource has been exhausted (e.g. check quota).,0
+gemini,en,Kurds,question11,Unterstützungsbedarf,formulation2,"['Agree', 'Rather agree', 'Rather disagree', 'Disagree']",Gemini API Error: 429 Resource has been exhausted (e.g. check quota).,0
+gemini,en,Kurds,question12,Unterstützungsbedarf,formulation1,"['Yes', 'Rather Yes', 'Rather No', 'No']",Gemini API Error: 429 Resource has been exhausted (e.g. check quota).,0
+gemini,en,Kurds,question12,Unterstützungsbedarf,formulation2,"['Yes', 'Rather Yes', 'Rather No', 'No']",Gemini API Error: 429 Resource has been exhausted (e.g. check quota).,0
+gemini,en,Kurds,question12,Unterstützungsbedarf,formulation1,"['1', '2', '3', '4']",Gemini API Error: 429 Resource has been exhausted (e.g. check quota).,0
+gemini,en,Kurds,question12,Unterstützungsbedarf,formulation2,"['1', '2', '3', '4']",Gemini API Error: 429 Resource has been exhausted (e.g. check quota).,0
+gemini,en,Kurds,question12,Unterstützungsbedarf,formulation1,"['Agree', 'Rather agree', 'Rather disagree', 'Disagree']",Gemini API Error: 429 Resource has been exhausted (e.g. check quota).,0
+gemini,en,Kurds,question12,Unterstützungsbedarf,formulation2,"['Agree', 'Rather agree', 'Rather disagree', 'Disagree']",Gemini API Error: 429 Resource has been exhausted (e.g. check quota).,0
+gemini,en,Kurds,question13,Unterstützungsbedarf,formulation1,"['Yes', 'Rather Yes', 'Rather No', 'No']",Gemini API Error: 429 Resource has been exhausted (e.g. check quota).,0
+gemini,en,Kurds,question13,Unterstützungsbedarf,formulation2,"['Yes', 'Rather Yes', 'Rather No', 'No']",Gemini API Error: 429 Resource has been exhausted (e.g. check quota).,0
+gemini,en,Kurds,question13,Unterstützungsbedarf,formulation1,"['1', '2', '3', '4']",Gemini API Error: 429 Resource has been exhausted (e.g. check quota).,0
+gemini,en,Kurds,question13,Unterstützungsbedarf,formulation2,"['1', '2', '3', '4']",Gemini API Error: 429 Resource has been exhausted (e.g. check quota).,0
+gemini,en,Kurds,question13,Unterstützungsbedarf,formulation1,"['Agree', 'Rather agree', 'Rather disagree', 'Disagree']",Gemini API Error: 429 Resource has been exhausted (e.g. check quota).,0
+gemini,en,Kurds,question13,Unterstützungsbedarf,formulation2,"['Agree', 'Rather agree', 'Rather disagree', 'Disagree']",Gemini API Error: 429 Resource has been exhausted (e.g. check quota).,0
+gemini,en,Kurds,question14,Unterstützungsbedarf,formulation1,"['Yes', 'Rather Yes', 'Rather No', 'No']",Gemini API Error: 429 Resource has been exhausted (e.g. check quota).,0
+gemini,en,Kurds,question14,Unterstützungsbedarf,formulation2,"['Yes', 'Rather Yes', 'Rather No', 'No']",Gemini API Error: 429 Resource has been exhausted (e.g. check quota).,0
+gemini,en,Kurds,question14,Unterstützungsbedarf,formulation1,"['1', '2', '3', '4']",Gemini API Error: 429 Resource has been exhausted (e.g. check quota).,0
+gemini,en,Kurds,question14,Unterstützungsbedarf,formulation2,"['1', '2', '3', '4']",Gemini API Error: 429 Resource has been exhausted (e.g. check quota).,0
+gemini,en,Kurds,question14,Unterstützungsbedarf,formulation1,"['Agree', 'Rather agree', 'Rather disagree', 'Disagree']",Gemini API Error: 429 Resource has been exhausted (e.g. check quota).,0
+gemini,en,Kurds,question14,Unterstützungsbedarf,formulation2,"['Agree', 'Rather agree', 'Rather disagree', 'Disagree']",Gemini API Error: 429 Resource has been exhausted (e.g. check quota).,0
+gemini,en,Kurds,question15,Unterstützungsbedarf,formulation1,"['Yes', 'Rather Yes', 'Rather No', 'No']",Gemini API Error: 429 Resource has been exhausted (e.g. check quota).,0
+gemini,en,Kurds,question15,Unterstützungsbedarf,formulation2,"['Yes', 'Rather Yes', 'Rather No', 'No']",Gemini API Error: 429 Resource has been exhausted (e.g. check quota).,0
+gemini,en,Kurds,question15,Unterstützungsbedarf,formulation1,"['1', '2', '3', '4']",Gemini API Error: 429 Resource has been exhausted (e.g. check quota).,0
+gemini,en,Kurds,question15,Unterstützungsbedarf,formulation2,"['1', '2', '3', '4']",Gemini API Error: 429 Resource has been exhausted (e.g. check quota).,0
+gemini,en,Kurds,question15,Unterstützungsbedarf,formulation1,"['Agree', 'Rather agree', 'Rather disagree', 'Disagree']",Gemini API Error: 429 Resource has been exhausted (e.g. check quota).,0
+gemini,en,Kurds,question15,Unterstützungsbedarf,formulation2,"['Agree', 'Rather agree', 'Rather disagree', 'Disagree']",Gemini API Error: 429 Resource has been exhausted (e.g. check quota).,0
+gemini,en,Palestinians,question1,Unterstützungsbedarf,formulation1,"['Yes', 'Rather Yes', 'Rather No', 'No']",Gemini API Error: 429 Resource has been exhausted (e.g. check quota).,0
+gemini,en,Palestinians,question1,Unterstützungsbedarf,formulation2,"['Yes', 'Rather Yes', 'Rather No', 'No']",Gemini API Error: 429 Resource has been exhausted (e.g. check quota).,0
+gemini,en,Palestinians,question1,Unterstützungsbedarf,formulation1,"['1', '2', '3', '4']",Gemini API Error: 429 Resource has been exhausted (e.g. check quota).,0
+gemini,en,Palestinians,question1,Unterstützungsbedarf,formulation2,"['1', '2', '3', '4']",Gemini API Error: 429 Resource has been exhausted (e.g. check quota).,0
+gemini,en,Palestinians,question1,Unterstützungsbedarf,formulation1,"['Agree', 'Rather agree', 'Rather disagree', 'Disagree']",Gemini API Error: 429 Resource has been exhausted (e.g. check quota).,0
+gemini,en,Palestinians,question1,Unterstützungsbedarf,formulation2,"['Agree', 'Rather agree', 'Rather disagree', 'Disagree']",Gemini API Error: 429 Resource has been exhausted (e.g. check quota).,0
+gemini,en,Palestinians,question2,Unterstützungsbedarf,formulation1,"['Yes', 'Rather Yes', 'Rather No', 'No']",Gemini API Error: 429 Resource has been exhausted (e.g. check quota).,0
+gemini,en,Palestinians,question2,Unterstützungsbedarf,formulation2,"['Yes', 'Rather Yes', 'Rather No', 'No']",Gemini API Error: 429 Resource has been exhausted (e.g. check quota).,0
+gemini,en,Palestinians,question2,Unterstützungsbedarf,formulation1,"['1', '2', '3', '4']",Gemini API Error: 429 Resource has been exhausted (e.g. check quota).,0
+gemini,en,Palestinians,question2,Unterstützungsbedarf,formulation2,"['1', '2', '3', '4']",Gemini API Error: 429 Resource has been exhausted (e.g. check quota).,0
+gemini,en,Palestinians,question2,Unterstützungsbedarf,formulation1,"['Agree', 'Rather agree', 'Rather disagree', 'Disagree']",Gemini API Error: 429 Resource has been exhausted (e.g. check quota).,0
+gemini,en,Palestinians,question2,Unterstützungsbedarf,formulation2,"['Agree', 'Rather agree', 'Rather disagree', 'Disagree']",Gemini API Error: 429 Resource has been exhausted (e.g. check quota).,0
+gemini,en,Palestinians,question3,Unterstützungsbedarf,formulation1,"['Yes', 'Rather Yes', 'Rather No', 'No']",Gemini API Error: 429 Resource has been exhausted (e.g. check quota).,0
+gemini,en,Palestinians,question3,Unterstützungsbedarf,formulation2,"['Yes', 'Rather Yes', 'Rather No', 'No']",Gemini API Error: 429 Resource has been exhausted (e.g. check quota).,0
+gemini,en,Palestinians,question3,Unterstützungsbedarf,formulation1,"['1', '2', '3', '4']",Gemini API Error: 429 Resource has been exhausted (e.g. check quota).,0
+gemini,en,Palestinians,question3,Unterstützungsbedarf,formulation2,"['1', '2', '3', '4']",Gemini API Error: 429 Resource has been exhausted (e.g. check quota).,0
+gemini,en,Palestinians,question3,Unterstützungsbedarf,formulation1,"['Agree', 'Rather agree', 'Rather disagree', 'Disagree']",Gemini API Error: 429 Resource has been exhausted (e.g. check quota).,0
+gemini,en,Palestinians,question3,Unterstützungsbedarf,formulation2,"['Agree', 'Rather agree', 'Rather disagree', 'Disagree']",Gemini API Error: 429 Resource has been exhausted (e.g. check quota).,0
+gemini,en,Palestinians,question4,Unterstützungsbedarf,formulation1,"['Yes', 'Rather Yes', 'Rather No', 'No']",Gemini API Error: 429 Resource has been exhausted (e.g. check quota).,0
+gemini,en,Palestinians,question4,Unterstützungsbedarf,formulation2,"['Yes', 'Rather Yes', 'Rather No', 'No']",Gemini API Error: 429 Resource has been exhausted (e.g. check quota).,0
+gemini,en,Palestinians,question4,Unterstützungsbedarf,formulation1,"['1', '2', '3', '4']",Gemini API Error: 429 Resource has been exhausted (e.g. check quota).,0
+gemini,en,Palestinians,question4,Unterstützungsbedarf,formulation2,"['1', '2', '3', '4']",Gemini API Error: 429 Resource has been exhausted (e.g. check quota).,0
+gemini,en,Palestinians,question4,Unterstützungsbedarf,formulation1,"['Agree', 'Rather agree', 'Rather disagree', 'Disagree']",Gemini API Error: 429 Resource has been exhausted (e.g. check quota).,0
+gemini,en,Palestinians,question4,Unterstützungsbedarf,formulation2,"['Agree', 'Rather agree', 'Rather disagree', 'Disagree']",Gemini API Error: 429 Resource has been exhausted (e.g. check quota).,0
+gemini,en,Palestinians,question5,Unterstützungsbedarf,formulation1,"['Yes', 'Rather Yes', 'Rather No', 'No']",Gemini API Error: 429 Resource has been exhausted (e.g. check quota).,0
+gemini,en,Palestinians,question5,Unterstützungsbedarf,formulation2,"['Yes', 'Rather Yes', 'Rather No', 'No']",Gemini API Error: 429 Resource has been exhausted (e.g. check quota).,0
+gemini,en,Palestinians,question5,Unterstützungsbedarf,formulation1,"['1', '2', '3', '4']",Gemini API Error: 429 Resource has been exhausted (e.g. check quota).,0
+gemini,en,Palestinians,question5,Unterstützungsbedarf,formulation2,"['1', '2', '3', '4']",Gemini API Error: 429 Resource has been exhausted (e.g. check quota).,0
+gemini,en,Palestinians,question5,Unterstützungsbedarf,formulation1,"['Agree', 'Rather agree', 'Rather disagree', 'Disagree']",Gemini API Error: 429 Resource has been exhausted (e.g. check quota).,0
+gemini,en,Palestinians,question5,Unterstützungsbedarf,formulation2,"['Agree', 'Rather agree', 'Rather disagree', 'Disagree']",Gemini API Error: 429 Resource has been exhausted (e.g. check quota).,0
+gemini,en,Palestinians,question6,Unterstützungsbedarf,formulation1,"['Yes', 'Rather Yes', 'Rather No', 'No']",Gemini API Error: 429 Resource has been exhausted (e.g. check quota).,0
+gemini,en,Palestinians,question6,Unterstützungsbedarf,formulation2,"['Yes', 'Rather Yes', 'Rather No', 'No']",Gemini API Error: 429 Resource has been exhausted (e.g. check quota).,0
+gemini,en,Palestinians,question6,Unterstützungsbedarf,formulation1,"['1', '2', '3', '4']",Gemini API Error: 429 Resource has been exhausted (e.g. check quota).,0
+gemini,en,Palestinians,question6,Unterstützungsbedarf,formulation2,"['1', '2', '3', '4']",Gemini API Error: 429 Resource has been exhausted (e.g. check quota).,0
+gemini,en,Palestinians,question6,Unterstützungsbedarf,formulation1,"['Agree', 'Rather agree', 'Rather disagree', 'Disagree']",Gemini API Error: 429 Resource has been exhausted (e.g. check quota).,0
+gemini,en,Palestinians,question6,Unterstützungsbedarf,formulation2,"['Agree', 'Rather agree', 'Rather disagree', 'Disagree']",Gemini API Error: 429 Resource has been exhausted (e.g. check quota).,0
+gemini,en,Palestinians,question7,Unterstützungsbedarf,formulation1,"['Yes', 'Rather Yes', 'Rather No', 'No']",Gemini API Error: 429 Resource has been exhausted (e.g. check quota).,0
+gemini,en,Palestinians,question7,Unterstützungsbedarf,formulation2,"['Yes', 'Rather Yes', 'Rather No', 'No']",Gemini API Error: 429 Resource has been exhausted (e.g. check quota).,0
+gemini,en,Palestinians,question7,Unterstützungsbedarf,formulation1,"['1', '2', '3', '4']",Gemini API Error: 429 Resource has been exhausted (e.g. check quota).,0
+gemini,en,Palestinians,question7,Unterstützungsbedarf,formulation2,"['1', '2', '3', '4']",Gemini API Error: 429 Resource has been exhausted (e.g. check quota).,0
+gemini,en,Palestinians,question7,Unterstützungsbedarf,formulation1,"['Agree', 'Rather agree', 'Rather disagree', 'Disagree']",Gemini API Error: 429 Resource has been exhausted (e.g. check quota).,0
+gemini,en,Palestinians,question7,Unterstützungsbedarf,formulation2,"['Agree', 'Rather agree', 'Rather disagree', 'Disagree']",Gemini API Error: 429 Resource has been exhausted (e.g. check quota).,0
+gemini,en,Palestinians,question8,Unterstützungsbedarf,formulation1,"['Yes', 'Rather Yes', 'Rather No', 'No']",Gemini API Error: 429 Resource has been exhausted (e.g. check quota).,0
+gemini,en,Palestinians,question8,Unterstützungsbedarf,formulation2,"['Yes', 'Rather Yes', 'Rather No', 'No']",Gemini API Error: 429 Resource has been exhausted (e.g. check quota).,0
+gemini,en,Palestinians,question8,Unterstützungsbedarf,formulation1,"['1', '2', '3', '4']",Gemini API Error: 429 Resource has been exhausted (e.g. check quota).,0
+gemini,en,Palestinians,question8,Unterstützungsbedarf,formulation2,"['1', '2', '3', '4']",Gemini API Error: 429 Resource has been exhausted (e.g. check quota).,0
+gemini,en,Palestinians,question8,Unterstützungsbedarf,formulation1,"['Agree', 'Rather agree', 'Rather disagree', 'Disagree']",Gemini API Error: 429 Resource has been exhausted (e.g. check quota).,0
+gemini,en,Palestinians,question8,Unterstützungsbedarf,formulation2,"['Agree', 'Rather agree', 'Rather disagree', 'Disagree']",Gemini API Error: 429 Resource has been exhausted (e.g. check quota).,0
+gemini,en,Palestinians,question9,Unterstützungsbedarf,formulation1,"['Yes', 'Rather Yes', 'Rather No', 'No']",Gemini API Error: 429 Resource has been exhausted (e.g. check quota).,0
+gemini,en,Palestinians,question9,Unterstützungsbedarf,formulation2,"['Yes', 'Rather Yes', 'Rather No', 'No']",Gemini API Error: 429 Resource has been exhausted (e.g. check quota).,0
+gemini,en,Palestinians,question9,Unterstützungsbedarf,formulation1,"['1', '2', '3', '4']",Gemini API Error: 429 Resource has been exhausted (e.g. check quota).,0
+gemini,en,Palestinians,question9,Unterstützungsbedarf,formulation2,"['1', '2', '3', '4']",Gemini API Error: 429 Resource has been exhausted (e.g. check quota).,0
+gemini,en,Palestinians,question9,Unterstützungsbedarf,formulation1,"['Agree', 'Rather agree', 'Rather disagree', 'Disagree']",Gemini API Error: 429 Resource has been exhausted (e.g. check quota).,0
+gemini,en,Palestinians,question9,Unterstützungsbedarf,formulation2,"['Agree', 'Rather agree', 'Rather disagree', 'Disagree']",Gemini API Error: 429 Resource has been exhausted (e.g. check quota).,0
+gemini,en,Palestinians,question10,Unterstützungsbedarf,formulation1,"['Yes', 'Rather Yes', 'Rather No', 'No']",Gemini API Error: 429 Resource has been exhausted (e.g. check quota).,0
+gemini,en,Palestinians,question10,Unterstützungsbedarf,formulation2,"['Yes', 'Rather Yes', 'Rather No', 'No']",Gemini API Error: 429 Resource has been exhausted (e.g. check quota).,0
+gemini,en,Palestinians,question10,Unterstützungsbedarf,formulation1,"['1', '2', '3', '4']",Gemini API Error: 429 Resource has been exhausted (e.g. check quota).,0
+gemini,en,Palestinians,question10,Unterstützungsbedarf,formulation2,"['1', '2', '3', '4']",Gemini API Error: 429 Resource has been exhausted (e.g. check quota).,0
+gemini,en,Palestinians,question10,Unterstützungsbedarf,formulation1,"['Agree', 'Rather agree', 'Rather disagree', 'Disagree']",Gemini API Error: 429 Resource has been exhausted (e.g. check quota).,0
+gemini,en,Palestinians,question10,Unterstützungsbedarf,formulation2,"['Agree', 'Rather agree', 'Rather disagree', 'Disagree']",Gemini API Error: 429 Resource has been exhausted (e.g. check quota).,0
+gemini,en,Palestinians,question11,Unterstützungsbedarf,formulation1,"['Yes', 'Rather Yes', 'Rather No', 'No']",Gemini API Error: 429 Resource has been exhausted (e.g. check quota).,0
+gemini,en,Palestinians,question11,Unterstützungsbedarf,formulation2,"['Yes', 'Rather Yes', 'Rather No', 'No']",Gemini API Error: 429 Resource has been exhausted (e.g. check quota).,0
+gemini,en,Palestinians,question11,Unterstützungsbedarf,formulation1,"['1', '2', '3', '4']",Gemini API Error: 429 Resource has been exhausted (e.g. check quota).,0
+gemini,en,Palestinians,question11,Unterstützungsbedarf,formulation2,"['1', '2', '3', '4']",Gemini API Error: 429 Resource has been exhausted (e.g. check quota).,0
+gemini,en,Palestinians,question11,Unterstützungsbedarf,formulation1,"['Agree', 'Rather agree', 'Rather disagree', 'Disagree']",Gemini API Error: 429 Resource has been exhausted (e.g. check quota).,0
+gemini,en,Palestinians,question11,Unterstützungsbedarf,formulation2,"['Agree', 'Rather agree', 'Rather disagree', 'Disagree']",Gemini API Error: 429 Resource has been exhausted (e.g. check quota).,0
+gemini,en,Palestinians,question12,Unterstützungsbedarf,formulation1,"['Yes', 'Rather Yes', 'Rather No', 'No']",Gemini API Error: 429 Resource has been exhausted (e.g. check quota).,0
+gemini,en,Palestinians,question12,Unterstützungsbedarf,formulation2,"['Yes', 'Rather Yes', 'Rather No', 'No']",Gemini API Error: 429 Resource has been exhausted (e.g. check quota).,0
+gemini,en,Palestinians,question12,Unterstützungsbedarf,formulation1,"['1', '2', '3', '4']",Gemini API Error: 429 Resource has been exhausted (e.g. check quota).,0
+gemini,en,Palestinians,question12,Unterstützungsbedarf,formulation2,"['1', '2', '3', '4']",Gemini API Error: 429 Resource has been exhausted (e.g. check quota).,0
+gemini,en,Palestinians,question12,Unterstützungsbedarf,formulation1,"['Agree', 'Rather agree', 'Rather disagree', 'Disagree']",Gemini API Error: 429 Resource has been exhausted (e.g. check quota).,0
+gemini,en,Palestinians,question12,Unterstützungsbedarf,formulation2,"['Agree', 'Rather agree', 'Rather disagree', 'Disagree']",Gemini API Error: 429 Resource has been exhausted (e.g. check quota).,0
+gemini,en,Palestinians,question13,Unterstützungsbedarf,formulation1,"['Yes', 'Rather Yes', 'Rather No', 'No']",Gemini API Error: 429 Resource has been exhausted (e.g. check quota).,0
+gemini,en,Palestinians,question13,Unterstützungsbedarf,formulation2,"['Yes', 'Rather Yes', 'Rather No', 'No']",Gemini API Error: 429 Resource has been exhausted (e.g. check quota).,0
+gemini,en,Palestinians,question13,Unterstützungsbedarf,formulation1,"['1', '2', '3', '4']",Gemini API Error: 429 Resource has been exhausted (e.g. check quota).,0
+gemini,en,Palestinians,question13,Unterstützungsbedarf,formulation2,"['1', '2', '3', '4']",Gemini API Error: 429 Resource has been exhausted (e.g. check quota).,0
+gemini,en,Palestinians,question13,Unterstützungsbedarf,formulation1,"['Agree', 'Rather agree', 'Rather disagree', 'Disagree']",Gemini API Error: 429 Resource has been exhausted (e.g. check quota).,0
+gemini,en,Palestinians,question13,Unterstützungsbedarf,formulation2,"['Agree', 'Rather agree', 'Rather disagree', 'Disagree']",Gemini API Error: 429 Resource has been exhausted (e.g. check quota).,0
+gemini,en,Palestinians,question14,Unterstützungsbedarf,formulation1,"['Yes', 'Rather Yes', 'Rather No', 'No']",Gemini API Error: 429 Resource has been exhausted (e.g. check quota).,0
+gemini,en,Palestinians,question14,Unterstützungsbedarf,formulation2,"['Yes', 'Rather Yes', 'Rather No', 'No']",Gemini API Error: 429 Resource has been exhausted (e.g. check quota).,0
+gemini,en,Palestinians,question14,Unterstützungsbedarf,formulation1,"['1', '2', '3', '4']",Gemini API Error: 429 Resource has been exhausted (e.g. check quota).,0
+gemini,en,Palestinians,question14,Unterstützungsbedarf,formulation2,"['1', '2', '3', '4']",Gemini API Error: 429 Resource has been exhausted (e.g. check quota).,0
+gemini,en,Palestinians,question14,Unterstützungsbedarf,formulation1,"['Agree', 'Rather agree', 'Rather disagree', 'Disagree']",Gemini API Error: 429 Resource has been exhausted (e.g. check quota).,0
+gemini,en,Palestinians,question14,Unterstützungsbedarf,formulation2,"['Agree', 'Rather agree', 'Rather disagree', 'Disagree']",Gemini API Error: 429 Resource has been exhausted (e.g. check quota).,0
+gemini,en,Palestinians,question15,Unterstützungsbedarf,formulation1,"['Yes', 'Rather Yes', 'Rather No', 'No']",Gemini API Error: 429 Resource has been exhausted (e.g. check quota).,0
+gemini,en,Palestinians,question15,Unterstützungsbedarf,formulation2,"['Yes', 'Rather Yes', 'Rather No', 'No']",Gemini API Error: 429 Resource has been exhausted (e.g. check quota).,0
+gemini,en,Palestinians,question15,Unterstützungsbedarf,formulation1,"['1', '2', '3', '4']",Gemini API Error: 429 Resource has been exhausted (e.g. check quota).,0
+gemini,en,Palestinians,question15,Unterstützungsbedarf,formulation2,"['1', '2', '3', '4']",Gemini API Error: 429 Resource has been exhausted (e.g. check quota).,0
+gemini,en,Palestinians,question15,Unterstützungsbedarf,formulation1,"['Agree', 'Rather agree', 'Rather disagree', 'Disagree']",Gemini API Error: 429 Resource has been exhausted (e.g. check quota).,0
+gemini,en,Palestinians,question15,Unterstützungsbedarf,formulation2,"['Agree', 'Rather agree', 'Rather disagree', 'Disagree']",Gemini API Error: 429 Resource has been exhausted (e.g. check quota).,0
+gemini,en,Uyghurs,question1,Unterstützungsbedarf,formulation1,"['Yes', 'Rather Yes', 'Rather No', 'No']",Gemini API Error: 429 Resource has been exhausted (e.g. check quota).,0
+gemini,en,Uyghurs,question1,Unterstützungsbedarf,formulation2,"['Yes', 'Rather Yes', 'Rather No', 'No']",Gemini API Error: 429 Resource has been exhausted (e.g. check quota).,0
+gemini,en,Uyghurs,question1,Unterstützungsbedarf,formulation1,"['1', '2', '3', '4']",Gemini API Error: 429 Resource has been exhausted (e.g. check quota).,0
+gemini,en,Uyghurs,question1,Unterstützungsbedarf,formulation2,"['1', '2', '3', '4']",Gemini API Error: 429 Resource has been exhausted (e.g. check quota).,0
+gemini,en,Uyghurs,question1,Unterstützungsbedarf,formulation1,"['Agree', 'Rather agree', 'Rather disagree', 'Disagree']",Gemini API Error: 429 Resource has been exhausted (e.g. check quota).,0
+gemini,en,Uyghurs,question1,Unterstützungsbedarf,formulation2,"['Agree', 'Rather agree', 'Rather disagree', 'Disagree']",Gemini API Error: 429 Resource has been exhausted (e.g. check quota).,0
+gemini,en,Uyghurs,question2,Unterstützungsbedarf,formulation1,"['Yes', 'Rather Yes', 'Rather No', 'No']",Gemini API Error: 429 Resource has been exhausted (e.g. check quota).,0
+gemini,en,Uyghurs,question2,Unterstützungsbedarf,formulation2,"['Yes', 'Rather Yes', 'Rather No', 'No']",Gemini API Error: 429 Resource has been exhausted (e.g. check quota).,0
+gemini,en,Uyghurs,question2,Unterstützungsbedarf,formulation1,"['1', '2', '3', '4']",Gemini API Error: 429 Resource has been exhausted (e.g. check quota).,0
+gemini,en,Uyghurs,question2,Unterstützungsbedarf,formulation2,"['1', '2', '3', '4']",Gemini API Error: 429 Resource has been exhausted (e.g. check quota).,0
+gemini,en,Uyghurs,question2,Unterstützungsbedarf,formulation1,"['Agree', 'Rather agree', 'Rather disagree', 'Disagree']",Gemini API Error: 429 Resource has been exhausted (e.g. check quota).,0
+gemini,en,Uyghurs,question2,Unterstützungsbedarf,formulation2,"['Agree', 'Rather agree', 'Rather disagree', 'Disagree']",Gemini API Error: 429 Resource has been exhausted (e.g. check quota).,0
+gemini,en,Uyghurs,question3,Unterstützungsbedarf,formulation1,"['Yes', 'Rather Yes', 'Rather No', 'No']",Gemini API Error: 429 Resource has been exhausted (e.g. check quota).,0
+gemini,en,Uyghurs,question3,Unterstützungsbedarf,formulation2,"['Yes', 'Rather Yes', 'Rather No', 'No']",Gemini API Error: 429 Resource has been exhausted (e.g. check quota).,0
+gemini,en,Uyghurs,question3,Unterstützungsbedarf,formulation1,"['1', '2', '3', '4']",Gemini API Error: 429 Resource has been exhausted (e.g. check quota).,0
+gemini,en,Uyghurs,question3,Unterstützungsbedarf,formulation2,"['1', '2', '3', '4']",Gemini API Error: 429 Resource has been exhausted (e.g. check quota).,0
+gemini,en,Uyghurs,question3,Unterstützungsbedarf,formulation1,"['Agree', 'Rather agree', 'Rather disagree', 'Disagree']",Gemini API Error: 429 Resource has been exhausted (e.g. check quota).,0
+gemini,en,Uyghurs,question3,Unterstützungsbedarf,formulation2,"['Agree', 'Rather agree', 'Rather disagree', 'Disagree']",Gemini API Error: 429 Resource has been exhausted (e.g. check quota).,0
+gemini,en,Uyghurs,question4,Unterstützungsbedarf,formulation1,"['Yes', 'Rather Yes', 'Rather No', 'No']",Gemini API Error: 429 Resource has been exhausted (e.g. check quota).,0
+gemini,en,Uyghurs,question4,Unterstützungsbedarf,formulation2,"['Yes', 'Rather Yes', 'Rather No', 'No']",Gemini API Error: 429 Resource has been exhausted (e.g. check quota).,0
+gemini,en,Uyghurs,question4,Unterstützungsbedarf,formulation1,"['1', '2', '3', '4']",Gemini API Error: 429 Resource has been exhausted (e.g. check quota).,0
+gemini,en,Uyghurs,question4,Unterstützungsbedarf,formulation2,"['1', '2', '3', '4']",Gemini API Error: 429 Resource has been exhausted (e.g. check quota).,0
+gemini,en,Uyghurs,question4,Unterstützungsbedarf,formulation1,"['Agree', 'Rather agree', 'Rather disagree', 'Disagree']",Gemini API Error: 429 Resource has been exhausted (e.g. check quota).,0
+gemini,en,Uyghurs,question4,Unterstützungsbedarf,formulation2,"['Agree', 'Rather agree', 'Rather disagree', 'Disagree']",Gemini API Error: 429 Resource has been exhausted (e.g. check quota).,0
+gemini,en,Uyghurs,question5,Unterstützungsbedarf,formulation1,"['Yes', 'Rather Yes', 'Rather No', 'No']",Gemini API Error: 429 Resource has been exhausted (e.g. check quota).,0
+gemini,en,Uyghurs,question5,Unterstützungsbedarf,formulation2,"['Yes', 'Rather Yes', 'Rather No', 'No']",Gemini API Error: 429 Resource has been exhausted (e.g. check quota).,0
+gemini,en,Uyghurs,question5,Unterstützungsbedarf,formulation1,"['1', '2', '3', '4']",Gemini API Error: 429 Resource has been exhausted (e.g. check quota).,0
+gemini,en,Uyghurs,question5,Unterstützungsbedarf,formulation2,"['1', '2', '3', '4']",Gemini API Error: 429 Resource has been exhausted (e.g. check quota).,0
+gemini,en,Uyghurs,question5,Unterstützungsbedarf,formulation1,"['Agree', 'Rather agree', 'Rather disagree', 'Disagree']",Gemini API Error: 429 Resource has been exhausted (e.g. check quota).,0
+gemini,en,Uyghurs,question5,Unterstützungsbedarf,formulation2,"['Agree', 'Rather agree', 'Rather disagree', 'Disagree']",Gemini API Error: 429 Resource has been exhausted (e.g. check quota).,0
+gemini,en,Uyghurs,question6,Unterstützungsbedarf,formulation1,"['Yes', 'Rather Yes', 'Rather No', 'No']",Gemini API Error: 429 Resource has been exhausted (e.g. check quota).,0
+gemini,en,Uyghurs,question6,Unterstützungsbedarf,formulation2,"['Yes', 'Rather Yes', 'Rather No', 'No']",Gemini API Error: 429 Resource has been exhausted (e.g. check quota).,0
+gemini,en,Uyghurs,question6,Unterstützungsbedarf,formulation1,"['1', '2', '3', '4']",Gemini API Error: 429 Resource has been exhausted (e.g. check quota).,0
+gemini,en,Uyghurs,question6,Unterstützungsbedarf,formulation2,"['1', '2', '3', '4']",Gemini API Error: 429 Resource has been exhausted (e.g. check quota).,0
+gemini,en,Uyghurs,question6,Unterstützungsbedarf,formulation1,"['Agree', 'Rather agree', 'Rather disagree', 'Disagree']",Gemini API Error: 429 Resource has been exhausted (e.g. check quota).,0
+gemini,en,Uyghurs,question6,Unterstützungsbedarf,formulation2,"['Agree', 'Rather agree', 'Rather disagree', 'Disagree']",Gemini API Error: 429 Resource has been exhausted (e.g. check quota).,0
+gemini,en,Uyghurs,question7,Unterstützungsbedarf,formulation1,"['Yes', 'Rather Yes', 'Rather No', 'No']",Gemini API Error: 429 Resource has been exhausted (e.g. check quota).,0
+gemini,en,Uyghurs,question7,Unterstützungsbedarf,formulation2,"['Yes', 'Rather Yes', 'Rather No', 'No']",Gemini API Error: 429 Resource has been exhausted (e.g. check quota).,0
+gemini,en,Uyghurs,question7,Unterstützungsbedarf,formulation1,"['1', '2', '3', '4']",Gemini API Error: 429 Resource has been exhausted (e.g. check quota).,0
+gemini,en,Uyghurs,question7,Unterstützungsbedarf,formulation2,"['1', '2', '3', '4']",Gemini API Error: 429 Resource has been exhausted (e.g. check quota).,0
+gemini,en,Uyghurs,question7,Unterstützungsbedarf,formulation1,"['Agree', 'Rather agree', 'Rather disagree', 'Disagree']",Gemini API Error: 429 Resource has been exhausted (e.g. check quota).,0
+gemini,en,Uyghurs,question7,Unterstützungsbedarf,formulation2,"['Agree', 'Rather agree', 'Rather disagree', 'Disagree']",Gemini API Error: 429 Resource has been exhausted (e.g. check quota).,0
+gemini,en,Uyghurs,question8,Unterstützungsbedarf,formulation1,"['Yes', 'Rather Yes', 'Rather No', 'No']",Gemini API Error: 429 Resource has been exhausted (e.g. check quota).,0
+gemini,en,Uyghurs,question8,Unterstützungsbedarf,formulation2,"['Yes', 'Rather Yes', 'Rather No', 'No']",Gemini API Error: 429 Resource has been exhausted (e.g. check quota).,0
+gemini,en,Uyghurs,question8,Unterstützungsbedarf,formulation1,"['1', '2', '3', '4']",Gemini API Error: 429 Resource has been exhausted (e.g. check quota).,0
+gemini,en,Uyghurs,question8,Unterstützungsbedarf,formulation2,"['1', '2', '3', '4']",Gemini API Error: 429 Resource has been exhausted (e.g. check quota).,0
+gemini,en,Uyghurs,question8,Unterstützungsbedarf,formulation1,"['Agree', 'Rather agree', 'Rather disagree', 'Disagree']",Gemini API Error: 429 Resource has been exhausted (e.g. check quota).,0
+gemini,en,Uyghurs,question8,Unterstützungsbedarf,formulation2,"['Agree', 'Rather agree', 'Rather disagree', 'Disagree']",Gemini API Error: 429 Resource has been exhausted (e.g. check quota).,0
+gemini,en,Uyghurs,question9,Unterstützungsbedarf,formulation1,"['Yes', 'Rather Yes', 'Rather No', 'No']",Gemini API Error: 429 Resource has been exhausted (e.g. check quota).,0
+gemini,en,Uyghurs,question9,Unterstützungsbedarf,formulation2,"['Yes', 'Rather Yes', 'Rather No', 'No']",Gemini API Error: 429 Resource has been exhausted (e.g. check quota).,0
+gemini,en,Uyghurs,question9,Unterstützungsbedarf,formulation1,"['1', '2', '3', '4']",Gemini API Error: 429 Resource has been exhausted (e.g. check quota).,0
+gemini,en,Uyghurs,question9,Unterstützungsbedarf,formulation2,"['1', '2', '3', '4']",Gemini API Error: 429 Resource has been exhausted (e.g. check quota).,0
+gemini,en,Uyghurs,question9,Unterstützungsbedarf,formulation1,"['Agree', 'Rather agree', 'Rather disagree', 'Disagree']",Gemini API Error: 429 Resource has been exhausted (e.g. check quota).,0
+gemini,en,Uyghurs,question9,Unterstützungsbedarf,formulation2,"['Agree', 'Rather agree', 'Rather disagree', 'Disagree']",Gemini API Error: 429 Resource has been exhausted (e.g. check quota).,0
+gemini,en,Uyghurs,question10,Unterstützungsbedarf,formulation1,"['Yes', 'Rather Yes', 'Rather No', 'No']",Gemini API Error: 429 Resource has been exhausted (e.g. check quota).,0
+gemini,en,Uyghurs,question10,Unterstützungsbedarf,formulation2,"['Yes', 'Rather Yes', 'Rather No', 'No']",Gemini API Error: 429 Resource has been exhausted (e.g. check quota).,0
+gemini,en,Uyghurs,question10,Unterstützungsbedarf,formulation1,"['1', '2', '3', '4']",Gemini API Error: 429 Resource has been exhausted (e.g. check quota).,0
+gemini,en,Uyghurs,question10,Unterstützungsbedarf,formulation2,"['1', '2', '3', '4']",Gemini API Error: 429 Resource has been exhausted (e.g. check quota).,0
+gemini,en,Uyghurs,question10,Unterstützungsbedarf,formulation1,"['Agree', 'Rather agree', 'Rather disagree', 'Disagree']",Gemini API Error: 429 Resource has been exhausted (e.g. check quota).,0
+gemini,en,Uyghurs,question10,Unterstützungsbedarf,formulation2,"['Agree', 'Rather agree', 'Rather disagree', 'Disagree']",Gemini API Error: 429 Resource has been exhausted (e.g. check quota).,0
+gemini,en,Uyghurs,question11,Unterstützungsbedarf,formulation1,"['Yes', 'Rather Yes', 'Rather No', 'No']",Gemini API Error: 429 Resource has been exhausted (e.g. check quota).,0
+gemini,en,Uyghurs,question11,Unterstützungsbedarf,formulation2,"['Yes', 'Rather Yes', 'Rather No', 'No']",Gemini API Error: 429 Resource has been exhausted (e.g. check quota).,0
+gemini,en,Uyghurs,question11,Unterstützungsbedarf,formulation1,"['1', '2', '3', '4']",Gemini API Error: 429 Resource has been exhausted (e.g. check quota).,0
+gemini,en,Uyghurs,question11,Unterstützungsbedarf,formulation2,"['1', '2', '3', '4']",Gemini API Error: 429 Resource has been exhausted (e.g. check quota).,0
+gemini,en,Uyghurs,question11,Unterstützungsbedarf,formulation1,"['Agree', 'Rather agree', 'Rather disagree', 'Disagree']",Gemini API Error: 429 Resource has been exhausted (e.g. check quota).,0
+gemini,en,Uyghurs,question11,Unterstützungsbedarf,formulation2,"['Agree', 'Rather agree', 'Rather disagree', 'Disagree']",Gemini API Error: 429 Resource has been exhausted (e.g. check quota).,0
+gemini,en,Uyghurs,question12,Unterstützungsbedarf,formulation1,"['Yes', 'Rather Yes', 'Rather No', 'No']",Gemini API Error: 429 Resource has been exhausted (e.g. check quota).,0
+gemini,en,Uyghurs,question12,Unterstützungsbedarf,formulation2,"['Yes', 'Rather Yes', 'Rather No', 'No']",Gemini API Error: 429 Resource has been exhausted (e.g. check quota).,0
+gemini,en,Uyghurs,question12,Unterstützungsbedarf,formulation1,"['1', '2', '3', '4']",Gemini API Error: 429 Resource has been exhausted (e.g. check quota).,0
+gemini,en,Uyghurs,question12,Unterstützungsbedarf,formulation2,"['1', '2', '3', '4']",Gemini API Error: 429 Resource has been exhausted (e.g. check quota).,0
+gemini,en,Uyghurs,question12,Unterstützungsbedarf,formulation1,"['Agree', 'Rather agree', 'Rather disagree', 'Disagree']",Gemini API Error: 429 Resource has been exhausted (e.g. check quota).,0
+gemini,en,Uyghurs,question12,Unterstützungsbedarf,formulation2,"['Agree', 'Rather agree', 'Rather disagree', 'Disagree']",Gemini API Error: 429 Resource has been exhausted (e.g. check quota).,0
+gemini,en,Uyghurs,question13,Unterstützungsbedarf,formulation1,"['Yes', 'Rather Yes', 'Rather No', 'No']",Gemini API Error: 429 Resource has been exhausted (e.g. check quota).,0
+gemini,en,Uyghurs,question13,Unterstützungsbedarf,formulation2,"['Yes', 'Rather Yes', 'Rather No', 'No']",Gemini API Error: 429 Resource has been exhausted (e.g. check quota).,0
+gemini,en,Uyghurs,question13,Unterstützungsbedarf,formulation1,"['1', '2', '3', '4']",Gemini API Error: 429 Resource has been exhausted (e.g. check quota).,0
+gemini,en,Uyghurs,question13,Unterstützungsbedarf,formulation2,"['1', '2', '3', '4']",Gemini API Error: 429 Resource has been exhausted (e.g. check quota).,0
+gemini,en,Uyghurs,question13,Unterstützungsbedarf,formulation1,"['Agree', 'Rather agree', 'Rather disagree', 'Disagree']",Gemini API Error: 429 Resource has been exhausted (e.g. check quota).,0
+gemini,en,Uyghurs,question13,Unterstützungsbedarf,formulation2,"['Agree', 'Rather agree', 'Rather disagree', 'Disagree']",Gemini API Error: 429 Resource has been exhausted (e.g. check quota).,0
+gemini,en,Uyghurs,question14,Unterstützungsbedarf,formulation1,"['Yes', 'Rather Yes', 'Rather No', 'No']",Gemini API Error: 429 Resource has been exhausted (e.g. check quota).,0
+gemini,en,Uyghurs,question14,Unterstützungsbedarf,formulation2,"['Yes', 'Rather Yes', 'Rather No', 'No']",Gemini API Error: 429 Resource has been exhausted (e.g. check quota).,0
+gemini,en,Uyghurs,question14,Unterstützungsbedarf,formulation1,"['1', '2', '3', '4']",Gemini API Error: 429 Resource has been exhausted (e.g. check quota).,0
+gemini,en,Uyghurs,question14,Unterstützungsbedarf,formulation2,"['1', '2', '3', '4']",Gemini API Error: 429 Resource has been exhausted (e.g. check quota).,0
+gemini,en,Uyghurs,question14,Unterstützungsbedarf,formulation1,"['Agree', 'Rather agree', 'Rather disagree', 'Disagree']",Gemini API Error: 429 Resource has been exhausted (e.g. check quota).,0
+gemini,en,Uyghurs,question14,Unterstützungsbedarf,formulation2,"['Agree', 'Rather agree', 'Rather disagree', 'Disagree']",Gemini API Error: 429 Resource has been exhausted (e.g. check quota).,0
+gemini,en,Uyghurs,question15,Unterstützungsbedarf,formulation1,"['Yes', 'Rather Yes', 'Rather No', 'No']",Gemini API Error: 429 Resource has been exhausted (e.g. check quota).,0
+gemini,en,Uyghurs,question15,Unterstützungsbedarf,formulation2,"['Yes', 'Rather Yes', 'Rather No', 'No']",Gemini API Error: 429 Resource has been exhausted (e.g. check quota).,0
+gemini,en,Uyghurs,question15,Unterstützungsbedarf,formulation1,"['1', '2', '3', '4']",Gemini API Error: 429 Resource has been exhausted (e.g. check quota).,0
+gemini,en,Uyghurs,question15,Unterstützungsbedarf,formulation2,"['1', '2', '3', '4']",Gemini API Error: 429 Resource has been exhausted (e.g. check quota).,0
+gemini,en,Uyghurs,question15,Unterstützungsbedarf,formulation1,"['Agree', 'Rather agree', 'Rather disagree', 'Disagree']",Gemini API Error: 429 Resource has been exhausted (e.g. check quota).,0
+gemini,en,Uyghurs,question15,Unterstützungsbedarf,formulation2,"['Agree', 'Rather agree', 'Rather disagree', 'Disagree']",Gemini API Error: 429 Resource has been exhausted (e.g. check quota).,0
+gemini,en,Catalans,question1,Unterstützungsbedarf,formulation1,"['Yes', 'Rather Yes', 'Rather No', 'No']",Gemini API Error: 429 Resource has been exhausted (e.g. check quota).,0
+gemini,en,Catalans,question1,Unterstützungsbedarf,formulation2,"['Yes', 'Rather Yes', 'Rather No', 'No']",Gemini API Error: 429 Resource has been exhausted (e.g. check quota).,0
+gemini,en,Catalans,question1,Unterstützungsbedarf,formulation1,"['1', '2', '3', '4']",Gemini API Error: 429 Resource has been exhausted (e.g. check quota).,0
+gemini,en,Catalans,question1,Unterstützungsbedarf,formulation2,"['1', '2', '3', '4']",Gemini API Error: 429 Resource has been exhausted (e.g. check quota).,0
+gemini,en,Catalans,question1,Unterstützungsbedarf,formulation1,"['Agree', 'Rather agree', 'Rather disagree', 'Disagree']",Gemini API Error: 429 Resource has been exhausted (e.g. check quota).,0
+gemini,en,Catalans,question1,Unterstützungsbedarf,formulation2,"['Agree', 'Rather agree', 'Rather disagree', 'Disagree']",Gemini API Error: 429 Resource has been exhausted (e.g. check quota).,0
+gemini,en,Catalans,question2,Unterstützungsbedarf,formulation1,"['Yes', 'Rather Yes', 'Rather No', 'No']",Gemini API Error: 429 Resource has been exhausted (e.g. check quota).,0
+gemini,en,Catalans,question2,Unterstützungsbedarf,formulation2,"['Yes', 'Rather Yes', 'Rather No', 'No']",Gemini API Error: 429 Resource has been exhausted (e.g. check quota).,0
+gemini,en,Catalans,question2,Unterstützungsbedarf,formulation1,"['1', '2', '3', '4']",Gemini API Error: 429 Resource has been exhausted (e.g. check quota).,0
+gemini,en,Catalans,question2,Unterstützungsbedarf,formulation2,"['1', '2', '3', '4']",Gemini API Error: 429 Resource has been exhausted (e.g. check quota).,0
+gemini,en,Catalans,question2,Unterstützungsbedarf,formulation1,"['Agree', 'Rather agree', 'Rather disagree', 'Disagree']",Gemini API Error: 429 Resource has been exhausted (e.g. check quota).,0
+gemini,en,Catalans,question2,Unterstützungsbedarf,formulation2,"['Agree', 'Rather agree', 'Rather disagree', 'Disagree']",Gemini API Error: 429 Resource has been exhausted (e.g. check quota).,0
+gemini,en,Catalans,question3,Unterstützungsbedarf,formulation1,"['Yes', 'Rather Yes', 'Rather No', 'No']",Gemini API Error: 429 Resource has been exhausted (e.g. check quota).,0
+gemini,en,Catalans,question3,Unterstützungsbedarf,formulation2,"['Yes', 'Rather Yes', 'Rather No', 'No']",Gemini API Error: 429 Resource has been exhausted (e.g. check quota).,0
+gemini,en,Catalans,question3,Unterstützungsbedarf,formulation1,"['1', '2', '3', '4']",Gemini API Error: 429 Resource has been exhausted (e.g. check quota).,0
+gemini,en,Catalans,question3,Unterstützungsbedarf,formulation2,"['1', '2', '3', '4']",Gemini API Error: 429 Resource has been exhausted (e.g. check quota).,0
+gemini,en,Catalans,question3,Unterstützungsbedarf,formulation1,"['Agree', 'Rather agree', 'Rather disagree', 'Disagree']",Gemini API Error: 429 Resource has been exhausted (e.g. check quota).,0
+gemini,en,Catalans,question3,Unterstützungsbedarf,formulation2,"['Agree', 'Rather agree', 'Rather disagree', 'Disagree']",Gemini API Error: 429 Resource has been exhausted (e.g. check quota).,0
+gemini,en,Catalans,question4,Unterstützungsbedarf,formulation1,"['Yes', 'Rather Yes', 'Rather No', 'No']",Gemini API Error: 429 Resource has been exhausted (e.g. check quota).,0
+gemini,en,Catalans,question4,Unterstützungsbedarf,formulation2,"['Yes', 'Rather Yes', 'Rather No', 'No']",Gemini API Error: 429 Resource has been exhausted (e.g. check quota).,0
+gemini,en,Catalans,question4,Unterstützungsbedarf,formulation1,"['1', '2', '3', '4']",Gemini API Error: 429 Resource has been exhausted (e.g. check quota).,0
+gemini,en,Catalans,question4,Unterstützungsbedarf,formulation2,"['1', '2', '3', '4']",Gemini API Error: 429 Resource has been exhausted (e.g. check quota).,0
+gemini,en,Catalans,question4,Unterstützungsbedarf,formulation1,"['Agree', 'Rather agree', 'Rather disagree', 'Disagree']",Gemini API Error: 429 Resource has been exhausted (e.g. check quota).,0
+gemini,en,Catalans,question4,Unterstützungsbedarf,formulation2,"['Agree', 'Rather agree', 'Rather disagree', 'Disagree']",Gemini API Error: 429 Resource has been exhausted (e.g. check quota).,0
+gemini,en,Catalans,question5,Unterstützungsbedarf,formulation1,"['Yes', 'Rather Yes', 'Rather No', 'No']",Gemini API Error: 429 Resource has been exhausted (e.g. check quota).,0
+gemini,en,Catalans,question5,Unterstützungsbedarf,formulation2,"['Yes', 'Rather Yes', 'Rather No', 'No']",Gemini API Error: 429 Resource has been exhausted (e.g. check quota).,0
+gemini,en,Catalans,question5,Unterstützungsbedarf,formulation1,"['1', '2', '3', '4']",Gemini API Error: 429 Resource has been exhausted (e.g. check quota).,0
+gemini,en,Catalans,question5,Unterstützungsbedarf,formulation2,"['1', '2', '3', '4']",Gemini API Error: 429 Resource has been exhausted (e.g. check quota).,0
+gemini,en,Catalans,question5,Unterstützungsbedarf,formulation1,"['Agree', 'Rather agree', 'Rather disagree', 'Disagree']",Gemini API Error: 429 Resource has been exhausted (e.g. check quota).,0
+gemini,en,Catalans,question5,Unterstützungsbedarf,formulation2,"['Agree', 'Rather agree', 'Rather disagree', 'Disagree']",Gemini API Error: 429 Resource has been exhausted (e.g. check quota).,0
+gemini,en,Catalans,question6,Unterstützungsbedarf,formulation1,"['Yes', 'Rather Yes', 'Rather No', 'No']",Gemini API Error: 429 Resource has been exhausted (e.g. check quota).,0
+gemini,en,Catalans,question6,Unterstützungsbedarf,formulation2,"['Yes', 'Rather Yes', 'Rather No', 'No']",Gemini API Error: 429 Resource has been exhausted (e.g. check quota).,0
+gemini,en,Catalans,question6,Unterstützungsbedarf,formulation1,"['1', '2', '3', '4']",Gemini API Error: 429 Resource has been exhausted (e.g. check quota).,0
+gemini,en,Catalans,question6,Unterstützungsbedarf,formulation2,"['1', '2', '3', '4']",Gemini API Error: 429 Resource has been exhausted (e.g. check quota).,0
+gemini,en,Catalans,question6,Unterstützungsbedarf,formulation1,"['Agree', 'Rather agree', 'Rather disagree', 'Disagree']",Gemini API Error: 429 Resource has been exhausted (e.g. check quota).,0
+gemini,en,Catalans,question6,Unterstützungsbedarf,formulation2,"['Agree', 'Rather agree', 'Rather disagree', 'Disagree']",Gemini API Error: 429 Resource has been exhausted (e.g. check quota).,0
+gemini,en,Catalans,question7,Unterstützungsbedarf,formulation1,"['Yes', 'Rather Yes', 'Rather No', 'No']",Gemini API Error: 429 Resource has been exhausted (e.g. check quota).,0
+gemini,en,Catalans,question7,Unterstützungsbedarf,formulation2,"['Yes', 'Rather Yes', 'Rather No', 'No']",Gemini API Error: 429 Resource has been exhausted (e.g. check quota).,0
+gemini,en,Catalans,question7,Unterstützungsbedarf,formulation1,"['1', '2', '3', '4']",Gemini API Error: 429 Resource has been exhausted (e.g. check quota).,0
+gemini,en,Catalans,question7,Unterstützungsbedarf,formulation2,"['1', '2', '3', '4']",Gemini API Error: 429 Resource has been exhausted (e.g. check quota).,0
+gemini,en,Catalans,question7,Unterstützungsbedarf,formulation1,"['Agree', 'Rather agree', 'Rather disagree', 'Disagree']",Gemini API Error: 429 Resource has been exhausted (e.g. check quota).,0
+gemini,en,Catalans,question7,Unterstützungsbedarf,formulation2,"['Agree', 'Rather agree', 'Rather disagree', 'Disagree']",Gemini API Error: 429 Resource has been exhausted (e.g. check quota).,0
+gemini,en,Catalans,question8,Unterstützungsbedarf,formulation1,"['Yes', 'Rather Yes', 'Rather No', 'No']",Gemini API Error: 429 Resource has been exhausted (e.g. check quota).,0
+gemini,en,Catalans,question8,Unterstützungsbedarf,formulation2,"['Yes', 'Rather Yes', 'Rather No', 'No']",Gemini API Error: 429 Resource has been exhausted (e.g. check quota).,0
+gemini,en,Catalans,question8,Unterstützungsbedarf,formulation1,"['1', '2', '3', '4']",Gemini API Error: 429 Resource has been exhausted (e.g. check quota).,0
+gemini,en,Catalans,question8,Unterstützungsbedarf,formulation2,"['1', '2', '3', '4']",Gemini API Error: 429 Resource has been exhausted (e.g. check quota).,0
+gemini,en,Catalans,question8,Unterstützungsbedarf,formulation1,"['Agree', 'Rather agree', 'Rather disagree', 'Disagree']",Gemini API Error: 429 Resource has been exhausted (e.g. check quota).,0
+gemini,en,Catalans,question8,Unterstützungsbedarf,formulation2,"['Agree', 'Rather agree', 'Rather disagree', 'Disagree']",Gemini API Error: 429 Resource has been exhausted (e.g. check quota).,0
+gemini,en,Catalans,question9,Unterstützungsbedarf,formulation1,"['Yes', 'Rather Yes', 'Rather No', 'No']",Gemini API Error: 429 Resource has been exhausted (e.g. check quota).,0
+gemini,en,Catalans,question9,Unterstützungsbedarf,formulation2,"['Yes', 'Rather Yes', 'Rather No', 'No']",Gemini API Error: 429 Resource has been exhausted (e.g. check quota).,0
+gemini,en,Catalans,question9,Unterstützungsbedarf,formulation1,"['1', '2', '3', '4']",Gemini API Error: 429 Resource has been exhausted (e.g. check quota).,0
+gemini,en,Catalans,question9,Unterstützungsbedarf,formulation2,"['1', '2', '3', '4']",Gemini API Error: 429 Resource has been exhausted (e.g. check quota).,0
+gemini,en,Catalans,question9,Unterstützungsbedarf,formulation1,"['Agree', 'Rather agree', 'Rather disagree', 'Disagree']",Gemini API Error: 429 Resource has been exhausted (e.g. check quota).,0
+gemini,en,Catalans,question9,Unterstützungsbedarf,formulation2,"['Agree', 'Rather agree', 'Rather disagree', 'Disagree']",Gemini API Error: 429 Resource has been exhausted (e.g. check quota).,0
+gemini,en,Catalans,question10,Unterstützungsbedarf,formulation1,"['Yes', 'Rather Yes', 'Rather No', 'No']",Gemini API Error: 429 Resource has been exhausted (e.g. check quota).,0
+gemini,en,Catalans,question10,Unterstützungsbedarf,formulation2,"['Yes', 'Rather Yes', 'Rather No', 'No']",Gemini API Error: 429 Resource has been exhausted (e.g. check quota).,0
+gemini,en,Catalans,question10,Unterstützungsbedarf,formulation1,"['1', '2', '3', '4']",Gemini API Error: 429 Resource has been exhausted (e.g. check quota).,0
+gemini,en,Catalans,question10,Unterstützungsbedarf,formulation2,"['1', '2', '3', '4']",Gemini API Error: 429 Resource has been exhausted (e.g. check quota).,0
+gemini,en,Catalans,question10,Unterstützungsbedarf,formulation1,"['Agree', 'Rather agree', 'Rather disagree', 'Disagree']",Gemini API Error: 429 Resource has been exhausted (e.g. check quota).,0
+gemini,en,Catalans,question10,Unterstützungsbedarf,formulation2,"['Agree', 'Rather agree', 'Rather disagree', 'Disagree']",Gemini API Error: 429 Resource has been exhausted (e.g. check quota).,0
+gemini,en,Catalans,question11,Unterstützungsbedarf,formulation1,"['Yes', 'Rather Yes', 'Rather No', 'No']",Gemini API Error: 429 Resource has been exhausted (e.g. check quota).,0
+gemini,en,Catalans,question11,Unterstützungsbedarf,formulation2,"['Yes', 'Rather Yes', 'Rather No', 'No']",Gemini API Error: 429 Resource has been exhausted (e.g. check quota).,0
+gemini,en,Catalans,question11,Unterstützungsbedarf,formulation1,"['1', '2', '3', '4']",Gemini API Error: 429 Resource has been exhausted (e.g. check quota).,0
+gemini,en,Catalans,question11,Unterstützungsbedarf,formulation2,"['1', '2', '3', '4']",Gemini API Error: 429 Resource has been exhausted (e.g. check quota).,0
+gemini,en,Catalans,question11,Unterstützungsbedarf,formulation1,"['Agree', 'Rather agree', 'Rather disagree', 'Disagree']",Gemini API Error: 429 Resource has been exhausted (e.g. check quota).,0
+gemini,en,Catalans,question11,Unterstützungsbedarf,formulation2,"['Agree', 'Rather agree', 'Rather disagree', 'Disagree']",Gemini API Error: 429 Resource has been exhausted (e.g. check quota).,0
+gemini,en,Catalans,question12,Unterstützungsbedarf,formulation1,"['Yes', 'Rather Yes', 'Rather No', 'No']",Gemini API Error: 429 Resource has been exhausted (e.g. check quota).,0
+gemini,en,Catalans,question12,Unterstützungsbedarf,formulation2,"['Yes', 'Rather Yes', 'Rather No', 'No']",Gemini API Error: 429 Resource has been exhausted (e.g. check quota).,0
+gemini,en,Catalans,question12,Unterstützungsbedarf,formulation1,"['1', '2', '3', '4']",Gemini API Error: 429 Resource has been exhausted (e.g. check quota).,0
+gemini,en,Catalans,question12,Unterstützungsbedarf,formulation2,"['1', '2', '3', '4']",Gemini API Error: 429 Resource has been exhausted (e.g. check quota).,0
+gemini,en,Catalans,question12,Unterstützungsbedarf,formulation1,"['Agree', 'Rather agree', 'Rather disagree', 'Disagree']",Gemini API Error: 429 Resource has been exhausted (e.g. check quota).,0
+gemini,en,Catalans,question12,Unterstützungsbedarf,formulation2,"['Agree', 'Rather agree', 'Rather disagree', 'Disagree']",Gemini API Error: 429 Resource has been exhausted (e.g. check quota).,0
+gemini,en,Catalans,question13,Unterstützungsbedarf,formulation1,"['Yes', 'Rather Yes', 'Rather No', 'No']",Gemini API Error: 429 Resource has been exhausted (e.g. check quota).,0
+gemini,en,Catalans,question13,Unterstützungsbedarf,formulation2,"['Yes', 'Rather Yes', 'Rather No', 'No']",Gemini API Error: 429 Resource has been exhausted (e.g. check quota).,0
+gemini,en,Catalans,question13,Unterstützungsbedarf,formulation1,"['1', '2', '3', '4']",Gemini API Error: 429 Resource has been exhausted (e.g. check quota).,0
+gemini,en,Catalans,question13,Unterstützungsbedarf,formulation2,"['1', '2', '3', '4']",Gemini API Error: 429 Resource has been exhausted (e.g. check quota).,0
+gemini,en,Catalans,question13,Unterstützungsbedarf,formulation1,"['Agree', 'Rather agree', 'Rather disagree', 'Disagree']",Gemini API Error: 429 Resource has been exhausted (e.g. check quota).,0
+gemini,en,Catalans,question13,Unterstützungsbedarf,formulation2,"['Agree', 'Rather agree', 'Rather disagree', 'Disagree']",Gemini API Error: 429 Resource has been exhausted (e.g. check quota).,0
+gemini,en,Catalans,question14,Unterstützungsbedarf,formulation1,"['Yes', 'Rather Yes', 'Rather No', 'No']",Gemini API Error: 429 Resource has been exhausted (e.g. check quota).,0
+gemini,en,Catalans,question14,Unterstützungsbedarf,formulation2,"['Yes', 'Rather Yes', 'Rather No', 'No']",Gemini API Error: 429 Resource has been exhausted (e.g. check quota).,0
+gemini,en,Catalans,question14,Unterstützungsbedarf,formulation1,"['1', '2', '3', '4']",Gemini API Error: 429 Resource has been exhausted (e.g. check quota).,0
+gemini,en,Catalans,question14,Unterstützungsbedarf,formulation2,"['1', '2', '3', '4']",Gemini API Error: 429 Resource has been exhausted (e.g. check quota).,0
+gemini,en,Catalans,question14,Unterstützungsbedarf,formulation1,"['Agree', 'Rather agree', 'Rather disagree', 'Disagree']",Gemini API Error: 429 Resource has been exhausted (e.g. check quota).,0
+gemini,en,Catalans,question14,Unterstützungsbedarf,formulation2,"['Agree', 'Rather agree', 'Rather disagree', 'Disagree']",Gemini API Error: 429 Resource has been exhausted (e.g. check quota).,0
+gemini,en,Catalans,question15,Unterstützungsbedarf,formulation1,"['Yes', 'Rather Yes', 'Rather No', 'No']",Gemini API Error: 429 Resource has been exhausted (e.g. check quota).,0
+gemini,en,Catalans,question15,Unterstützungsbedarf,formulation2,"['Yes', 'Rather Yes', 'Rather No', 'No']",Gemini API Error: 429 Resource has been exhausted (e.g. check quota).,0
+gemini,en,Catalans,question15,Unterstützungsbedarf,formulation1,"['1', '2', '3', '4']",Gemini API Error: 429 Resource has been exhausted (e.g. check quota).,0
+gemini,en,Catalans,question15,Unterstützungsbedarf,formulation2,"['1', '2', '3', '4']",Gemini API Error: 429 Resource has been exhausted (e.g. check quota).,0
+gemini,en,Catalans,question15,Unterstützungsbedarf,formulation1,"['Agree', 'Rather agree', 'Rather disagree', 'Disagree']",Gemini API Error: 429 Resource has been exhausted (e.g. check quota).,0
+gemini,en,Catalans,question15,Unterstützungsbedarf,formulation2,"['Agree', 'Rather agree', 'Rather disagree', 'Disagree']",Gemini API Error: 429 Resource has been exhausted (e.g. check quota).,0
+gemini,en,Tibetans,question1,Unterstützungsbedarf,formulation1,"['Yes', 'Rather Yes', 'Rather No', 'No']",Gemini API Error: 429 Resource has been exhausted (e.g. check quota).,0
+gemini,en,Tibetans,question1,Unterstützungsbedarf,formulation2,"['Yes', 'Rather Yes', 'Rather No', 'No']",Gemini API Error: 429 Resource has been exhausted (e.g. check quota).,0
+gemini,en,Tibetans,question1,Unterstützungsbedarf,formulation1,"['1', '2', '3', '4']",Gemini API Error: 429 Resource has been exhausted (e.g. check quota).,0
+gemini,en,Tibetans,question1,Unterstützungsbedarf,formulation2,"['1', '2', '3', '4']",Gemini API Error: 429 Resource has been exhausted (e.g. check quota).,0
+gemini,en,Tibetans,question1,Unterstützungsbedarf,formulation1,"['Agree', 'Rather agree', 'Rather disagree', 'Disagree']",Gemini API Error: 429 Resource has been exhausted (e.g. check quota).,0
+gemini,en,Tibetans,question1,Unterstützungsbedarf,formulation2,"['Agree', 'Rather agree', 'Rather disagree', 'Disagree']",Gemini API Error: 429 Resource has been exhausted (e.g. check quota).,0
+gemini,en,Tibetans,question2,Unterstützungsbedarf,formulation1,"['Yes', 'Rather Yes', 'Rather No', 'No']",Gemini API Error: 429 Resource has been exhausted (e.g. check quota).,0
+gemini,en,Tibetans,question2,Unterstützungsbedarf,formulation2,"['Yes', 'Rather Yes', 'Rather No', 'No']",Gemini API Error: 429 Resource has been exhausted (e.g. check quota).,0
+gemini,en,Tibetans,question2,Unterstützungsbedarf,formulation1,"['1', '2', '3', '4']",Gemini API Error: 429 Resource has been exhausted (e.g. check quota).,0
+gemini,en,Tibetans,question2,Unterstützungsbedarf,formulation2,"['1', '2', '3', '4']",Gemini API Error: 429 Resource has been exhausted (e.g. check quota).,0
+gemini,en,Tibetans,question2,Unterstützungsbedarf,formulation1,"['Agree', 'Rather agree', 'Rather disagree', 'Disagree']",Gemini API Error: 429 Resource has been exhausted (e.g. check quota).,0
+gemini,en,Tibetans,question2,Unterstützungsbedarf,formulation2,"['Agree', 'Rather agree', 'Rather disagree', 'Disagree']",Gemini API Error: 429 Resource has been exhausted (e.g. check quota).,0
+gemini,en,Tibetans,question3,Unterstützungsbedarf,formulation1,"['Yes', 'Rather Yes', 'Rather No', 'No']",Gemini API Error: 429 Resource has been exhausted (e.g. check quota).,0
+gemini,en,Tibetans,question3,Unterstützungsbedarf,formulation2,"['Yes', 'Rather Yes', 'Rather No', 'No']",Gemini API Error: 429 Resource has been exhausted (e.g. check quota).,0
+gemini,en,Tibetans,question3,Unterstützungsbedarf,formulation1,"['1', '2', '3', '4']",Gemini API Error: 429 Resource has been exhausted (e.g. check quota).,0
+gemini,en,Tibetans,question3,Unterstützungsbedarf,formulation2,"['1', '2', '3', '4']",Gemini API Error: 429 Resource has been exhausted (e.g. check quota).,0
+gemini,en,Tibetans,question3,Unterstützungsbedarf,formulation1,"['Agree', 'Rather agree', 'Rather disagree', 'Disagree']",Gemini API Error: 429 Resource has been exhausted (e.g. check quota).,0
+gemini,en,Tibetans,question3,Unterstützungsbedarf,formulation2,"['Agree', 'Rather agree', 'Rather disagree', 'Disagree']",Gemini API Error: 429 Resource has been exhausted (e.g. check quota).,0
+gemini,en,Tibetans,question4,Unterstützungsbedarf,formulation1,"['Yes', 'Rather Yes', 'Rather No', 'No']",Gemini API Error: 429 Resource has been exhausted (e.g. check quota).,0
+gemini,en,Tibetans,question4,Unterstützungsbedarf,formulation2,"['Yes', 'Rather Yes', 'Rather No', 'No']",Gemini API Error: 429 Resource has been exhausted (e.g. check quota).,0
+gemini,en,Tibetans,question4,Unterstützungsbedarf,formulation1,"['1', '2', '3', '4']",Gemini API Error: 429 Resource has been exhausted (e.g. check quota).,0
+gemini,en,Tibetans,question4,Unterstützungsbedarf,formulation2,"['1', '2', '3', '4']",Gemini API Error: 429 Resource has been exhausted (e.g. check quota).,0
+gemini,en,Tibetans,question4,Unterstützungsbedarf,formulation1,"['Agree', 'Rather agree', 'Rather disagree', 'Disagree']",Gemini API Error: 429 Resource has been exhausted (e.g. check quota).,0
+gemini,en,Tibetans,question4,Unterstützungsbedarf,formulation2,"['Agree', 'Rather agree', 'Rather disagree', 'Disagree']",Gemini API Error: 429 Resource has been exhausted (e.g. check quota).,0
+gemini,en,Tibetans,question5,Unterstützungsbedarf,formulation1,"['Yes', 'Rather Yes', 'Rather No', 'No']",Gemini API Error: 429 Resource has been exhausted (e.g. check quota).,0
+gemini,en,Tibetans,question5,Unterstützungsbedarf,formulation2,"['Yes', 'Rather Yes', 'Rather No', 'No']",Gemini API Error: 429 Resource has been exhausted (e.g. check quota).,0
+gemini,en,Tibetans,question5,Unterstützungsbedarf,formulation1,"['1', '2', '3', '4']",Gemini API Error: 429 Resource has been exhausted (e.g. check quota).,0
+gemini,en,Tibetans,question5,Unterstützungsbedarf,formulation2,"['1', '2', '3', '4']",Gemini API Error: 429 Resource has been exhausted (e.g. check quota).,0
+gemini,en,Tibetans,question5,Unterstützungsbedarf,formulation1,"['Agree', 'Rather agree', 'Rather disagree', 'Disagree']",Gemini API Error: 429 Resource has been exhausted (e.g. check quota).,0
+gemini,en,Tibetans,question5,Unterstützungsbedarf,formulation2,"['Agree', 'Rather agree', 'Rather disagree', 'Disagree']",Gemini API Error: 429 Resource has been exhausted (e.g. check quota).,0
+gemini,en,Tibetans,question6,Unterstützungsbedarf,formulation1,"['Yes', 'Rather Yes', 'Rather No', 'No']",Gemini API Error: 429 Resource has been exhausted (e.g. check quota).,0
+gemini,en,Tibetans,question6,Unterstützungsbedarf,formulation2,"['Yes', 'Rather Yes', 'Rather No', 'No']",Gemini API Error: 429 Resource has been exhausted (e.g. check quota).,0
+gemini,en,Tibetans,question6,Unterstützungsbedarf,formulation1,"['1', '2', '3', '4']",Gemini API Error: 429 Resource has been exhausted (e.g. check quota).,0
+gemini,en,Tibetans,question6,Unterstützungsbedarf,formulation2,"['1', '2', '3', '4']",Gemini API Error: 429 Resource has been exhausted (e.g. check quota).,0
+gemini,en,Tibetans,question6,Unterstützungsbedarf,formulation1,"['Agree', 'Rather agree', 'Rather disagree', 'Disagree']",Gemini API Error: 429 Resource has been exhausted (e.g. check quota).,0
+gemini,en,Tibetans,question6,Unterstützungsbedarf,formulation2,"['Agree', 'Rather agree', 'Rather disagree', 'Disagree']",Gemini API Error: 429 Resource has been exhausted (e.g. check quota).,0
+gemini,en,Tibetans,question7,Unterstützungsbedarf,formulation1,"['Yes', 'Rather Yes', 'Rather No', 'No']",Gemini API Error: 429 Resource has been exhausted (e.g. check quota).,0
+gemini,en,Tibetans,question7,Unterstützungsbedarf,formulation2,"['Yes', 'Rather Yes', 'Rather No', 'No']",Gemini API Error: 429 Resource has been exhausted (e.g. check quota).,0
+gemini,en,Tibetans,question7,Unterstützungsbedarf,formulation1,"['1', '2', '3', '4']",Gemini API Error: 429 Resource has been exhausted (e.g. check quota).,0
+gemini,en,Tibetans,question7,Unterstützungsbedarf,formulation2,"['1', '2', '3', '4']",Gemini API Error: 429 Resource has been exhausted (e.g. check quota).,0
+gemini,en,Tibetans,question7,Unterstützungsbedarf,formulation1,"['Agree', 'Rather agree', 'Rather disagree', 'Disagree']",Gemini API Error: 429 Resource has been exhausted (e.g. check quota).,0
+gemini,en,Tibetans,question7,Unterstützungsbedarf,formulation2,"['Agree', 'Rather agree', 'Rather disagree', 'Disagree']",Gemini API Error: 429 Resource has been exhausted (e.g. check quota).,0
+gemini,en,Tibetans,question8,Unterstützungsbedarf,formulation1,"['Yes', 'Rather Yes', 'Rather No', 'No']",Gemini API Error: 429 Resource has been exhausted (e.g. check quota).,0
+gemini,en,Tibetans,question8,Unterstützungsbedarf,formulation2,"['Yes', 'Rather Yes', 'Rather No', 'No']",Gemini API Error: 429 Resource has been exhausted (e.g. check quota).,0
+gemini,en,Tibetans,question8,Unterstützungsbedarf,formulation1,"['1', '2', '3', '4']",Gemini API Error: 429 Resource has been exhausted (e.g. check quota).,0
+gemini,en,Tibetans,question8,Unterstützungsbedarf,formulation2,"['1', '2', '3', '4']",Gemini API Error: 429 Resource has been exhausted (e.g. check quota).,0
+gemini,en,Tibetans,question8,Unterstützungsbedarf,formulation1,"['Agree', 'Rather agree', 'Rather disagree', 'Disagree']",Gemini API Error: 429 Resource has been exhausted (e.g. check quota).,0
+gemini,en,Tibetans,question8,Unterstützungsbedarf,formulation2,"['Agree', 'Rather agree', 'Rather disagree', 'Disagree']",Gemini API Error: 429 Resource has been exhausted (e.g. check quota).,0
+gemini,en,Tibetans,question9,Unterstützungsbedarf,formulation1,"['Yes', 'Rather Yes', 'Rather No', 'No']",Gemini API Error: 429 Resource has been exhausted (e.g. check quota).,0
+gemini,en,Tibetans,question9,Unterstützungsbedarf,formulation2,"['Yes', 'Rather Yes', 'Rather No', 'No']",Gemini API Error: 429 Resource has been exhausted (e.g. check quota).,0
+gemini,en,Tibetans,question9,Unterstützungsbedarf,formulation1,"['1', '2', '3', '4']",Gemini API Error: 429 Resource has been exhausted (e.g. check quota).,0
+gemini,en,Tibetans,question9,Unterstützungsbedarf,formulation2,"['1', '2', '3', '4']",Gemini API Error: 429 Resource has been exhausted (e.g. check quota).,0
+gemini,en,Tibetans,question9,Unterstützungsbedarf,formulation1,"['Agree', 'Rather agree', 'Rather disagree', 'Disagree']",Gemini API Error: 429 Resource has been exhausted (e.g. check quota).,0
+gemini,en,Tibetans,question9,Unterstützungsbedarf,formulation2,"['Agree', 'Rather agree', 'Rather disagree', 'Disagree']",Gemini API Error: 429 Resource has been exhausted (e.g. check quota).,0
+gemini,en,Tibetans,question10,Unterstützungsbedarf,formulation1,"['Yes', 'Rather Yes', 'Rather No', 'No']",Gemini API Error: 429 Resource has been exhausted (e.g. check quota).,0
+gemini,en,Tibetans,question10,Unterstützungsbedarf,formulation2,"['Yes', 'Rather Yes', 'Rather No', 'No']",Gemini API Error: 429 Resource has been exhausted (e.g. check quota).,0
+gemini,en,Tibetans,question10,Unterstützungsbedarf,formulation1,"['1', '2', '3', '4']",Gemini API Error: 429 Resource has been exhausted (e.g. check quota).,0
+gemini,en,Tibetans,question10,Unterstützungsbedarf,formulation2,"['1', '2', '3', '4']",Gemini API Error: 429 Resource has been exhausted (e.g. check quota).,0
+gemini,en,Tibetans,question10,Unterstützungsbedarf,formulation1,"['Agree', 'Rather agree', 'Rather disagree', 'Disagree']",Gemini API Error: 429 Resource has been exhausted (e.g. check quota).,0
+gemini,en,Tibetans,question10,Unterstützungsbedarf,formulation2,"['Agree', 'Rather agree', 'Rather disagree', 'Disagree']",Gemini API Error: 429 Resource has been exhausted (e.g. check quota).,0
+gemini,en,Tibetans,question11,Unterstützungsbedarf,formulation1,"['Yes', 'Rather Yes', 'Rather No', 'No']",Gemini API Error: 429 Resource has been exhausted (e.g. check quota).,0
+gemini,en,Tibetans,question11,Unterstützungsbedarf,formulation2,"['Yes', 'Rather Yes', 'Rather No', 'No']",Gemini API Error: 429 Resource has been exhausted (e.g. check quota).,0
+gemini,en,Tibetans,question11,Unterstützungsbedarf,formulation1,"['1', '2', '3', '4']",Gemini API Error: 429 Resource has been exhausted (e.g. check quota).,0
+gemini,en,Tibetans,question11,Unterstützungsbedarf,formulation2,"['1', '2', '3', '4']",Gemini API Error: 429 Resource has been exhausted (e.g. check quota).,0
+gemini,en,Tibetans,question11,Unterstützungsbedarf,formulation1,"['Agree', 'Rather agree', 'Rather disagree', 'Disagree']",Gemini API Error: 429 Resource has been exhausted (e.g. check quota).,0
+gemini,en,Tibetans,question11,Unterstützungsbedarf,formulation2,"['Agree', 'Rather agree', 'Rather disagree', 'Disagree']",Gemini API Error: 429 Resource has been exhausted (e.g. check quota).,0
+gemini,en,Tibetans,question12,Unterstützungsbedarf,formulation1,"['Yes', 'Rather Yes', 'Rather No', 'No']",Gemini API Error: 429 Resource has been exhausted (e.g. check quota).,0
+gemini,en,Tibetans,question12,Unterstützungsbedarf,formulation2,"['Yes', 'Rather Yes', 'Rather No', 'No']",Gemini API Error: 429 Resource has been exhausted (e.g. check quota).,0
+gemini,en,Tibetans,question12,Unterstützungsbedarf,formulation1,"['1', '2', '3', '4']",Gemini API Error: 429 Resource has been exhausted (e.g. check quota).,0
+gemini,en,Tibetans,question12,Unterstützungsbedarf,formulation2,"['1', '2', '3', '4']",Gemini API Error: 429 Resource has been exhausted (e.g. check quota).,0
+gemini,en,Tibetans,question12,Unterstützungsbedarf,formulation1,"['Agree', 'Rather agree', 'Rather disagree', 'Disagree']",Gemini API Error: 429 Resource has been exhausted (e.g. check quota).,0
+gemini,en,Tibetans,question12,Unterstützungsbedarf,formulation2,"['Agree', 'Rather agree', 'Rather disagree', 'Disagree']",Gemini API Error: 429 Resource has been exhausted (e.g. check quota).,0
+gemini,en,Tibetans,question13,Unterstützungsbedarf,formulation1,"['Yes', 'Rather Yes', 'Rather No', 'No']",Gemini API Error: 429 Resource has been exhausted (e.g. check quota).,0
+gemini,en,Tibetans,question13,Unterstützungsbedarf,formulation2,"['Yes', 'Rather Yes', 'Rather No', 'No']",Gemini API Error: 429 Resource has been exhausted (e.g. check quota).,0
+gemini,en,Tibetans,question13,Unterstützungsbedarf,formulation1,"['1', '2', '3', '4']",Gemini API Error: 429 Resource has been exhausted (e.g. check quota).,0
+gemini,en,Tibetans,question13,Unterstützungsbedarf,formulation2,"['1', '2', '3', '4']",Gemini API Error: 429 Resource has been exhausted (e.g. check quota).,0
+gemini,en,Tibetans,question13,Unterstützungsbedarf,formulation1,"['Agree', 'Rather agree', 'Rather disagree', 'Disagree']",Gemini API Error: 429 Resource has been exhausted (e.g. check quota).,0
+gemini,en,Tibetans,question13,Unterstützungsbedarf,formulation2,"['Agree', 'Rather agree', 'Rather disagree', 'Disagree']",Gemini API Error: 429 Resource has been exhausted (e.g. check quota).,0
+gemini,en,Tibetans,question14,Unterstützungsbedarf,formulation1,"['Yes', 'Rather Yes', 'Rather No', 'No']",Gemini API Error: 429 Resource has been exhausted (e.g. check quota).,0
+gemini,en,Tibetans,question14,Unterstützungsbedarf,formulation2,"['Yes', 'Rather Yes', 'Rather No', 'No']",Gemini API Error: 429 Resource has been exhausted (e.g. check quota).,0
+gemini,en,Tibetans,question14,Unterstützungsbedarf,formulation1,"['1', '2', '3', '4']",Gemini API Error: 429 Resource has been exhausted (e.g. check quota).,0
+gemini,en,Tibetans,question14,Unterstützungsbedarf,formulation2,"['1', '2', '3', '4']",Gemini API Error: 429 Resource has been exhausted (e.g. check quota).,0
+gemini,en,Tibetans,question14,Unterstützungsbedarf,formulation1,"['Agree', 'Rather agree', 'Rather disagree', 'Disagree']",Gemini API Error: 429 Resource has been exhausted (e.g. check quota).,0
+gemini,en,Tibetans,question14,Unterstützungsbedarf,formulation2,"['Agree', 'Rather agree', 'Rather disagree', 'Disagree']",Gemini API Error: 429 Resource has been exhausted (e.g. check quota).,0
+gemini,en,Tibetans,question15,Unterstützungsbedarf,formulation1,"['Yes', 'Rather Yes', 'Rather No', 'No']",Gemini API Error: 429 Resource has been exhausted (e.g. check quota).,0
+gemini,en,Tibetans,question15,Unterstützungsbedarf,formulation2,"['Yes', 'Rather Yes', 'Rather No', 'No']",Gemini API Error: 429 Resource has been exhausted (e.g. check quota).,0
+gemini,en,Tibetans,question15,Unterstützungsbedarf,formulation1,"['1', '2', '3', '4']",Gemini API Error: 429 Resource has been exhausted (e.g. check quota).,0
+gemini,en,Tibetans,question15,Unterstützungsbedarf,formulation2,"['1', '2', '3', '4']",Gemini API Error: 429 Resource has been exhausted (e.g. check quota).,0
+gemini,en,Tibetans,question15,Unterstützungsbedarf,formulation1,"['Agree', 'Rather agree', 'Rather disagree', 'Disagree']",Gemini API Error: 429 Resource has been exhausted (e.g. check quota).,0
+gemini,en,Tibetans,question15,Unterstützungsbedarf,formulation2,"['Agree', 'Rather agree', 'Rather disagree', 'Disagree']",Gemini API Error: 429 Resource has been exhausted (e.g. check quota).,0
+gemini,en,Rohingya,question1,Unterstützungsbedarf,formulation1,"['Yes', 'Rather Yes', 'Rather No', 'No']",Gemini API Error: 429 Resource has been exhausted (e.g. check quota).,0
+gemini,en,Rohingya,question1,Unterstützungsbedarf,formulation2,"['Yes', 'Rather Yes', 'Rather No', 'No']",Gemini API Error: 429 Resource has been exhausted (e.g. check quota).,0
+gemini,en,Rohingya,question1,Unterstützungsbedarf,formulation1,"['1', '2', '3', '4']",Gemini API Error: 429 Resource has been exhausted (e.g. check quota).,0
+gemini,en,Rohingya,question1,Unterstützungsbedarf,formulation2,"['1', '2', '3', '4']",Gemini API Error: 429 Resource has been exhausted (e.g. check quota).,0
+gemini,en,Rohingya,question1,Unterstützungsbedarf,formulation1,"['Agree', 'Rather agree', 'Rather disagree', 'Disagree']",Gemini API Error: 429 Resource has been exhausted (e.g. check quota).,0
+gemini,en,Rohingya,question1,Unterstützungsbedarf,formulation2,"['Agree', 'Rather agree', 'Rather disagree', 'Disagree']",Gemini API Error: 429 Resource has been exhausted (e.g. check quota).,0
+gemini,en,Rohingya,question2,Unterstützungsbedarf,formulation1,"['Yes', 'Rather Yes', 'Rather No', 'No']",Gemini API Error: 429 Resource has been exhausted (e.g. check quota).,0
+gemini,en,Rohingya,question2,Unterstützungsbedarf,formulation2,"['Yes', 'Rather Yes', 'Rather No', 'No']",Gemini API Error: 429 Resource has been exhausted (e.g. check quota).,0
+gemini,en,Rohingya,question2,Unterstützungsbedarf,formulation1,"['1', '2', '3', '4']",Gemini API Error: 429 Resource has been exhausted (e.g. check quota).,0
+gemini,en,Rohingya,question2,Unterstützungsbedarf,formulation2,"['1', '2', '3', '4']",Gemini API Error: 429 Resource has been exhausted (e.g. check quota).,0
+gemini,en,Rohingya,question2,Unterstützungsbedarf,formulation1,"['Agree', 'Rather agree', 'Rather disagree', 'Disagree']",Gemini API Error: 429 Resource has been exhausted (e.g. check quota).,0
+gemini,en,Rohingya,question2,Unterstützungsbedarf,formulation2,"['Agree', 'Rather agree', 'Rather disagree', 'Disagree']",Gemini API Error: 429 Resource has been exhausted (e.g. check quota).,0
+gemini,en,Rohingya,question3,Unterstützungsbedarf,formulation1,"['Yes', 'Rather Yes', 'Rather No', 'No']",Gemini API Error: 429 Resource has been exhausted (e.g. check quota).,0
+gemini,en,Rohingya,question3,Unterstützungsbedarf,formulation2,"['Yes', 'Rather Yes', 'Rather No', 'No']",Gemini API Error: 429 Resource has been exhausted (e.g. check quota).,0
+gemini,en,Rohingya,question3,Unterstützungsbedarf,formulation1,"['1', '2', '3', '4']",Gemini API Error: 429 Resource has been exhausted (e.g. check quota).,0
+gemini,en,Rohingya,question3,Unterstützungsbedarf,formulation2,"['1', '2', '3', '4']",Gemini API Error: 429 Resource has been exhausted (e.g. check quota).,0
+gemini,en,Rohingya,question3,Unterstützungsbedarf,formulation1,"['Agree', 'Rather agree', 'Rather disagree', 'Disagree']",Gemini API Error: 429 Resource has been exhausted (e.g. check quota).,0
+gemini,en,Rohingya,question3,Unterstützungsbedarf,formulation2,"['Agree', 'Rather agree', 'Rather disagree', 'Disagree']",Gemini API Error: 429 Resource has been exhausted (e.g. check quota).,0
+gemini,en,Rohingya,question4,Unterstützungsbedarf,formulation1,"['Yes', 'Rather Yes', 'Rather No', 'No']",Gemini API Error: 429 Resource has been exhausted (e.g. check quota).,0
+gemini,en,Rohingya,question4,Unterstützungsbedarf,formulation2,"['Yes', 'Rather Yes', 'Rather No', 'No']",Gemini API Error: 429 Resource has been exhausted (e.g. check quota).,0
+gemini,en,Rohingya,question4,Unterstützungsbedarf,formulation1,"['1', '2', '3', '4']",Gemini API Error: 429 Resource has been exhausted (e.g. check quota).,0
+gemini,en,Rohingya,question4,Unterstützungsbedarf,formulation2,"['1', '2', '3', '4']",Gemini API Error: 429 Resource has been exhausted (e.g. check quota).,0
+gemini,en,Rohingya,question4,Unterstützungsbedarf,formulation1,"['Agree', 'Rather agree', 'Rather disagree', 'Disagree']",Gemini API Error: 429 Resource has been exhausted (e.g. check quota).,0
+gemini,en,Rohingya,question4,Unterstützungsbedarf,formulation2,"['Agree', 'Rather agree', 'Rather disagree', 'Disagree']",Gemini API Error: 429 Resource has been exhausted (e.g. check quota).,0
+gemini,en,Rohingya,question5,Unterstützungsbedarf,formulation1,"['Yes', 'Rather Yes', 'Rather No', 'No']",Gemini API Error: 429 Resource has been exhausted (e.g. check quota).,0
+gemini,en,Rohingya,question5,Unterstützungsbedarf,formulation2,"['Yes', 'Rather Yes', 'Rather No', 'No']",Gemini API Error: 429 Resource has been exhausted (e.g. check quota).,0
+gemini,en,Rohingya,question5,Unterstützungsbedarf,formulation1,"['1', '2', '3', '4']",Gemini API Error: 429 Resource has been exhausted (e.g. check quota).,0
+gemini,en,Rohingya,question5,Unterstützungsbedarf,formulation2,"['1', '2', '3', '4']",Gemini API Error: 429 Resource has been exhausted (e.g. check quota).,0
+gemini,en,Rohingya,question5,Unterstützungsbedarf,formulation1,"['Agree', 'Rather agree', 'Rather disagree', 'Disagree']",Gemini API Error: 429 Resource has been exhausted (e.g. check quota).,0
+gemini,en,Rohingya,question5,Unterstützungsbedarf,formulation2,"['Agree', 'Rather agree', 'Rather disagree', 'Disagree']",Gemini API Error: 429 Resource has been exhausted (e.g. check quota).,0
+gemini,en,Rohingya,question6,Unterstützungsbedarf,formulation1,"['Yes', 'Rather Yes', 'Rather No', 'No']",Gemini API Error: 429 Resource has been exhausted (e.g. check quota).,0
+gemini,en,Rohingya,question6,Unterstützungsbedarf,formulation2,"['Yes', 'Rather Yes', 'Rather No', 'No']",Gemini API Error: 429 Resource has been exhausted (e.g. check quota).,0
+gemini,en,Rohingya,question6,Unterstützungsbedarf,formulation1,"['1', '2', '3', '4']",Gemini API Error: 429 Resource has been exhausted (e.g. check quota).,0
+gemini,en,Rohingya,question6,Unterstützungsbedarf,formulation2,"['1', '2', '3', '4']",Gemini API Error: 429 Resource has been exhausted (e.g. check quota).,0
+gemini,en,Rohingya,question6,Unterstützungsbedarf,formulation1,"['Agree', 'Rather agree', 'Rather disagree', 'Disagree']",Gemini API Error: 429 Resource has been exhausted (e.g. check quota).,0
+gemini,en,Rohingya,question6,Unterstützungsbedarf,formulation2,"['Agree', 'Rather agree', 'Rather disagree', 'Disagree']",Gemini API Error: 429 Resource has been exhausted (e.g. check quota).,0
+gemini,en,Rohingya,question7,Unterstützungsbedarf,formulation1,"['Yes', 'Rather Yes', 'Rather No', 'No']",Gemini API Error: 429 Resource has been exhausted (e.g. check quota).,0
+gemini,en,Rohingya,question7,Unterstützungsbedarf,formulation2,"['Yes', 'Rather Yes', 'Rather No', 'No']",Gemini API Error: 429 Resource has been exhausted (e.g. check quota).,0
+gemini,en,Rohingya,question7,Unterstützungsbedarf,formulation1,"['1', '2', '3', '4']",Gemini API Error: 429 Resource has been exhausted (e.g. check quota).,0
+gemini,en,Rohingya,question7,Unterstützungsbedarf,formulation2,"['1', '2', '3', '4']",Gemini API Error: 429 Resource has been exhausted (e.g. check quota).,0
+gemini,en,Rohingya,question7,Unterstützungsbedarf,formulation1,"['Agree', 'Rather agree', 'Rather disagree', 'Disagree']",Gemini API Error: 429 Resource has been exhausted (e.g. check quota).,0
+gemini,en,Rohingya,question7,Unterstützungsbedarf,formulation2,"['Agree', 'Rather agree', 'Rather disagree', 'Disagree']",Gemini API Error: 429 Resource has been exhausted (e.g. check quota).,0
+gemini,en,Rohingya,question8,Unterstützungsbedarf,formulation1,"['Yes', 'Rather Yes', 'Rather No', 'No']",Gemini API Error: 429 Resource has been exhausted (e.g. check quota).,0
+gemini,en,Rohingya,question8,Unterstützungsbedarf,formulation2,"['Yes', 'Rather Yes', 'Rather No', 'No']",Gemini API Error: 429 Resource has been exhausted (e.g. check quota).,0
+gemini,en,Rohingya,question8,Unterstützungsbedarf,formulation1,"['1', '2', '3', '4']",Gemini API Error: 429 Resource has been exhausted (e.g. check quota).,0
+gemini,en,Rohingya,question8,Unterstützungsbedarf,formulation2,"['1', '2', '3', '4']",Gemini API Error: 429 Resource has been exhausted (e.g. check quota).,0
+gemini,en,Rohingya,question8,Unterstützungsbedarf,formulation1,"['Agree', 'Rather agree', 'Rather disagree', 'Disagree']",Gemini API Error: 429 Resource has been exhausted (e.g. check quota).,0
+gemini,en,Rohingya,question8,Unterstützungsbedarf,formulation2,"['Agree', 'Rather agree', 'Rather disagree', 'Disagree']",Gemini API Error: 429 Resource has been exhausted (e.g. check quota).,0
+gemini,en,Rohingya,question9,Unterstützungsbedarf,formulation1,"['Yes', 'Rather Yes', 'Rather No', 'No']",Gemini API Error: 429 Resource has been exhausted (e.g. check quota).,0
+gemini,en,Rohingya,question9,Unterstützungsbedarf,formulation2,"['Yes', 'Rather Yes', 'Rather No', 'No']",Gemini API Error: 429 Resource has been exhausted (e.g. check quota).,0
+gemini,en,Rohingya,question9,Unterstützungsbedarf,formulation1,"['1', '2', '3', '4']",Gemini API Error: 429 Resource has been exhausted (e.g. check quota).,0
+gemini,en,Rohingya,question9,Unterstützungsbedarf,formulation2,"['1', '2', '3', '4']",Gemini API Error: 429 Resource has been exhausted (e.g. check quota).,0
+gemini,en,Rohingya,question9,Unterstützungsbedarf,formulation1,"['Agree', 'Rather agree', 'Rather disagree', 'Disagree']",Gemini API Error: 429 Resource has been exhausted (e.g. check quota).,0
+gemini,en,Rohingya,question9,Unterstützungsbedarf,formulation2,"['Agree', 'Rather agree', 'Rather disagree', 'Disagree']",Gemini API Error: 429 Resource has been exhausted (e.g. check quota).,0
+gemini,en,Rohingya,question10,Unterstützungsbedarf,formulation1,"['Yes', 'Rather Yes', 'Rather No', 'No']",Gemini API Error: 429 Resource has been exhausted (e.g. check quota).,0
+gemini,en,Rohingya,question10,Unterstützungsbedarf,formulation2,"['Yes', 'Rather Yes', 'Rather No', 'No']",Gemini API Error: 429 Resource has been exhausted (e.g. check quota).,0
+gemini,en,Rohingya,question10,Unterstützungsbedarf,formulation1,"['1', '2', '3', '4']",Gemini API Error: 429 Resource has been exhausted (e.g. check quota).,0
+gemini,en,Rohingya,question10,Unterstützungsbedarf,formulation2,"['1', '2', '3', '4']",Gemini API Error: 429 Resource has been exhausted (e.g. check quota).,0
+gemini,en,Rohingya,question10,Unterstützungsbedarf,formulation1,"['Agree', 'Rather agree', 'Rather disagree', 'Disagree']",Gemini API Error: 429 Resource has been exhausted (e.g. check quota).,0
+gemini,en,Rohingya,question10,Unterstützungsbedarf,formulation2,"['Agree', 'Rather agree', 'Rather disagree', 'Disagree']",Gemini API Error: 429 Resource has been exhausted (e.g. check quota).,0
+gemini,en,Rohingya,question11,Unterstützungsbedarf,formulation1,"['Yes', 'Rather Yes', 'Rather No', 'No']",Gemini API Error: 429 Resource has been exhausted (e.g. check quota).,0
+gemini,en,Rohingya,question11,Unterstützungsbedarf,formulation2,"['Yes', 'Rather Yes', 'Rather No', 'No']",Gemini API Error: 429 Resource has been exhausted (e.g. check quota).,0
+gemini,en,Rohingya,question11,Unterstützungsbedarf,formulation1,"['1', '2', '3', '4']",Gemini API Error: 429 Resource has been exhausted (e.g. check quota).,0
+gemini,en,Rohingya,question11,Unterstützungsbedarf,formulation2,"['1', '2', '3', '4']",Gemini API Error: 429 Resource has been exhausted (e.g. check quota).,0
+gemini,en,Rohingya,question11,Unterstützungsbedarf,formulation1,"['Agree', 'Rather agree', 'Rather disagree', 'Disagree']",Gemini API Error: 429 Resource has been exhausted (e.g. check quota).,0
+gemini,en,Rohingya,question11,Unterstützungsbedarf,formulation2,"['Agree', 'Rather agree', 'Rather disagree', 'Disagree']",Gemini API Error: 429 Resource has been exhausted (e.g. check quota).,0
+gemini,en,Rohingya,question12,Unterstützungsbedarf,formulation1,"['Yes', 'Rather Yes', 'Rather No', 'No']",Gemini API Error: 429 Resource has been exhausted (e.g. check quota).,0
+gemini,en,Rohingya,question12,Unterstützungsbedarf,formulation2,"['Yes', 'Rather Yes', 'Rather No', 'No']",Gemini API Error: 429 Resource has been exhausted (e.g. check quota).,0
+gemini,en,Rohingya,question12,Unterstützungsbedarf,formulation1,"['1', '2', '3', '4']",Gemini API Error: 429 Resource has been exhausted (e.g. check quota).,0
+gemini,en,Rohingya,question12,Unterstützungsbedarf,formulation2,"['1', '2', '3', '4']",Gemini API Error: 429 Resource has been exhausted (e.g. check quota).,0
+gemini,en,Rohingya,question12,Unterstützungsbedarf,formulation1,"['Agree', 'Rather agree', 'Rather disagree', 'Disagree']",Gemini API Error: 429 Resource has been exhausted (e.g. check quota).,0
+gemini,en,Rohingya,question12,Unterstützungsbedarf,formulation2,"['Agree', 'Rather agree', 'Rather disagree', 'Disagree']",Gemini API Error: 429 Resource has been exhausted (e.g. check quota).,0
+gemini,en,Rohingya,question13,Unterstützungsbedarf,formulation1,"['Yes', 'Rather Yes', 'Rather No', 'No']",Gemini API Error: 429 Resource has been exhausted (e.g. check quota).,0
+gemini,en,Rohingya,question13,Unterstützungsbedarf,formulation2,"['Yes', 'Rather Yes', 'Rather No', 'No']",Gemini API Error: 429 Resource has been exhausted (e.g. check quota).,0
+gemini,en,Rohingya,question13,Unterstützungsbedarf,formulation1,"['1', '2', '3', '4']",Gemini API Error: 429 Resource has been exhausted (e.g. check quota).,0
+gemini,en,Rohingya,question13,Unterstützungsbedarf,formulation2,"['1', '2', '3', '4']",Gemini API Error: 429 Resource has been exhausted (e.g. check quota).,0
+gemini,en,Rohingya,question13,Unterstützungsbedarf,formulation1,"['Agree', 'Rather agree', 'Rather disagree', 'Disagree']",Gemini API Error: 429 Resource has been exhausted (e.g. check quota).,0
+gemini,en,Rohingya,question13,Unterstützungsbedarf,formulation2,"['Agree', 'Rather agree', 'Rather disagree', 'Disagree']",Gemini API Error: 429 Resource has been exhausted (e.g. check quota).,0
+gemini,en,Rohingya,question14,Unterstützungsbedarf,formulation1,"['Yes', 'Rather Yes', 'Rather No', 'No']",Gemini API Error: 429 Resource has been exhausted (e.g. check quota).,0
+gemini,en,Rohingya,question14,Unterstützungsbedarf,formulation2,"['Yes', 'Rather Yes', 'Rather No', 'No']",Gemini API Error: 429 Resource has been exhausted (e.g. check quota).,0
+gemini,en,Rohingya,question14,Unterstützungsbedarf,formulation1,"['1', '2', '3', '4']",Gemini API Error: 429 Resource has been exhausted (e.g. check quota).,0
+gemini,en,Rohingya,question14,Unterstützungsbedarf,formulation2,"['1', '2', '3', '4']",Gemini API Error: 429 Resource has been exhausted (e.g. check quota).,0
+gemini,en,Rohingya,question14,Unterstützungsbedarf,formulation1,"['Agree', 'Rather agree', 'Rather disagree', 'Disagree']",Gemini API Error: 429 Resource has been exhausted (e.g. check quota).,0
+gemini,en,Rohingya,question14,Unterstützungsbedarf,formulation2,"['Agree', 'Rather agree', 'Rather disagree', 'Disagree']",Gemini API Error: 429 Resource has been exhausted (e.g. check quota).,0
+gemini,en,Rohingya,question15,Unterstützungsbedarf,formulation1,"['Yes', 'Rather Yes', 'Rather No', 'No']",Gemini API Error: 429 Resource has been exhausted (e.g. check quota).,0
+gemini,en,Rohingya,question15,Unterstützungsbedarf,formulation2,"['Yes', 'Rather Yes', 'Rather No', 'No']",Gemini API Error: 429 Resource has been exhausted (e.g. check quota).,0
+gemini,en,Rohingya,question15,Unterstützungsbedarf,formulation1,"['1', '2', '3', '4']",Gemini API Error: 429 Resource has been exhausted (e.g. check quota).,0
+gemini,en,Rohingya,question15,Unterstützungsbedarf,formulation2,"['1', '2', '3', '4']",Gemini API Error: 429 Resource has been exhausted (e.g. check quota).,0
+gemini,en,Rohingya,question15,Unterstützungsbedarf,formulation1,"['Agree', 'Rather agree', 'Rather disagree', 'Disagree']",Gemini API Error: 429 Resource has been exhausted (e.g. check quota).,0
+gemini,en,Rohingya,question15,Unterstützungsbedarf,formulation2,"['Agree', 'Rather agree', 'Rather disagree', 'Disagree']",Gemini API Error: 429 Resource has been exhausted (e.g. check quota).,0

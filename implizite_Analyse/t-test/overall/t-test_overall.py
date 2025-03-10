@@ -17,7 +17,7 @@ def main():
 
     # Define the dependent variable and the factors to test.
     response_var = "Score"
-    potential_factors = ["Language", "Choice Set", "Formulation Key", "Scorerer Model", "Source Model"]
+    potential_factors = ["Language", "Scorer Model", "Source Model"]
     # Use only those factors that are present in the CSV.
     factors = [f for f in potential_factors if f in df.columns]
     print("Testing differences for factors:", factors)
@@ -38,15 +38,18 @@ def main():
             data2 = df[df[factor] == g2][response_var]
             t_stat, p_value = ttest_ind(data1, data2, nan_policy='omit')
             significance = "Significant" if p_value < alpha else "Not significant"
+            mean_a = data1.mean()
+            mean_b = data2.mean()
             results.append({
                 "Factor": factor,
                 "Group1": g1,
                 "Group2": g2,
+                "Mean A": mean_a,
+                "Mean B": mean_b,
                 "t-statistic": t_stat,
                 "p-value": p_value,
                 "Result": significance
             })
-            print(f"Factor {factor}: {g1} vs {g2} -> t = {t_stat:.3f}, p = {p_value:.3e}, {significance}")
 
     # Convert results to a DataFrame and save to CSV.
     results_df = pd.DataFrame(results)
