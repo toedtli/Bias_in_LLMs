@@ -50,7 +50,7 @@ def main():
         "Uyghurs": "Uiguren",
         "Catalans": "Katalanen",
         "Tibetans": "Tibeter",
-        "Rohingya": "Rohingya"  # bleibt gleich
+        "Rohingya": "Rohingya"
     }
 
     # Ersetze die Werte in der 'Group'-Spalte

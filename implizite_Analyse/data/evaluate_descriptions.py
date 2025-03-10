@@ -135,7 +135,7 @@ def save_single_result(result_data):
     df = pd.DataFrame([result_data])
     df.to_csv(scoring_csv_path, mode='a', index=False, header=False)
 
-def evaluate_descriptions(base_directory, groups):
+def evaluate_descriptions(groups):
     """Generates heatmaps and ensures each model scores using every choice set in both languages."""
     # Define the exact tuples you want to check against for additional information
     expected_numeric_scale = [("1", 100), ("2", 75), ("3", 25), ("4", 10), ("5", 0)]
@@ -211,4 +211,4 @@ def evaluate_descriptions(base_directory, groups):
 
 # Run the script
 if __name__ == "__main__":
-    evaluate_descriptions(base_directory, groups)
+    evaluate_descriptions(groups)
