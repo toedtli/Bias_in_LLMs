@@ -23,7 +23,7 @@ def compute_descriptive_statistics(df):
 def main():
     # Hardcoded paths for CSV file and output directory.
     csv_file = "implizite_Analyse/data/scoring_processed/scoring_processed_run_1.csv"
-    output_dir = "implizite_Analyse/statistics/"
+    output_dir = "implizite_Analyse/statistics/run_1"
     
     
   

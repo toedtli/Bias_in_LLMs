@@ -68,7 +68,7 @@ def main():
     results_df = pd.DataFrame(results, columns=col_names)
 
     # 6. Ensure the output directory exists
-    output_dir = "explizite_Analyse/statistics/combined_runs/t-tests"
+    output_dir = "explizite_Analyse/statistics/combined_results/t-tests"
     os.makedirs(output_dir, exist_ok=True)
     output_file = os.path.join(output_dir, "ttest_results.csv")
     

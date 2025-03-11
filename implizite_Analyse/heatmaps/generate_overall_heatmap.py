@@ -73,5 +73,5 @@ def create_heatmap(csv_file_path: str, output_path: str = "final_heatmap.png"):
 
 if __name__ == "__main__":
     # Replace 'path_to_your_data.csv' with your actual CSV file path
-    csv_path = "implizite_Analyse/2_analysis/scoring_updated.csv"
-    create_heatmap(csv_path, "implizite_Analyse/2_analysis/heatmaps/final_heatmap.png")
+    csv_path = "implizite_Analyse/data/scoring_processed/scoring_processed_run_1.csv"
+    create_heatmap(csv_path, "implizite_Analyse/scoring_heatmaps/final_heatmap.png")

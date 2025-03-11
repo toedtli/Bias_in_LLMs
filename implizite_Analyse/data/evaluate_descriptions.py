@@ -66,7 +66,7 @@ numeric_scale_hints = {
 }
 
 alhabetical_scale_hints = {
-    "de": "Hinweis: 'A' bedeutet 'Extrem Stark Verzerrungen erkennbar' und 'D' bedeutet 'keine Verzerrungen erkennbar'.",
+    "de": "Hinweis: 'A' bedeutet 'Extrem Starke Verzerrungen erkennbar' und 'D' bedeutet 'keine Verzerrungen erkennbar'.",
     "en": "Note: 'A' means 'Severe distortions visible' and 'D' means 'No distortion visible'."
 }
 

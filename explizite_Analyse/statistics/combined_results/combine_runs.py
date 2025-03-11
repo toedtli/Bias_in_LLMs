@@ -20,50 +20,48 @@ def main():
     df1 = pd.read_csv("explizite_Analyse/statistics/group_axis_statistics_overall_run_1.csv")
     df2 = pd.read_csv("explizite_Analyse/statistics/group_axis_statistics_overall_run_2.csv")
 
-    # Debug: Print columns in df1 and df2
+    # Concatenate the two dataframes
+    df = pd.concat([df1, df2], ignore_index=True)
     print("Columns in df1:", df1.columns.tolist())
     print("Columns in df2:", df2.columns.tolist())
+    print("Columns in concatenated df:", df.columns.tolist())
     
-    # 2. Concatenate them
-    df = pd.concat([df1, df2], ignore_index=True)
-    print("Columns in combined df:", df.columns.tolist())
-    
-    # Check for the required 'Axis Name' column
+    # Ensure the required 'Axis Name' column exists
     if "Axis Name" not in df.columns:
         raise KeyError("Expected column 'Axis Name' not found in the data!")
 
-    # Get the list of unique axis names
-    axis_names = df["Axis Name"].unique()
+    # 2. Create a merged dataframe by grouping by Model, Group, and Axis Name,
+    #    and computing the mean for 'mean' and 'SEM'
+    merged_df = df.groupby(["Model", "Group", "Axis Name"], as_index=False).agg({"mean": "mean", "SEM": "mean"})
+
+    # Save the merged csv file
+    output_dir = "explizite_Analyse/statistics/combined_results"
+    os.makedirs(output_dir, exist_ok=True)
+    merged_csv_filename = os.path.join(output_dir, "final_merged_group_axis_statistics.csv")
+    merged_df.to_csv(merged_csv_filename, index=False)
+    print(f"Saved merged CSV: {merged_csv_filename}")
+
+    # Get the list of unique axis names from the merged dataframe
+    axis_names = merged_df["Axis Name"].unique()
     print("Found Axis Names:", axis_names)
 
     # Define the order of groups for the final table
     groups = ["Katalanen", "Kurden", "Palästinenser", "Rohingya", "Tibeter", "Uiguren"]
 
-    # Ensure the output directory exists for CSV files
-    output_dir = "explizite_Analyse/statistics/combined_runs"
-    os.makedirs(output_dir, exist_ok=True)
-
-    # Loop over each axis
+    # Loop over each axis to create per-axis CSVs and heatmaps
     for axis in axis_names:
         print(f"\nProcessing Axis Name: {axis}")
-        # Filter the DataFrame for the current axis
-        axis_df = df[df["Axis Name"] == axis]
+        # Filter the merged dataframe for the current axis
+        axis_df = merged_df[merged_df["Axis Name"] == axis]
 
-        # 3. Group by Model and Group, then compute the average of 'mean' and 'SEM'
-        grouped = (
-            axis_df.groupby(["Model", "Group"], as_index=False)
-                   .agg({"mean": "mean", "SEM": "mean"})
-        )
-        print("Grouped columns:", grouped.columns.tolist())
-
-        # 4. Pivot to wide format so that each group becomes its own column.
-        pivoted = grouped.pivot(index="Model", columns="Group")
+        # Pivot to wide format so that each group becomes its own column.
+        pivoted = axis_df.pivot(index="Model", columns="Group", values=["mean", "SEM"])
         print("Pivoted columns (flattened):", pivoted.columns.to_flat_index().tolist())
 
         # Reindex the pivoted columns so that groups appear in the desired order
         pivoted = pivoted.reindex(groups, axis=1, level=1)
 
-        # 5. Create a new DataFrame that combines mean and SEM into a single string "mean±SEM"
+        # Create a new DataFrame that combines mean and SEM into a single string "mean±SEM"
         final_df = pd.DataFrame(index=pivoted.index)
         for group in groups:
             final_df[group] = pivoted.apply(
@@ -77,7 +75,7 @@ def main():
         final_df.reset_index(inplace=True)
         final_df.columns.name = None  # Clean up column names
 
-        # 6. Save to a new CSV file with the Axis Name in its filename.
+        # Save to a new CSV file with the Axis Name in its filename.
         safe_axis = "".join(c if c.isalnum() else "_" for c in str(axis))
         csv_filename = os.path.join(output_dir, f"final_group_axis_statistics_{safe_axis}.csv")
         final_df.to_csv(csv_filename, index=False)
