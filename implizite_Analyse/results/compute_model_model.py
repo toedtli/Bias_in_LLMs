@@ -4,7 +4,7 @@ import pandas as pd
 def main():
     # Define the input and output file paths.
     input_file = 'implizite_Analyse/data/scoring_processed/scoring_processed_run_1.csv'
-    output_file = 'implizite_Analyse/results/run_1/scoring_run_1.csv'
+    output_file = 'implizite_Analyse/results/run_1/scoring_model_model.csv'
     
     # Read the CSV file into a DataFrame.
     df = pd.read_csv(input_file)

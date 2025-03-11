@@ -4,7 +4,7 @@ import matplotlib.pyplot as plt
 
 def create_axis_csvs_and_print_tables():
     # Path to the input CSV file
-    input_csv = "explizite_Analyse/statistics/group_axis_statistics_overall_run_1.csv"
+    input_csv = "explizite_Analyse/results/results_run_1/scores_run_1.csv"
     
     # Read the CSV file
     df = pd.read_csv(input_csv)
@@ -20,7 +20,7 @@ def create_axis_csvs_and_print_tables():
             raise ValueError(f"The CSV file must contain a '{col}' column.")
 
     # Create output directories
-    output_dir = "explizite_Analyse/statistics/per_axis/results_run_1"
+    output_dir = "explizite_Analyse/results/results_run_1"
     output_dir_heatmaps = os.path.join(output_dir, "heatmaps_run_1")
     os.makedirs(output_dir, exist_ok=True)
     os.makedirs(output_dir_heatmaps, exist_ok=True)

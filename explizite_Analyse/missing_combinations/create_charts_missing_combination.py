@@ -5,7 +5,7 @@ import matplotlib.pyplot as plt
 # ---------------------------
 # Load the missing combinations CSV.
 # ---------------------------
-missing_csv_path = 'explizite_Analyse/missing_combinations/missing_combinations.csv'
+missing_csv_path = 'explizite_Analyse/missing_combinations/missing_combinations_run_2.csv'
 df_missing = pd.read_csv(missing_csv_path)
 
 # ---------------------------
@@ -65,6 +65,6 @@ plt.tight_layout()
 # ---------------------------
 output_dir = 'explizite_Analyse/missing_combinations'
 os.makedirs(output_dir, exist_ok=True)
-output_path = os.path.join(output_dir, 'overall_missing_combinations.png')
+output_path = os.path.join(output_dir, 'overall_missing_combinations_run_2.png')
 plt.savefig(output_path, dpi=300)
 plt.close()

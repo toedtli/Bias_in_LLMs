@@ -122,7 +122,7 @@ for item in missing_list[:5]:
 # ---------------------------
 # Step 6. Save missing combinations to file.
 # ---------------------------
-output_path = os.path.join('explizite_Analyse/missing_combinations/missing_combinations.csv')
+output_path = os.path.join('explizite_Analyse/missing_combinations/missing_combinations_run_2.csv')
 # Write the missing_list to the CSV file.
 with open(output_path, 'w', newline='', encoding='utf-8') as csvfile:
     writer = csv.writer(csvfile)

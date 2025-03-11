@@ -8,7 +8,7 @@ def compute_descriptive_statistics(df):
     """
     Compute descriptive statistics by grouping the DataFrame by 'Source Model' and 'Group'.
     """
-    summary = df.groupby(['Source Model', 'Group'])['Alternative Scoring'].agg(
+    summary = df.groupby(['Source Model', 'Group'])['Score'].agg(
         count='count', 
         mean='mean', 
         std='std', 
@@ -23,7 +23,7 @@ def compute_descriptive_statistics(df):
 def main():
     # Hardcoded paths for CSV file and output directory.
     csv_file = "implizite_Analyse/data/scoring_processed/scoring_processed_run_1.csv"
-    output_dir = "implizite_Analyse/statistics/run_1"
+    output_dir = "implizite_Analyse/results/run_1"
     
     
   
@@ -57,17 +57,17 @@ def main():
     df['Group'] = df['Group'].replace(mapping)
     
     # Verify that the CSV contains the necessary columns.
-    required_columns = {'Source Model', 'Group', 'Alternative Scoring'}
+    required_columns = {'Source Model', 'Group', 'Score'}
     if not required_columns.issubset(df.columns):
         print(f"CSV file must contain the following columns: {required_columns}")
         return
 
     # Ensure that the 'Alternative Scoring' column is numeric.
-    df['Alternative Scoring'] = pd.to_numeric(df['Alternative Scoring'], errors='coerce')
+    df['Score'] = pd.to_numeric(df['Score'], errors='coerce')
 
     # Compute descriptive statistics and save to CSV.
     stats_df = compute_descriptive_statistics(df)
-    stats_csv_path = os.path.join(output_dir, 'alternative_scoring_descriptive_statistics.csv')
+    stats_csv_path = os.path.join(output_dir, 'scoring_model_group.csv')
     stats_df.to_csv(stats_csv_path, index=False)
     print(f"Descriptive statistics saved to {stats_csv_path}")
 

@@ -35,9 +35,9 @@ def main():
     merged_df = df.groupby(["Model", "Group", "Axis Name"], as_index=False).agg({"mean": "mean", "SEM": "mean"})
 
     # Save the merged csv file
-    output_dir = "explizite_Analyse/statistics/combined_results"
+    output_dir = "explizite_Analyse/results/combined_results"
     os.makedirs(output_dir, exist_ok=True)
-    merged_csv_filename = os.path.join(output_dir, "final_merged_group_axis_statistics.csv")
+    merged_csv_filename = os.path.join(output_dir, "scoring_cmobined.csv")
     merged_df.to_csv(merged_csv_filename, index=False)
     print(f"Saved merged CSV: {merged_csv_filename}")
 
@@ -77,7 +77,7 @@ def main():
 
         # Save to a new CSV file with the Axis Name in its filename.
         safe_axis = "".join(c if c.isalnum() else "_" for c in str(axis))
-        csv_filename = os.path.join(output_dir, f"final_group_axis_statistics_{safe_axis}.csv")
+        csv_filename = os.path.join(output_dir, f"combined_statistics_{safe_axis}.csv")
         final_df.to_csv(csv_filename, index=False)
         print(f"Saved CSV for Axis Name '{axis}' as: {csv_filename}")
 
@@ -127,7 +127,7 @@ def main():
         # Create an output directory for the heatmaps inside the CSV directory
         heatmap_output_dir = os.path.join(output_dir, "heatmaps")
         os.makedirs(heatmap_output_dir, exist_ok=True)
-        heatmap_file = os.path.join(heatmap_output_dir, f"final_heatmap_{safe_axis}.png")
+        heatmap_file = os.path.join(heatmap_output_dir, f"final_combined_heatmap_{safe_axis}.png")
         plt.savefig(heatmap_file, dpi=150, bbox_inches='tight')
         plt.close()
         print(f"Saved heatmap for Axis Name '{axis}' as: {heatmap_file}")

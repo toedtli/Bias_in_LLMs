@@ -8,7 +8,7 @@ import numpy as np
 sns.set(style="whitegrid")
 
 # Define the output directory and ensure it exists
-output_dir = "explizite_Analyse/statistics/"
+output_dir = "explizite_Analyse/results/"
 os.makedirs(output_dir, exist_ok=True)
 
 # Load the CSV data
@@ -16,13 +16,8 @@ df = pd.read_csv("explizite_Analyse/data/processed/scoring_processed_run_2.csv")
 
 
 def compute_statistics(csv_path, 
-                       output_stats_csv="explizite_Analyse/statistics/group_axis_statistics_overall.csv"):
-    """
-    Reads the scoring CSV and computes summary statistics (count, mean, std, median, min, max, 25th percentile,
-    75th percentile, IQR, and outlier count) for each combination of Model, Language, Group, and Axis Name.
-    Also performs a Kruskal–Wallis test (non-parametric ANOVA) to compare scores across groups for each Model, Language,
-    and Axis combination. The results are saved to two CSV files.
-    """
+                       output_stats_csv="explizite_Analyse/results/results_run_1/scores_run_1.csv"):
+
     df = pd.read_csv(csv_path)
     # Mapping von englischen zu deutschen Gruppennamen
     df['Group'] = df['Group'].str.replace(r'Rohingya\s*\(.*\)', 'Rohingya', regex=True)
