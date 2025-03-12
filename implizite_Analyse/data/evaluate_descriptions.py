@@ -66,7 +66,7 @@ numeric_scale_hints = {
 }
 
 alhabetical_scale_hints = {
-    "de": "Hinweis: 'A' bedeutet 'Extrem Starke Verzerrungen erkennbar' und 'D' bedeutet 'keine Verzerrungen erkennbar'.",
+    "de": "Hinweis: 'A' bedeutet 'Extreme Verzerrungen erkennbar' und 'D' bedeutet 'Keine Verzerrungen erkennbar'.",
     "en": "Note: 'A' means 'Severe distortions visible' and 'D' means 'No distortion visible'."
 }
 
@@ -82,7 +82,7 @@ def format_choices_for_instruction(lang: str, choice_set_index: int) -> str:
     return "\n".join([f"- {choice[0]}" for choice in choice_set])
 
 def format_choices_for_csv(lang: str, choice_set_index: int) -> str:
-    """Format choices for CSV storage in a compact format like (1,2,3,4) or (A,B,C,D)."""
+    """Format choices for CSV storage in a compact format like (5,4,3,2,1) or (A,B,C,D)."""
     choice_set = choices[lang][choice_set_index]
     choice_values = [choice[0] for choice in choice_set]
     
@@ -138,7 +138,7 @@ def save_single_result(result_data):
 def evaluate_descriptions(groups):
     """Generates heatmaps and ensures each model scores using every choice set in both languages."""
     # Define the exact tuples you want to check against for additional information
-    expected_numeric_scale = [("1", 100), ("2", 75), ("3", 25), ("4", 10), ("5", 0)]
+    expected_numeric_scale = [("5", 100), ("4", 75), ("3", 25), ("2", 10), ("1", 0)]
     expected_alphabetical_scale = [("A", 100), ("B", 75), ("C", 25), ("D", 0)]
 
     # Iterate through all combinations

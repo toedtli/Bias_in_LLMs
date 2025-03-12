@@ -5,11 +5,11 @@ import seaborn as sns
 import matplotlib.pyplot as plt
 
 # 0. Create output directory if it doesn't exist
-output_dir = "implizite_Analyse/heatmaps/run_2"
+output_dir = "implizite_Analyse/heatmaps/run_1"
 os.makedirs(output_dir, exist_ok=True)
 
 # 1. Read the CSV
-df = pd.read_csv("implizite_Analyse/results/run_2/scoring_run_2.csv")
+df = pd.read_csv("implizite_Analyse/results/run_1/scoring_model_model.csv")
 
 # 2. Pivot the data so that rows = Scorer Model, columns = Source Model
 df_mean = df.pivot(index="Scorer Model", columns="Source Model", values="Score")
@@ -28,11 +28,11 @@ for scorer in df_mean.index:
 row_avgs = df_mean.mean(axis=1).round(2)
 col_avgs = df_mean.mean(axis=0).round(2)
 
-new_row_labels = [f"{idx}\navg: {row_avgs[idx]}" for idx in df_mean.index]
-new_col_labels = [f"{col}\navg: {col_avgs[col]}" for col in df_mean.columns]
+new_row_labels = [f"{idx}\nØ {row_avgs[idx]}" for idx in df_mean.index]
+new_col_labels = [f"{col}\nØ {col_avgs[col]}" for col in df_mean.columns]
 
 # 7. Plot the heatmap
-plt.figure(figsize=(10, 4))  # Adjust for a similar aspect ratio as your example
+plt.figure(figsize=(8, 3))  # Adjust for a similar aspect ratio as your example
 ax = sns.heatmap(
     df_mean,
     cmap="Reds",
@@ -40,7 +40,6 @@ ax = sns.heatmap(
     vmax=35,  # Adjust if your data range is different
     annot=annot_matrix,
     fmt="",  # We've pre-formatted the annotation strings
-    linewidths=0.5,
     linecolor="white",
     cbar_kws={"shrink": 0.8, "label": "Score"}
 )
@@ -55,6 +54,6 @@ ax.set_title("Durchschnitt aller Bewertungen der Beschreibungen über alle Grupp
 plt.tight_layout()
 
 # 9. Save the figure
-output_path = os.path.join(output_dir, "heatmap_run_2.png")
+output_path = os.path.join(output_dir, "heatmap_model_model_run_1.png")
 plt.savefig(output_path, dpi=300)
 plt.close()

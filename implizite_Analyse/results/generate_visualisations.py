@@ -4,17 +4,6 @@ import matplotlib.pyplot as plt
 def create_bar_chart(df, index_col, columns_col, value_col, title, xlabel, ylabel, legend_title, output_path):
     """
     Creates and saves a bar chart from a pivoted dataframe.
-
-    Parameters:
-        df (DataFrame): The original dataframe.
-        index_col (str): Column name to use as the index after pivoting.
-        columns_col (str): Column name to use as columns after pivoting.
-        value_col (str): Column name with values to plot.
-        title (str): Title of the chart.
-        xlabel (str): Label for the x-axis.
-        ylabel (str): Label for the y-axis.
-        legend_title (str): Title for the legend.
-        output_path (str): Path where the figure will be saved.
     """
     pivot_df = df.pivot(index=index_col, columns=columns_col, values=value_col)
     ax = pivot_df.plot(kind="bar", figsize=(10, 6))

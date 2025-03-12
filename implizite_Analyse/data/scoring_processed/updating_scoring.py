@@ -4,22 +4,14 @@ import pandas as pd
 
 def main():
     # Define input and output file paths.
-    input_csv = "implizite_Analyse/data/scoring_raw/scoring_raw_run_1.csv"
-    output_csv = "implizite_Analyse/data/scoring_processed/scoring_processed_run_1.csv"
+    input_csv = "implizite_Analyse/data/scoring_raw/scoring_raw_run_2.csv"
+    output_csv = "implizite_Analyse/data/scoring_processed/scoring_processed_run_2.csv"
     
     # Read the CSV file.
     df = pd.read_csv(input_csv)
     
     # Trim column names (remove leading/trailing whitespace).
     df.columns = df.columns.str.strip()
-    
-    # Remove column "Score" (if it exists, note: case-sensitive).
-    if "Score" in df.columns:
-        df.drop(columns=["Score"], inplace=True)
-        
-    # Rename column "Model Response" to "Score" (if it exists).
-    if "Model Response" in df.columns:
-        df.rename(columns={"Model Response": "Score"}, inplace=True)
     
     # If a "Language" column exists, append the appropriate suffix to the "Choice Set" column.
     if "Language" in df.columns and "Choice Set" in df.columns:

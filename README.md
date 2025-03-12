@@ -9,16 +9,11 @@ The repository is organized into the following main directories:
 ```
 Setup/
 ├── explizite_Analyse/
-│   ├── charts/
-│   ├── statistics/
-│   ├── compute_statistics.py
-│   └── fragenkatalog.json
+│   ...
 ├── implizite_Analyse/
-│   ├── 1_create_descriptions/
-│   ├── 2_analysis/
-│   └── 2_analysis/modells/
+│   ...
 ├── modells.py
-├── modelltester.py
+├── modells_tester.py
 └── README.md
 ```
 
@@ -26,18 +21,11 @@ Setup/
 
 This directory contains scripts and data for explicit analysis.
 
-- **charts/**: Directory for storing generated charts.
-- **statistics/**: Directory for storing computed statistics.
-- **compute_statistics.py**: Script to compute statistics and generate visualizations.
-- **fragenkatalog.json**: JSON file containing questions and their corresponding axes for analysis.
 
 ### implizite_Analyse
 
 This directory contains scripts and data for implicit analysis.
 
-- **1_create_descriptions/**: Directory for scripts that create descriptions.
-- **2_analysis/**: Directory for analysis scripts.
-- **2_analysis/modells/**: Directory for models used in the analysis.
 
 ## Languages and Technologies
 
