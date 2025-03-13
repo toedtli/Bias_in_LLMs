@@ -5,11 +5,11 @@ import seaborn as sns
 import matplotlib.pyplot as plt
 
 # 0. Create output directory if it doesn't exist
-output_dir = "implizite_Analyse/heatmaps/run_2"
+output_dir = "implizite_Analyse/heatmaps/run_3"
 os.makedirs(output_dir, exist_ok=True)
 
 # 1. Read the CSV
-df = pd.read_csv("implizite_Analyse/results/run_2/scoring_model_model.csv")
+df = pd.read_csv("implizite_Analyse/results/run_3/scoring_model_model.csv")
 
 # 2. Pivot the data so that rows = Scorer Model, columns = Source Model
 df_mean = df.pivot(index="Scorer Model", columns="Source Model", values="Score")
@@ -54,6 +54,6 @@ ax.set_title("Durchschnitt aller Bewertungen der Beschreibungen über alle Grupp
 plt.tight_layout()
 
 # 9. Save the figure
-output_path = os.path.join(output_dir, "heatmap_model_model_run_2.png")
+output_path = os.path.join(output_dir, "heatmap_model_model_run_3.png")
 plt.savefig(output_path, dpi=300)
 plt.close()
