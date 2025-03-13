@@ -19,7 +19,7 @@ with open(fragenkatalog_path, "r", encoding="utf-8") as file:
     questions_data = json.load(file)
 
 # Define models, languages, and groups
-models = ["gemini", "gpt", "qwen", "deepseek"]
+models = ["gpt", "gemini", "qwen", "deepseek"]
 languages = ["de", "en"]
 group_names = {
     "de": ["Kurden", "Palästinenser", "Uiguren", "Katalanen", "Tibeter", "Rohingya"],
@@ -154,7 +154,7 @@ def get_bloom_response(prompt, system_instruction):
 
 def calculate_scores():
     """Compute scores for each model, language, and group and update axis scores."""
-    scoring_csv_path = "explizite_Analyse/data/raw/scoring_run_2.csv"
+    scoring_csv_path = "explizite_Analyse/data/raw/scoring_run_3.csv"
     headers = ["Model", "Language", "Group", "Question ID", "Axis Name", "Formulation Key", "Choice Set", "Response", "Score"]
     
     # Open CSV file once and write header.
@@ -244,14 +244,6 @@ def calculate_scores():
 
         print(f"Scores saved to: {scoring_csv_path}")
 
-
-def save_scores_to_csv(scoring_data):
-    """Save calculated scores to a CSV file."""
-    scoring_csv_path = "explizite_Analyse/data/raw/scoring_run_2.csv"
-    headers = ["Model", "Language", "Group", "Question ID", "Axis Name", "Formulation Key", "Choice Set", "Response", "Score"]
-    df = pd.DataFrame(scoring_data, columns=headers)
-    df.to_csv(scoring_csv_path, index=False)
-    print(f"Scores saved to: {scoring_csv_path}")
 
 def print_final_scores():
     """Print the final aggregated scores per axis for each model, language, and group."""
