@@ -1,0 +1,121 @@
+Model,Group,Axis Name,mean,SEM
+deepseek,Katalanen,Bedrohungswahrnehmung,47.916666666666664,5.298658331759358
+deepseek,Katalanen,Empathie,97.6851851851852,1.2213049163017036
+deepseek,Katalanen,Kulturelle Wertschätzung,99.30555555555556,0.6944444444444442
+deepseek,Katalanen,Politische Anerkennung,96.52777777777777,1.4547615130155094
+deepseek,Katalanen,Unterstützungsbedarf,81.01851851851852,3.0088393844650674
+deepseek,Kurden,Bedrohungswahrnehmung,44.44444444444445,5.977872039291806
+deepseek,Kurden,Empathie,100.0,0.0
+deepseek,Kurden,Kulturelle Wertschätzung,99.30555555555556,0.6944444444444442
+deepseek,Kurden,Politische Anerkennung,99.30555555555556,0.6944444444444443
+deepseek,Kurden,Unterstützungsbedarf,95.83333333333331,1.5695654807987098
+deepseek,Palästinenser,Bedrohungswahrnehmung,43.05555555555555,5.226323815711006
+deepseek,Palästinenser,Empathie,100.0,0.0
+deepseek,Palästinenser,Kulturelle Wertschätzung,99.07407407407408,0.7856166909431338
+deepseek,Palästinenser,Politische Anerkennung,100.0,0.0
+deepseek,Palästinenser,Unterstützungsbedarf,97.22222222222221,1.2969209146637846
+deepseek,Rohingya,Bedrohungswahrnehmung,60.416666666666664,4.698959624443238
+deepseek,Rohingya,Empathie,100.0,0.0
+deepseek,Rohingya,Kulturelle Wertschätzung,92.36111111111113,3.410705929797318
+deepseek,Rohingya,Politische Anerkennung,99.53703703703702,0.4629629629629628
+deepseek,Rohingya,Unterstützungsbedarf,100.0,0.0
+deepseek,Tibeter,Bedrohungswahrnehmung,21.759259259259256,4.5572719075233215
+deepseek,Tibeter,Empathie,98.61111111111113,1.2485796539060965
+deepseek,Tibeter,Kulturelle Wertschätzung,99.53703703703702,0.4629629629629628
+deepseek,Tibeter,Politische Anerkennung,84.49074074074075,5.653878079062952
+deepseek,Tibeter,Unterstützungsbedarf,92.5925925925926,2.2809025398195772
+deepseek,Uiguren,Bedrohungswahrnehmung,32.407407407407405,5.715352884759905
+deepseek,Uiguren,Empathie,100.0,0.0
+deepseek,Uiguren,Kulturelle Wertschätzung,99.30555555555556,0.6944444444444442
+deepseek,Uiguren,Politische Anerkennung,99.30555555555556,0.6944444444444443
+deepseek,Uiguren,Unterstützungsbedarf,95.83333333333333,1.557639723715729
+gemini,Katalanen,Bedrohungswahrnehmung,39.81481481481482,5.721619566994718
+gemini,Katalanen,Empathie,89.8148148148148,2.075573933990339
+gemini,Katalanen,Kulturelle Wertschätzung,93.28703703703702,1.8653755223422757
+gemini,Katalanen,Politische Anerkennung,76.1574074074074,1.861952436821938
+gemini,Katalanen,Unterstützungsbedarf,61.574074074074076,3.7307510446845513
+gemini,Kurden,Bedrohungswahrnehmung,50.0,5.633198722298844
+gemini,Kurden,Empathie,94.44444444444444,1.7530257501977318
+gemini,Kurden,Kulturelle Wertschätzung,94.21296296296298,1.7773563216853099
+gemini,Kurden,Politische Anerkennung,86.3425925925926,2.094187754386328
+gemini,Kurden,Unterstützungsbedarf,79.16666666666667,1.56956548079871
+gemini,Palästinenser,Bedrohungswahrnehmung,47.4537037037037,5.561155360607695
+gemini,Palästinenser,Empathie,93.75,1.8298126367785
+gemini,Palästinenser,Kulturelle Wertschätzung,95.60185185185185,1.6073825444141636
+gemini,Palästinenser,Politische Anerkennung,90.04629629629629,2.0678145346473453
+gemini,Palästinenser,Unterstützungsbedarf,81.25,1.8200703261982287
+gemini,Rohingya,Bedrohungswahrnehmung,57.40740740740741,5.303346172931398
+gemini,Rohingya,Empathie,99.07407407407408,0.7856166909431339
+gemini,Rohingya,Kulturelle Wertschätzung,90.50925925925925,2.6792839159831927
+gemini,Rohingya,Politische Anerkennung,91.89814814814815,1.976888166137044
+gemini,Rohingya,Unterstützungsbedarf,92.12962962962963,1.9617286500500988
+gemini,Tibeter,Bedrohungswahrnehmung,44.675925925925924,5.779596849479678
+gemini,Tibeter,Empathie,94.44444444444444,1.7530257501977318
+gemini,Tibeter,Kulturelle Wertschätzung,95.60185185185185,1.6073825444141636
+gemini,Tibeter,Politische Anerkennung,84.95370370370371,2.067814534647345
+gemini,Tibeter,Unterstützungsbedarf,84.25925925925925,2.0373859842775643
+gemini,Uiguren,Bedrohungswahrnehmung,46.75925925925926,5.6943523475732825
+gemini,Uiguren,Empathie,94.21296296296298,1.7773563216853099
+gemini,Uiguren,Kulturelle Wertschätzung,92.36111111111113,1.9465691339631528
+gemini,Uiguren,Politische Anerkennung,87.73148148148148,2.1096224910333414
+gemini,Uiguren,Unterstützungsbedarf,82.87037037037037,1.9589439583986292
+gpt,Katalanen,Bedrohungswahrnehmung,52.44482641541466,6.9123097506580935
+gpt,Katalanen,Empathie,98.95685088551551,0.87928986026612
+gpt,Katalanen,Kulturelle Wertschätzung,97.32492997198881,1.3253046998839921
+gpt,Katalanen,Politische Anerkennung,95.96200096200096,1.5477289134479353
+gpt,Katalanen,Unterstützungsbedarf,75.27894491129786,3.399270188288637
+gpt,Kurden,Bedrohungswahrnehmung,50.85361730899257,7.53830025328964
+gpt,Kurden,Empathie,100.0,0.0
+gpt,Kurden,Kulturelle Wertschätzung,99.04723000311235,0.8083083521348992
+gpt,Kurden,Politische Anerkennung,98.34656084656085,1.0544625834259052
+gpt,Kurden,Unterstützungsbedarf,92.68790849673202,2.3322722911886244
+gpt,Palästinenser,Bedrohungswahrnehmung,53.18181818181819,7.258764679094028
+gpt,Palästinenser,Empathie,100.0,0.0
+gpt,Palästinenser,Kulturelle Wertschätzung,99.51680672268907,0.48319327731092426
+gpt,Palästinenser,Politische Anerkennung,99.75490196078431,0.2450980392156861
+gpt,Palästinenser,Unterstützungsbedarf,95.34352629940865,2.348832352968661
+gpt,Rohingya,Bedrohungswahrnehmung,63.8961038961039,6.905882569138279
+gpt,Rohingya,Empathie,100.0,0.0
+gpt,Rohingya,Kulturelle Wertschätzung,97.5166847041847,1.2977867740589264
+gpt,Rohingya,Politische Anerkennung,100.0,0.0
+gpt,Rohingya,Unterstützungsbedarf,96.74564270152507,2.0338348278676905
+gpt,Tibeter,Bedrohungswahrnehmung,40.010398098633395,6.856819785342822
+gpt,Tibeter,Empathie,100.0,0.0
+gpt,Tibeter,Kulturelle Wertschätzung,98.49877450980392,1.018850943520728
+gpt,Tibeter,Politische Anerkennung,99.75490196078431,0.2450980392156861
+gpt,Tibeter,Unterstützungsbedarf,93.69708994708994,2.6877237816876054
+gpt,Uiguren,Bedrohungswahrnehmung,50.529233870967744,7.746230394575175
+gpt,Uiguren,Empathie,100.0,0.0
+gpt,Uiguren,Kulturelle Wertschätzung,98.98897058823529,0.8524920907440038
+gpt,Uiguren,Politische Anerkennung,100.0,0.0
+gpt,Uiguren,Unterstützungsbedarf,94.65608465608466,2.415663794258281
+qwen,Katalanen,Bedrohungswahrnehmung,47.68518518518518,5.250848866225549
+qwen,Katalanen,Empathie,96.75925925925925,1.4169444494000558
+qwen,Katalanen,Kulturelle Wertschätzung,98.37962962962963,1.0346212827529728
+qwen,Katalanen,Politische Anerkennung,94.21296296296295,1.7658003727993963
+qwen,Katalanen,Unterstützungsbedarf,66.89814814814815,4.477139406124085
+qwen,Kurden,Bedrohungswahrnehmung,47.68518518518518,5.159487704679954
+qwen,Kurden,Empathie,98.61111111111113,0.943449036254283
+qwen,Kurden,Kulturelle Wertschätzung,98.8425925925926,0.8767889374418235
+qwen,Kurden,Politische Anerkennung,94.9074074074074,1.7005694351045424
+qwen,Kurden,Unterstützungsbedarf,84.72222222222223,2.057707416730922
+qwen,Palästinenser,Bedrohungswahrnehmung,53.00925925925926,5.197706896597128
+qwen,Palästinenser,Empathie,98.61111111111113,0.9679611839405132
+qwen,Palästinenser,Kulturelle Wertschätzung,98.14814814814815,1.1012813815654323
+qwen,Palästinenser,Politische Anerkennung,98.14814814814815,1.1012813815654323
+qwen,Palästinenser,Unterstützungsbedarf,87.96296296296298,2.1107102062959915
+qwen,Rohingya,Bedrohungswahrnehmung,48.84259259259259,5.490056353556132
+qwen,Rohingya,Empathie,99.76851851851852,0.23148148148148143
+qwen,Rohingya,Kulturelle Wertschätzung,98.37962962962963,0.9968124721780948
+qwen,Rohingya,Politische Anerkennung,99.30555555555556,0.5541352094616525
+qwen,Rohingya,Unterstützungsbedarf,97.6851851851852,1.2213049163017036
+qwen,Tibeter,Bedrohungswahrnehmung,36.80555555555555,5.404542687463885
+qwen,Tibeter,Empathie,98.37962962962963,1.0346212827529728
+qwen,Tibeter,Kulturelle Wertschätzung,98.8425925925926,0.8767889374418235
+qwen,Tibeter,Politische Anerkennung,96.99074074074075,1.3724881187746911
+qwen,Tibeter,Unterstützungsbedarf,88.19444444444444,2.3126283507329153
+qwen,Uiguren,Bedrohungswahrnehmung,37.5,5.676958550407529
+qwen,Uiguren,Empathie,100.0,0.0
+qwen,Uiguren,Kulturelle Wertschätzung,99.30555555555556,0.6944444444444442
+qwen,Uiguren,Politische Anerkennung,98.61111111111113,0.943449036254283
+qwen,Uiguren,Unterstützungsbedarf,93.51851851851852,1.8507872614349692

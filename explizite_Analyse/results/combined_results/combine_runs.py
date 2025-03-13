@@ -17,13 +17,15 @@ def extract_mean(cell):
 
 def main():
     # 1. Read in the two CSV files
-    df1 = pd.read_csv("explizite_Analyse/statistics/group_axis_statistics_overall_run_1.csv")
-    df2 = pd.read_csv("explizite_Analyse/statistics/group_axis_statistics_overall_run_2.csv")
+    df1 = pd.read_csv("explizite_Analyse/results/results_run_1/results_run_1.csv")
+    df2 = pd.read_csv("explizite_Analyse/results/results_run_2/results_run_2.csv")
+    df3 = pd.read_csv("explizite_Analyse/results/results_run_3/results_run_3.csv")
 
     # Concatenate the two dataframes
-    df = pd.concat([df1, df2], ignore_index=True)
+    df = pd.concat([df1, df2, df3], ignore_index=True)
     print("Columns in df1:", df1.columns.tolist())
     print("Columns in df2:", df2.columns.tolist())
+    print("Columns in df2:", df3.columns.tolist())
     print("Columns in concatenated df:", df.columns.tolist())
     
     # Ensure the required 'Axis Name' column exists

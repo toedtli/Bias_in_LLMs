@@ -133,14 +133,14 @@ def plot_radar_charts_single_figure(axis_scores, axis_names, models, groups, out
     # Adjust to make room for the legend at the bottom
     plt.tight_layout(rect=[0, 0.05, 1, 0.98])
 
-    output_path = os.path.join(output_folder, "combined_all_models_radar_charts.png")
+    output_path = os.path.join(output_folder, "combined_radar_chart.png")
     plt.savefig(output_path, dpi=300, bbox_inches="tight")
     plt.close(fig)
     print(f"Radar charts saved to: {output_path}")
 
 
 def main():
-    csv_path = "explizite_Analyse/statistics/combined_results/final_merged_group_axis_statistics.csv"  # Adjust path if needed
+    csv_path = "explizite_Analyse/results/combined_results/scoring_combined.csv"  # Adjust path if needed
     axis_scores, axis_names, models, groups = load_scores(csv_path)
     plot_radar_charts_single_figure(axis_scores, axis_names, models, groups, 
                                     output_folder="explizite_Analyse/radar_charts")
