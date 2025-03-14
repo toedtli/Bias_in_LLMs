@@ -4,11 +4,12 @@ import matplotlib.pyplot as plt
 import numpy as np
     
 # 1. Read in the two CSV files
-df1 = pd.read_csv("implizite_Analyse/results/run_1/descriptive_statistics_run_1.csv")
-df2 = pd.read_csv("implizite_Analyse/results/run_2/descriptive_statistics_run_2.csv")
+df1 = pd.read_csv("implizite_Analyse/results/run_1/scoring_model_group.csv")
+df2 = pd.read_csv("implizite_Analyse/results/run_2/scoring_model_group.csv")
+df3 = pd.read_csv("implizite_Analyse/results/run_3/scoring_model_group.csv")
 
 # Concatenate the two dataframes
-df = pd.concat([df1, df2], ignore_index=True)
+df = pd.concat([df1, df2, df3], ignore_index=True)
 print("Columns in df1:", df1.columns.tolist())
 print("Columns in df2:", df2.columns.tolist())
 print("Columns in concatenated df:", df.columns.tolist())

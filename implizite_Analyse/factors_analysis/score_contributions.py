@@ -2,8 +2,11 @@ import os
 import pandas as pd
 import matplotlib.pyplot as plt
 
+run = 'combined'
 # Load the CSV file (adjust the path if necessary)
-csv_file = "implizite_Analyse/data/scoring_processed/scoring_processed_run_2.csv"
+csv_file = f"implizite_Analyse/data/scoring_processed/scoring_processed_{run}.csv"
+save_dir = f"implizite_Analyse/factors_analysis/{run}"
+
 df = pd.read_csv(csv_file)
 
 # Identify the column for score contributions.
@@ -40,7 +43,6 @@ print("Score contributions by Choice Set and Models:")
 print(choice_set_model_scores, "\n")
 
 # Set up the directory to save charts.
-save_dir = "implizite_Analyse/factors_analysis/run_2"
 os.makedirs(save_dir, exist_ok=True)
 
 # Plotting function with saving capability.
@@ -52,7 +54,7 @@ def plot_bar(data, title, save_path, xlabel="Category", ylabel="Total Score"):
     plt.ylabel(ylabel)
     plt.legend(title="Models")
     plt.tight_layout()
-    # Save the chart to the specified path.
+    plt.xticks(rotation=45) 
     plt.savefig(save_path)
     plt.close()
 
