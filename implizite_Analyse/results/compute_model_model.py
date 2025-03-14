@@ -2,9 +2,10 @@
 import pandas as pd
 
 def main():
+    run = 'run_2_1'
     # Define the input and output file paths.
-    input_file = 'implizite_Analyse/data/scoring_processed/scoring_processed_run_3.csv'
-    output_file = 'implizite_Analyse/results/run_3/scoring_model_model.csv'
+    input_file = f'implizite_Analyse/data/scoring_processed/scoring_processed_{run}.csv'
+    output_file = f'implizite_Analyse/results/{run}/scoring_model_model.csv'
     
     # Read the CSV file into a DataFrame.
     df = pd.read_csv(input_file)

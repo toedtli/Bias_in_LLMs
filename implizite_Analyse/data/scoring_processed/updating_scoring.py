@@ -4,8 +4,8 @@ import pandas as pd
 
 def main():
     # Define input and output file paths.
-    input_csv = "implizite_Analyse/data/scoring_raw/scoring_raw_run_3.csv"
-    output_csv = "implizite_Analyse/data/scoring_processed/scoring_processed_run_3.csv"
+    input_csv = "implizite_Analyse/data/scoring_processed/scoring_processed_run_2_1.csv"
+    output_csv = "implizite_Analyse/data/scoring_processed/scoring_processed_run_2_1_22.csv"
     
     # Read the CSV file.
     df = pd.read_csv(input_csv)

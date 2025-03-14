@@ -4,6 +4,8 @@ import matplotlib.pyplot as plt
 import seaborn as sns
 import os
 
+run = 'run_2_1'
+
 def compute_descriptive_statistics(df):
     """
     Compute descriptive statistics by grouping the DataFrame by 'Source Model' and 'Group'.
@@ -22,8 +24,8 @@ def compute_descriptive_statistics(df):
 
 def main():
     # Hardcoded paths for CSV file and output directory.
-    csv_file = "implizite_Analyse/data/scoring_processed/scoring_processed_run_3.csv"
-    output_dir = "implizite_Analyse/results/run_3"
+    csv_file = f"implizite_Analyse/data/scoring_processed/scoring_processed_{run}.csv"
+    output_dir = f"implizite_Analyse/results/{run}"
     
     
   

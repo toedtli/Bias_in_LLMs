@@ -43,7 +43,7 @@ def generate_deepseek(prompt, system_instruction=None):
  
 # Function to create nested CSV files per model
 def create_group_csv(questions, groups, my_models):
-    base_path = "implizite_Analyse/data/descriptions"
+    base_path = "implizite_Analyse/data/descriptions_2"
     
     # Pfad und Datei für die aggregierte CSV erstellen
     csv_file_path_all = os.path.join(base_path, "all_descriptions.csv")

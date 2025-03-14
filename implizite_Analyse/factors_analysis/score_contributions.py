@@ -64,14 +64,14 @@ def adjust_xticks(ax, data, factor):
         ax.set_xticks(range(len(new_labels)))  
         ax.set_xticklabels(new_labels, rotation=45)
 
-# Plotting function with x-tick replacement
-def plot_bar(data, title, save_path, xlabel="Category", ylabel="Total Score", factor=None):
+# Angepasste Plot-Funktion mit übersetzten Beschriftungen
+def plot_bar(data, title, save_path, xlabel, ylabel, factor=None):
     plt.figure(figsize=(10, 7))
     ax = data.plot(kind="bar")
     plt.title(title)
     plt.xlabel(xlabel)
     plt.ylabel(ylabel)
-    plt.legend(title="Models")
+    plt.legend(title="Modelle")
 
     # Apply x-tick adjustments if relevant
     if factor == "Choice Set":
@@ -83,25 +83,34 @@ def plot_bar(data, title, save_path, xlabel="Category", ylabel="Total Score", fa
     plt.savefig(save_path)
     plt.close()
 
-# Create and save bar charts for each factor.
+# Erstelle und speichere die Diagramme mit den deutschen Beschriftungen.
+
 plot_bar(group_model_scores, 
-         "Score Contributions by Group (with Models)", 
+         "Punktbeiträge nach Gruppe (Modellvergleich)", 
          os.path.join(save_dir, "score_contributions_by_group.png"),
+         xlabel="Gruppe",
+         ylabel="Gesamtpunktzahl",
          factor="Group")
 
 plot_bar(language_model_scores, 
-         "Score Contributions by Language (with Models)", 
+         "Punktbeiträge nach Sprache (Modellvergleich)", 
          os.path.join(save_dir, "score_contributions_by_language.png"),
+         xlabel="Sprache",
+         ylabel="Gesamtpunktzahl",
          factor="Language")
 
 plot_bar(question_model_scores, 
-         "Score Contributions by Question ID (with Models)", 
+         "Punktbeiträge nach Frage-ID (Modellvergleich)", 
          os.path.join(save_dir, "score_contributions_by_question_id.png"),
+         xlabel="Frage-ID",
+         ylabel="Gesamtpunktzahl",
          factor="Question ID")
 
 plot_bar(choice_set_model_scores, 
-         "Score Contributions by Choice Set (with Models)", 
+         "Punktbeiträge nach Antwortmöglichkeiten (Modellvergleich)", 
          os.path.join(save_dir, "score_contributions_by_choice_set.png"),
+         xlabel="Antwortmöglichkeiten",
+         ylabel="Gesamtpunktzahl",
          factor="Choice Set")
 
 print(f"Charts saved in: {save_dir}")

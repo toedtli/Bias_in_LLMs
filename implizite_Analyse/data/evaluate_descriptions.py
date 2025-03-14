@@ -15,7 +15,7 @@ modells = ModelAPI()
 base_directory = "implizite_Analyse/data/scoring_raw"
 
 # Define the path to the file
-scoring_csv_path = os.path.join(base_directory, "scoring_raw_run_3.csv")
+scoring_csv_path = os.path.join(base_directory, "scoring_raw_run_2_1.csv")
 
 # Check if the file exists; if so, delete it to start fresh
 if os.path.exists(scoring_csv_path):
@@ -29,7 +29,7 @@ with open(scoring_csv_path, 'w') as file:
     file.write("Scorer Model,Source Model,Group,Language,Question ID,Choice Set,Model Response,Score\n")
 
 # File containing all descriptions
-descriptions_csv_path = os.path.join("implizite_Analyse/data/descriptions/all_descriptions.csv")
+descriptions_csv_path = os.path.join("implizite_Analyse/data/descriptions_2/all_descriptions.csv")
 if not os.path.exists(descriptions_csv_path):
     raise FileNotFoundError(f"Aggregierte Datei nicht gefunden: {descriptions_csv_path}")
 
