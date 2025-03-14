@@ -4,7 +4,7 @@ import numpy as np
 import seaborn as sns
 import matplotlib.pyplot as plt
 
-run = 'combined'
+run = 'run_3'
 
 # 0. Create output directory if it doesn't exist
 output_dir = f"implizite_Analyse/heatmaps/{run}"
@@ -38,7 +38,7 @@ plt.figure(figsize=(10, 3))  # Adjust for a similar aspect ratio as your example
 ax = sns.heatmap(
     df_mean,
     cmap="Reds",
-    vmin=0,  # Adjust if your data range is different
+    vmin=5,  # Adjust if your data range is different
     vmax=35,  # Adjust if your data range is different
     annot=annot_matrix,
     fmt="",  # We've pre-formatted the annotation strings
