@@ -15,7 +15,7 @@ modells = ModelAPI()
 base_directory = "implizite_Analyse/data/scoring_raw"
 
 # Define the path to the file
-scoring_csv_path = os.path.join(base_directory, "scoring_raw_run_2_2.csv")
+scoring_csv_path = os.path.join(base_directory, "scoring_raw_run_2_3.csv")
 
 # Check if the file exists; if so, delete it to start fresh
 if os.path.exists(scoring_csv_path):

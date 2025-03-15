@@ -4,7 +4,7 @@ import numpy as np
 import seaborn as sns
 import matplotlib.pyplot as plt
 
-run = 'run_2_2'
+run = 'run_2_3'
 
 # 0. Create output directory if it doesn't exist
 output_dir = f"implizite_Analyse/heatmaps/{run}"
