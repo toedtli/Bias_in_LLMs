@@ -4,7 +4,7 @@ import matplotlib.pyplot as plt
 import seaborn as sns
 import os
 
-run = 'run_2_1'
+run = 'run_2_2'
 
 def compute_descriptive_statistics(df):
     """

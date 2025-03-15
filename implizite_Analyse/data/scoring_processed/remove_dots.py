@@ -51,12 +51,12 @@ def process_response(row):
     return row
 
 # Read the CSV file
-df = pd.read_csv("implizite_Analyse/data/scoring_processed/scoring_processed_run_2_1.csv")
+df = pd.read_csv("implizite_Analyse/data/scoring_raw/scoring_raw_run_2_1.csv")
 
 # Process each row: update only rows that end with a period in "Model Response"
 df = df.apply(process_response, axis=1)
 
 # Save the updated dataframe to a new CSV file.
-output_path = "implizite_Analyse/data/scoring_processed/scoring_processed_run_2_1__test.csv"
+output_path = "implizite_Analyse/data/scoring_processed/scoring_processed_run_2_1.csv"
 df.to_csv(output_path, index=False)
 print(f"Processing complete. Updated CSV saved as '{output_path}'.")
