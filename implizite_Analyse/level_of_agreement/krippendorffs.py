@@ -5,28 +5,27 @@ import pandas as pd
 import krippendorff
 
 def main():
-    # Read the CSV file
+    # Read the CSV file (update the file path if needed)
     df = pd.read_csv('implizite_Analyse/data/scoring_processed/scoring_processed_combined.csv')
     df = df.dropna(subset=['Score'])
     
     # Ensure required columns are present
-    required_cols = ['Source Model', 'Language', 'Group', 'Choice Set', 'Scorer Model', 'Score', 'Model Response']
+    required_cols = ['Source Model', 'Scorer Model', 'Score', 'Model Response']
     for col in required_cols:
         if col not in df.columns:
             raise ValueError(f"Column '{col}' is missing from the data.")
     
-    # Create a unique text order within each group of Source Model, Language, Group, Choice Set, and Scorer Model.
-    # This assumes that for a given combination, all scorers rate the texts in the same order.
-    group_for_order = ['Source Model', 'Language', 'Group', 'Choice Set', 'Scorer Model']
-    df['text_order'] = df.groupby(group_for_order).cumcount()
+    # Create a unique text order within each Source Model, Scorer Model group.
+    # This assumes that for a given Source Model, all scorers rate the texts in the same order.
+    df['text_order'] = df.groupby(['Source Model', 'Scorer Model']).cumcount()
     
     overall_results = []
     pairwise_results = []
     
-    # Group by Source Model, Language, Group, and Choice Set so that we compare ratings for the same generated texts.
-    grouping_cols = ['Source Model', 'Language', 'Group', 'Choice Set']
-    for group_keys, group_df in df.groupby(grouping_cols):
-        source_model, language, group_name, choice_set = group_keys
+    # Group by Source Model so that we compare ratings for the same generated texts.
+    grouping_cols = ['Source Model']
+    for group_key, group_df in df.groupby(grouping_cols):
+        source_model = group_key  # since grouping_cols is a single column
         
         # Pivot the data: rows are texts (ordered by 'text_order') and columns are Scorer Models.
         pivot = group_df.pivot_table(
@@ -45,9 +44,6 @@ def main():
         
         overall_results.append({
             'Source Model': source_model,
-            'Language': language,
-            'Group': group_name,
-            'Choice Set': choice_set,
             'Type': 'Overall',
             'Scorer Model 1': 'All',
             'Scorer Model 2': '',
@@ -71,9 +67,6 @@ def main():
                     pair_alpha = krippendorff.alpha(reliability_data=sub_array, level_of_measurement='ordinal')
                 pairwise_results.append({
                     'Source Model': source_model,
-                    'Language': language,
-                    'Group': group_name,
-                    'Choice Set': choice_set,
                     'Type': 'Pairwise',
                     'Scorer Model 1': scorer1,
                     'Scorer Model 2': scorer2,
@@ -87,7 +80,7 @@ def main():
     # Save the results into the specified directory
     output_dir = 'implizite_Analyse/krippendorffs'
     os.makedirs(output_dir, exist_ok=True)
-    output_path = os.path.join(output_dir, 'krippendorffs_final.csv')
+    output_path = os.path.join(output_dir, 'krippendorffs_2.csv')
     results_df.to_csv(output_path, index=False)
     print(f"Results saved to {output_path}")
 

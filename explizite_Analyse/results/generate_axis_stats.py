@@ -3,8 +3,9 @@ import os
 import matplotlib.pyplot as plt
 
 def create_axis_csvs_and_print_tables():
+    run = 'combined'
     # Path to the input CSV file
-    input_csv = "explizite_Analyse/results/results_run_3/results_run_3.csv"
+    input_csv = f"explizite_Analyse/results/results_{run}/results_{run}.csv"
     
     # Read the CSV file
     df = pd.read_csv(input_csv)
@@ -20,8 +21,8 @@ def create_axis_csvs_and_print_tables():
             raise ValueError(f"The CSV file must contain a '{col}' column.")
 
     # Create output directories
-    output_dir = "explizite_Analyse/results/results_run_3"
-    output_dir_heatmaps = os.path.join(output_dir, "heatmaps_run_3")
+    output_dir = f"explizite_Analyse/results/results_{run}"
+    output_dir_heatmaps = os.path.join(output_dir, f"heatmaps_{run}")
     os.makedirs(output_dir, exist_ok=True)
     os.makedirs(output_dir_heatmaps, exist_ok=True)
 
@@ -45,6 +46,12 @@ def create_axis_csvs_and_print_tables():
         # Pivot for numeric heatmap
         pivot_numeric_df = axis_df.pivot(index='Model', columns='Group', values='mean')
 
+        # Calculate averages for the columns and rows
+        col_avgs = pivot_numeric_df.mean(axis=0)
+        row_avgs = pivot_numeric_df.mean(axis=1)
+        # Calculate standard deviations for the columns and rows
+        col_stds = pivot_numeric_df.std(axis=0)
+        row_stds = pivot_numeric_df.std(axis=1)
         # Calculate a minimal height so it roughly fits only the text
         # and a minimal width so columns don’t get squashed:
         fig_width = max(4.0, pivot_numeric_df.shape[1] * 1.2)
@@ -64,10 +71,16 @@ def create_axis_csvs_and_print_tables():
 
         # Set tick labels
         ax.set_xticks(range(len(pivot_numeric_df.columns)))
-        ax.set_xticklabels(pivot_numeric_df.columns, rotation=0, ha='center', fontsize=8)
         ax.set_yticks(range(len(pivot_numeric_df.index)))
-        ax.set_yticklabels(pivot_numeric_df.index, fontsize=8)
 
+        # Update tick labels to include averages (Ø) and standard deviations (σ)
+        new_xticklabels = [f"{col}\nØ {col_avgs[col]:.2f} ± {col_stds[col]:.2f}" 
+                           for col in pivot_numeric_df.columns]
+        new_yticklabels = [f"{model}\nØ {row_avgs[model]:.2f} ± {row_stds[model]:.2f}" 
+                           for model in pivot_numeric_df.index]
+        ax.set_xticklabels(new_xticklabels, rotation=0, ha='center', fontsize=6)
+        ax.set_yticklabels(new_yticklabels, fontsize=6)
+        
         # Title
         ax.set_title(f"{axis} (Durchschnitts-Score ± Stand. Abw. vom Mittelwert)", pad=10)
 
