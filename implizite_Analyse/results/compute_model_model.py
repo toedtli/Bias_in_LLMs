@@ -2,7 +2,7 @@
 import pandas as pd
 
 def main():
-    run = 'run_2_3'
+    run = 'combined'
     # Define the input and output file paths.
     input_file = f'implizite_Analyse/data/scoring_processed/scoring_processed_{run}.csv'
     output_file = f'implizite_Analyse/results/{run}/scoring_model_model.csv'

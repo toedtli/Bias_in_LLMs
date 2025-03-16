@@ -3,9 +3,12 @@ import os
 
 # Define file paths
 file_paths = [
-    "implizite_Analyse/data/scoring_processed/scoring_processed_run_1.csv",
-    "implizite_Analyse/data/scoring_processed/scoring_processed_run_2.csv",
-    "implizite_Analyse/data/scoring_processed/scoring_processed_run_3.csv",
+    "implizite_Analyse/data/scoring_processed/scoring_processed_run_1_1.csv",
+    "implizite_Analyse/data/scoring_processed/scoring_processed_run_1_2.csv",
+    "implizite_Analyse/data/scoring_processed/scoring_processed_run_1_3.csv",
+    "implizite_Analyse/data/scoring_processed/scoring_processed_run_2_1.csv",
+    "implizite_Analyse/data/scoring_processed/scoring_processed_run_2_2.csv",
+    "implizite_Analyse/data/scoring_processed/scoring_processed_run_2_3.csv",
 ]
 
 # Load and concatenate CSV files
