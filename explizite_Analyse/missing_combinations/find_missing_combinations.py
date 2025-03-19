@@ -86,7 +86,7 @@ full_set = set(
 # Step 4. Load scored combinations from CSV.
 # ---------------------------
 # The CSV is assumed to have columns: "Model", "Group", "Language", "Question ID", "Formulation Key", "Choice Set"
-df_scored = pd.read_csv('explizite_Analyse/data/processed/scoring_processed_run_3.csv')
+df_scored = pd.read_csv('explizite_Analyse/data/processed/scoring_processed_combined.csv')
 print("Total scored combinations loaded:", len(df_scored))
 
 # Build the scored_set as a set of tuples.
@@ -122,7 +122,7 @@ for item in missing_list[:5]:
 # ---------------------------
 # Step 6. Save missing combinations to file.
 # ---------------------------
-output_path = os.path.join('explizite_Analyse/missing_combinations/missing_combinations_run_3.csv')
+output_path = os.path.join('explizite_Analyse/missing_combinations/missing_combinations_combined.csv')
 # Write the missing_list to the CSV file.
 with open(output_path, 'w', newline='', encoding='utf-8') as csvfile:
     writer = csv.writer(csvfile)
