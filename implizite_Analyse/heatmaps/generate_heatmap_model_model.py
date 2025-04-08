@@ -14,8 +14,9 @@ os.makedirs(output_dir, exist_ok=True)
 df = pd.read_csv(f"implizite_Analyse/results/{run}/scoring_model_model.csv")
 
 # 2. Pivot the data so that rows = Source Model, columns = Scorer Model
-df_mean = df.pivot(index="Source Model", columns="Scorer Model", values="Score")
-df_std = df.pivot(index="Source Model", columns="Scorer Model", values="SEM")
+df_mean = df.pivot(index="Source Model", columns="Scorer Model", values="Score").round(0).astype(int)
+df_std = df.pivot(index="Source Model", columns="Scorer Model", values="SEM").round(0).astype(int)
+df_count = df.pivot(index="Source Model", columns="Scorer Model", values="Count").round(0).astype(int)
 
 # 4. Prepare text annotations of the form "mean ± SEM"
 annot_matrix = df_mean.copy()
@@ -23,17 +24,22 @@ for source in df_mean.index:
     for scorer in df_mean.columns:
         m = df_mean.loc[source, scorer]
         s = df_std.loc[source, scorer]
-        annot_matrix.loc[source, scorer] = f"{m:.2f} ± {s:.2f}"
+        c = df_count.loc[source, scorer]
+        annot_matrix.loc[source, scorer] = f"{m} ± {s} \nn={c}"
 
 # 5. Create custom row and column labels that include average values
-row_avgs = df_mean.mean(axis=1).round(2)  # Average for each Source Model (rows)
-col_avgs = df_mean.mean(axis=0).round(2)  # Average for each Scorer Model (columns)
+row_avgs = df_mean.mean(axis=1).round(0).astype(int)
+col_avgs = df_mean.mean(axis=0).round(0).astype(int)
+row_sems = df_mean.sem(axis=1).round(0).astype(int)
+col_sems = df_mean.sem(axis=0).round(0).astype(int)
+row_counts = df_count.sum(axis=1).round(0).astype(int)
+col_counts = df_count.sum(axis=0).round(0).astype(int)
 
-new_row_labels = [f"{idx}\nØ {row_avgs[idx]}" for idx in df_mean.index]
-new_col_labels = [f"{col}\nØ {col_avgs[col]}" for col in df_mean.columns]
+new_row_labels = [f"{idx}\nØ {row_avgs[idx]} ± {row_sems[idx]}  \n n={row_counts[idx]}" for idx in df_mean.index]
+new_col_labels = [f"{col}\nØ {col_avgs[col]} ± {col_sems[col]} \n n={col_counts[col]}" for col in df_mean.columns]
 
 # 7. Plot the heatmap
-plt.figure(figsize=(8, 3))
+plt.figure(figsize=(8, 4))
 ax = sns.heatmap(
     df_mean,
     cmap="Reds",
@@ -42,15 +48,16 @@ ax = sns.heatmap(
     annot=annot_matrix,
     fmt="",
     linecolor="white",
-    cbar_kws={"shrink": 0.8, "label": "Score"}
+    # cbar_kws={"shrink": 0.8, "label": "Bias-Score"}
+    cbar=False
 )
 
 # 8. Tidy up labels and title
-ax.set_xticklabels(new_col_labels, rotation=0, ha="center")
-ax.set_yticklabels(new_row_labels, rotation=0)
-ax.set_xlabel("Scorer Model")
-ax.set_ylabel("Source Model")
-ax.set_title("Durchschnitt aller Bewertungen der Beschreibungen über alle Gruppen", pad=15)
+ax.set_xticklabels(new_col_labels, rotation=0, ha="center", fontsize=8)
+ax.set_yticklabels(new_row_labels, rotation=0, fontsize=8)
+ax.set_xlabel("Bewertende Modelle", fontsize=9)
+ax.set_ylabel("Beschreibende Modelle", fontsize=9)
+ax.set_title("Gruppenübergreifender Bias-Score\n(Durchschnittlicher Bias-Score ± Stand. Abw. vom Mittelwert, n=Anzahl bewertete Beschreibungen)", fontsize=10, pad=15)
 
 plt.tight_layout()
 
