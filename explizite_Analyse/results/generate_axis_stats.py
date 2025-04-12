@@ -5,7 +5,7 @@ import numpy as np
 import seaborn as sns  # For seaborn-based heatmaps
 
 def create_axis_heatmaps():
-    run = 'run_3'
+    run = 'run_1'
     # Path to the input CSV file
     input_csv = f"explizite_Analyse/results/results_{run}/results_{run}.csv"
     
