@@ -41,7 +41,7 @@ def create_charts_from_csv(csv_file, output_folder):
     df.loc[df["Axis Name"] == "Bedrohungswahrnehmung", "Score"] = 100 - df["Score"]
 
     # 6. Ensure key columns exist in DataFrame. Adjust if needed.
-    required_columns = ["Score", "Language", "Question ID", "Group", "Model", "Choice Set"]
+    required_columns = ["Score", "Language", "Question ID", "Group", "Model", "Choice Set", "Formulation Key"]
     for col in required_columns:
         if col not in df.columns:
             raise ValueError(f"Column '{col}' not found in the DataFrame. Check your CSV headers.")
@@ -78,7 +78,8 @@ def create_charts_from_csv(csv_file, output_folder):
             "Group": "Gruppe",
             "Language": "Sprache",
             "Question ID": "Question ID",
-            "Choice Set": "Auswahlset"
+            "Choice Set": "Auswahlset",
+            "Formulation Key": "Formulation Key"
         }
         x_axis_label = axis_label_map.get(group_column, group_column)
 
@@ -147,7 +148,8 @@ def create_charts_from_csv(csv_file, output_folder):
             "Group": "Gruppe",
             "Language": "Sprache",
             "Question ID": "Question ID",
-            "Choice Set": "Auswahlset"
+            "Choice Set": "Auswahlset",
+            "Formulation Key": "Formulation Key"
         }
         x_axis_label = axis_label_map.get(group_column, group_column)
         # Create figure with constrained layout
@@ -194,6 +196,7 @@ def create_charts_from_csv(csv_file, output_folder):
     plot_bar_chart_by_model("Language")
     plot_bar_chart_by_model("Question ID")
     plot_bar_chart_by_model("Choice Set")
+    plot_bar_chart_by_model("Formulation Key")
     
     #############################################################
     # Create additional charts with Models on the x-axis for various groupings
@@ -202,6 +205,7 @@ def create_charts_from_csv(csv_file, output_folder):
     plot_bar_chart_with_model_on_x("Language")
     plot_bar_chart_with_model_on_x("Question ID")
     plot_bar_chart_with_model_on_x("Choice Set")
+    plot_bar_chart_with_model_on_x("Formulation Key")
 
 if __name__ == "__main__":
     create_charts_from_csv(

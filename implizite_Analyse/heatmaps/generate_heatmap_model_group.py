@@ -4,7 +4,7 @@ import numpy as np
 import seaborn as sns
 import matplotlib.pyplot as plt
 
-run = 'combined'
+run = 'run_2_3'
 
 # 0. Create output directory if it doesn't exist
 output_dir = f"implizite_Analyse/heatmaps/{run}"
@@ -57,7 +57,7 @@ ax = sns.heatmap(
 ax.set_xticklabels(new_col_labels, rotation=0, ha="center", fontsize=8)
 ax.set_yticklabels(new_row_labels, rotation=0, fontsize=8)
 ax.set_xlabel("Gruppe", fontsize=9)
-ax.set_ylabel("Beschreibungen von Modelle", fontsize=9)
+ax.set_ylabel("Beschreibende Modelle", fontsize=9)
 ax.set_title("Bias-Score der Beschreibungen pro Gruppe \n(Durchschnittlicher Bias-Score ± Stand. Abw. vom Mittelwert, n= Anzahl bewertete Beschreibungen)", pad=15)
 
 plt.tight_layout()
