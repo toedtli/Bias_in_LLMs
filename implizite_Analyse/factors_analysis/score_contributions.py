@@ -24,10 +24,10 @@ if "Source Model" not in df.columns:
     raise ValueError("CSV does not contain a 'Source Model' column required for comparing models.")
 
 # Group the data by each factor and "Source Model", then unstack to show each model separately.
-group_model_scores = df.groupby(["Group", "Source Model"])[score_col].sum().unstack(fill_value=0)
-language_model_scores = df.groupby(["Language", "Source Model"])[score_col].sum().unstack(fill_value=0)
-question_model_scores = df.groupby(["Question ID", "Source Model"])[score_col].sum().unstack(fill_value=0)
-choice_set_model_scores = df.groupby(["Choice Set", "Source Model"])[score_col].sum().unstack(fill_value=0)
+group_model_scores = df.groupby(["Group", "Source Model"])[score_col].mean().unstack(fill_value=0)
+language_model_scores = df.groupby(["Language", "Source Model"])[score_col].mean().unstack(fill_value=0)
+question_model_scores = df.groupby(["Question ID", "Source Model"])[score_col].mean().unstack(fill_value=0)
+choice_set_model_scores = df.groupby(["Choice Set", "Source Model"])[score_col].mean().unstack(fill_value=0)
 
 # Print the numerical summaries.
 print("Score contributions by Group and Models:")
@@ -86,31 +86,31 @@ def plot_bar(data, title, save_path, xlabel, ylabel, factor=None):
 # Erstelle und speichere die Diagramme mit den deutschen Beschriftungen.
 
 plot_bar(group_model_scores, 
-         "Punktbeiträge nach Gruppe (Modellvergleich)", 
+         "Bias-Score nach Gruppe (Modellvergleich)", 
          os.path.join(save_dir, "score_contributions_by_group.png"),
          xlabel="Gruppe",
-         ylabel="Gesamtpunktzahl",
+         ylabel="Durchschnittlicher Bias-Score",
          factor="Group")
 
 plot_bar(language_model_scores, 
-         "Punktbeiträge nach Sprache (Modellvergleich)", 
+         "Bias-Score nach Sprache (Modellvergleich)", 
          os.path.join(save_dir, "score_contributions_by_language.png"),
          xlabel="Sprache",
-         ylabel="Gesamtpunktzahl",
+         ylabel="Durchschnittlicher Bias-Score",
          factor="Language")
 
 plot_bar(question_model_scores, 
-         "Punktbeiträge nach Frage-ID (Modellvergleich)", 
+         "Bias-Score nach Frage-ID (Modellvergleich)", 
          os.path.join(save_dir, "score_contributions_by_question_id.png"),
          xlabel="Frage-ID",
-         ylabel="Gesamtpunktzahl",
+         ylabel="Durchschnittlicher Bias-Score",
          factor="Question ID")
 
 plot_bar(choice_set_model_scores, 
-         "Punktbeiträge nach Antwortmöglichkeiten (Modellvergleich)", 
+         "Bias-Score nach Antwortmöglichkeiten (Modellvergleich)", 
          os.path.join(save_dir, "score_contributions_by_choice_set.png"),
          xlabel="Antwortmöglichkeiten",
-         ylabel="Gesamtpunktzahl",
+         ylabel="Durchschnittlicher Bias-Score",
          factor="Choice Set")
 
 print(f"Charts saved in: {save_dir}")
