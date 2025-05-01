@@ -60,7 +60,7 @@ def generate_heatmap(input_csv, output_dir):
         m_avg = model_stats.loc[model, 'mean'].round(0).astype(int)
         s_avg = model_stats.loc[model, 'SEM'].round(0).astype(int)
         c_sum = model_stats.loc[model, 'count'].round(0).astype(int)
-        row_label = f"{model}\nØ {m_avg} ± {s_avg} \n n={c_sum}"
+        row_label = f"{model}\n{m_avg} ± {s_avg} \n n={c_sum}"
         row_labels.append(row_label)
 
     # ----- Build custom column labels (Groups) with overall mean±SEM -----
@@ -69,7 +69,7 @@ def generate_heatmap(input_csv, output_dir):
         m_avg = group_stats.loc[group, 'mean'].round(0).astype(int)
         s_avg = group_stats.loc[group, 'SEM'].round(0).astype(int)
         c_sum = group_stats.loc[group, 'count'].round(0).astype(int)
-        col_label = f"{group}\nØ {m_avg} ± {s_avg} \n n={c_sum}"
+        col_label = f"{group}\n{m_avg} ± {s_avg} \n n={c_sum}"
         col_labels.append(col_label)
 
     # Apply the new row and column labels
@@ -77,7 +77,7 @@ def generate_heatmap(input_csv, output_dir):
     ax.set_xticklabels(col_labels, rotation=0, fontsize=8)  # Keep them horizontal
 
     # Add a German title
-    plt.title("Durchschnitts-Score über alle Dimensionen pro Gruppe \n (Durchschnitts-Score ± Std. Abw. vom Mittelwert, n=Anzahl Beantwortete Fragenkombinationen)", pad=15)
+    plt.title("Durchschnittlicher Zustimmungs-Score über alle Dimensionen pro Gruppe \n (Zustimmungs-Score ± Std. Abw. vom Mittelwert, n=Beantwortete Fragenkombinationen)", pad=15)
 
     # Add axis labels in German
     plt.xlabel("Gruppe")

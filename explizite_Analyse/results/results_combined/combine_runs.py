@@ -100,9 +100,9 @@ def main():
         df_text = heat_df.copy()
 
         # Create custom row and column labels that include both the average mean and SEM.
-        new_row_labels = [f"{idx}\nØ {row_mean_avgs[idx]} ± {row_sem_avgs[idx]}\n n={row_counts[idx]}" 
+        new_row_labels = [f"{idx}\n{row_mean_avgs[idx]} ± {row_sem_avgs[idx]}\n n={row_counts[idx]}" 
                           for idx in df_mean_pivot.index]
-        new_col_labels = [f"{col}\nØ {col_mean_avgs[col]} ± {col_sem_avgs[col]}\n n={col_counts[col]}" 
+        new_col_labels = [f"{col}\n{col_mean_avgs[col]} ± {col_sem_avgs[col]}\n n={col_counts[col]}" 
                           for col in df_mean_pivot.columns]
 
         # Determine figure dimensions (can be adjusted for your needs)
@@ -136,7 +136,7 @@ def main():
         ax.set_yticklabels(new_row_labels, rotation=0, fontsize=8)
         ax.set_xlabel("Gruppen")
         ax.set_ylabel("Modelle")
-        ax.set_title(f"{axis}\n(Durchschnitts-Score ± Stand. Abw. vom Mittelwert, n = Beantwortete Fragenkombinationen)", pad=15)
+        ax.set_title(f"{axis}\n(Durchschnittlicher Zustimmungs-Score ± Stand. Abw. vom Mittelwert, n = Beantwortete Kombinationen)", pad=15)
 
         plt.tight_layout()
         

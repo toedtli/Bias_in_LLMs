@@ -129,7 +129,7 @@ def plot_radar_charts_single_figure(axis_scores, axis_names, models, groups, out
     handles, labels = lines_for_legend, [line.get_label() for line in lines_for_legend]
     fig.legend(handles, labels, loc="lower center", bbox_to_anchor=(0.5, -0.01), ncol=len(models))
 
-    fig.suptitle("Durchschnittliches Scoring über alle Kombinationen", fontsize=16, y=0.96)
+    fig.suptitle("Durchschnittlicher Zustimmungs-Score", fontsize=16, y=0.96)
     # Adjust to make room for the legend at the bottom
     plt.tight_layout(rect=[0, 0.05, 1, 0.98])
 
@@ -140,7 +140,7 @@ def plot_radar_charts_single_figure(axis_scores, axis_names, models, groups, out
 
 
 def main():
-    csv_path = "explizite_Analyse/results/combined_results/scoring_combined.csv"  # Adjust path if needed
+    csv_path = "explizite_Analyse/results/results_combined/scoring_combined.csv"  # Adjust path if needed
     axis_scores, axis_names, models, groups = load_scores(csv_path)
     plot_radar_charts_single_figure(axis_scores, axis_names, models, groups, 
                                     output_folder="explizite_Analyse/radar_charts")

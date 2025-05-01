@@ -4,7 +4,7 @@ import numpy as np
 import seaborn as sns
 import matplotlib.pyplot as plt
 
-run = 'run_2_3'
+run = 'run_2_2'
 
 # 0. Create output directory if it doesn't exist
 output_dir = f"implizite_Analyse/heatmaps/{run}"
@@ -35,8 +35,8 @@ col_sems = df_mean.sem(axis=0).round(0).astype(int)
 row_counts = df_count.sum(axis=1).round(0).astype(int)
 col_counts = df_count.sum(axis=0).round(0).astype(int)
 
-new_row_labels = [f"{idx}\nØ {row_avgs[idx]} ± {row_sems[idx]}  \n n={row_counts[idx]}" for idx in df_mean.index]
-new_col_labels = [f"{col}\nØ {col_avgs[col]} ± {col_sems[col]} \n n={col_counts[col]}" for col in df_mean.columns]
+new_row_labels = [f"{idx}\n{row_avgs[idx]} ± {row_sems[idx]}  \n n={row_counts[idx]}" for idx in df_mean.index]
+new_col_labels = [f"{col}\n{col_avgs[col]} ± {col_sems[col]} \n n={col_counts[col]}" for col in df_mean.columns]
 
 # 7. Plot the heatmap
 plt.figure(figsize=(8, 4))
@@ -57,7 +57,7 @@ ax.set_xticklabels(new_col_labels, rotation=0, ha="center", fontsize=8)
 ax.set_yticklabels(new_row_labels, rotation=0, fontsize=8)
 ax.set_xlabel("Bewertende Modelle", fontsize=9)
 ax.set_ylabel("Beschreibende Modelle", fontsize=9)
-ax.set_title("Gruppenübergreifender Bias-Score\n(Durchschnittlicher Bias-Score ± Stand. Abw. vom Mittelwert, n=Anzahl bewertete Beschreibungen)", fontsize=10, pad=15)
+ax.set_title("Gruppenübergreifender Bias-Score\n(Durchschnittlicher Bias-Score ± Std. Abw. vom Mittelwert, n=Anzahl Bewertungen)", fontsize=10, pad=15)
 
 plt.tight_layout()
 

@@ -5,7 +5,7 @@ import numpy as np
 import seaborn as sns  # For seaborn-based heatmaps
 
 def create_axis_heatmaps():
-    run = 'run_1'
+    run = 'run_3'
     # Path to the input CSV file
     input_csv = f"explizite_Analyse/results/results_{run}/results_{run}.csv"
     
@@ -85,15 +85,15 @@ def create_axis_heatmaps():
         )
         
         # Update tick labels: include custom labels with column/row averages and std.
-        new_xticklabels = [f"{col}\nØ {col_avgs[col]} ± {col_stds[col]} \n n={col_counts[col]}" 
+        new_xticklabels = [f"{col}\n{col_avgs[col]} ± {col_stds[col]} \n n={col_counts[col]}" 
                            for col in pivot_numeric_df.columns]
-        new_yticklabels = [f"{model}\nØ {row_avgs[model]} ± {row_stds[model]} \n n={row_counts[model]}" 
+        new_yticklabels = [f"{model}\n{row_avgs[model]} ± {row_stds[model]} \n n={row_counts[model]}" 
                            for model in pivot_numeric_df.index]
         ax.set_xticklabels(new_xticklabels, rotation=0, ha='center', fontsize=8)
         ax.set_yticklabels(new_yticklabels, rotation=0, fontsize=8)
         ax.set_xlabel("Gruppen")
         ax.set_ylabel("Befragte Modelle")
-        ax.set_title(f"{axis} (Durchschnitts-Score ± Stand. Abw. vom Mittelwert)", pad=10)
+        ax.set_title(f"{axis}\n(Durchschnittlicher Zustimmungs-Score ± Stand. Abw. vom Mittelwert, n = Beantwortete Fragenkombinationen)", pad=15)
         
 
         
