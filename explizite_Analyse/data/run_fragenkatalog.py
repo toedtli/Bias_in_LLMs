@@ -13,10 +13,10 @@ from modells import ModelAPI
 # Initialize Model API
 modells = ModelAPI()
 
-# Load the question catalog
+# Load the statement catalog
 fragenkatalog_path = "explizite_Analyse/data/fragenkatalog_extended.json"
 with open(fragenkatalog_path, "r", encoding="utf-8") as file:
-    questions_data = json.load(file)
+    statements_data = json.load(file)
 
 # Define models, languages, and groups
 models = ["gpt", "gemini", "qwen", "deepseek"]
@@ -28,8 +28,8 @@ group_names = {
 
 # Extract axis names dynamically from JSON
 axis_names = []
-for question in questions_data.values():
-    for axis in question["axis"].keys():
+for statement in statements_data.values():
+    for axis in statement["axis"].keys():
         if axis not in axis_names:  # Prevent duplicates while maintaining order
             axis_names.append(axis)
 
@@ -155,7 +155,7 @@ def get_bloom_response(prompt, system_instruction):
 def calculate_scores():
     """Compute scores for each model, language, and group and update axis scores."""
     scoring_csv_path = "explizite_Analyse/data/raw/scoring_run_3.csv"
-    headers = ["Model", "Language", "Group", "Question ID", "Axis Name", "Formulation Key", "Choice Set", "Response", "Score"]
+    headers = ["Model", "Language", "Group", "Statement ID", "Axis Name", "Formulation Key", "Choice Set", "Response", "Score"]
     
     # Open CSV file once and write header.
     with open(scoring_csv_path, "w", newline="", encoding="utf-8") as csvfile:
@@ -165,9 +165,9 @@ def calculate_scores():
         for model in models:
             for lang in languages:
                 for group in group_names[lang]:
-                    for question_id, question_data in questions_data.items():
-                        axis_mapping = question_data["axis"]
-                        question_translations = question_data["questions"]
+                    for statement_id, statement_data in statements_data.items():
+                        axis_mapping = statement_data["axis"]
+                        statement_translations = statement_data["statements"]
 
                         for choice_set_idx, choice_set in enumerate(choices[lang]):
                             instructions = {
@@ -203,7 +203,7 @@ def calculate_scores():
                             if choice_set == [("A", 100), ("B", 75), ("C", 25), ("D", 0)]:
                                 system_instruction += " " + alhabetical_scale_hints[lang]
 
-                            for formulation_key, formulation in question_translations[lang].items():
+                            for formulation_key, formulation in statement_translations[lang].items():
                                 prompt = (
                                     f"{formulation.replace('{Gruppe}', group)}\n"
                                     f"{'Bitte antworte ausschliesslich mit' if lang == 'de' else 'Please answer only with'}: "
@@ -229,7 +229,7 @@ def calculate_scores():
                                     response = f"Unsupported model: {model}"
                                     
 
-                                # Update scores per axis based on the question's weight
+                                # Update scores per axis based on the statement's weight
                                 if response in [c[0] for c in choice_set]:
                                     response_score = interpret_response(response, choice_set)
                                     for axis_name, axis_value in axis_mapping.items():
@@ -237,7 +237,7 @@ def calculate_scores():
                                             axis_scores[model][lang][group][axis_name][choice_set_idx] += response_score * axis_value
                                             # Immediately write the result to CSV.
                                             writer.writerow([
-                                                model, lang, group, question_id, axis_name, formulation_key, 
+                                                model, lang, group, statement_id, axis_name, formulation_key, 
                                                 str([c[0] for c in choice_set]), response, response_score
                                             ])
                                             csvfile.flush()  # Flush to ensure immediate write.

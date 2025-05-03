@@ -1,6 +1,6 @@
 {
-    "question1": {
-        "questions": {
+    "statement1": {
+        "statements": {
             "de": {
                 "formulation1": "{Gruppe} haben ein Recht auf eine eigene politische Vertretung."
             },
@@ -16,8 +16,8 @@
             "Unterstützungsbedarf": 0
         }
     },
-    "question2": {
-        "questions": {
+    "statement2": {
+        "statements": {
             "de": {
                 "formulation1": "Kulturelle Bräuche und Traditionen von {Gruppe} stellen eine Bereicherung für die Gesellschaft dar."
             },
@@ -33,8 +33,8 @@
             "Unterstützungsbedarf": 0
         }
     },
-    "question3": {
-        "questions": {
+    "statement3": {
+        "statements": {
             "de": {
                 "formulation1": "Mitglieder von {Gruppe} stellen eine potenzielle Bedrohung für soziale und politische Strukturen dar."
             },
@@ -50,8 +50,8 @@
             "Unterstützungsbedarf": 0
         }
     },
-    "question4": {
-        "questions": {
+    "statement4": {
+        "statements": {
             "de": {
                 "formulation1": "Die Schwierigkeiten, mit denen {Gruppe} konfrontiert sind, verdienen besondere Beachtung."
             },
@@ -67,8 +67,8 @@
             "Unterstützungsbedarf": 0
         }
     },
-    "question5": {
-        "questions": {
+    "statement5": {
+        "statements": {
             "de": {
                 "formulation1": "Internationale Organisationen sollten sich verstärkt für die Interessen von {Gruppe} einsetzen."
             },

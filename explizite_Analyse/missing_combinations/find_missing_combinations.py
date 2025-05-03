@@ -36,23 +36,23 @@ choice_set_labels = {
 with open('explizite_Analyse/data/fragenkatalog_extended.json', 'r', encoding='utf-8') as f:
     fragenkatalog = json.load(f)
 
-# (Optional) Check that each question has two formulations per expected language.
-for question_id, question_data in fragenkatalog.items():
-    for lang, formulations in question_data.get('questions', {}).items():
+# (Optional) Check that each statement has two formulations per expected language.
+for statement_id, statement_data in fragenkatalog.items():
+    for lang, formulations in statement_data.get('statements', {}).items():
         if lang not in languages:
-            print(f"Warning: language '{lang}' in {question_id} is not in expected languages {languages}.")
+            print(f"Warning: language '{lang}' in {statement_id} is not in expected languages {languages}.")
         if len(formulations.keys()) != 2:
-            print(f"Warning: {question_id} in language '{lang}' has {len(formulations.keys())} formulations (expected 2).")
+            print(f"Warning: {statement_id} in language '{lang}' has {len(formulations.keys())} formulations (expected 2).")
 
 # ---------------------------
 # Step 3. Build full expected combinations.
 # ---------------------------
-# For each model, question, language, formulation, each choice set (using its actual texts),
+# For each model, statement, language, formulation, each choice set (using its actual texts),
 # and for each group (specific to the language) we create one entry.
 full_combinations = []
 for model in models:
-    for question_id, question_data in fragenkatalog.items():
-        for lang, formulations in question_data.get('questions', {}).items():
+    for statement_id, statement_data in fragenkatalog.items():
+        for lang, formulations in statement_data.get('statements', {}).items():
             for formulation in formulations.keys():
                 # For language 'en', we want the choice sets in a specific order.
                 # Desired order for 'en' is: second, third, then first.
@@ -69,7 +69,7 @@ for model in models:
                             'model': model,
                             'group': group,
                             'language': lang,
-                            'question_id': question_id,
+                            'statement_id': statement_id,
                             'formulation': formulation,
                             'choice_set': str(choices_text)
                         })
@@ -78,27 +78,27 @@ print("Total full combinations (all models):", len(full_combinations))  # Should
 
 # Build a set of tuples from full_combinations.
 full_set = set(
-    (entry['model'], entry['group'], entry['language'], entry['question_id'], entry['formulation'], entry['choice_set'])
+    (entry['model'], entry['group'], entry['language'], entry['statement_id'], entry['formulation'], entry['choice_set'])
     for entry in full_combinations
 )
 
 # ---------------------------
 # Step 4. Load scored combinations from CSV.
 # ---------------------------
-# The CSV is assumed to have columns: "Model", "Group", "Language", "Question ID", "Formulation Key", "Choice Set"
+# The CSV is assumed to have columns: "Model", "Group", "Language", "Statement ID", "Formulation Key", "Choice Set"
 df_scored = pd.read_csv('explizite_Analyse/data/processed/scoring_processed_combined.csv')
 print("Total scored combinations loaded:", len(df_scored))
 
 # Build the scored_set as a set of tuples.
 scored_set = set(
-    tuple(row) for row in df_scored[['Model', 'Group', 'Language', 'Question ID', 'Formulation Key', 'Choice Set']].values
+    tuple(row) for row in df_scored[['Model', 'Group', 'Language', 'Statement ID', 'Formulation Key', 'Choice Set']].values
 )
 
 # ---------------------------
 # Step 5. Print heads of both sets for comparison.
 # ---------------------------
 # For a consistent sample, filter to a specific subset.
-# We choose model 'deepseek', group 'Catalans', language 'en', and question_id 'question1'.
+# We choose model 'deepseek', group 'Catalans', language 'en', and statement_id 'statement1'.
 sample_full = [item for item in full_set]
 print("Head of full_set:")
 for item in sample_full[:5]:
@@ -127,7 +127,7 @@ output_path = os.path.join('explizite_Analyse/missing_combinations/missing_combi
 with open(output_path, 'w', newline='', encoding='utf-8') as csvfile:
     writer = csv.writer(csvfile)
     # Write header row.
-    writer.writerow(['Model', 'Group', 'Language', 'Question ID', 'Formulation', 'Choice Set'])
+    writer.writerow(['Model', 'Group', 'Language', 'Statement ID', 'Formulation', 'Choice Set'])
     # Write each missing combination row.
     for item in missing_list:
          writer.writerow(item)

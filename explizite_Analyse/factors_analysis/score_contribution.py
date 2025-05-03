@@ -41,7 +41,7 @@ def create_charts_from_csv(csv_file, output_folder):
     df.loc[df["Axis Name"] == "Bedrohungswahrnehmung", "Score"] = 100 - df["Score"]
 
     # 6. Ensure key columns exist in DataFrame. Adjust if needed.
-    required_columns = ["Score", "Language", "Question ID", "Group", "Model", "Choice Set", "Formulation Key"]
+    required_columns = ["Score", "Language", "Statement ID", "Group", "Model", "Choice Set", "Formulation Key"]
     for col in required_columns:
         if col not in df.columns:
             raise ValueError(f"Column '{col}' not found in the DataFrame. Check your CSV headers.")
@@ -59,8 +59,8 @@ def create_charts_from_csv(csv_file, output_folder):
     def plot_bar_chart_by_model(group_column):
         means, sems = get_means_and_sems([group_column, "Model"])
 
-        # Sort numerically if Question ID
-        if group_column == "Question ID":
+        # Sort numerically if Statement ID
+        if group_column == "Statement ID":
             import re
             def extract_numeric(val):
                 match = re.search(r'(\d+)', str(val))
@@ -71,7 +71,7 @@ def create_charts_from_csv(csv_file, output_folder):
         axis_label_map = {
             "Group": "Gruppe",
             "Language": "Sprache",
-            "Question ID": "Question ID",
+            "Statement ID": "Statement ID",
             "Choice Set": "Auswahlset",
             "Formulation Key": "Formulierungsschlüssel"
         }
@@ -124,7 +124,7 @@ def create_charts_from_csv(csv_file, output_folder):
         axis_label_map = {
             "Group": "Gruppe",
             "Language": "Sprache",
-            "Question ID": "Question ID",
+            "Statement ID": "Statement ID",
             "Choice Set": "Auswahlset",
             "Formulation Key": "Formulierungsschlüssel"
         }
@@ -162,7 +162,7 @@ def create_charts_from_csv(csv_file, output_folder):
         print(f"Saved chart: {file_path}")
 
     # Generate charts for all groupings
-    for group in ["Group", "Language", "Question ID", "Choice Set", "Formulation Key"]:
+    for group in ["Group", "Language", "Statement ID", "Choice Set", "Formulation Key"]:
         plot_bar_chart_by_model(group)
         plot_bar_chart_with_model_on_x(group)
 
