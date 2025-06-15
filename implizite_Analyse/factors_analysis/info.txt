@@ -1,1 +1,0 @@
-Based on processed data, simple barchart to compare different factors
