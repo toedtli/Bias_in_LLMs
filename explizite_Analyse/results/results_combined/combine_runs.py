@@ -192,9 +192,9 @@ def main(output_format = '.png',group_language='de'):
 
     fig, axs = plt.subplots(3, 2, figsize=(30, 20))
     axs = axs.flatten()
-    print(len(axs),len(df_numeric_list),len(df_text_list),len(vmin_list),len(cmap_list),len(row_labels_list),len(axis_names) )
-    ipdb.set_trace()
-    for df_numeric,df_text,vmin,cmap,new_row_labels,new_col_labels,ax in zip(df_numeric_list, df_text_list, vmin_list,cmap_list, row_labels_list, col_labels_list,axs[:-1]):
+    #print(len(axs),len(df_numeric_list),len(df_text_list),len(vmin_list),len(cmap_list),len(row_labels_list),len(axis_names) )
+    print(axis_en)
+    for df_numeric,df_text,vmin,cmap,new_row_labels,new_col_labels,ax,axis_en in zip(df_numeric_list, df_text_list, vmin_list,cmap_list, row_labels_list, col_labels_list,axs[:-1],axis_names_en):
         sns.heatmap(
             df_numeric,
             cmap=cmap,
@@ -210,9 +210,11 @@ def main(output_format = '.png',group_language='de'):
         # Update tick labels with custom labels that include averages for both mean and SEM.
         ax.set_xticklabels(new_col_labels, rotation=0, ha="center", fontsize=8)
         ax.set_yticklabels(new_row_labels, rotation=0, fontsize=8)
-        ax.set_xlabel("Gruppen")
-        ax.set_ylabel("Modelle")
-        ax.set_title(f"{axis}\n(Durchschnittlicher Zustimmungs-Score ± Stand. Abw. vom Mittelwert, n = Beantwortete Kombinationen)", pad=15)
+        axis=axis_en
+        ax.set_title(f"{axis}\n(Mean Consent Score ± Std Dev., n = number of answered questions)", pad=15)
+        ax.set_xlabel("Group")
+        ax.set_ylabel("Model")
+
     fig.delaxes(axs[-1])
     fig.subplots_adjust(hspace=0.3,wspace=-0.0)
     plt.savefig('test.svg')
