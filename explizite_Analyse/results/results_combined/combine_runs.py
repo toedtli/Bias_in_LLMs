@@ -4,6 +4,7 @@ import sys,os
 import matplotlib.pyplot as plt
 import numpy as np
 import seaborn as sns  # Added for seaborn-based heatmap
+from plot_paper import make_plot
 
 def extract_mean(cell):
     """
@@ -49,6 +50,8 @@ def main(output_format = '.png',group_language='de'):
     merged_csv_filename = os.path.join(output_dir, "scoring_combined.csv")
     merged_df.to_csv(merged_csv_filename, index=False)
     print(f"Saved merged CSV: {merged_csv_filename}")
+    #make model names upper case
+    merged_df['Model'] = merged_df.Model.map(lambda s:s[0].upper()+s[1:]) 
 
     # Get the list of unique axis names from the merged dataframe
     axis_names = merged_df["Axis Name"].unique()
@@ -137,7 +140,7 @@ def main(output_format = '.png',group_language='de'):
         col_labels_list.append(new_col_labels) 
         row_labels_list.append(new_row_labels) 
 
-        plt.figure(figsize=(fig_width, fig_height))
+        #plt.figure(figsize=(fig_width, fig_height))
         
         # Generate the heatmap using Seaborn
         # Choose colormap and vmin based on the axis name (example condition)
@@ -150,75 +153,8 @@ def main(output_format = '.png',group_language='de'):
         
         vmin_list.append(vmin)
         cmap_list.append(cmap)
-        ax = sns.heatmap(
-            df_numeric,
-            cmap=cmap,
-            vmin=vmin,
-            annot=df_text,
-            fmt="",
-            linecolor="white",
-            # cbar_kws={"shrink": 0.8, "label": "Score"}
-            cbar=True
 
-        )
-        
-        # Update tick labels with custom labels that include averages for both mean and SEM.
-        ax.set_xticklabels(new_col_labels, rotation=0, ha="center", fontsize=8)
-        ax.set_yticklabels(new_row_labels, rotation=0, fontsize=8)
-        if group_language=='de':
-            axis=axis_de
-            ax.set_title(f"{axis}\n(Durchschnittlicher Zustimmungs-Score ± Stand. Abw. vom Mittelwert, n = Beantwortete Kombinationen)", pad=15)
-            ax.set_xlabel("Gruppen")
-            ax.set_ylabel("Modelle")
-        elif group_language=='en':
-            axis=axis_en
-            ax.set_title(f"{axis}\n(Mean Consent Score ± Std Dev. of the mean, n = number of answered questions)", pad=15)
-            ax.set_xlabel("Group")
-            ax.set_ylabel("Model")
-            #iax.set_title(f"{axis}\n(Durchschnittlicher Zustimmungs-Score ± Stand. Abw. vom Mittelwert, n = Beantwortete Kombinationen)", pad=15)
-
-        plt.tight_layout(h_pad=30)
-        
-        # Save the generated heatmap image
-        heatmap_output_dir = os.path.join(output_dir, "heatmaps_combined")
-        os.makedirs(heatmap_output_dir, exist_ok=True)
-        heatmap_file = os.path.join(heatmap_output_dir, f"heatmap_{axis}.png")
-        plt.savefig(heatmap_file, dpi=150, bbox_inches='tight')
-
-        plt.close()
-        print(f"Saved heatmap for Axis Name '{axis}' as: {heatmap_file}")
-        print('getcwd:',os.getcwd())
-        print('argv:',sys.argv)
-
-    fig, axs = plt.subplots(3, 2, figsize=(30, 20))
-    axs = axs.flatten()
-    #print(len(axs),len(df_numeric_list),len(df_text_list),len(vmin_list),len(cmap_list),len(row_labels_list),len(axis_names) )
-    print(axis_en)
-    for df_numeric,df_text,vmin,cmap,new_row_labels,new_col_labels,ax,axis_en in zip(df_numeric_list, df_text_list, vmin_list,cmap_list, row_labels_list, col_labels_list,axs[:-1],axis_names_en):
-        sns.heatmap(
-            df_numeric,
-            cmap=cmap,
-            vmin=vmin,
-            annot=df_text,
-            fmt="",
-            linecolor="white",
-            # cbar_kws={"shrink": 0.8, "label": "Score"}
-            cbar=True,
-            ax=ax
-        )
-    
-        # Update tick labels with custom labels that include averages for both mean and SEM.
-        ax.set_xticklabels(new_col_labels, rotation=0, ha="center", fontsize=8)
-        ax.set_yticklabels(new_row_labels, rotation=0, fontsize=8)
-        axis=axis_en
-        ax.set_title(f"{axis}\n(Mean Consent Score ± Std Dev., n = number of answered questions)", pad=15)
-        ax.set_xlabel("Group")
-        ax.set_ylabel("Model")
-
-    fig.delaxes(axs[-1])
-    fig.subplots_adjust(hspace=0.3,wspace=-0.0)
-    plt.savefig('test.svg')
-
+    make_plot(df_numeric_list,df_text_list,vmin_list,cmap_list,row_labels_list,col_labels_list,axis_names_en,num_heatmaps = 5)
 
 if __name__ == "__main__":
     #main()
